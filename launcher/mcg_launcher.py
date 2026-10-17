@@ -129,6 +129,74 @@ SPRITE_SETS = (("90", "90픽셀(기본) (90px, default)"), ("45", "45픽셀 (45p
 # skills 125 %, enemy weapons 110 %, salvage 40 %). Any other value acts like 1.
 DIFFICULTY_LABELS = ("0 쉬움 (Easy)", "1 보통 (Normal, 기본값)", "2 어려움 (Hard)")
 
+# In-game hotkeys shown on the "게임 단축키" tab: (group, key, action, verification).
+# Filled in from the Desperate Measures readme, MCX.EXE key handling and web sources;
+# see HOTKEY_SOURCES below.  "검증" = how the entry was confirmed.
+HOTKEY_INTRO = ("MechCommander Gold 미션 중 키보드 단축키입니다. \"+클릭\"은 키를 누른 채 대상을 왼쪽 클릭한다는 뜻입니다. "
+                "검증 열: M=공식 매뉴얼, R=Desperate Measures Readme, C=MCX.EXE 코드(키 테이블), T=게임 내 툴팁 문자열, W=커뮤니티 자료")
+HOTKEYS: list[tuple[str, str, str, str]] = [
+    # 이동 / 기본 명령
+    ("이동", "왼쪽 클릭", "이동 (걷기, Move half-power)", "M"),
+    ("이동", "SPACE + 클릭", "전속력 이동 (달리기, Move Full Speed)", "M·C·T·W"),
+    ("이동", "J + 클릭", "점프젯 사용 (Use Jumpjets, 점프 가능 메크만)", "M·C·T·W"),
+    ("이동", "G + 클릭", "경계 / 호위 (Guard/Escort)", "M·C·T·W"),
+    ("이동", "BACKSPACE", "모든 명령 취소, 사격 중지 (Hold fire / clear orders)", "R·M·C"),
+    ("이동", "CTRL (누른 채)", "이동 경로 표시. 누르고 있는 동안 공격·점령 지정 불가", "R·M"),
+    # 웨이포인트 (Desperate Measures)
+    ("웨이포인트", "CTRL 또는 F9 + 클릭", "걷기 웨이포인트 추가 (최대 16개)", "R·M·C"),
+    ("웨이포인트", "CTRL+SPACE 또는 F10 + 클릭", "달리기 웨이포인트 추가", "R·M·C"),
+    ("웨이포인트", "CTRL+J 또는 F11 + 클릭", "점프 웨이포인트 추가", "R·M·C"),
+    ("웨이포인트", "CTRL+F + 클릭", "지뢰 매설 웨이포인트 추가 (지뢰 부설 차량)", "R·M·C"),
+    # 공격
+    ("공격", "C + 클릭", "현재 위치에서 공격 (Attack-From Position)", "M·C·T·W"),
+    ("공격", "S + 클릭", "근거리에서 공격 (Attack-Short Range)", "M·C·T·W"),
+    ("공격", "M + 클릭", "중거리에서 공격 (Attack-Medium Range)", "M·C·T·W"),
+    ("공격", "L + 클릭", "장거리에서 공격 (Attack-Long Range)", "M·C·T·W"),
+    ("공격", "A + 클릭", "탄약 절약 사격: 에너지 무기만 사용 (조준선 주황색)", "R·M·C·W"),
+    ("공격", "O + 클릭", "공격 (코드에만 있는 6번째 공격 모드, 기본 거리 추정)", "C (추정)"),
+    # 부위 공격 (숫자 키패드)
+    ("부위 공격", "키패드 8 + 클릭", "머리 공격 (Attack head)", "M·C·W"),
+    ("부위 공격", "키패드 5 + 클릭", "중앙 몸통 공격 (Center torso)", "M·C·W"),
+    ("부위 공격", "키패드 7 + 클릭", "왼쪽 몸통 공격 (Left torso)", "M·C"),
+    ("부위 공격", "키패드 9 + 클릭", "오른쪽 몸통 공격 (Right torso)", "M·C"),
+    ("부위 공격", "키패드 4 + 클릭", "왼팔 공격 (Left arm)", "M·C·W"),
+    ("부위 공격", "키패드 6 + 클릭", "오른팔 공격 (Right arm)", "M·C·W"),
+    ("부위 공격", "키패드 1 + 클릭", "왼다리 공격 (Left leg)", "M·C·W"),
+    ("부위 공격", "키패드 3 + 클릭", "오른다리 공격 (Right leg)", "M·C·W"),
+    # 특수 명령
+    ("특수", "HOME + 유닛 클릭", "조종사 강제 사출 (Eject pilot)", "M·C"),
+    ("특수", "PAGE DOWN", "선택 유닛 전원 끄기 (Power down)", "M·C·W"),
+    ("특수", "PAGE UP", "선택 유닛 전원 켜기 (Power up)", "M·C"),
+    ("특수", "F + 클릭", "지뢰 매설 (지뢰 부설 차량 선택 시)", "M·C"),
+    ("특수", "I + 유닛 클릭", "유닛 정보 보기 (Get information)", "M·C·W"),
+    ("특수", "(키 없음)", "점령·수리는 상황별 커서가 뜰 때 클릭", "M"),
+    # 화력 지원 (상단 숫자키)
+    ("화력 지원", "1 + 클릭", "소형 포격 (Small artillery strike) - 상단 숫자키", "R·M·C"),
+    ("화력 지원", "2 + 클릭", "대형 포격 (Large artillery strike)", "R·M·C"),
+    ("화력 지원", "3 + 클릭", "센서 탐침 투하 (Sensor probe)", "R·M·C"),
+    ("화력 지원", "4 + 클릭", "카메라 드론 투하 (Camera drone)", "R·M·C"),
+    # 선택 / 그룹
+    ("선택", "E", "화면 안의 아군 유닛 모두 선택", "M"),
+    ("선택", "오른쪽 클릭 (빈 곳)", "선택 해제", "M"),
+    ("선택", "F1 ~ F4", "포스 그룹(랜스) 1~4 선택", "C·W"),
+    ("선택", "CTRL+F1 ~ F4", "선택 유닛을 그룹 1~4로 재지정 (매뉴얼 표기)", "M"),
+    # 화면 / 카메라
+    ("화면", "+ / -  (키패드 포함)", "전장 화면 줌 인 / 줌 아웃", "M·C·W"),
+    ("화면", "방향키 (키패드 포함)", "전장 화면 스크롤", "M·C"),
+    ("화면", "CTRL + 방향키", "전술 지도(MFD 지도) 스크롤", "M"),
+    ("화면", "CTRL + / CTRL -", "전술 지도 줌 인 / 줌 아웃", "M"),
+    # 인터페이스
+    ("인터페이스", "ALT", "MFD(다기능 디스플레이) 열기/닫기", "M·W"),
+    ("인터페이스", "TAB", "MFD 명령 팔레트 열기/닫기", "M"),
+    ("인터페이스", "ALT+B / ALT+D / ALT+M / ALT+S", "MFD 탭: 브리핑 / 정보 / 지도 / 노획(Salvage)", "M"),
+    ("인터페이스", "ALT+C", "MFD 채팅 탭 (멀티플레이)", "M"),
+    ("인터페이스", "ESC 또는 PAUSE", "일시정지 (미션 중 ESC = 일시정지 메뉴)", "M·C"),
+    ("인터페이스", "ENTER", "채팅 입력 (멀티플레이)", "M"),
+]
+HOTKEY_SOURCES = ("출처: MechCommander Gold 공식 매뉴얼 pp.29-32 및 키보드 기능 차트(M), 게임 폴더 Readme.txt(R), "
+                  "MCX.EXE InterfaceObject 키 테이블·handleEvent 디컴파일(C), EXE 문자열 테이블의 MFD 툴팁(T), "
+                  "ModDB 가이드·Let's Play Archive·Neoseeker(W). 부위 공격 키가 숫자 키패드라는 점은 EXE 스캔코드로 확인했습니다.")
+
 SETTINGS_DEFAULTS = {
     "game_dir": DEFAULT_GAME_DIR,
     "wrapper_dir": DEFAULT_WRAPPER_DIR,
@@ -790,12 +858,44 @@ class LauncherApp:
     def _p(self, n: float) -> int:
         return int(round(n * self.scale))
 
+    def _build_hotkeys(self, parent: ttk.Frame) -> None:
+        """Read-only table of in-game hotkeys (see HOTKEYS / HOTKEY_SOURCES)."""
+        P = self._p
+        parent.columnconfigure(0, weight=1)
+        parent.rowconfigure(1, weight=1)
+        ttk.Label(parent, text=HOTKEY_INTRO, justify="left", wraplength=P(620)).grid(
+            row=0, column=0, columnspan=2, sticky="w", pady=(0, P(6)))
+        cols = ("group", "key", "action", "conf")
+        style = ttk.Style(self.root)
+        style.configure("Hotkeys.Treeview", rowheight=P(22))
+        style.configure("Hotkeys.Treeview.Heading", padding=(P(2), P(3)))
+        tree = ttk.Treeview(parent, columns=cols, show="headings", height=26, selectmode="browse",
+                            style="Hotkeys.Treeview")
+        for cid, title, width, anchor in (("group", "구분", P(84), "w"), ("key", "키", P(196), "w"),
+                                          ("action", "동작", P(360), "w"), ("conf", "검증", P(64), "center")):
+            tree.heading(cid, text=title)
+            tree.column(cid, width=width, minwidth=width, anchor=anchor, stretch=(cid == "action"))
+        ys = ttk.Scrollbar(parent, orient="vertical", command=tree.yview)
+        tree.configure(yscrollcommand=ys.set)
+        tree.grid(row=1, column=0, sticky="nsew")
+        ys.grid(row=1, column=1, sticky="ns")
+        for g, key, action, conf in HOTKEYS:
+            tree.insert("", "end", values=(g, key, action, conf))
+        self.hotkey_tree = tree
+        ttk.Label(parent, text=HOTKEY_SOURCES, justify="left", wraplength=P(620),
+                  foreground="#555555").grid(row=2, column=0, columnspan=2, sticky="w", pady=(P(6), 0))
+
     def _build(self) -> None:
         P = self._p
-        outer = ttk.Frame(self.root, padding=P(10))
-        outer.grid(row=0, column=0, sticky="nsew")
+        self.notebook = ttk.Notebook(self.root)
+        self.notebook.grid(row=0, column=0, sticky="nsew")
         self.root.columnconfigure(0, weight=1)
         self.root.rowconfigure(0, weight=1)
+        outer = ttk.Frame(self.notebook, padding=P(10))
+        self.notebook.add(outer, text="  실행 설정  ")
+        keys_tab = ttk.Frame(self.notebook, padding=P(10))
+        self.notebook.add(keys_tab, text="  게임 단축키  ")
+        self._build_hotkeys(keys_tab)
         outer.columnconfigure(0, weight=1, uniform="col")
         outer.columnconfigure(1, weight=1, uniform="col")
         gap = (0, P(6))
@@ -1166,6 +1266,8 @@ def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=WINDOW_TITLE)
     parser.add_argument("--selftest", action="store_true",
                         help="build the GUI without showing it and exit (0 = OK)")
+    parser.add_argument("--tab", choices=("settings", "keys"), default="settings",
+                        help="tab to show at startup (keys = 게임 단축키)")
     args, _ = parser.parse_known_args(argv)
     if args.selftest:
         return run_selftest()
@@ -1176,6 +1278,8 @@ def main(argv=None) -> int:
         settings = settings_from_prefs(read_prefs(Path(settings["game_dir"]) / PREFS_FILE), settings)
     root = tk.Tk()
     app = LauncherApp(root, settings)
+    if args.tab == "keys":
+        app.notebook.select(1)
     if not existed:
         app.set_status("첫 실행: 게임의 prefs.cfg에서 옵션을 불러왔습니다. 확인 후 '게임 실행'을 누르세요.")
     root.mainloop()
