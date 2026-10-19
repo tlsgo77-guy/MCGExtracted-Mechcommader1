@@ -164,12 +164,15 @@ def main(argv: list[str]) -> int:
         t, off, size = pf.packet_info(i)
         try:
             data = pf.read_packet(i)
-            head = data[:40].decode("latin-1").replace("\r", " ").replace("\n", " ")
-            print(f"  [{i:2}] {TYPE_NAMES.get(t, t):4} off={off:6} packed={size:6} unpacked={len(data):6}  {head!r}")
-            if outdir:
-                (outdir / f"packet{i:02}.bin").write_bytes(data)
         except Exception as exc:  # noqa: BLE001
             print(f"  [{i:2}] {TYPE_NAMES.get(t, t):4} off={off:6} packed={size:6}  ERROR {exc}")
+            continue
+        if outdir:
+            (outdir / f"packet{i:02}.bin").write_bytes(data)
+        # preview only the ASCII part: Korean overlay packets hold EUC-KR bytes that a
+        # cp949 console cannot print as latin-1 characters
+        head = bytes(b if 32 <= b < 127 else 0x2E for b in data[:40]).decode("ascii")
+        print(f"  [{i:2}] {TYPE_NAMES.get(t, t):4} off={off:6} packed={size:6} unpacked={len(data):6}  {head!r}")
     return 0
 
 
