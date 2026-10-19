@@ -1,0 +1,173 @@
+[
+ {
+  "dialog_id": 105,
+  "title": "",
+  "items": [
+   {
+    "control_id": 1004,
+    "class": "Button",
+    "text": "Exit"
+   },
+   {
+    "control_id": 3,
+    "class": "Button",
+    "text": "Continue"
+   },
+   {
+    "control_id": 1003,
+    "class": "Button",
+    "text": "Debug"
+   },
+   {
+    "control_id": 1002,
+    "class": "Button",
+    "text": "Save"
+   },
+   {
+    "control_id": 1000,
+    "class": "Button",
+    "text": "Email"
+   },
+   {
+    "control_id": 1005,
+    "class": "Button",
+    "text": "Capture Screen"
+   },
+   {
+    "control_id": 1006,
+    "class": "Button",
+    "text": "Save Log Files"
+   }
+  ]
+ },
+ {
+  "dialog_id": 201,
+  "title": "Choose connection",
+  "items": [
+   {
+    "control_id": 1009,
+    "class": "Button",
+    "text": "Join Game"
+   },
+   {
+    "control_id": 1006,
+    "class": "Button",
+    "text": "Host Game"
+   },
+   {
+    "control_id": null,
+    "class": "Static",
+    "text": "Choose a network protocol."
+   },
+   {
+    "control_id": 2,
+    "class": "Button",
+    "text": "Cancel"
+   }
+  ]
+ },
+ {
+  "dialog_id": 202,
+  "title": "Host Session",
+  "items": [
+   {
+    "control_id": 1,
+    "class": "Button",
+    "text": "OK"
+   },
+   {
+    "control_id": 2,
+    "class": "Button",
+    "text": "Cancel"
+   },
+   {
+    "control_id": null,
+    "class": "Static",
+    "text": "Max Players"
+   },
+   {
+    "control_id": null,
+    "class": "Static",
+    "text": "Player Name"
+   },
+   {
+    "control_id": null,
+    "class": "Static",
+    "text": "Session Name"
+   },
+   {
+    "control_id": null,
+    "class": "Static",
+    "text": "Game Data #1"
+   },
+   {
+    "control_id": null,
+    "class": "Static",
+    "text": "Game Data #2"
+   },
+   {
+    "control_id": null,
+    "class": "Static",
+    "text": "Game data can represent different options such as the chosen mission or time of day."
+   }
+  ]
+ },
+ {
+  "dialog_id": 203,
+  "title": "Dialog",
+  "items": [
+   {
+    "control_id": 1,
+    "class": "Button",
+    "text": "OK"
+   },
+   {
+    "control_id": 2,
+    "class": "Button",
+    "text": "Cancel"
+   },
+   {
+    "control_id": null,
+    "class": "Static",
+    "text": "Messages Sent"
+   },
+   {
+    "control_id": null,
+    "class": "Static",
+    "text": "Messages Received:"
+   }
+  ]
+ },
+ {
+  "dialog_id": 204,
+  "title": "Waiting on players...",
+  "items": [
+   {
+    "control_id": 1,
+    "class": "Button",
+    "text": "Start Game"
+   },
+   {
+    "control_id": 2,
+    "class": "Button",
+    "text": "Cancel"
+   },
+   {
+    "control_id": null,
+    "class": "Static",
+    "text": "Players in session"
+   }
+  ]
+ },
+ {
+  "dialog_id": 304,
+  "title": "",
+  "items": [
+   {
+    "control_id": null,
+    "class": "Static",
+    "text": "Joining the game...... "
+   }
+  ]
+ }
+]

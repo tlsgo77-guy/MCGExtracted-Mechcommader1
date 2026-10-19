@@ -1,0 +1,254 @@
+{
+ "Hawk": {
+  "name": "호크",
+  "callsign": "HAWK",
+  "callsign_en": "HAWK",
+  "source": "START0.PKK packet01.bin, hireable PMW00052.FIT"
+ },
+ "Lynx": {
+  "name": "링크스",
+  "callsign": "LYNX",
+  "callsign_en": "LYNX",
+  "source": "START0.PKK packet02.bin, hireable PMW00066.FIT"
+ },
+ "Hunter": {
+  "name": "헌터",
+  "callsign": "HUNTER",
+  "callsign_en": "HUNTER",
+  "source": "START0.PKK packet03.bin, hireable PMW00065.FIT"
+ },
+ "Beast": {
+  "name": "비스트",
+  "callsign": "BEAST",
+  "callsign_en": "BEAST",
+  "source": "START0.PKK packet04.bin, hireable PMW00051.FIT"
+ },
+ "Siren": {
+  "name": "사이렌",
+  "callsign": "SIREN",
+  "callsign_en": "SIREN",
+  "source": "XSTART0.PKK packet01.bin, hireable PMW00053.FIT"
+ },
+ "Rooster": {
+  "name": "루스터",
+  "callsign": "ROOSTER",
+  "callsign_en": "ROOSTER",
+  "source": "XSTART0.PKK packet02.bin, hireable PMW00054.FIT"
+ },
+ "Spice": {
+  "name": "스파이스",
+  "callsign": "SPICE",
+  "callsign_en": "SPICE",
+  "source": "XSTART0.PKK packet03.bin, hireable PMW00059.FIT"
+ },
+ "Baron": {
+  "name": "배런",
+  "callsign": "BARON",
+  "callsign_en": "BARON",
+  "source": "XSTART0.PKK packet04.bin, hireable PMW00060.FIT"
+ },
+ "Thunder": {
+  "name": "선더",
+  "callsign": "THUNDER",
+  "callsign_en": "THUNDER",
+  "source": "XSTART0.PKK packet05.bin, hireable PMW00077.FIT"
+ },
+ "Goblin": {
+  "name": "고블린",
+  "callsign": "GOBLIN",
+  "callsign_en": "GOBLIN",
+  "source": "XSTART0.PKK packet06.bin, hireable PMW00073.FIT"
+ },
+ "Amy Bios": {
+  "name": "에이미 바이오스",
+  "callsign": "SUCKUP",
+  "callsign_en": "SUCKUP",
+  "source": "war001.fit"
+ },
+ "Glenn Doren": {
+  "name": "글렌 도런",
+  "callsign": "BITMAN",
+  "callsign_en": "BITMAN",
+  "source": "war002.fit, war002a.fit",
+  "alt_callsigns": {
+   "CENTURION": "센추리온"
+  }
+ },
+ "Frank Savage": {
+  "name": "프랭크 새비지",
+  "callsign": "BUNG",
+  "callsign_en": "BUNG",
+  "source": "WAR003.FIT, WAR003a.fit",
+  "alt_callsigns": {
+   "COMMANDO": "코만도"
+  }
+ },
+ "Jon Marcus": {
+  "name": "존 마커스",
+  "callsign": "Lord Bunny",
+  "callsign_en": "Lord Bunny",
+  "source": "WAR004.FIT"
+ },
+ "Scott Janssens": {
+  "name": "스콧 잰슨스",
+  "callsign": "LUCIFER",
+  "callsign_en": "LUCIFER",
+  "source": "WAR005.FIT"
+ },
+ "Kermit": {
+  "name": "커밋",
+  "callsign": "KERMY",
+  "callsign_en": "KERMY",
+  "source": "War006.fit"
+ },
+ "Fozzie": {
+  "name": "포지",
+  "callsign": "FOZ",
+  "callsign_en": "FOZ",
+  "source": "War007.fit"
+ },
+ "Piggy": {
+  "name": "피기",
+  "callsign": "PIG",
+  "callsign_en": "PIG",
+  "source": "War008.fit"
+ },
+ "Todd Labonte": {
+  "name": "토드 라본테",
+  "callsign": "ANIMBOY",
+  "callsign_en": "ANIMBOY",
+  "source": "war009.fit"
+ },
+ "Jamie Marshall": {
+  "name": "제이미 마셜",
+  "callsign": "BITBOY",
+  "callsign_en": "BITBOY",
+  "source": "war010.fit"
+ },
+ "Charles Oines": {
+  "name": "찰스 오인스",
+  "callsign": "COLORBOY",
+  "callsign_en": "COLORBOY",
+  "source": "war011.fit"
+ },
+ "Isis": {
+  "name": "아이시스",
+  "callsign": "ISIS",
+  "callsign_en": "ISIS",
+  "source": "hireable PMW00055.FIT"
+ },
+ "Gunman": {
+  "name": "건맨",
+  "callsign": "GUNMAN",
+  "callsign_en": "GUNMAN",
+  "source": "hireable PMW00056.FIT"
+ },
+ "Mystique": {
+  "name": "미스틱",
+  "callsign": "MYSTIQUE",
+  "callsign_en": "MYSTIQUE",
+  "source": "hireable PMW00057.FIT"
+ },
+ "Skater": {
+  "name": "스케이터",
+  "callsign": "SKATER",
+  "callsign_en": "SKATER",
+  "source": "hireable PMW00058.FIT"
+ },
+ "Fiend": {
+  "name": "핀드",
+  "callsign": "FIEND",
+  "callsign_en": "FIEND",
+  "source": "hireable PMW00061.FIT"
+ },
+ "Ronin": {
+  "name": "로닌",
+  "callsign": "RONIN",
+  "callsign_en": "RONIN",
+  "source": "hireable PMW00062.FIT"
+ },
+ "Gator": {
+  "name": "게이터",
+  "callsign": "GATOR",
+  "callsign_en": "GATOR",
+  "source": "hireable PMW00063.FIT"
+ },
+ "Rebel": {
+  "name": "레블",
+  "callsign": "REBEL",
+  "callsign_en": "REBEL",
+  "source": "hireable PMW00064.FIT"
+ },
+ "Hitman": {
+  "name": "히트맨",
+  "callsign": "HITMAN",
+  "callsign_en": "HITMAN",
+  "source": "hireable PMW00067.FIT"
+ },
+ "Countess": {
+  "name": "카운티스",
+  "callsign": "COUNTESS",
+  "callsign_en": "COUNTESS",
+  "source": "hireable PMW00068.FIT"
+ },
+ "Scarab": {
+  "name": "스캐럽",
+  "callsign": "SCARAB",
+  "callsign_en": "SCARAB",
+  "source": "hireable PMW00069.FIT"
+ },
+ "Outlaw": {
+  "name": "아웃로",
+  "callsign": "OUTLAW",
+  "callsign_en": "OUTLAW",
+  "source": "hireable PMW00070.FIT"
+ },
+ "Falcon": {
+  "name": "팰컨",
+  "callsign": "FALCON",
+  "callsign_en": "FALCON",
+  "source": "hireable PMW00071.FIT"
+ },
+ "Burnout": {
+  "name": "번아웃",
+  "callsign": "BURNOUT",
+  "callsign_en": "BURNOUT",
+  "source": "hireable PMW00072.FIT"
+ },
+ "Mantis": {
+  "name": "맨티스",
+  "callsign": "MANTIS",
+  "callsign_en": "MANTIS",
+  "source": "hireable PMW00074.FIT"
+ },
+ "Dragon": {
+  "name": "드래곤",
+  "callsign": "DRAGON",
+  "callsign_en": "DRAGON",
+  "source": "hireable PMW00075.FIT"
+ },
+ "Blaze": {
+  "name": "블레이즈",
+  "callsign": "BLAZE",
+  "callsign_en": "BLAZE",
+  "source": "hireable PMW00076.FIT"
+ },
+ "Paingod": {
+  "name": "페인갓",
+  "callsign": "PAINGOD",
+  "callsign_en": "PAINGOD",
+  "source": "hireable PMW00078.FIT"
+ },
+ "Firestorm": {
+  "name": "파이어스톰",
+  "callsign": "FIRESTORM",
+  "callsign_en": "FIRESTORM",
+  "source": "hireable PMW00079.FIT"
+ },
+ "Vixen": {
+  "name": "빅슨",
+  "callsign": "VIXEN",
+  "callsign_en": "VIXEN",
+  "source": "hireable PMW00080.FIT"
+ }
+}

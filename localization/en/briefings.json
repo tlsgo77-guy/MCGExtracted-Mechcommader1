@@ -1,0 +1,3374 @@
+{
+ "summary": {
+  "txt_files": 129,
+  "briefing_like_files": 129,
+  "referenced_by_a_mission_fit": 107,
+  "unreferenced": [
+   "brf0304c.txt",
+   "brf0304s.txt",
+   "Cbrf0701hh.txt",
+   "Cbrf0701k.txt",
+   "Cbrf0702.txt",
+   "Cbrf0702mb.txt",
+   "Cbrf0704k.txt",
+   "Cbrf0705c.txt",
+   "Cbrf0705m.txt",
+   "Cbrf0705rs.txt",
+   "Cbrf0705rsc.txt",
+   "Cbrf0706.txt",
+   "Cbrf0706k.txt",
+   "ISbrf0701hh.txt",
+   "ISbrf0702.txt",
+   "ISbrf0702mb.txt",
+   "ISbrf0704k.txt",
+   "ISbrf0705m.txt",
+   "ISbrf0705rs.txt",
+   "ISbrf0706.txt",
+   "ISbrf0706k.txt",
+   "xbrf0304.txt"
+  ],
+  "files_per_campaign": {
+   "original": 32,
+   "multiplayer": 81,
+   "expansion": 13,
+   "solo": 3
+  },
+  "total_bytes": 106805,
+  "non_ascii_files": [],
+  "fits_with_empty_briefing_file": [
+   "E3_0101A.FIT",
+   "testmis1.FIT"
+  ],
+  "campaign_meaning": {
+   "original": "MechCommander Gold campaign (MIS0101..MIS0507, brf*.txt)",
+   "expansion": "MechCommander Expansion campaign (MCX0101..MCX0304 = Xmechcmdr1.fit; xbrf*.txt)",
+   "solo": "expansion stand-alone solo missions MCXS0401/0402, AceHunt, PARedux, TheGuns (xsbrf*.txt, campaignAceHunt.fit ...), started from the 'solo' load screen",
+   "multiplayer": "two-sided briefings (IS* / C*): MP07xx maps, MXM0502 and the named maps Achilles, Bakwoods, caldera, CaptIsld, DValley, HvrDmmt, KingIsle, MouseTrp, Urbana, WetNWild"
+  }
+ },
+ "files": [
+  {
+   "file": "MISSION.FST/brf0101.txt",
+   "game_path": "data\\missions\\brf0101.txt",
+   "size_bytes": 1425,
+   "lines": 26,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0101.FIT (BriefingFile)",
+    "MIS0101c.fit (BriefingFile)",
+    "MIS0101n.fit (BriefingFile)",
+    "MIS0101s.fit (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 31,
+    "%tN": 7
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0102.txt",
+   "game_path": "data\\missions\\brf0102.txt",
+   "size_bytes": 2226,
+   "lines": 40,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0102.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 8,
+    "%fc1": 2,
+    "%fc2": 5,
+    "%fc4": 2,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 46,
+    "%tN": 17
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0103.txt",
+   "game_path": "data\\missions\\brf0103.txt",
+   "size_bytes": 1592,
+   "lines": 25,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0103.fit (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "% ": 1,
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 30,
+    "%tN": 8
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0104.txt",
+   "game_path": "data\\missions\\brf0104.txt",
+   "size_bytes": 2344,
+   "lines": 39,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0104.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 4,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 43,
+    "%tN": 21
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0105.txt",
+   "game_path": "data\\missions\\brf0105.txt",
+   "size_bytes": 1434,
+   "lines": 26,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0105.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 29,
+    "%tN": 8
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0106.txt",
+   "game_path": "data\\missions\\brf0106.txt",
+   "size_bytes": 1244,
+   "lines": 24,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0106.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 8,
+    "%fc1": 2,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 3,
+    "%fc6": 3,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 28,
+    "%tN": 8
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0201.txt",
+   "game_path": "data\\missions\\brf0201.txt",
+   "size_bytes": 1502,
+   "lines": 24,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0201.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 1,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 4,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 28,
+    "%tN": 8
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0202.txt",
+   "game_path": "data\\missions\\brf0202.txt",
+   "size_bytes": 979,
+   "lines": 17,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0202.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 2,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 21,
+    "%tN": 4
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0203.txt",
+   "game_path": "data\\missions\\brf0203.txt",
+   "size_bytes": 1213,
+   "lines": 21,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0203.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 1,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 4,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 25,
+    "%tN": 7
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0204.txt",
+   "game_path": "data\\missions\\brf0204.txt",
+   "size_bytes": 1329,
+   "lines": 18,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0204.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 2,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 21,
+    "%tN": 5
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0205.txt",
+   "game_path": "data\\missions\\brf0205.txt",
+   "size_bytes": 975,
+   "lines": 13,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0205.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 15,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0206.txt",
+   "game_path": "data\\missions\\brf0206.txt",
+   "size_bytes": 914,
+   "lines": 16,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0206.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 19,
+    "%tN": 4
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0301.txt",
+   "game_path": "data\\missions\\brf0301.txt",
+   "size_bytes": 1290,
+   "lines": 20,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0301.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 2,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 24,
+    "%tN": 5
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0302.txt",
+   "game_path": "data\\missions\\brf0302.txt",
+   "size_bytes": 1054,
+   "lines": 21,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0302.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 2,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 23,
+    "%tN": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0303.txt",
+   "game_path": "data\\missions\\brf0303.txt",
+   "size_bytes": 763,
+   "lines": 14,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0303.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 15,
+    "%tN": 4
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0304.txt",
+   "game_path": "data\\missions\\brf0304.txt",
+   "size_bytes": 935,
+   "lines": 17,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [
+    "multiplayer"
+   ],
+   "referenced_by": [
+    "MIS0304.FIT (BriefingFile)",
+    "MP0304.fit (ClanBriefingFile)",
+    "MP0304.fit (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 18,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0304c.txt",
+   "game_path": "data\\missions\\brf0304c.txt",
+   "size_bytes": 654,
+   "lines": 10,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 1,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc6": 2,
+    "%fl": 1,
+    "%fm": 1,
+    "%n": 13
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'c' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/brf0304s.txt",
+   "game_path": "data\\missions\\brf0304s.txt",
+   "size_bytes": 651,
+   "lines": 10,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 1,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc6": 2,
+    "%fl": 1,
+    "%fm": 1,
+    "%n": 13
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 's' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/brf0305.txt",
+   "game_path": "data\\missions\\brf0305.txt",
+   "size_bytes": 1351,
+   "lines": 28,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0305.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 1,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 4,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 32,
+    "%tN": 10
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0306.txt",
+   "game_path": "data\\missions\\brf0306.txt",
+   "size_bytes": 1189,
+   "lines": 20,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0306.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 1,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 4,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 24,
+    "%tN": 5
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0401.txt",
+   "game_path": "data\\missions\\brf0401.txt",
+   "size_bytes": 1817,
+   "lines": 20,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0401.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 1,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 4,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 24,
+    "%tN": 6
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0402.txt",
+   "game_path": "data\\missions\\brf0402.txt",
+   "size_bytes": 1025,
+   "lines": 20,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0402.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 1,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 4,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 25,
+    "%tN": 7
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0403.txt",
+   "game_path": "data\\missions\\brf0403.txt",
+   "size_bytes": 1023,
+   "lines": 18,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0403.fit (BriefingFile)",
+    "MIS0403c.fit (BriefingFile)",
+    "MIS0403c1_3p.fit (BriefingFile)",
+    "MIS0403c1_5p.fit (BriefingFile)",
+    "MIS0403c2_3p.fit (BriefingFile)",
+    "MIS0403c2_5p.fit (BriefingFile)",
+    "MIS0403c3_5p.fit (BriefingFile)",
+    "MIS0403c4_5p.fit (BriefingFile)",
+    "MIS0403c_2p.fit (BriefingFile)",
+    "MIS0403mp.fit (BriefingFile)",
+    "MIS0403s.fit (BriefingFile)",
+    "MIS0403s_2p.fit (BriefingFile)",
+    "MIS0403s_3p.fit (BriefingFile)",
+    "MIS0403s_5p.fit (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 21,
+    "%tN": 5
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0404.txt",
+   "game_path": "data\\missions\\brf0404.txt",
+   "size_bytes": 1401,
+   "lines": 25,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0404.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 29,
+    "%tN": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0405.txt",
+   "game_path": "data\\missions\\brf0405.txt",
+   "size_bytes": 941,
+   "lines": 13,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0405.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 15,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0406.txt",
+   "game_path": "data\\missions\\brf0406.txt",
+   "size_bytes": 969,
+   "lines": 18,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0406.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 1,
+    "%fc2": 4,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 22,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0501.txt",
+   "game_path": "data\\missions\\brf0501.txt",
+   "size_bytes": 1172,
+   "lines": 15,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0501.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 18,
+    "%tN": 4
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0502.txt",
+   "game_path": "data\\missions\\brf0502.txt",
+   "size_bytes": 1400,
+   "lines": 21,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0502.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 2,
+    "%fc2": 3,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 25,
+    "%tN": 5
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0503.txt",
+   "game_path": "data\\missions\\brf0503.txt",
+   "size_bytes": 1016,
+   "lines": 16,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0503.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 17,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0504.txt",
+   "game_path": "data\\missions\\brf0504.txt",
+   "size_bytes": 1244,
+   "lines": 18,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0504.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 20,
+    "%tN": 5
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0505.txt",
+   "game_path": "data\\missions\\brf0505.txt",
+   "size_bytes": 1598,
+   "lines": 19,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0505.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 23,
+    "%tN": 5
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/brf0506.txt",
+   "game_path": "data\\missions\\brf0506.txt",
+   "size_bytes": 1345,
+   "lines": 19,
+   "kind": "single-player mission briefing (original campaign)",
+   "campaign": "original",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MIS0506.FIT (BriefingFile)",
+    "MIS0507.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 20,
+    "%tN": 4
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/cAchilles.txt",
+   "game_path": "data\\missions\\cAchilles.txt",
+   "size_bytes": 854,
+   "lines": 16,
+   "kind": "named map briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "Achilles.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 24,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/cbakwoods.txt",
+   "game_path": "data\\missions\\cbakwoods.txt",
+   "size_bytes": 575,
+   "lines": 16,
+   "kind": "named map briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "Bakwoods.FIT (ClanBriefingFile)",
+    "MP0731.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 20,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0701.txt",
+   "game_path": "data\\missions\\Cbrf0701.txt",
+   "size_bytes": 615,
+   "lines": 10,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0701.FIT (ClanBriefingFile)",
+    "MP0714.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 10
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0701hh.txt",
+   "game_path": "data\\missions\\Cbrf0701hh.txt",
+   "size_bytes": 516,
+   "lines": 9,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'hh' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/Cbrf0701k.txt",
+   "game_path": "data\\missions\\Cbrf0701k.txt",
+   "size_bytes": 478,
+   "lines": 9,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'k' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/Cbrf0702.txt",
+   "game_path": "data\\missions\\Cbrf0702.txt",
+   "size_bytes": 457,
+   "lines": 10,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "not referenced by any mission FIT in MISSION.FST"
+  },
+  {
+   "file": "MISSION.FST/Cbrf0702b5.txt",
+   "game_path": "data\\missions\\Cbrf0702b5.txt",
+   "size_bytes": 380,
+   "lines": 10,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0702.FIT (ClanBriefingFile)",
+    "MP0715.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0702mb.txt",
+   "game_path": "data\\missions\\Cbrf0702mb.txt",
+   "size_bytes": 404,
+   "lines": 10,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'mb' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/Cbrf0703.txt",
+   "game_path": "data\\missions\\Cbrf0703.txt",
+   "size_bytes": 262,
+   "lines": 9,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0703.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0704.txt",
+   "game_path": "data\\missions\\Cbrf0704.txt",
+   "size_bytes": 320,
+   "lines": 9,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0707.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0704k.txt",
+   "game_path": "data\\missions\\Cbrf0704k.txt",
+   "size_bytes": 376,
+   "lines": 10,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'k' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/Cbrf0705.txt",
+   "game_path": "data\\missions\\Cbrf0705.txt",
+   "size_bytes": 390,
+   "lines": 9,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0705.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0705c.txt",
+   "game_path": "data\\missions\\Cbrf0705c.txt",
+   "size_bytes": 389,
+   "lines": 9,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'c' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/Cbrf0705m.txt",
+   "game_path": "data\\missions\\Cbrf0705m.txt",
+   "size_bytes": 395,
+   "lines": 9,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'm' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/Cbrf0705rs.txt",
+   "game_path": "data\\missions\\Cbrf0705rs.txt",
+   "size_bytes": 434,
+   "lines": 10,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 4,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'rs' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/Cbrf0705rsc.txt",
+   "game_path": "data\\missions\\Cbrf0705rsc.txt",
+   "size_bytes": 434,
+   "lines": 10,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 4,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'rsc' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/Cbrf0706.txt",
+   "game_path": "data\\missions\\Cbrf0706.txt",
+   "size_bytes": 319,
+   "lines": 9,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "not referenced by any mission FIT in MISSION.FST"
+  },
+  {
+   "file": "MISSION.FST/Cbrf0706g46.txt",
+   "game_path": "data\\missions\\Cbrf0706g46.txt",
+   "size_bytes": 313,
+   "lines": 9,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0706.FIT (ClanBriefingFile)",
+    "MP0716.FIT (ClanBriefingFile)",
+    "MP0718.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0706k.txt",
+   "game_path": "data\\missions\\Cbrf0706k.txt",
+   "size_bytes": 255,
+   "lines": 9,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'k' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/Cbrf0708.txt",
+   "game_path": "data\\missions\\Cbrf0708.txt",
+   "size_bytes": 456,
+   "lines": 11,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0708.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 13
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0709.txt",
+   "game_path": "data\\missions\\Cbrf0709.txt",
+   "size_bytes": 360,
+   "lines": 9,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0709.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0712.txt",
+   "game_path": "data\\missions\\Cbrf0712.txt",
+   "size_bytes": 276,
+   "lines": 10,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0712.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0719.txt",
+   "game_path": "data\\missions\\Cbrf0719.txt",
+   "size_bytes": 623,
+   "lines": 11,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0719.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0720.txt",
+   "game_path": "data\\missions\\Cbrf0720.txt",
+   "size_bytes": 631,
+   "lines": 12,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0720.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 4,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 15
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0721.txt",
+   "game_path": "data\\missions\\Cbrf0721.txt",
+   "size_bytes": 567,
+   "lines": 11,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0721.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0722.txt",
+   "game_path": "data\\missions\\Cbrf0722.txt",
+   "size_bytes": 605,
+   "lines": 11,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0722.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0723.txt",
+   "game_path": "data\\missions\\Cbrf0723.txt",
+   "size_bytes": 273,
+   "lines": 10,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0723.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0725.txt",
+   "game_path": "data\\missions\\Cbrf0725.txt",
+   "size_bytes": 699,
+   "lines": 13,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0725.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 5,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 17
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0726.txt",
+   "game_path": "data\\missions\\Cbrf0726.txt",
+   "size_bytes": 433,
+   "lines": 10,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0726.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0727.txt",
+   "game_path": "data\\missions\\Cbrf0727.txt",
+   "size_bytes": 691,
+   "lines": 12,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0727.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 4,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 13
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0728.txt",
+   "game_path": "data\\missions\\Cbrf0728.txt",
+   "size_bytes": 673,
+   "lines": 12,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0728.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 4,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 13
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0729.txt",
+   "game_path": "data\\missions\\Cbrf0729.txt",
+   "size_bytes": 304,
+   "lines": 11,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0729.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cbrf0730.txt",
+   "game_path": "data\\missions\\Cbrf0730.txt",
+   "size_bytes": 372,
+   "lines": 12,
+   "kind": "multiplayer briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0730.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 4,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 13
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ccaldera.txt",
+   "game_path": "data\\missions\\ccaldera.txt",
+   "size_bytes": 519,
+   "lines": 11,
+   "kind": "named map briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "caldera.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 2,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 3,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 14
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/cCaptIsld.txt",
+   "game_path": "data\\missions\\cCaptIsld.txt",
+   "size_bytes": 551,
+   "lines": 16,
+   "kind": "named map briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "CaptIsld.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 20,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/cDValley.txt",
+   "game_path": "data\\missions\\cDValley.txt",
+   "size_bytes": 639,
+   "lines": 16,
+   "kind": "named map briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "DValley.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 21,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/cHvrDmmt.txt",
+   "game_path": "data\\missions\\cHvrDmmt.txt",
+   "size_bytes": 480,
+   "lines": 8,
+   "kind": "named map briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "HvrDmmt.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/cKingIsle.txt",
+   "game_path": "data\\missions\\cKingIsle.txt",
+   "size_bytes": 956,
+   "lines": 16,
+   "kind": "named map briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "KingIsle.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 27,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/cMouseTrp.txt",
+   "game_path": "data\\missions\\cMouseTrp.txt",
+   "size_bytes": 667,
+   "lines": 9,
+   "kind": "named map briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MouseTrp.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 2,
+    "%fc2": 1,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 2,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 10
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/Cmxm0502.TXT",
+   "game_path": "data\\missions\\Cmxm0502.TXT",
+   "size_bytes": 756,
+   "lines": 11,
+   "kind": "named map briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MXM0502.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/cUrbana.txt",
+   "game_path": "data\\missions\\cUrbana.txt",
+   "size_bytes": 717,
+   "lines": 16,
+   "kind": "named map briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "Urbana.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 20,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/cWetNWild.txt",
+   "game_path": "data\\missions\\cWetNWild.txt",
+   "size_bytes": 637,
+   "lines": 16,
+   "kind": "named map briefing, Clan side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "WetNWild.FIT (ClanBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 22,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/isAchilles.txt",
+   "game_path": "data\\missions\\isAchilles.txt",
+   "size_bytes": 900,
+   "lines": 16,
+   "kind": "named map briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "Achilles.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 23,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/isbakwoods.txt",
+   "game_path": "data\\missions\\isbakwoods.txt",
+   "size_bytes": 576,
+   "lines": 16,
+   "kind": "named map briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "Bakwoods.FIT (ISBriefingFile)",
+    "MP0731.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 20,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0701.txt",
+   "game_path": "data\\missions\\ISbrf0701.txt",
+   "size_bytes": 615,
+   "lines": 11,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0701.FIT (ISBriefingFile)",
+    "MP0714.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 10
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0701hh.txt",
+   "game_path": "data\\missions\\ISbrf0701hh.txt",
+   "size_bytes": 540,
+   "lines": 10,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'hh' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/ISbrf0702.txt",
+   "game_path": "data\\missions\\ISbrf0702.txt",
+   "size_bytes": 441,
+   "lines": 12,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 12
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "not referenced by any mission FIT in MISSION.FST"
+  },
+  {
+   "file": "MISSION.FST/ISbrf0702b5.txt",
+   "game_path": "data\\missions\\ISbrf0702b5.txt",
+   "size_bytes": 382,
+   "lines": 11,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0702.FIT (ISBriefingFile)",
+    "MP0715.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0702mb.txt",
+   "game_path": "data\\missions\\ISbrf0702mb.txt",
+   "size_bytes": 406,
+   "lines": 11,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'mb' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/ISbrf0703.txt",
+   "game_path": "data\\missions\\ISbrf0703.txt",
+   "size_bytes": 264,
+   "lines": 10,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0703.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0704.txt",
+   "game_path": "data\\missions\\ISbrf0704.txt",
+   "size_bytes": 318,
+   "lines": 8,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0707.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0704k.txt",
+   "game_path": "data\\missions\\ISbrf0704k.txt",
+   "size_bytes": 374,
+   "lines": 9,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'k' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/ISbrf0705.txt",
+   "game_path": "data\\missions\\ISbrf0705.txt",
+   "size_bytes": 398,
+   "lines": 9,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0705.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0705m.txt",
+   "game_path": "data\\missions\\ISbrf0705m.txt",
+   "size_bytes": 400,
+   "lines": 9,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'm' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/ISbrf0705rs.txt",
+   "game_path": "data\\missions\\ISbrf0705rs.txt",
+   "size_bytes": 439,
+   "lines": 11,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 4,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 12
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'rs' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/ISbrf0706.txt",
+   "game_path": "data\\missions\\ISbrf0706.txt",
+   "size_bytes": 299,
+   "lines": 9,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "not referenced by any mission FIT in MISSION.FST"
+  },
+  {
+   "file": "MISSION.FST/ISbrf0706g46.txt",
+   "game_path": "data\\missions\\ISbrf0706g46.txt",
+   "size_bytes": 322,
+   "lines": 9,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0706.FIT (ISBriefingFile)",
+    "MP0716.FIT (ISBriefingFile)",
+    "MP0718.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0706k.txt",
+   "game_path": "data\\missions\\ISbrf0706k.txt",
+   "size_bytes": 245,
+   "lines": 9,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "variant with suffix 'k' of the base briefing; no FIT references it"
+  },
+  {
+   "file": "MISSION.FST/ISbrf0708.txt",
+   "game_path": "data\\missions\\ISbrf0708.txt",
+   "size_bytes": 456,
+   "lines": 11,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0708.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 13
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0709.txt",
+   "game_path": "data\\missions\\ISbrf0709.txt",
+   "size_bytes": 360,
+   "lines": 9,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0709.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0712.txt",
+   "game_path": "data\\missions\\ISbrf0712.txt",
+   "size_bytes": 276,
+   "lines": 10,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0712.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0719.txt",
+   "game_path": "data\\missions\\ISbrf0719.txt",
+   "size_bytes": 601,
+   "lines": 11,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0719.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0720.txt",
+   "game_path": "data\\missions\\ISbrf0720.txt",
+   "size_bytes": 631,
+   "lines": 12,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0720.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 4,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 15
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0721.txt",
+   "game_path": "data\\missions\\ISbrf0721.txt",
+   "size_bytes": 526,
+   "lines": 11,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0721.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0722.txt",
+   "game_path": "data\\missions\\ISbrf0722.txt",
+   "size_bytes": 605,
+   "lines": 11,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0722.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0723.txt",
+   "game_path": "data\\missions\\ISbrf0723.txt",
+   "size_bytes": 273,
+   "lines": 10,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0723.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 2,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0725.txt",
+   "game_path": "data\\missions\\ISbrf0725.txt",
+   "size_bytes": 699,
+   "lines": 13,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0725.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 2,
+    "%fc4": 5,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 17
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0726.txt",
+   "game_path": "data\\missions\\ISbrf0726.txt",
+   "size_bytes": 430,
+   "lines": 10,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0726.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0727.txt",
+   "game_path": "data\\missions\\ISbrf0727.txt",
+   "size_bytes": 669,
+   "lines": 12,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0727.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 4,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 13
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0728.txt",
+   "game_path": "data\\missions\\ISbrf0728.txt",
+   "size_bytes": 673,
+   "lines": 12,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0728.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 4,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 13
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0729.txt",
+   "game_path": "data\\missions\\ISbrf0729.txt",
+   "size_bytes": 304,
+   "lines": 11,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0729.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISbrf0730.txt",
+   "game_path": "data\\missions\\ISbrf0730.txt",
+   "size_bytes": 372,
+   "lines": 12,
+   "kind": "multiplayer briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MP0730.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 4,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 13
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/iscaldera.txt",
+   "game_path": "data\\missions\\iscaldera.txt",
+   "size_bytes": 519,
+   "lines": 11,
+   "kind": "named map briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "caldera.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 2,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 3,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 14
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/isCaptIsld.txt",
+   "game_path": "data\\missions\\isCaptIsld.txt",
+   "size_bytes": 549,
+   "lines": 16,
+   "kind": "named map briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "CaptIsld.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 20,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/isDValley.txt",
+   "game_path": "data\\missions\\isDValley.txt",
+   "size_bytes": 639,
+   "lines": 16,
+   "kind": "named map briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "DValley.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 21,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/isHvrDmmt.txt",
+   "game_path": "data\\missions\\isHvrDmmt.txt",
+   "size_bytes": 480,
+   "lines": 8,
+   "kind": "named map briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "HvrDmmt.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 9
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/isKingIsle.txt",
+   "game_path": "data\\missions\\isKingIsle.txt",
+   "size_bytes": 956,
+   "lines": 16,
+   "kind": "named map briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "KingIsle.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 27,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/isMouseTrp.txt",
+   "game_path": "data\\missions\\isMouseTrp.txt",
+   "size_bytes": 667,
+   "lines": 9,
+   "kind": "named map briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MouseTrp.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 2,
+    "%fc2": 1,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 2,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 10
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/ISmxm0502.TXT",
+   "game_path": "data\\missions\\ISmxm0502.TXT",
+   "size_bytes": 756,
+   "lines": 11,
+   "kind": "named map briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MXM0502.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 5,
+    "%fc1": 1,
+    "%fc2": 1,
+    "%fc4": 3,
+    "%fc5": 2,
+    "%fc6": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 11
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/isUrbana.txt",
+   "game_path": "data\\missions\\isUrbana.txt",
+   "size_bytes": 705,
+   "lines": 16,
+   "kind": "named map briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "Urbana.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 21,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/isWetNWild.txt",
+   "game_path": "data\\missions\\isWetNWild.txt",
+   "size_bytes": 602,
+   "lines": 16,
+   "kind": "named map briefing, Inner Sphere side",
+   "campaign": "multiplayer",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "WetNWild.FIT (ISBriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 1,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 22,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xbrf0101.txt",
+   "game_path": "data\\missions\\xbrf0101.txt",
+   "size_bytes": 1604,
+   "lines": 21,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCX0101.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 11,
+    "%fc4": 5,
+    "%fc5": 3,
+    "%fc6": 8,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 28,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xbrf0102.txt",
+   "game_path": "data\\missions\\xbrf0102.txt",
+   "size_bytes": 1829,
+   "lines": 24,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCX0102.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 14,
+    "%fc4": 8,
+    "%fc5": 3,
+    "%fc6": 8,
+    "%fc8": 2,
+    "%fm": 1,
+    "%fs": 4,
+    "%n": 34,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xbrf0103.txt",
+   "game_path": "data\\missions\\xbrf0103.txt",
+   "size_bytes": 2294,
+   "lines": 29,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCX0103.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 20,
+    "%fc4": 6,
+    "%fc5": 3,
+    "%fc6": 13,
+    "%fc8": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 37,
+    "%tN": 5
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xbrf0104.txt",
+   "game_path": "data\\missions\\xbrf0104.txt",
+   "size_bytes": 2298,
+   "lines": 24,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCX0104.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 16,
+    "%fc4": 6,
+    "%fc5": 3,
+    "%fc6": 12,
+    "%fc8": 1,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 34,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xbrf0201.txt",
+   "game_path": "data\\missions\\xbrf0201.txt",
+   "size_bytes": 1970,
+   "lines": 28,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCX0201.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 8,
+    "%fc1": 2,
+    "%fc2": 16,
+    "%fc4": 10,
+    "%fc5": 3,
+    "%fc6": 7,
+    "%fc8": 5,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 37,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xbrf0202.txt",
+   "game_path": "data\\missions\\xbrf0202.txt",
+   "size_bytes": 1466,
+   "lines": 22,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCX0202.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 10,
+    "%fc4": 4,
+    "%fc5": 3,
+    "%fc6": 8,
+    "%fc8": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 30,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xbrf0203.txt",
+   "game_path": "data\\missions\\xbrf0203.txt",
+   "size_bytes": 1233,
+   "lines": 21,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCX0203.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 8,
+    "%fc1": 2,
+    "%fc2": 11,
+    "%fc4": 4,
+    "%fc5": 3,
+    "%fc6": 6,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 27,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xbrf0204.txt",
+   "game_path": "data\\missions\\xbrf0204.txt",
+   "size_bytes": 1718,
+   "lines": 24,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCX0204.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 13,
+    "%fc4": 7,
+    "%fc5": 3,
+    "%fc6": 8,
+    "%fc8": 2,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 31,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xbrf0301.txt",
+   "game_path": "data\\missions\\xbrf0301.txt",
+   "size_bytes": 1155,
+   "lines": 18,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCX0301.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 8,
+    "%fc4": 4,
+    "%fc5": 3,
+    "%fc6": 6,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 23,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xbrf0302.txt",
+   "game_path": "data\\missions\\xbrf0302.txt",
+   "size_bytes": 1645,
+   "lines": 22,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCX0302.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 1,
+    "%fc2": 14,
+    "%fc4": 9,
+    "%fc5": 3,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 28,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xbrf0303.txt",
+   "game_path": "data\\missions\\xbrf0303.txt",
+   "size_bytes": 1523,
+   "lines": 20,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCX0303.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 9,
+    "%fc1": 2,
+    "%fc2": 5,
+    "%fc4": 3,
+    "%fc5": 4,
+    "%fc6": 6,
+    "%fm": 2,
+    "%fs": 2,
+    "%n": 26,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xbrf0304.txt",
+   "game_path": "data\\missions\\xbrf0304.txt",
+   "size_bytes": 1157,
+   "lines": 25,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [],
+   "referenced": false,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 2,
+    "%fc2": 4,
+    "%fc4": 3,
+    "%fc5": 3,
+    "%fc6": 3,
+    "%fm": 2,
+    "%fs": 3,
+    "%n": 20,
+    "%tN": 3
+   },
+   "briefing_like": true,
+   "campaign_basis": "file name only (no mission FIT references it)",
+   "note": "not referenced by any mission FIT in MISSION.FST"
+  },
+  {
+   "file": "MISSION.FST/xbrf0305.txt",
+   "game_path": "data\\missions\\xbrf0305.txt",
+   "size_bytes": 1359,
+   "lines": 20,
+   "kind": "expansion campaign briefing",
+   "campaign": "expansion",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCX0304.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 8,
+    "%fc4": 4,
+    "%fc5": 3,
+    "%fc6": 6,
+    "%fm": 1,
+    "%fs": 2,
+    "%n": 25,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xsbrf0401.txt",
+   "game_path": "data\\missions\\xsbrf0401.txt",
+   "size_bytes": 1321,
+   "lines": 22,
+   "kind": "expansion solo-mission briefing",
+   "campaign": "solo",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "AceHunt.FIT (BriefingFile)",
+    "MCXS0401.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 7,
+    "%fc1": 1,
+    "%fc2": 6,
+    "%fc4": 2,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 29,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xsbrf0402.txt",
+   "game_path": "data\\missions\\xsbrf0402.txt",
+   "size_bytes": 1856,
+   "lines": 23,
+   "kind": "expansion solo-mission briefing",
+   "campaign": "solo",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "MCXS0402.FIT (BriefingFile)",
+    "TheGuns.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 8,
+    "%fc1": 4,
+    "%fc2": 6,
+    "%fc4": 3,
+    "%fc5": 3,
+    "%fc6": 4,
+    "%fm": 3,
+    "%fs": 3,
+    "%n": 30,
+    "%tN": 3
+   },
+   "briefing_like": true
+  },
+  {
+   "file": "MISSION.FST/xsbrf0404.txt",
+   "game_path": "data\\missions\\xsbrf0404.txt",
+   "size_bytes": 1644,
+   "lines": 22,
+   "kind": "expansion solo-mission briefing",
+   "campaign": "solo",
+   "also_used_by_campaigns": [],
+   "referenced_by": [
+    "PARedux.FIT (BriefingFile)"
+   ],
+   "referenced": true,
+   "markup_codes": {
+    "%c": 6,
+    "%fc1": 1,
+    "%fc2": 5,
+    "%fc4": 2,
+    "%fc5": 3,
+    "%fc6": 3,
+    "%fm": 1,
+    "%fs": 1,
+    "%n": 30,
+    "%tN": 3
+   },
+   "briefing_like": true
+  }
+ ]
+}

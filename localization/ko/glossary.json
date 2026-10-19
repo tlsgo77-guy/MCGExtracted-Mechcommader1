@@ -1,0 +1,5709 @@
+{
+ "_meta": [
+  {
+   "en": "glossary format",
+   "ko": "용어집 형식",
+   "note": "MechCommander Gold / Desperate Measures (MCX.EXE) Korean localization, pre-mission scope. Every category is a list of {en, ko, note?}. ko is authoritative: translators must use it verbatim (inflect only with Korean particles). Run `python -I localization/ko/check_glossary.py` after edits. Style rules: localization/ko/STYLE.md. Version 2026-10-19."
+  }
+ ],
+ "mech_chassis": [
+  {
+   "en": "<chassis> A",
+   "ko": "<섀시> A",
+   "note": "Variant rule (EXE ids 700-771, 'Atlas A'): Korean chassis name + one space + the Latin capital letter, unchanged. A = Armor variant (장갑 강화형), W = Weapon load variant (화력 강화형), J = Jump-capable variant (점프형). The letters are tied to the A/W/J buttons of the purchase screen (art LSPBIM01-09) - never translate or lower-case them. Example: 'Mad Cat A' -> '매드캣 A', 'Hunchback IIc J' -> '헌치백 IIC J'."
+  },
+  {
+   "en": "<CHASSIS>-A",
+   "ko": "<섀시>-A",
+   "note": "Plate rule (art LSCFLM*/LSPFLM*/LSPFDM*, 100x12 px, e.g. 'MAD CAT-A'): Korean chassis name + '-' + Latin letter, no spaces around '-'. Longest result '파이어스타터-A' must fit 100 px; see art_plates."
+  },
+  {
+   "en": "Atlas",
+   "ko": "아틀라스",
+   "note": "700-702; IS 100 t assault. Plate ATLAS-*."
+  },
+  {
+   "en": "Awesome",
+   "ko": "오섬",
+   "note": "703-705; IS 80 t assault. Standard loanword spelling (awesome -> 오섬); community also writes 오우썸/어썸."
+  },
+  {
+   "en": "Catapult",
+   "ko": "캐터펄트",
+   "note": "706-708; IS 65 t heavy fire support."
+  },
+  {
+   "en": "Commando",
+   "ko": "코만도",
+   "note": "709-711; IS 25 t light. Established form 코만도 (not 코맨도). Starting roster 'Commando A/W', expansion 'Commando J'."
+  },
+  {
+   "en": "Cougar",
+   "ko": "쿠거",
+   "note": "712-714; Clan 35 t light (desc 'Clan light Mech')."
+  },
+  {
+   "en": "Firestarter",
+   "ko": "파이어스타터",
+   "note": "715-717; IS 35 t light, urban combat."
+  },
+  {
+   "en": "Hollander II",
+   "ko": "홀랜더 II",
+   "note": "718-720; IS light fire support (gauss). Keep Roman numeral II as Latin letters."
+  },
+  {
+   "en": "Hunchback",
+   "ko": "헌치백",
+   "note": "721-723; IS 50 t medium."
+  },
+  {
+   "en": "Hunchback IIc",
+   "ko": "헌치백 IIC",
+   "note": "724-726; Clan version. EXE writes 'IIc', plates/briefings 'IIC' - always write Latin 'IIC' in Korean."
+  },
+  {
+   "en": "JagerMech",
+   "ko": "예거메크",
+   "note": "727-729; IS 65 t heavy fire support. desc.fit spells 'Jagermech'. Community form 예거메크 (namu.wiki)."
+  },
+  {
+   "en": "Loki",
+   "ko": "로키",
+   "note": "730-732; Clan heavy OmniMech (= Hellbringer). Briefings: 'Loki's' -> '로키'."
+  },
+  {
+   "en": "Mad Cat",
+   "ko": "매드캣",
+   "note": "733-735; Clan heavy OmniMech (= Timber Wolf). Fixed by the user. Also spelled 'Madcat' (776, objectives, xsbrf0401) - same 매드캣, no space."
+  },
+  {
+   "en": "Madcat",
+   "ko": "매드캣",
+   "note": "Spelling variant of Mad Cat (ids 776, AceHunt objective 'Destroy Ace Madcat', xsbrf0401)."
+  },
+  {
+   "en": "Masakari",
+   "ko": "마사카리",
+   "note": "736-738; Clan assault OmniMech (= Warhawk)."
+  },
+  {
+   "en": "Raven",
+   "ko": "레이븐",
+   "note": "739-741; IS light scout with ECM. Mystique's mech in brf0103."
+  },
+  {
+   "en": "Thor",
+   "ko": "토르",
+   "note": "742-744; Clan heavy OmniMech (= Summoner). Mythological Thor -> 토르 (not 소어)."
+  },
+  {
+   "en": "Uller",
+   "ko": "울러",
+   "note": "745-747; Clan light OmniMech (= Kit Fox). Briefings: 'ULLER', 'Ullers'."
+  },
+  {
+   "en": "Vulture",
+   "ko": "벌처",
+   "note": "748-750; Clan heavy OmniMech (= Mad Dog)."
+  },
+  {
+   "en": "Centurion",
+   "ko": "센추리온",
+   "note": "751-753; IS 50 t medium. Expansion roster 'Centurion W'."
+  },
+  {
+   "en": "Stiletto",
+   "ko": "스틸레토",
+   "note": "754-756; IS 35 t light, fastest IS mech."
+  },
+  {
+   "en": "Bushwacker",
+   "ko": "부시왜커",
+   "note": "757-759; IS 55 t medium. Standard loanword spelling ([wæ] -> 왜); community also writes 부시웨커."
+  },
+  {
+   "en": "Mauler",
+   "ko": "몰러",
+   "note": "760-762; IS 90 t assault (Mauler, not Marauder/머로더)."
+  },
+  {
+   "en": "Shadow Cat",
+   "ko": "섀도캣",
+   "note": "763-765; Clan 45 t medium OmniMech. Written without space like 매드캣; also 'Shadowcat(s)' (781-782, objectives, briefings)."
+  },
+  {
+   "en": "Shadowcat",
+   "ko": "섀도캣",
+   "note": "Spelling variant of Shadow Cat."
+  },
+  {
+   "en": "Nova Cat",
+   "ko": "노바캣",
+   "note": "766-768; Clan 70 t heavy OmniMech. No space like 매드캣. (The Clan Nova Cat, a faction, does not appear in scope.)"
+  },
+  {
+   "en": "Turkina",
+   "ko": "터키나",
+   "note": "769-771; Clan 95 t assault OmniMech. 'Turkinas' -> 터키나."
+  },
+  {
+   "en": "Furey's Vulture",
+   "ko": "퓨리의 벌처",
+   "note": "Named ace mech, EXE id 772; Star Captain Katherine Furey (xbrf0103). Pattern \"X's Y\" -> \"X의 Y\"."
+  },
+  {
+   "en": "Osis' Masakari",
+   "ko": "오시스의 마사카리",
+   "note": "Named ace mech, EXE id 773; Star Captain Marcus Osis (xbrf0202). Pattern \"X's Y\" -> \"X의 Y\"."
+  },
+  {
+   "en": "Wirth's Turkina",
+   "ko": "워스의 터키나",
+   "note": "Named ace mech, EXE id 774; Star Captain Burnell Wirth (xbrf0305). Pattern \"X's Y\" -> \"X의 Y\"."
+  },
+  {
+   "en": "Kotare's Turkina",
+   "ko": "코타레의 터키나",
+   "note": "Named ace mech, EXE id 775; Star Colonel Marcus Kotare (xbrf0305). Pattern \"X's Y\" -> \"X의 Y\"."
+  },
+  {
+   "en": "Ward's Madcat",
+   "ko": "워드의 매드캣",
+   "note": "Named ace mech, EXE id 776; Star Captain Kim Ward (desc476). Pattern \"X's Y\" -> \"X의 Y\"."
+  },
+  {
+   "en": "Stiles' Uller",
+   "ko": "스타일스의 울러",
+   "note": "Named ace mech, EXE id 777; Star Captain Jefferson Stiles (desc477). Pattern \"X's Y\" -> \"X의 Y\"."
+  },
+  {
+   "en": "Bowen's Uller",
+   "ko": "보웬의 울러",
+   "note": "Named ace mech, EXE id 778; Star Captain Garrison Bowen (desc478). Pattern \"X's Y\" -> \"X의 Y\"."
+  },
+  {
+   "en": "Lopez's Uller",
+   "ko": "로페즈의 울러",
+   "note": "Named ace mech, EXE id 779; Star Captain Felicia Lopez (desc479). Pattern \"X's Y\" -> \"X의 Y\"."
+  },
+  {
+   "en": "Kim's Masakari",
+   "ko": "킴의 마사카리",
+   "note": "Named ace mech, EXE id 780; solo AceHunt ace. Pattern \"X's Y\" -> \"X의 Y\"."
+  },
+  {
+   "en": "Lee's Shadowcat",
+   "ko": "리의 섀도캣",
+   "note": "Named ace mech, EXE id 781; solo AceHunt ace. Pattern \"X's Y\" -> \"X의 Y\"."
+  },
+  {
+   "en": "Til's Shadowcat",
+   "ko": "틸의 섀도캣",
+   "note": "Named ace mech, EXE id 782; solo AceHunt ace. Pattern \"X's Y\" -> \"X의 Y\"."
+  },
+  {
+   "en": "Savage's Cougar",
+   "ko": "새비지의 쿠거",
+   "note": "Named ace mech, EXE id 783; solo AceHunt ace (also dev name Frank Savage). Pattern \"X's Y\" -> \"X의 Y\"."
+  },
+  {
+   "en": "COM-A / FS9-W / RVN-J ...",
+   "ko": "COM-A / FS9-W / RVN-J ...",
+   "note": "Profile designations (General.Name in PM*.FIT, MechType 'Commando A') are developer data, never displayed: do not translate."
+  }
+ ],
+ "vehicles": [
+  {
+   "en": "APC",
+   "ko": "APC",
+   "note": "1200; acronym stays Latin (armored personnel carrier). Plate APC."
+  },
+  {
+   "en": "Armored Car",
+   "ko": "장갑차",
+   "note": "1201 (also building id 627)."
+  },
+  {
+   "en": "Bulldog",
+   "ko": "불독",
+   "note": "1202; plate long form 'BULLDOG MEDIUM TANK' -> '불독 중형 전차'."
+  },
+  {
+   "en": "Condor",
+   "ko": "콘도르",
+   "note": "1203; 'CONDOR HEAVY HOVER TANK' -> '콘도르 중호버 전차'."
+  },
+  {
+   "en": "Harasser",
+   "ko": "해러서",
+   "note": "1204; 'HARASSER LIGHT MISSILE TANK' -> '해러서 경미사일 전차'."
+  },
+  {
+   "en": "J. Edgar",
+   "ko": "J. 에드거",
+   "note": "1205; keep the Latin initial 'J.'. 'J. EDGAR LIGHT HOVER TANK' -> 'J. 에드거 경호버 전차'."
+  },
+  {
+   "en": "LRM Carrier",
+   "ko": "LRM 캐리어",
+   "note": "1206; 'Carrier' as a vehicle class -> 캐리어 (also SRM/Elemental/PPC carrier)."
+  },
+  {
+   "en": "Mine Layer",
+   "ko": "지뢰 부설차",
+   "note": "1207; also 'Minelayer(s)' in briefings and plate MINELAYER."
+  },
+  {
+   "en": "Minelayer",
+   "ko": "지뢰 부설차",
+   "note": "Spelling variant of Mine Layer (briefings, desc507, plate)."
+  },
+  {
+   "en": "Sweeper",
+   "ko": "지뢰 제거차",
+   "note": "1208; plate 'MINESWEEPER', desc508 'Minesweeper'."
+  },
+  {
+   "en": "Minesweeper",
+   "ko": "지뢰 제거차",
+   "note": "Plate / desc508 form of 1208."
+  },
+  {
+   "en": "Pegasus",
+   "ko": "페가수스",
+   "note": "1209; 'PEGASUS LIGHT SCOUT TANK' -> '페가수스 경정찰 전차'."
+  },
+  {
+   "en": "Refit Truck",
+   "ko": "정비 트럭",
+   "note": "1210; repairs armor and replenishes ammo in the field (desc510)."
+  },
+  {
+   "en": "Rommel",
+   "ko": "롬멜",
+   "note": "1211; 'ROMMEL MEDIUM TANK' -> '롬멜 중형 전차'."
+  },
+  {
+   "en": "Saracen",
+   "ko": "사라센",
+   "note": "1212; 'SARACEN HOVER TANK' -> '사라센 호버 전차'."
+  },
+  {
+   "en": "Savannah",
+   "ko": "사바나",
+   "note": "1213; plate/desc 'SAVANNAH MASTER' -> '사바나 마스터'."
+  },
+  {
+   "en": "Savannah Master",
+   "ko": "사바나 마스터",
+   "note": "Plate / desc513 long form of 1213."
+  },
+  {
+   "en": "Shrek",
+   "ko": "슈렉",
+   "note": "1214; plate 'SCHREK PPC CARRIER' -> '슈렉 PPC 캐리어' (both spellings -> 슈렉)."
+  },
+  {
+   "en": "SRM Carrier",
+   "ko": "SRM 캐리어",
+   "note": "1215."
+  },
+  {
+   "en": "Striker",
+   "ko": "스트라이커",
+   "note": "1216; 'STRIKER LIGHT TANK' -> '스트라이커 경전차'."
+  },
+  {
+   "en": "Swiftwind",
+   "ko": "스위프트윈드",
+   "note": "1217; 'SWIFTWIND SCOUT CAR' -> '스위프트윈드 정찰차'."
+  },
+  {
+   "en": "VonLuckner",
+   "ko": "폰 루크너",
+   "note": "1218; German name (von Luckner) -> 폰 루크너, with a space. Also 'Von Luckner' (desc518, plate)."
+  },
+  {
+   "en": "Von Luckner",
+   "ko": "폰 루크너",
+   "note": "Plate / desc518 spelling of 1218. 'VON LUCKNER HEAVY TANK' -> '폰 루크너 중전차'."
+  },
+  {
+   "en": "Mobile HQ",
+   "ko": "이동 HQ",
+   "note": "1219; HQ stays Latin. Briefing 'Capture Mobile HQ' -> '이동 HQ 노획'."
+  },
+  {
+   "en": "Fuel Truck",
+   "ko": "연료 트럭",
+   "note": "1220."
+  },
+  {
+   "en": "Elem. Carrier",
+   "ko": "엘리멘탈 캐리어",
+   "note": "1221; plate 'ELEMENTAL CARRIER'. No need to abbreviate in Korean."
+  },
+  {
+   "en": "Mbl Artlry",
+   "ko": "자주포",
+   "note": "1222; = Mobile Artillery (plate, briefings brf0505/xsbrf0402). 자주포 = self-propelled gun."
+  },
+  {
+   "en": "Mobile Artillery",
+   "ko": "자주포",
+   "note": "Long form of 1222 (plate, briefings). Plural 'Mobile Artillery' -> 자주포."
+  },
+  {
+   "en": "Artillery Loader",
+   "ko": "포탄 적재차",
+   "note": "1223."
+  },
+  {
+   "en": "Towed Turret",
+   "ko": "견인 포탑",
+   "note": "1224."
+  },
+  {
+   "en": "AeroSpace Spotter",
+   "ko": "에어로스페이스 관측차",
+   "note": "1225; spots for Clan airstrikes (brf0201). Briefings write 'Aerospace Spotter (vehicle)'. Short form 관측차."
+  },
+  {
+   "en": "Aerospace Spotter",
+   "ko": "에어로스페이스 관측차",
+   "note": "Briefing / plate spelling of 1225."
+  },
+  {
+   "en": "Ordnance Truck",
+   "ko": "군수품 트럭",
+   "note": "1226; brf0402 'Ordnance Trucks' carry munitions for the orbital guns."
+  },
+  {
+   "en": "Salvage Rig",
+   "ko": "회수 차량",
+   "note": "1227; xbrf0202 'Salvage Rigs' (carrying captured components)."
+  },
+  {
+   "en": "Lt. Transport",
+   "ko": "경수송차",
+   "note": "1228 (unreferenced); plate 'LIGHT TRANSPORT' -> 경수송차."
+  },
+  {
+   "en": "Light Transport",
+   "ko": "경수송차",
+   "note": "Plate form of 1228."
+  },
+  {
+   "en": "Flatbed",
+   "ko": "평판 트럭",
+   "note": "1229."
+  },
+  {
+   "en": "Semi-Tractor",
+   "ko": "트레일러 트럭",
+   "note": "1230."
+  },
+  {
+   "en": "Armed Flatbed",
+   "ko": "무장 평판 트럭",
+   "note": "1231."
+  },
+  {
+   "en": "Farm Truck",
+   "ko": "농장 트럭",
+   "note": "1232."
+  },
+  {
+   "en": "Armed Farm Truck",
+   "ko": "무장 농장 트럭",
+   "note": "1233."
+  },
+  {
+   "en": "Car",
+   "ko": "승용차",
+   "note": "1234/1237/1241/1242/1244/1245."
+  },
+  {
+   "en": "Sports Car",
+   "ko": "스포츠카",
+   "note": "1235/1236/1240/1243/1246."
+  },
+  {
+   "en": "Hover Limo",
+   "ko": "호버 리무진",
+   "note": "1238; Star Captain Kulin's limo (xbrf0204)."
+  },
+  {
+   "en": "Limo",
+   "ko": "리무진",
+   "note": "1239."
+  },
+  {
+   "en": "Salvage Truck",
+   "ko": "회수 트럭",
+   "note": "1247; plate SALVAGE TRUCK."
+  },
+  {
+   "en": "Refit Rig",
+   "ko": "정비 차량",
+   "note": "1248 (unreferenced)."
+  },
+  {
+   "en": "Ambulance",
+   "ko": "구급차",
+   "note": "1249; brf0302, xsbrf0404 'Ambulances'."
+  },
+  {
+   "en": "Centipede",
+   "ko": "센티피드",
+   "note": "1250; expansion roster. 'CENTIPEDE SCOUT CAR' -> '센티피드 정찰차'."
+  },
+  {
+   "en": "Regulator",
+   "ko": "레귤레이터",
+   "note": "1251; 'REGULATOR HOVER TANK' -> '레귤레이터 호버 전차'."
+  },
+  {
+   "en": "Manticore",
+   "ko": "맨티코어",
+   "note": "1252; 'MANTICORE HEAVY TANK' -> '맨티코어 중전차'; xbrf0102 'Manticore Heavy Tanks'."
+  },
+  {
+   "en": "Pilum",
+   "ko": "필룸",
+   "note": "1253; 'PILUM HEAVY TANK' -> '필룸 중전차'."
+  },
+  {
+   "en": "Alacorn",
+   "ko": "알라콘",
+   "note": "1254; desc554 'Alacorn MKIV', plate 'ALACORN MK VII' - keep each source's Latin mark number."
+  },
+  {
+   "en": "Ammo Truck",
+   "ko": "탄약 트럭",
+   "note": "1255."
+  },
+  {
+   "en": "Elemental",
+   "ko": "엘리멘탈",
+   "note": "Clan battle-armor infantry (PMW00100, briefings 'Elemental Training Cadre', desc 'cannot detect Elementals'). Plate 'ELEMENTAL (TYPE I)' -> '엘리멘탈 (I형)'."
+  },
+  {
+   "en": "Supply Truck",
+   "ko": "보급 트럭",
+   "note": "brf0303 objective 'Capture 4 Supply Trucks'."
+  },
+  {
+   "en": "Supply Train",
+   "ko": "보급 열차",
+   "note": "brf0205."
+  },
+  {
+   "en": "Train Engine / Box Car / Flat Car / Tank Car",
+   "ko": "기관차 / 유개 화차 / 평판 화차 / 탱크 화차",
+   "note": "In-mission object names 621-626, listed for consistency."
+  },
+  {
+   "en": "MEDIUM TANK",
+   "ko": "중형 전차",
+   "note": "Vehicle class word used on the long plates (LSPFLV*/LSPFDV*, 200x12 px) and in desc.fit. Light -> 경-, Heavy -> 중(重)- written attached, Medium -> 중형."
+  },
+  {
+   "en": "HEAVY TANK",
+   "ko": "중전차",
+   "note": "Vehicle class word used on the long plates (LSPFLV*/LSPFDV*, 200x12 px) and in desc.fit. Light -> 경-, Heavy -> 중(重)- written attached, Medium -> 중형."
+  },
+  {
+   "en": "LIGHT TANK",
+   "ko": "경전차",
+   "note": "Vehicle class word used on the long plates (LSPFLV*/LSPFDV*, 200x12 px) and in desc.fit. Light -> 경-, Heavy -> 중(重)- written attached, Medium -> 중형."
+  },
+  {
+   "en": "HOVER TANK",
+   "ko": "호버 전차",
+   "note": "Vehicle class word used on the long plates (LSPFLV*/LSPFDV*, 200x12 px) and in desc.fit. Light -> 경-, Heavy -> 중(重)- written attached, Medium -> 중형."
+  },
+  {
+   "en": "HEAVY HOVER TANK",
+   "ko": "중호버 전차",
+   "note": "Vehicle class word used on the long plates (LSPFLV*/LSPFDV*, 200x12 px) and in desc.fit. Light -> 경-, Heavy -> 중(重)- written attached, Medium -> 중형."
+  },
+  {
+   "en": "LIGHT HOVER TANK",
+   "ko": "경호버 전차",
+   "note": "Vehicle class word used on the long plates (LSPFLV*/LSPFDV*, 200x12 px) and in desc.fit. Light -> 경-, Heavy -> 중(重)- written attached, Medium -> 중형."
+  },
+  {
+   "en": "LIGHT MISSILE TANK",
+   "ko": "경미사일 전차",
+   "note": "Vehicle class word used on the long plates (LSPFLV*/LSPFDV*, 200x12 px) and in desc.fit. Light -> 경-, Heavy -> 중(重)- written attached, Medium -> 중형."
+  },
+  {
+   "en": "LIGHT SCOUT TANK",
+   "ko": "경정찰 전차",
+   "note": "Vehicle class word used on the long plates (LSPFLV*/LSPFDV*, 200x12 px) and in desc.fit. Light -> 경-, Heavy -> 중(重)- written attached, Medium -> 중형."
+  },
+  {
+   "en": "SCOUT CAR",
+   "ko": "정찰차",
+   "note": "Vehicle class word used on the long plates (LSPFLV*/LSPFDV*, 200x12 px) and in desc.fit. Light -> 경-, Heavy -> 중(重)- written attached, Medium -> 중형."
+  },
+  {
+   "en": "PPC CARRIER",
+   "ko": "PPC 캐리어",
+   "note": "Vehicle class word used on the long plates (LSPFLV*/LSPFDV*, 200x12 px) and in desc.fit. Light -> 경-, Heavy -> 중(重)- written attached, Medium -> 중형."
+  }
+ ],
+ "weapons_components": [
+  {
+   "en": "Laser",
+   "ko": "레이저",
+   "note": "143; the standard IS laser (tabletop 'Medium Laser'). Also generic word."
+  },
+  {
+   "en": "Large Laser",
+   "ko": "대형 레이저",
+   "note": "140; user-fixed."
+  },
+  {
+   "en": "Medium Laser",
+   "ko": "중형 레이저",
+   "note": "Not a separate MCG component (MCG calls it 'Laser'), kept for consistency."
+  },
+  {
+   "en": "Small Laser",
+   "ko": "소형 레이저",
+   "note": "156; user-fixed."
+  },
+  {
+   "en": "Pulse Laser",
+   "ko": "펄스 레이저",
+   "note": "144; user-fixed. 'PS' in compbas = Pulse."
+  },
+  {
+   "en": "ER",
+   "ko": "ER",
+   "note": "Extended Range: keep Latin in names ('ER PPC', '대형 ER 레이저'); in running text 'extended-range' -> 확장 사거리."
+  },
+  {
+   "en": "PPC",
+   "ko": "PPC",
+   "note": "145; acronym stays Latin. Long form 'Particle Projector Cannon' -> 입자 투사포 (plates, desc145 'particle projector cannons')."
+  },
+  {
+   "en": "Particle Projector Cannon",
+   "ko": "입자 투사포",
+   "note": "Plate 'PARTICLE PROJECTOR CANNON' (LSPFLC27); 'ER PARTICLE PROJECTOR CANNON' -> 'ER 입자 투사포'."
+  },
+  {
+   "en": "Autocannon",
+   "ko": "오토캐논",
+   "note": "101 (= AC/10); user-fixed. 'AC' stays Latin in abbreviations and 'AC/5', 'AC/20'."
+  },
+  {
+   "en": "AC/5",
+   "ko": "AC/5",
+   "note": "desc100: the light autocannon."
+  },
+  {
+   "en": "AC/20",
+   "ko": "AC/20",
+   "note": "desc102: the heavy autocannon."
+  },
+  {
+   "en": "Ultra Autocannon",
+   "ko": "울트라 오토캐논",
+   "note": "Abbreviation 'Ult. AC' -> '울트라AC'."
+  },
+  {
+   "en": "LBX Autocannon",
+   "ko": "LB-X 오토캐논",
+   "note": "108; write 'LB-X' (plate spelling) in full names; abbreviations keep 'LBX'."
+  },
+  {
+   "en": "Gauss Rifle",
+   "ko": "가우스 라이플",
+   "note": "104; user-fixed."
+  },
+  {
+   "en": "Machine Gun",
+   "ko": "기관총",
+   "note": "105; abbreviation MG stays Latin."
+  },
+  {
+   "en": "Flamer",
+   "ko": "화염방사기",
+   "note": "User-fixed; MCG only has Heavy Flamer (147/155)."
+  },
+  {
+   "en": "Heavy Flamer",
+   "ko": "중화염방사기",
+   "note": "147; 'Heavy' weapon prefix -> 중(重)-, attached."
+  },
+  {
+   "en": "LRM",
+   "ko": "LRM",
+   "note": "Long-Range Missile, stays Latin. Spelled out 'Long Range Missile' -> 장거리 미사일 (plates, desc)."
+  },
+  {
+   "en": "SRM",
+   "ko": "SRM",
+   "note": "Short-Range Missile, stays Latin. Spelled out -> 단거리 미사일."
+  },
+  {
+   "en": "Long Range Missile",
+   "ko": "장거리 미사일",
+   "note": "Plates LSPFLC23-25; desc476 'Long Range Missile Racks' -> 장거리 미사일 랙."
+  },
+  {
+   "en": "Short Range Missile",
+   "ko": "단거리 미사일",
+   "note": "Plates LSPFLC19/21/22."
+  },
+  {
+   "en": "Rack",
+   "ko": "랙",
+   "note": "Missile rack (LRM Rack -> LRM 랙)."
+  },
+  {
+   "en": "Pack",
+   "ko": "팩",
+   "note": "Missile pack (SRM Pack -> SRM 팩); ammo 'LRM/15 Pack' -> 'LRM/15 탄약 팩'."
+  },
+  {
+   "en": "Streak",
+   "ko": "스트릭",
+   "note": "Streak SRM ('ST' in compbas) -> 스트릭 SRM; abbreviations keep 'ST-SRM' / 'S-SRM'."
+  },
+  {
+   "en": "Thunderbolt",
+   "ko": "선더볼트",
+   "note": "Missile system; standard spelling 선더볼트 (not 썬더볼트). desc474 'Thunderbolt missile launchers' -> 선더볼트 미사일 발사기."
+  },
+  {
+   "en": "Long Tom",
+   "ko": "롱 톰",
+   "note": "160; artillery cannon. 'Long Toms' -> 롱 톰; plate 'LONG TOM CANNON' -> '롱 톰 포'; xsbrf0402 'Mech-type Long Tom cannon' -> '메크용 롱 톰 포'."
+  },
+  {
+   "en": "Rail Gun",
+   "ko": "레일건",
+   "note": "98; Star League relic (desc98, desc472)."
+  },
+  {
+   "en": "Heat Sink",
+   "ko": "방열기",
+   "note": "7; user-fixed. Plural 'Heat Sinks' (MECHTEXT heading) -> 방열기."
+  },
+  {
+   "en": "Jump Jet",
+   "ko": "점프젯",
+   "note": "User-fixed; 'jump-jets' in desc -> 점프젯."
+  },
+  {
+   "en": "Armor",
+   "ko": "장갑",
+   "note": "User-fixed (also MECHTEXT heading, repair slider)."
+  },
+  {
+   "en": "Internal Structure",
+   "ko": "내부 구조",
+   "note": "User-fixed. MECHTEXT splits it into two headings 'Internal' / 'Structure' -> '내부' / '구조'."
+  },
+  {
+   "en": "Engine",
+   "ko": "엔진",
+   "note": "1 abbr; repair slider 'repair engine'."
+  },
+  {
+   "en": "Sensor",
+   "ko": "센서",
+   "note": "111 (repair screen); generic word."
+  },
+  {
+   "en": "Electronic Countermeasures",
+   "ko": "전자전 방해 장비",
+   "note": "desc550; acronym ECM stays Latin and is preferred in UI."
+  },
+  {
+   "en": "ECM",
+   "ko": "ECM",
+   "note": "Acronym stays Latin. 'ECM Suite' -> 'ECM 장비'."
+  },
+  {
+   "en": "Active Probe",
+   "ko": "액티브 프로브",
+   "note": "desc37/43 'Beagle Active Probe', 'Clan Active Probe'."
+  },
+  {
+   "en": "Ammo",
+   "ko": "탄약",
+   "note": "'<weapon> Ammo' -> '<weapon> 탄약'; 'Ammunition' also 탄약."
+  },
+  {
+   "en": "shots",
+   "ko": "발",
+   "note": "desc '(15 shots)' -> '(15발)'."
+  },
+  {
+   "en": "LOAD VAL",
+   "ko": "적재값",
+   "note": "desc.fit 'LOAD VAL:%fc8  0.0' -> '적재값:%fc8  0.0' (keep the code and the spacing)."
+  },
+  {
+   "en": "Recycle",
+   "ko": "재장전",
+   "note": "MECHTEXT heading 12 and art 'RECYCLE:'; = time between shots."
+  },
+  {
+   "en": "energy weapon",
+   "ko": "에너지 무기",
+   "note": "desc143."
+  },
+  {
+   "en": "OmniMech",
+   "ko": "옴니메크",
+   "note": "Also in game_terms."
+  },
+  {
+   "en": "Alpha Strike",
+   "ko": "알파 스트라이크",
+   "note": "desc306 (firing every weapon at once): BattleTech jargon, keep as loanword."
+  },
+  {
+   "en": "X-Pulse Laser",
+   "ko": "X-펄스 레이저",
+   "note": "desc473 'X-Pulse Lasers'; component 139."
+  },
+  {
+   "en": "Fusion Engine",
+   "ko": "핵융합 엔진",
+   "note": "compbas.csv id 1 name."
+  },
+  {
+   "en": "XL Fusion Engine",
+   "ko": "XL 핵융합 엔진",
+   "note": "compbas.csv id 2 name."
+  },
+  {
+   "en": "C XL Fusion Engine",
+   "ko": "클랜 XL 핵융합 엔진",
+   "note": "compbas.csv id 3 name."
+  },
+  {
+   "en": "Arm Actuator",
+   "ko": "팔 구동기",
+   "note": "compbas.csv id 4 name. Actuators: 구동기 (community also 액추에이터)."
+  },
+  {
+   "en": "Leg Actuator",
+   "ko": "다리 구동기",
+   "note": "compbas.csv id 5 name."
+  },
+  {
+   "en": "Cockpit",
+   "ko": "조종석",
+   "note": "compbas.csv id 6 name."
+  },
+  {
+   "en": "Double Heat Sink",
+   "ko": "이중 방열기",
+   "note": "compbas.csv id 8 name."
+  },
+  {
+   "en": "C Double Heat Sink",
+   "ko": "클랜 이중 방열기",
+   "note": "compbas.csv id 9 name."
+  },
+  {
+   "en": "Large Jump Jet",
+   "ko": "대형 점프젯",
+   "note": "compbas.csv id 10 name."
+  },
+  {
+   "en": "Medium Jump Jet",
+   "ko": "중형 점프젯",
+   "note": "compbas.csv id 11 name."
+  },
+  {
+   "en": "Small Jump Jet",
+   "ko": "소형 점프젯",
+   "note": "compbas.csv id 12 name."
+  },
+  {
+   "en": "Sensor - Basic",
+   "ko": "센서 - 기본형",
+   "note": "compbas.csv id 13 name. Sensor grades: Basic 기본형 / Intermed 중급형 / Advanced 고급형; Clan plates STANDARD 표준형 / EXTENDED 확장형."
+  },
+  {
+   "en": "Sensor - Intermed",
+   "ko": "센서 - 중급형",
+   "note": "compbas.csv id 14 name."
+  },
+  {
+   "en": "Sensor - Advanced",
+   "ko": "센서 - 고급형",
+   "note": "compbas.csv id 15 name."
+  },
+  {
+   "en": "C Sensor - Basic",
+   "ko": "클랜 센서 - 기본형",
+   "note": "compbas.csv id 16 name."
+  },
+  {
+   "en": "C Sensor - Adv",
+   "ko": "클랜 센서 - 고급형",
+   "note": "compbas.csv id 17 name."
+  },
+  {
+   "en": "Vehicle Sensor",
+   "ko": "차량 센서",
+   "note": "compbas.csv id 18 name."
+  },
+  {
+   "en": "Adv Vehicle Sensor",
+   "ko": "고급 차량 센서",
+   "note": "compbas.csv id 19 name."
+  },
+  {
+   "en": "Gyroscope IV",
+   "ko": "자이로스코프 IV",
+   "note": "compbas.csv id 20 name."
+  },
+  {
+   "en": "Gyroscope III",
+   "ko": "자이로스코프 III",
+   "note": "compbas.csv id 21 name."
+  },
+  {
+   "en": "Gyroscope II",
+   "ko": "자이로스코프 II",
+   "note": "compbas.csv id 22 name. Source bug: abbr of Gyroscope II is 'Gyro-III'; mirror the source."
+  },
+  {
+   "en": "Gyroscope I",
+   "ko": "자이로스코프 I",
+   "note": "compbas.csv id 23 name."
+  },
+  {
+   "en": "Power Amplifier",
+   "ko": "전력 증폭기",
+   "note": "compbas.csv id 24 name."
+  },
+  {
+   "en": "Ferro-Fibrous Armor",
+   "ko": "철섬유 장갑",
+   "note": "compbas.csv id 25 name. Ferro-Fibrous -> 철섬유 (namu.wiki)."
+  },
+  {
+   "en": "Vehicle Ferro-Fibrous Armor",
+   "ko": "차량용 철섬유 장갑",
+   "note": "compbas.csv id 26 name."
+  },
+  {
+   "en": "C Ferro-Fibrous Armor",
+   "ko": "클랜 철섬유 장갑",
+   "note": "compbas.csv id 27 name."
+  },
+  {
+   "en": "C Vehicle Ferro-Fibrous",
+   "ko": "클랜 차량용 철섬유",
+   "note": "compbas.csv id 28 name."
+  },
+  {
+   "en": "Endosteal Int Str",
+   "ko": "엔도강 내부 구조",
+   "note": "compbas.csv id 29 name. 'Endosteal' (sic, = Endo Steel) -> 엔도강 (namu.wiki)."
+  },
+  {
+   "en": "C Endosteal Int Str",
+   "ko": "클랜 엔도강 내부 구조",
+   "note": "compbas.csv id 30 name."
+  },
+  {
+   "en": "Case",
+   "ko": "CASE",
+   "note": "compbas.csv id 31 name. CASE is an acronym (ammo storage), stays Latin."
+  },
+  {
+   "en": "C Case",
+   "ko": "클랜 CASE",
+   "note": "compbas.csv id 32 name."
+  },
+  {
+   "en": "Shoulder",
+   "ko": "어깨 구동기",
+   "note": "compbas.csv id 33 name."
+  },
+  {
+   "en": "Hip",
+   "ko": "고관절 구동기",
+   "note": "compbas.csv id 34 name."
+  },
+  {
+   "en": "LifeSupport",
+   "ko": "생명 유지 장치",
+   "note": "compbas.csv id 35 name."
+  },
+  {
+   "en": "Beagle Probe",
+   "ko": "비글 프로브",
+   "note": "compbas.csv id 37 name. Beagle Active Probe (desc37)."
+  },
+  {
+   "en": "Guardian ECM",
+   "ko": "가디언 ECM",
+   "note": "compbas.csv id 38 name. Guardian ECM suite (desc38)."
+  },
+  {
+   "en": "C ECM Suite",
+   "ko": "클랜 ECM 장비",
+   "note": "compbas.csv id 42 name."
+  },
+  {
+   "en": "C Active Probe",
+   "ko": "클랜 액티브 프로브",
+   "note": "compbas.csv id 43 name."
+  },
+  {
+   "en": "Light Gauss Rifle",
+   "ko": "경가우스 라이플",
+   "note": "compbas.csv id 99 name."
+  },
+  {
+   "en": "Light Autocannon",
+   "ko": "경오토캐논",
+   "note": "compbas.csv id 100 name. Light -> 경(輕)-, Heavy -> 중(重)-, attached; AC/5 per desc100."
+  },
+  {
+   "en": "Hvy Autocannon",
+   "ko": "중오토캐논",
+   "note": "compbas.csv id 102 name. AC/20 per desc102."
+  },
+  {
+   "en": "Lt. Ultra Autocannon",
+   "ko": "경울트라 오토캐논",
+   "note": "compbas.csv id 103 name."
+  },
+  {
+   "en": "Anti-Missile System",
+   "ko": "대미사일 시스템",
+   "note": "compbas.csv id 106 name."
+  },
+  {
+   "en": "Light LBX Autocannon",
+   "ko": "경 LB-X 오토캐논",
+   "note": "compbas.csv id 107 name. Space between 경/중 and Latin 'LB-X'."
+  },
+  {
+   "en": "Heavy LBX Autocannon",
+   "ko": "중 LB-X 오토캐논",
+   "note": "compbas.csv id 109 name."
+  },
+  {
+   "en": "C Lt. Ultra Autocannon",
+   "ko": "클랜 경울트라 오토캐논",
+   "note": "compbas.csv id 110 name."
+  },
+  {
+   "en": "C  Ultra Autocannon",
+   "ko": "클랜 울트라 오토캐논",
+   "note": "compbas.csv id 111 name. Source name has a double space ('C  Ultra Autocannon'); abbr says 'Med.'."
+  },
+  {
+   "en": "C Hvy Ultra Autocannon",
+   "ko": "클랜 중울트라 오토캐논",
+   "note": "compbas.csv id 112 name."
+  },
+  {
+   "en": "C Gauss Rifle",
+   "ko": "클랜 가우스 라이플",
+   "note": "compbas.csv id 113 name."
+  },
+  {
+   "en": "C Machine Gun",
+   "ko": "클랜 기관총",
+   "note": "compbas.csv id 114 name."
+  },
+  {
+   "en": "C Anti-Missile System",
+   "ko": "클랜 대미사일 시스템",
+   "note": "compbas.csv id 115 name."
+  },
+  {
+   "en": "C Light LBX",
+   "ko": "클랜 경 LB-X",
+   "note": "compbas.csv id 116 name."
+  },
+  {
+   "en": "C LBX Autocannon",
+   "ko": "클랜 LB-X 오토캐논",
+   "note": "compbas.csv id 117 name."
+  },
+  {
+   "en": "C Heavy LBX Autocannon",
+   "ko": "클랜 중 LB-X 오토캐논",
+   "note": "compbas.csv id 118 name."
+  },
+  {
+   "en": "LRM Rack",
+   "ko": "LRM 랙",
+   "note": "compbas.csv id 120 name."
+  },
+  {
+   "en": "LR Missile/15",
+   "ko": "LRM/15",
+   "note": "compbas.csv id 121 name."
+  },
+  {
+   "en": "LR Missile/20",
+   "ko": "LRM/20",
+   "note": "compbas.csv id 122 name."
+  },
+  {
+   "en": "SR Missile Pack",
+   "ko": "SRM 팩",
+   "note": "compbas.csv id 123 name."
+  },
+  {
+   "en": "SR Missile/6",
+   "ko": "SRM/6",
+   "note": "compbas.csv id 124 name."
+  },
+  {
+   "en": "ST SR Missile Pack",
+   "ko": "스트릭 SRM 팩",
+   "note": "compbas.csv id 125 name."
+  },
+  {
+   "en": "Heavy Thunderbolt",
+   "ko": "헤비 선더볼트",
+   "note": "compbas.csv id 126 name. 'Heavy Thunderbolt' is treated as a product name: 헤비 선더볼트."
+  },
+  {
+   "en": "C LR Missile Rack",
+   "ko": "클랜 LRM 랙",
+   "note": "compbas.csv id 130 name."
+  },
+  {
+   "en": "C LR Missile/15",
+   "ko": "클랜 LRM/15",
+   "note": "compbas.csv id 131 name."
+  },
+  {
+   "en": "C LR Missile/20",
+   "ko": "클랜 LRM/20",
+   "note": "compbas.csv id 132 name."
+  },
+  {
+   "en": "C SR Missile Pack",
+   "ko": "클랜 SRM 팩",
+   "note": "compbas.csv id 133 name."
+  },
+  {
+   "en": "C SR Missile/6",
+   "ko": "클랜 SRM/6",
+   "note": "compbas.csv id 134 name."
+  },
+  {
+   "en": "C ST-SR Missile Pack",
+   "ko": "클랜 스트릭 SRM 팩",
+   "note": "compbas.csv id 135 name."
+  },
+  {
+   "en": "C ST-SR Missile/6",
+   "ko": "클랜 스트릭 SRM/6",
+   "note": "compbas.csv id 136 name. Source abbr 'S-SRM/6' for both 136 and 236 (236 is a /2 pack) - mirror the source."
+  },
+  {
+   "en": "Large X Pulse Laser",
+   "ko": "대형 X-펄스 레이저",
+   "note": "compbas.csv id 139 name."
+  },
+  {
+   "en": "Large ER Laser",
+   "ko": "대형 ER 레이저",
+   "note": "compbas.csv id 141 name."
+  },
+  {
+   "en": "Large PS Laser",
+   "ko": "대형 펄스 레이저",
+   "note": "compbas.csv id 142 name. 'PS' = Pulse."
+  },
+  {
+   "en": "ER PPC",
+   "ko": "ER PPC",
+   "note": "compbas.csv id 146 name."
+  },
+  {
+   "en": "C Large ER Laser",
+   "ko": "클랜 대형 ER 레이저",
+   "note": "compbas.csv id 150 name."
+  },
+  {
+   "en": "C Large PS Laser",
+   "ko": "클랜 대형 펄스 레이저",
+   "note": "compbas.csv id 151 name."
+  },
+  {
+   "en": "C ER Laser",
+   "ko": "클랜 ER 레이저",
+   "note": "compbas.csv id 152 name."
+  },
+  {
+   "en": "C Pulse  Laser",
+   "ko": "클랜 펄스 레이저",
+   "note": "compbas.csv id 153 name. Source name has a double space."
+  },
+  {
+   "en": "C ER PPC",
+   "ko": "클랜 ER PPC",
+   "note": "compbas.csv id 154 name."
+  },
+  {
+   "en": "C Heavy Flamer",
+   "ko": "클랜 중화염방사기",
+   "note": "compbas.csv id 155 name."
+  },
+  {
+   "en": "Sniper Cannon",
+   "ko": "스나이퍼 포",
+   "note": "compbas.csv id 161 name. Cannon of an artillery piece -> 포 (롱 톰 포, 스나이퍼 포); 'autocannon' stays 오토캐논."
+  },
+  {
+   "en": "Rail Gun Ammo",
+   "ko": "레일건 탄약",
+   "note": "compbas.csv id 198 name."
+  },
+  {
+   "en": "Lt. Gauss Ammo",
+   "ko": "경가우스 탄약",
+   "note": "compbas.csv id 199 name."
+  },
+  {
+   "en": "Lt. AC Ammo",
+   "ko": "경AC 탄약",
+   "note": "compbas.csv id 200 name."
+  },
+  {
+   "en": "AC Ammo",
+   "ko": "AC 탄약",
+   "note": "compbas.csv id 201 name."
+  },
+  {
+   "en": "Hvy AC Ammo",
+   "ko": "중AC 탄약",
+   "note": "compbas.csv id 202 name."
+  },
+  {
+   "en": "Ultra Lt.AC Ammo",
+   "ko": "경울트라AC 탄약",
+   "note": "compbas.csv id 203 name."
+  },
+  {
+   "en": "Gauss Ammo",
+   "ko": "가우스 탄약",
+   "note": "compbas.csv id 204 name."
+  },
+  {
+   "en": "M Gun Ammo",
+   "ko": "기관총 탄약",
+   "note": "compbas.csv id 205 name."
+  },
+  {
+   "en": "Anti-Missile Ammo",
+   "ko": "AMS 탄약",
+   "note": "compbas.csv id 206 name."
+  },
+  {
+   "en": "Lt. LBX Ammo",
+   "ko": "경LBX 탄약",
+   "note": "compbas.csv id 207 name."
+  },
+  {
+   "en": "LBX Ammo",
+   "ko": "LBX 탄약",
+   "note": "compbas.csv id 208 name."
+  },
+  {
+   "en": "Hvy. LBX Ammo",
+   "ko": "중LBX 탄약",
+   "note": "compbas.csv id 209 name."
+  },
+  {
+   "en": "C Ultra Lt. AC Ammo",
+   "ko": "클랜 경울트라AC 탄약",
+   "note": "compbas.csv id 210 name."
+  },
+  {
+   "en": "C Ultra AC Ammo",
+   "ko": "클랜 울트라AC 탄약",
+   "note": "compbas.csv id 211 name."
+  },
+  {
+   "en": "C Ultra AC Hvy Ammo",
+   "ko": "클랜 중울트라AC 탄약",
+   "note": "compbas.csv id 212 name."
+  },
+  {
+   "en": "C Gauss Ammo",
+   "ko": "클랜 가우스 탄약",
+   "note": "compbas.csv id 213 name."
+  },
+  {
+   "en": "C M Gun Ammo",
+   "ko": "클랜 기관총 탄약",
+   "note": "compbas.csv id 214 name."
+  },
+  {
+   "en": "C Anti-Missile Ammo",
+   "ko": "클랜 AMS 탄약",
+   "note": "compbas.csv id 215 name."
+  },
+  {
+   "en": "C Lt. LBX Ammo",
+   "ko": "클랜 경LBX 탄약",
+   "note": "compbas.csv id 216 name."
+  },
+  {
+   "en": "C LBX Ammo",
+   "ko": "클랜 LBX 탄약",
+   "note": "compbas.csv id 217 name."
+  },
+  {
+   "en": "C Hvy. LBX Ammo",
+   "ko": "클랜 중LBX 탄약",
+   "note": "compbas.csv id 218 name."
+  },
+  {
+   "en": "LRM Ammo",
+   "ko": "LRM 탄약",
+   "note": "compbas.csv id 220 name."
+  },
+  {
+   "en": "LRM/15 Pack",
+   "ko": "LRM/15 탄약 팩",
+   "note": "compbas.csv id 221 name. Ids 198-236 are ammunition: '<weapon> Ammo' -> '<weapon> 탄약', 'Pack' -> '탄약 팩'."
+  },
+  {
+   "en": "LRM/20 Pack",
+   "ko": "LRM/20 탄약 팩",
+   "note": "compbas.csv id 222 name."
+  },
+  {
+   "en": "SRM Ammo",
+   "ko": "SRM 탄약",
+   "note": "compbas.csv id 223 name."
+  },
+  {
+   "en": "SRM/6 Pack",
+   "ko": "SRM/6 탄약 팩",
+   "note": "compbas.csv id 224 name."
+  },
+  {
+   "en": "ST SRM Ammo",
+   "ko": "스트릭 SRM 탄약",
+   "note": "compbas.csv id 225 name."
+  },
+  {
+   "en": "Heavy Thunderbolt Ammo",
+   "ko": "헤비 선더볼트 탄약",
+   "note": "compbas.csv id 226 name."
+  },
+  {
+   "en": "Long Tom Ammo",
+   "ko": "롱 톰 탄약",
+   "note": "compbas.csv id 227 name."
+  },
+  {
+   "en": "Sniper Cannon Ammo",
+   "ko": "스나이퍼 포 탄약",
+   "note": "compbas.csv id 228 name."
+  },
+  {
+   "en": "C LRM Ammo",
+   "ko": "클랜 LRM 탄약",
+   "note": "compbas.csv id 230 name."
+  },
+  {
+   "en": "C LRM/15 Pack",
+   "ko": "클랜 LRM/15 탄약 팩",
+   "note": "compbas.csv id 231 name."
+  },
+  {
+   "en": "C LRM/20 Pack",
+   "ko": "클랜 LRM/20 탄약 팩",
+   "note": "compbas.csv id 232 name."
+  },
+  {
+   "en": "C SRM Ammo",
+   "ko": "클랜 SRM 탄약",
+   "note": "compbas.csv id 233 name."
+  },
+  {
+   "en": "C SRM/6 Pack",
+   "ko": "클랜 SRM/6 탄약 팩",
+   "note": "compbas.csv id 234 name."
+  },
+  {
+   "en": "C ST SRM Ammo",
+   "ko": "클랜 스트릭 SRM 탄약",
+   "note": "compbas.csv id 235 name."
+  },
+  {
+   "en": "C ST-SRM/2 Pack",
+   "ko": "클랜 스트릭 SRM/2 탄약 팩",
+   "note": "compbas.csv id 236 name."
+  },
+  {
+   "en": "XLEngine",
+   "ko": "XL엔진",
+   "note": "compbas.csv id 2 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "ArmAct",
+   "ko": "팔구동",
+   "note": "compbas.csv id 4 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "LegAct",
+   "ko": "다리구동",
+   "note": "compbas.csv id 5 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "HtSnk",
+   "ko": "방열기",
+   "note": "compbas.csv id 7 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "D-HtSnk",
+   "ko": "D-방열기",
+   "note": "compbas.csv id 8 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "LrgJump",
+   "ko": "대형점프",
+   "note": "compbas.csv id 10 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "MedJump",
+   "ko": "중형점프",
+   "note": "compbas.csv id 11 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "SmlJump",
+   "ko": "소형점프",
+   "note": "compbas.csv id 12 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Snsr (Bsc.)",
+   "ko": "센서(기본)",
+   "note": "compbas.csv id 13 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Snsr (Inter.)",
+   "ko": "센서(중급)",
+   "note": "compbas.csv id 14 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Snsr (Adv.)",
+   "ko": "센서(고급)",
+   "note": "compbas.csv id 15 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Snsr (C-Bsc.)",
+   "ko": "센서(C-기본)",
+   "note": "compbas.csv id 16 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Snsr (C-Adv)",
+   "ko": "센서(C-고급)",
+   "note": "compbas.csv id 17 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Sensor-V",
+   "ko": "센서-V",
+   "note": "compbas.csv id 18 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Sensor-AV",
+   "ko": "센서-AV",
+   "note": "compbas.csv id 19 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Gyro-IV",
+   "ko": "자이로-IV",
+   "note": "compbas.csv id 20 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Gyro-III",
+   "ko": "자이로-III",
+   "note": "compbas.csv id 21 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Gyro-I",
+   "ko": "자이로-I",
+   "note": "compbas.csv id 23 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "PwrAmp",
+   "ko": "증폭기",
+   "note": "compbas.csv id 24 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "FrroFbr",
+   "ko": "철섬유",
+   "note": "compbas.csv id 25 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "FrroFbr-V",
+   "ko": "철섬유-V",
+   "note": "compbas.csv id 26 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "EndoStl",
+   "ko": "엔도강",
+   "note": "compbas.csv id 29 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "ShldAct",
+   "ko": "어깨구동",
+   "note": "compbas.csv id 33 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "HipAct",
+   "ko": "고관절",
+   "note": "compbas.csv id 34 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "LifeSuprt",
+   "ko": "생명유지",
+   "note": "compbas.csv id 35 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Beagle",
+   "ko": "비글",
+   "note": "compbas.csv id 37 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "GrdECM",
+   "ko": "가디언",
+   "note": "compbas.csv id 38 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Probe",
+   "ko": "프로브",
+   "note": "compbas.csv id 43 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Light Gauss",
+   "ko": "경가우스",
+   "note": "compbas.csv id 99 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Light AC",
+   "ko": "경AC",
+   "note": "compbas.csv id 100 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Hvy. AC",
+   "ko": "중AC",
+   "note": "compbas.csv id 102 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Lt. Ult. AC",
+   "ko": "경울트라AC",
+   "note": "compbas.csv id 103 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Gauss",
+   "ko": "가우스",
+   "note": "compbas.csv id 104 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "MG",
+   "ko": "MG",
+   "note": "compbas.csv id 105 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "AMS",
+   "ko": "AMS",
+   "note": "compbas.csv id 106 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Light LBX",
+   "ko": "경LBX",
+   "note": "compbas.csv id 107 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "LBX",
+   "ko": "LBX",
+   "note": "compbas.csv id 108 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Heavy LBX",
+   "ko": "중LBX",
+   "note": "compbas.csv id 109 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C Lt. Ult. AC",
+   "ko": "C 경울트라AC",
+   "note": "compbas.csv id 110 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C Med. Ult. AC",
+   "ko": "C 울트라AC",
+   "note": "compbas.csv id 111 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C Hvy. Ult. AC",
+   "ko": "C 중울트라AC",
+   "note": "compbas.csv id 112 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C Gauss",
+   "ko": "C 가우스",
+   "note": "compbas.csv id 113 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C Lt. LBX",
+   "ko": "C 경LBX",
+   "note": "compbas.csv id 116 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C LBX",
+   "ko": "C LBX",
+   "note": "compbas.csv id 117 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C Heavy LBX",
+   "ko": "C 중LBX",
+   "note": "compbas.csv id 118 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "LRM/15",
+   "ko": "LRM/15",
+   "note": "compbas.csv id 121 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "LRM/20",
+   "ko": "LRM/20",
+   "note": "compbas.csv id 122 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "SRM Pack",
+   "ko": "SRM 팩",
+   "note": "compbas.csv id 123 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "SRM/6",
+   "ko": "SRM/6",
+   "note": "compbas.csv id 124 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "ST-SRM Pack",
+   "ko": "ST-SRM 팩",
+   "note": "compbas.csv id 125 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Tbolt",
+   "ko": "선더볼트",
+   "note": "compbas.csv id 126 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C LRM Rack",
+   "ko": "C LRM 랙",
+   "note": "compbas.csv id 130 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C SRM Pack",
+   "ko": "C SRM 팩",
+   "note": "compbas.csv id 133 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C ST-SRM Pack",
+   "ko": "C ST-SRM 팩",
+   "note": "compbas.csv id 135 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "S-SRM/6",
+   "ko": "S-SRM/6",
+   "note": "compbas.csv id 136 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "LrgXPlsLas",
+   "ko": "대형X펄스",
+   "note": "compbas.csv id 139 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Lrg. ER Laser",
+   "ko": "대형ER레이저",
+   "note": "compbas.csv id 141 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Lrg.Pls.Laser",
+   "ko": "대형펄스레이저",
+   "note": "compbas.csv id 142 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "ER-PPC",
+   "ko": "ER-PPC",
+   "note": "compbas.csv id 146 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Hvy Flamer",
+   "ko": "중화염방사기",
+   "note": "compbas.csv id 147 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C Lrg. ER Laser",
+   "ko": "C 대형ER레이저",
+   "note": "compbas.csv id 150 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C Lrg.Pls.Laser",
+   "ko": "C 대형펄스레이저",
+   "note": "compbas.csv id 151 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C .Pls.Laser",
+   "ko": "C 펄스레이저",
+   "note": "compbas.csv id 153 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C ER-PPC",
+   "ko": "C ER-PPC",
+   "note": "compbas.csv id 154 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Sniper",
+   "ko": "스나이퍼",
+   "note": "compbas.csv id 161 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "U-Lt.AC Ammo",
+   "ko": "경울트라AC 탄약",
+   "note": "compbas.csv id 203 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C Ult Lt.AC Ammo",
+   "ko": "C 경울트라AC 탄약",
+   "note": "compbas.csv id 210 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C Ult.AC Ammo",
+   "ko": "C 울트라AC 탄약",
+   "note": "compbas.csv id 211 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C Ult Hvy.AC Ammo",
+   "ko": "C 중울트라AC 탄약",
+   "note": "compbas.csv id 212 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Tbolt Ammo",
+   "ko": "선더볼트 탄약",
+   "note": "compbas.csv id 226 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "Sniper Ammo",
+   "ko": "스나이퍼 탄약",
+   "note": "compbas.csv id 228 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  },
+  {
+   "en": "C ST-SRM Ammo",
+   "ko": "C ST-SRM 탄약",
+   "note": "compbas.csv id 235 abbreviation (short slot: keep the Korean pixel width close to the English; see STYLE.md 3.4)."
+  }
+ ],
+ "pilots": [
+  {
+   "en": "Beast",
+   "ko": "비스트",
+   "note": "Player MechWarrior (PMW00051 etc.), NameIndex 0, portrait pilot00.tga, plate LSPFLP00 (200x12 px). Name and Callsign fields are the same word ('Beast' / 'BEAST'): use the same Korean for both (Hangul has no case). START0 roster (original campaign start); desc301."
+  },
+  {
+   "en": "Hawk",
+   "ko": "호크",
+   "note": "Player MechWarrior (PMW00052 etc.), NameIndex 1, portrait pilot01.tga, plate LSPFLP01 (200x12 px). Name and Callsign fields are the same word ('Hawk' / 'HAWK'): use the same Korean for both (Hangul has no case). START0 roster; desc302."
+  },
+  {
+   "en": "Siren",
+   "ko": "사이렌",
+   "note": "Player MechWarrior (PMW00053 etc.), NameIndex 2, portrait pilot02.tga, plate LSPFLP02 (200x12 px). Name and Callsign fields are the same word ('Siren' / 'SIREN'): use the same Korean for both (Hangul has no case). XSTART0 roster (expansion start); desc303."
+  },
+  {
+   "en": "Rooster",
+   "ko": "루스터",
+   "note": "Player MechWarrior (PMW00054 etc.), NameIndex 3, portrait pilot03.tga, plate LSPFLP03 (200x12 px). Name and Callsign fields are the same word ('Rooster' / 'ROOSTER'): use the same Korean for both (Hangul has no case). XSTART0 roster; desc304."
+  },
+  {
+   "en": "Isis",
+   "ko": "아이시스",
+   "note": "Player MechWarrior (PMW00055 etc.), NameIndex 4, portrait pilot04.tga, plate LSPFLP04 (200x12 px). Name and Callsign fields are the same word ('Isis' / 'ISIS'): use the same Korean for both (Hangul has no case). hireable (purchase*/xpurchase*); desc305."
+  },
+  {
+   "en": "Gunman",
+   "ko": "건맨",
+   "note": "Player MechWarrior (PMW00056 etc.), NameIndex 5, portrait pilot05.tga, plate LSPFLP05 (200x12 px). Name and Callsign fields are the same word ('Gunman' / 'GUNMAN'): use the same Korean for both (Hangul has no case). hireable; desc306."
+  },
+  {
+   "en": "Mystique",
+   "ko": "미스틱",
+   "note": "Player MechWarrior (PMW00057 etc.), NameIndex 6, portrait pilot06.tga, plate LSPFLP06 (200x12 px). Name and Callsign fields are the same word ('Mystique' / 'MYSTIQUE'): use the same Korean for both (Hangul has no case). hireable; appears in brf0103 (pilot of the stranded Raven); desc307."
+  },
+  {
+   "en": "Skater",
+   "ko": "스케이터",
+   "note": "Player MechWarrior (PMW00058 etc.), NameIndex 7, portrait pilot07.tga, plate LSPFLP07 (200x12 px). Name and Callsign fields are the same word ('Skater' / 'SKATER'): use the same Korean for both (Hangul has no case). hireable; desc308."
+  },
+  {
+   "en": "Spice",
+   "ko": "스파이스",
+   "note": "Player MechWarrior (PMW00059 etc.), NameIndex 8, portrait pilot08.tga, plate LSPFLP08 (200x12 px). Name and Callsign fields are the same word ('Spice' / 'SPICE'): use the same Korean for both (Hangul has no case). XSTART0 roster; desc309/343."
+  },
+  {
+   "en": "Baron",
+   "ko": "배런",
+   "note": "Player MechWarrior (PMW00060 etc.), NameIndex 9, portrait pilot09.tga, plate LSPFLP09 (200x12 px). Name and Callsign fields are the same word ('Baron' / 'BARON'): use the same Korean for both (Hangul has no case). XSTART0 roster; Countess' younger brother; desc310/344. Standard spelling 배런 (not 바론)."
+  },
+  {
+   "en": "Fiend",
+   "ko": "핀드",
+   "note": "Player MechWarrior (PMW00061 etc.), NameIndex 10, portrait pilot10.tga, plate LSPFLP10 (200x12 px). Name and Callsign fields are the same word ('Fiend' / 'FIEND'): use the same Korean for both (Hangul has no case). hireable; desc311/345."
+  },
+  {
+   "en": "Ronin",
+   "ko": "로닌",
+   "note": "Player MechWarrior (PMW00062 etc.), NameIndex 11, portrait pilot11.tga, plate LSPFLP11 (200x12 px). Name and Callsign fields are the same word ('Ronin' / 'RONIN'): use the same Korean for both (Hangul has no case). hireable; desc312/346."
+  },
+  {
+   "en": "Gator",
+   "ko": "게이터",
+   "note": "Player MechWarrior (PMW00063 etc.), NameIndex 12, portrait pilot12.tga, plate LSPFLP12 (200x12 px). Name and Callsign fields are the same word ('Gator' / 'GATOR'): use the same Korean for both (Hangul has no case). hireable; desc313/347 (nickname 'Trickshot' -> 트릭샷)."
+  },
+  {
+   "en": "Rebel",
+   "ko": "레블",
+   "note": "Player MechWarrior (PMW00064 etc.), NameIndex 13, portrait pilot13.tga, plate LSPFLP13 (200x12 px). Name and Callsign fields are the same word ('Rebel' / 'REBEL'): use the same Korean for both (Hangul has no case). hireable; desc314/348. Standard spelling 레블 (avoid 레벨 = 'level')."
+  },
+  {
+   "en": "Hunter",
+   "ko": "헌터",
+   "note": "Player MechWarrior (PMW00065 etc.), NameIndex 14, portrait pilot14.tga, plate LSPFLP14 (200x12 px). Name and Callsign fields are the same word ('Hunter' / 'HUNTER'): use the same Korean for both (Hangul has no case). START0 roster; desc315."
+  },
+  {
+   "en": "Lynx",
+   "ko": "링크스",
+   "note": "Player MechWarrior (PMW00066 etc.), NameIndex 15, portrait pilot15.tga, plate LSPFLP15 (200x12 px). Name and Callsign fields are the same word ('Lynx' / 'LYNX'): use the same Korean for both (Hangul has no case). START0 roster; desc316."
+  },
+  {
+   "en": "Hitman",
+   "ko": "히트맨",
+   "note": "Player MechWarrior (PMW00067 etc.), NameIndex 16, portrait pilot16.tga, plate LSPFLP16 (200x12 px). Name and Callsign fields are the same word ('Hitman' / 'HITMAN'): use the same Korean for both (Hangul has no case). hireable; desc317/349."
+  },
+  {
+   "en": "Countess",
+   "ko": "카운티스",
+   "note": "Player MechWarrior (PMW00068 etc.), NameIndex 17, portrait pilot17.tga, plate LSPFLP17 (200x12 px). Name and Callsign fields are the same word ('Countess' / 'COUNTESS'): use the same Korean for both (Hangul has no case). hireable; desc318."
+  },
+  {
+   "en": "Scarab",
+   "ko": "스캐럽",
+   "note": "Player MechWarrior (PMW00069 etc.), NameIndex 18, portrait pilot18.tga, plate LSPFLP18 (200x12 px). Name and Callsign fields are the same word ('Scarab' / 'SCARAB'): use the same Korean for both (Hangul has no case). hireable; desc319."
+  },
+  {
+   "en": "Outlaw",
+   "ko": "아웃로",
+   "note": "Player MechWarrior (PMW00070 etc.), NameIndex 19, portrait pilot19.tga, plate LSPFLP19 (200x12 px). Name and Callsign fields are the same word ('Outlaw' / 'OUTLAW'): use the same Korean for both (Hangul has no case). hireable; desc320."
+  },
+  {
+   "en": "Falcon",
+   "ko": "팰컨",
+   "note": "Player MechWarrior (PMW00071 etc.), NameIndex 20, portrait pilot20.tga, plate LSPFLP20 (200x12 px). Name and Callsign fields are the same word ('Falcon' / 'FALCON'): use the same Korean for both (Hangul has no case). hireable; desc321."
+  },
+  {
+   "en": "Burnout",
+   "ko": "번아웃",
+   "note": "Player MechWarrior (PMW00072 etc.), NameIndex 21, portrait pilot21.tga, plate LSPFLP21 (200x12 px). Name and Callsign fields are the same word ('Burnout' / 'BURNOUT'): use the same Korean for both (Hangul has no case). hireable; desc322/350."
+  },
+  {
+   "en": "Goblin",
+   "ko": "고블린",
+   "note": "Player MechWarrior (PMW00073 etc.), NameIndex 22, portrait pilot22.tga, plate LSPFLP22 (200x12 px). Name and Callsign fields are the same word ('Goblin' / 'GOBLIN'): use the same Korean for both (Hangul has no case). XSTART0 roster; desc323."
+  },
+  {
+   "en": "Mantis",
+   "ko": "맨티스",
+   "note": "Player MechWarrior (PMW00074 etc.), NameIndex 23, portrait pilot23.tga, plate LSPFLP23 (200x12 px). Name and Callsign fields are the same word ('Mantis' / 'MANTIS'): use the same Korean for both (Hangul has no case). hireable; desc324."
+  },
+  {
+   "en": "Dragon",
+   "ko": "드래곤",
+   "note": "Player MechWarrior (PMW00075 etc.), NameIndex 24, portrait pilot24.tga, plate LSPFLP24 (200x12 px). Name and Callsign fields are the same word ('Dragon' / 'DRAGON'): use the same Korean for both (Hangul has no case). hireable; desc325."
+  },
+  {
+   "en": "Blaze",
+   "ko": "블레이즈",
+   "note": "Player MechWarrior (PMW00076 etc.), NameIndex 25, portrait pilot25.tga, plate LSPFLP25 (200x12 px). Name and Callsign fields are the same word ('Blaze' / 'BLAZE'): use the same Korean for both (Hangul has no case). hireable; desc326."
+  },
+  {
+   "en": "Thunder",
+   "ko": "선더",
+   "note": "Player MechWarrior (PMW00077 etc.), NameIndex 26, portrait pilot26.tga, plate LSPFLP26 (200x12 px). Name and Callsign fields are the same word ('Thunder' / 'THUNDER'): use the same Korean for both (Hangul has no case). XSTART0 roster; desc327."
+  },
+  {
+   "en": "Paingod",
+   "ko": "페인갓",
+   "note": "Player MechWarrior (PMW00078 etc.), NameIndex 27, portrait pilot27.tga, plate LSPFLP27 (200x12 px). Name and Callsign fields are the same word ('Paingod' / 'PAINGOD'): use the same Korean for both (Hangul has no case). hireable; desc328."
+  },
+  {
+   "en": "Firestorm",
+   "ko": "파이어스톰",
+   "note": "Player MechWarrior (PMW00079 etc.), NameIndex 28, portrait pilot28.tga, plate LSPFLP28 (200x12 px). Name and Callsign fields are the same word ('Firestorm' / 'FIRESTORM'): use the same Korean for both (Hangul has no case). hireable; appears in brf0401 (to pilot the captured Masakari); desc329."
+  },
+  {
+   "en": "Vixen",
+   "ko": "빅슨",
+   "note": "Player MechWarrior (PMW00080 etc.), NameIndex 29, portrait pilot29.tga, plate LSPFLP29 (200x12 px). Name and Callsign fields are the same word ('Vixen' / 'VIXEN'): use the same Korean for both (Hangul has no case). hireable; desc330."
+  },
+  {
+   "en": "Player Vehicle Crew A",
+   "ko": "아군 차량 승무원 A",
+   "note": "PCREWA-E / PMW00081-85 (letters A-E stay Latin). Player vehicle crews; may show on the results screen."
+  },
+  {
+   "en": "CREW",
+   "ko": "승무원",
+   "note": "Callsign of the player vehicle crews (also 'Crew')."
+  },
+  {
+   "en": "Vehicle Crew",
+   "ko": "차량 승무원",
+   "note": "PMW00001 (dev mission MIS0801)."
+  },
+  {
+   "en": "Clan Vehicle Pilot",
+   "ko": "클랜 차량 조종수",
+   "note": "PMW00025 (generic AI, never shown pre-mission)."
+  },
+  {
+   "en": "Clanner",
+   "ko": "클래너",
+   "note": "Callsign of generic Clan crews; also briefing slang 'Clanners'."
+  },
+  {
+   "en": "Bondsman Driver",
+   "ko": "본즈맨 운전병",
+   "note": "PMW00026 (generic AI)."
+  },
+  {
+   "en": "Bondsman Guard A",
+   "ko": "본즈맨 경비병 A",
+   "note": "PMW00027-29 (A/B/C)."
+  },
+  {
+   "en": "Clan Green",
+   "ko": "클랜 신참",
+   "note": "PMW00031/120-123/151-152 (generic AI). Pattern '<side> <rank>': Clan 클랜 / Allied 아군 + rank from game_terms."
+  },
+  {
+   "en": "Clan Regular",
+   "ko": "클랜 정규",
+   "note": "PMW00032/125-128/153-154."
+  },
+  {
+   "en": "Clan Veteran",
+   "ko": "클랜 숙련",
+   "note": "PMW00033/130-133/155-156."
+  },
+  {
+   "en": "Clan Elite",
+   "ko": "클랜 정예",
+   "note": "PMW00034/135-139/157."
+  },
+  {
+   "en": "Allied Green",
+   "ko": "아군 신참",
+   "note": "PMW00170-176."
+  },
+  {
+   "en": "Allied Regular",
+   "ko": "아군 정규",
+   "note": "PMW00024/180-186."
+  },
+  {
+   "en": "Allied Veteran",
+   "ko": "아군 숙련",
+   "note": "PMW00023/190-196."
+  },
+  {
+   "en": "Allied Elite",
+   "ko": "아군 정예",
+   "note": "PMW00022/200-206."
+  },
+  {
+   "en": "Allied",
+   "ko": "아군",
+   "note": "Callsign of generic allied crews."
+  },
+  {
+   "en": "Clan Vehicle (W/R)",
+   "ko": "클랜 차량 (W/R)",
+   "note": "PMW00110-118/300-315: the bracket code is a paint scheme - keep it Latin."
+  },
+  {
+   "en": "Elemental",
+   "ko": "엘리멘탈",
+   "note": "PMW00100."
+  },
+  {
+   "en": "Ace Pilot (B/R)",
+   "ko": "에이스 파일럿 (B/R)",
+   "note": "PMW00140/141 (expansion/solo aces)."
+  },
+  {
+   "en": "ACE",
+   "ko": "에이스",
+   "note": "Ace callsign; desc481-483 'ACE'."
+  },
+  {
+   "en": "Capt. Furey Ace Pilot B/R",
+   "ko": "퓨리 대위 에이스 파일럿 B/R",
+   "note": "PMW00142 (unreferenced)."
+  },
+  {
+   "en": "Capt. Wirth Ace Pilot B/R",
+   "ko": "워스 대위 에이스 파일럿 B/R",
+   "note": "PMW00143 (MCX0202)."
+  },
+  {
+   "en": "Civilian Vehicle",
+   "ko": "민간 차량",
+   "note": "PMW01000."
+  },
+  {
+   "en": "Regular 1",
+   "ko": "정규 1",
+   "note": "PMW00014-20 'Regular 1-3', 'Green 1-3', 'Veteran1': unreferenced test profiles."
+  },
+  {
+   "en": "Do not use / fdsf",
+   "ko": "Do not use / fdsf",
+   "note": "PMW00030 / PMW00035: developer junk, leave as is."
+  },
+  {
+   "en": "Tim Ryan",
+   "ko": "팀 라이언",
+   "note": "Developer/test pilot (PMW00002 (MIS0801 dev mission)); not referenced by any campaign/solo mission. Callsign 'REDSHIFT' -> '레드시프트'."
+  },
+  {
+   "en": "REDSHIFT",
+   "ko": "레드시프트",
+   "note": "Callsign of Tim Ryan (PMW00002 (MIS0801 dev mission)); dev/test only."
+  },
+  {
+   "en": "Frank Savage",
+   "ko": "프랭크 새비지",
+   "note": "Developer/test pilot (PMW00003; WAR003 'BUNG' 벙; WAR003a 'COMMANDO' 코만도); not referenced by any campaign/solo mission. Callsign 'MASTER' -> '마스터'."
+  },
+  {
+   "en": "MASTER",
+   "ko": "마스터",
+   "note": "Callsign of Frank Savage (PMW00003; WAR003 'BUNG' 벙; WAR003a 'COMMANDO' 코만도); dev/test only."
+  },
+  {
+   "en": "David Abzug",
+   "ko": "데이비드 앱저그",
+   "note": "Developer/test pilot (PMW00004 (unreferenced)); not referenced by any campaign/solo mission. Callsign 'WICCED' -> '위키드'."
+  },
+  {
+   "en": "WICCED",
+   "ko": "위키드",
+   "note": "Callsign of David Abzug (PMW00004 (unreferenced)); dev/test only."
+  },
+  {
+   "en": "Scott Janssen",
+   "ko": "스콧 잰슨",
+   "note": "Developer/test pilot (PMW00005); not referenced by any campaign/solo mission. Callsign 'REBEL' -> '레블'."
+  },
+  {
+   "en": "REBEL",
+   "ko": "레블",
+   "note": "Callsign of Scott Janssen (PMW00005); dev/test only."
+  },
+  {
+   "en": "Tom Dowd",
+   "ko": "톰 다우드",
+   "note": "Developer/test pilot (PMW00006); not referenced by any campaign/solo mission. Callsign 'SABER' -> '세이버'."
+  },
+  {
+   "en": "SABER",
+   "ko": "세이버",
+   "note": "Callsign of Tom Dowd (PMW00006); dev/test only."
+  },
+  {
+   "en": "Rob Nicholls",
+   "ko": "롭 니콜스",
+   "note": "Developer/test pilot (PMW00007); not referenced by any campaign/solo mission. Callsign 'DRAGON' -> '드래곤'."
+  },
+  {
+   "en": "DRAGON",
+   "ko": "드래곤",
+   "note": "Callsign of Rob Nicholls (PMW00007); dev/test only."
+  },
+  {
+   "en": "Robyn Tisch",
+   "ko": "로빈 티시",
+   "note": "Developer/test pilot (PMW00008); not referenced by any campaign/solo mission. Callsign 'DREAMER' -> '드리머'."
+  },
+  {
+   "en": "DREAMER",
+   "ko": "드리머",
+   "note": "Callsign of Robyn Tisch (PMW00008); dev/test only."
+  },
+  {
+   "en": "Tonya Labonte",
+   "ko": "토냐 라본테",
+   "note": "Developer/test pilot (PMW00009); not referenced by any campaign/solo mission. Callsign 'BLACKJACK' -> '블랙잭'."
+  },
+  {
+   "en": "BLACKJACK",
+   "ko": "블랙잭",
+   "note": "Callsign of Tonya Labonte (PMW00009); dev/test only."
+  },
+  {
+   "en": "Jamie Marshall",
+   "ko": "제이미 마셜",
+   "note": "Developer/test pilot (PMW00010; war010 'BITBOY' 비트보이); not referenced by any campaign/solo mission. Callsign 'CORSAIR' -> '코세어'."
+  },
+  {
+   "en": "CORSAIR",
+   "ko": "코세어",
+   "note": "Callsign of Jamie Marshall (PMW00010; war010 'BITBOY' 비트보이); dev/test only."
+  },
+  {
+   "en": "Charles Oines",
+   "ko": "찰스 오인스",
+   "note": "Developer/test pilot (PMW00011; war011 'COLORBOY' 컬러보이); not referenced by any campaign/solo mission. Callsign 'PUNISHER' -> '퍼니셔'."
+  },
+  {
+   "en": "PUNISHER",
+   "ko": "퍼니셔",
+   "note": "Callsign of Charles Oines (PMW00011; war011 'COLORBOY' 컬러보이); dev/test only."
+  },
+  {
+   "en": "Academy Instructor",
+   "ko": "사관학교 교관",
+   "note": "Developer/test pilot (PMW00012); not referenced by any campaign/solo mission. Callsign 'PRINCIPAL' -> '교장'."
+  },
+  {
+   "en": "PRINCIPAL",
+   "ko": "교장",
+   "note": "Callsign of Academy Instructor (PMW00012); dev/test only."
+  },
+  {
+   "en": "John Giovannoni",
+   "ko": "존 조바노니",
+   "note": "Developer/test pilot (PMW00013); not referenced by any campaign/solo mission. Callsign 'SICILIAN' -> '시칠리안'."
+  },
+  {
+   "en": "SICILIAN",
+   "ko": "시칠리안",
+   "note": "Callsign of John Giovannoni (PMW00013); dev/test only."
+  },
+  {
+   "en": "Gilman Louie",
+   "ko": "길먼 루이",
+   "note": "Developer/test pilot (PMW00150 (dev/test)); not referenced by any campaign/solo mission. Callsign 'STARBUCK' -> '스타벅'."
+  },
+  {
+   "en": "STARBUCK",
+   "ko": "스타벅",
+   "note": "Callsign of Gilman Louie (PMW00150 (dev/test)); dev/test only."
+  },
+  {
+   "en": "Amy Bios",
+   "ko": "에이미 바이오스",
+   "note": "Developer/test pilot (war001); not referenced by any campaign/solo mission. Callsign 'SUCKUP' -> '석업'."
+  },
+  {
+   "en": "SUCKUP",
+   "ko": "석업",
+   "note": "Callsign of Amy Bios (war001); dev/test only."
+  },
+  {
+   "en": "Glenn Doren",
+   "ko": "글렌 도런",
+   "note": "Developer/test pilot (war002; war002a 'CENTURION' 센추리온); not referenced by any campaign/solo mission. Callsign 'BITMAN' -> '비트맨'."
+  },
+  {
+   "en": "BITMAN",
+   "ko": "비트맨",
+   "note": "Callsign of Glenn Doren (war002; war002a 'CENTURION' 센추리온); dev/test only."
+  },
+  {
+   "en": "Jon Marcus",
+   "ko": "존 마커스",
+   "note": "Developer/test pilot (WAR004); not referenced by any campaign/solo mission. Callsign 'Lord Bunny' -> '로드 버니'."
+  },
+  {
+   "en": "Lord Bunny",
+   "ko": "로드 버니",
+   "note": "Callsign of Jon Marcus (WAR004); dev/test only."
+  },
+  {
+   "en": "Scott Janssens",
+   "ko": "스콧 잰슨스",
+   "note": "Developer/test pilot (WAR005); not referenced by any campaign/solo mission. Callsign 'LUCIFER' -> '루시퍼'."
+  },
+  {
+   "en": "LUCIFER",
+   "ko": "루시퍼",
+   "note": "Callsign of Scott Janssens (WAR005); dev/test only."
+  },
+  {
+   "en": "Kermit",
+   "ko": "커밋",
+   "note": "Developer/test pilot (War006); not referenced by any campaign/solo mission. Callsign 'KERMY' -> '커미'."
+  },
+  {
+   "en": "KERMY",
+   "ko": "커미",
+   "note": "Callsign of Kermit (War006); dev/test only."
+  },
+  {
+   "en": "Fozzie",
+   "ko": "포지",
+   "note": "Developer/test pilot (War007); not referenced by any campaign/solo mission. Callsign 'FOZ' -> '포즈'."
+  },
+  {
+   "en": "FOZ",
+   "ko": "포즈",
+   "note": "Callsign of Fozzie (War007); dev/test only."
+  },
+  {
+   "en": "Piggy",
+   "ko": "피기",
+   "note": "Developer/test pilot (War008); not referenced by any campaign/solo mission. Callsign 'PIG' -> '피그'."
+  },
+  {
+   "en": "PIG",
+   "ko": "피그",
+   "note": "Callsign of Piggy (War008); dev/test only."
+  },
+  {
+   "en": "Todd Labonte",
+   "ko": "토드 라본테",
+   "note": "Developer/test pilot (war009); not referenced by any campaign/solo mission. Callsign 'ANIMBOY' -> '애님보이'."
+  },
+  {
+   "en": "ANIMBOY",
+   "ko": "애님보이",
+   "note": "Callsign of Todd Labonte (war009); dev/test only."
+  },
+  {
+   "en": "BUNG",
+   "ko": "벙",
+   "note": "WAR003 callsign (dev)."
+  },
+  {
+   "en": "BITBOY",
+   "ko": "비트보이",
+   "note": "war010 callsign (dev)."
+  },
+  {
+   "en": "COLORBOY",
+   "ko": "컬러보이",
+   "note": "war011 callsign (dev)."
+  },
+  {
+   "en": "Boomer",
+   "ko": "부머",
+   "note": "Pilot callsign named in desc.fit pilot bios (Desc331-342); added 2026-10-19 from TR-D."
+  },
+  {
+   "en": "Detox",
+   "ko": "디톡스",
+   "note": "Pilot callsign named in desc.fit pilot bios (Desc331-342); added 2026-10-19 from TR-D."
+  },
+  {
+   "en": "Ghost",
+   "ko": "고스트",
+   "note": "Pilot callsign named in desc.fit pilot bios (Desc331-342); added 2026-10-19 from TR-D."
+  },
+  {
+   "en": "Needle",
+   "ko": "니들",
+   "note": "Pilot callsign named in desc.fit pilot bios (Desc331-342); added 2026-10-19 from TR-D."
+  },
+  {
+   "en": "Pyro",
+   "ko": "파이로",
+   "note": "Pilot callsign named in desc.fit pilot bios (Desc331-342); added 2026-10-19 from TR-D."
+  },
+  {
+   "en": "Sponge",
+   "ko": "스펀지",
+   "note": "Pilot callsign named in desc.fit pilot bios (Desc331-342); added 2026-10-19 from TR-D."
+  },
+  {
+   "en": "Squid",
+   "ko": "스퀴드",
+   "note": "Pilot callsign named in desc.fit pilot bios (Desc331-342); added 2026-10-19 from TR-D."
+  },
+  {
+   "en": "Toad",
+   "ko": "토드",
+   "note": "Pilot callsign named in desc.fit pilot bios (Desc331-342); added 2026-10-19 from TR-D."
+  },
+  {
+   "en": "Vandal",
+   "ko": "밴덜",
+   "note": "Pilot callsign named in desc.fit pilot bios (Desc331-342); added 2026-10-19 from TR-D."
+  },
+  {
+   "en": "Wasp",
+   "ko": "와스프",
+   "note": "Pilot callsign named in desc.fit pilot bios (Desc331-342); added 2026-10-19 from TR-D."
+  },
+  {
+   "en": "Jinx",
+   "ko": "징크스",
+   "note": "Pilot callsign named in desc.fit pilot bios (Desc331-342); added 2026-10-19 from TR-D."
+  },
+  {
+   "en": "Apollo",
+   "ko": "아폴로",
+   "note": "Pilot callsign named in desc.fit pilot bios (Desc331-342); added 2026-10-19 from TR-D."
+  }
+ ],
+ "places_factions": [
+  {
+   "en": "Port Arthur",
+   "ko": "포트 아서",
+   "note": "Planet of the original campaign (brf0105, brf0204, xsbrf0404 'PORT ARTHUR REDUX'). User-fixed. Identifier strings 890/891 'PortArthurAfter_Op%i_Mis%i' are NOT translated."
+  },
+  {
+   "en": "Cermak",
+   "ko": "세르막",
+   "note": "Planet of the expansion campaign (xbrf0301). Spelling as on namu.wiki's MechCommander page. Identifiers 902/903 'Cermak...' are NOT translated."
+  },
+  {
+   "en": "Kathil",
+   "ko": "캐실",
+   "note": "Planet with the IS Command Center (xbrf0301/0302)."
+  },
+  {
+   "en": "Clairesfield",
+   "ko": "클레어스필드",
+   "note": "brf0104 (Clan HQ town)."
+  },
+  {
+   "en": "Vanderhome",
+   "ko": "밴더홈",
+   "note": "brf0105 region with the resistance farms."
+  },
+  {
+   "en": "Kaio",
+   "ko": "카이오",
+   "note": "brf0106 'Kaio Industrial Zone' -> 카이오 산업 지구; title 'LIBERATE KAIO INDUSTRIAL ZONE'."
+  },
+  {
+   "en": "Kaio Industrial Zone",
+   "ko": "카이오 산업 지구",
+   "note": "brf0106."
+  },
+  {
+   "en": "Froese River",
+   "ko": "프로즈 강",
+   "note": "brf0201 ('Clan-controlled Froese River')."
+  },
+  {
+   "en": "Ai-Ki River",
+   "ko": "아이키 강",
+   "note": "brf0202."
+  },
+  {
+   "en": "Bakerville",
+   "ko": "베이커빌",
+   "note": "brf0203 suburb."
+  },
+  {
+   "en": "Yokohama",
+   "ko": "요코하마",
+   "note": "brf0204 city with the HPG base."
+  },
+  {
+   "en": "Serpent Bay",
+   "ko": "서펀트 만",
+   "note": "brf0206 Clan base."
+  },
+  {
+   "en": "Affendale",
+   "ko": "애펀데일",
+   "note": "brf0303, brf0305, brf0306 city; title 'LIBERATE AFFENDALE'."
+  },
+  {
+   "en": "Kenuk River",
+   "ko": "케눅 강",
+   "note": "brf0303."
+  },
+  {
+   "en": "Mayan Canyons",
+   "ko": "마야 협곡",
+   "note": "brf0304 (+ unreferenced brf0304c/s)."
+  },
+  {
+   "en": "Mount Samurai",
+   "ko": "사무라이 산",
+   "note": "brf0306."
+  },
+  {
+   "en": "Field Hospital Delta",
+   "ko": "델타 야전 병원",
+   "note": "brf0302."
+  },
+  {
+   "en": "Kylemartin",
+   "ko": "카일마틴",
+   "note": "brf0402 'the Kylemartin depot' -> 카일마틴 보급소."
+  },
+  {
+   "en": "Cambridge",
+   "ko": "케임브리지",
+   "note": "brf0403 region."
+  },
+  {
+   "en": "Chresbute",
+   "ko": "크레스뷰트",
+   "note": "brf0502."
+  },
+  {
+   "en": "Bellum",
+   "ko": "벨룸",
+   "note": "brf0503 area."
+  },
+  {
+   "en": "Weisman Fuel Depot and Processing Station",
+   "ko": "와이즈먼 연료 저장소 및 처리 시설",
+   "note": "brf0504. Short: 와이즈먼 연료 저장소; 'the depot' -> 저장소."
+  },
+  {
+   "en": "Weisman",
+   "ko": "와이즈먼",
+   "note": "brf0504."
+  },
+  {
+   "en": "Lambert Valley",
+   "ko": "램버트 계곡",
+   "note": "brf0505."
+  },
+  {
+   "en": "Miasota Basin",
+   "ko": "미아소타 분지",
+   "note": "brf0505."
+  },
+  {
+   "en": "Starbase",
+   "ko": "스타베이스",
+   "note": "brf0501-0506 Clan main base on Port Arthur; title 'CAPTURE THE STARBASE' -> '스타베이스 점령'."
+  },
+  {
+   "en": "Base Nomad",
+   "ko": "노마드 기지",
+   "note": "xbrf0102/0103 ('base Nomad'). Pattern 'Base X' -> 'X 기지'."
+  },
+  {
+   "en": "Baitan sector",
+   "ko": "바이탄 구역",
+   "note": "xbrf0103/0104. 'sector' -> 구역."
+  },
+  {
+   "en": "Base Ogre",
+   "ko": "오거 기지",
+   "note": "xbrf0104/0201."
+  },
+  {
+   "en": "Azimuth sector",
+   "ko": "애지머스 구역",
+   "note": "xbrf0201/0203."
+  },
+  {
+   "en": "Jade sector",
+   "ko": "제이드 구역",
+   "note": "xbrf0202 (not the Jade Falcon clan)."
+  },
+  {
+   "en": "Base Kraken",
+   "ko": "크라켄 기지",
+   "note": "xbrf0301."
+  },
+  {
+   "en": "Rehold Mountains",
+   "ko": "리홀드 산맥",
+   "note": "xsbrf0402 (solo)."
+  },
+  {
+   "en": "Land Bridge",
+   "ko": "지협",
+   "note": "xbrf0302 'land bridge' (narrow strip of land), objective 'Take Out All Enemies at Land Bridge'. Not 육교 (= overpass)."
+  },
+  {
+   "en": "Alpha",
+   "ko": "알파",
+   "note": "Designator: camps 'Alpha'/'Beta' (brf0101), Power Complex Alpha (brf0503), Mobile Orbital Gun Alpha (brf0406), Vault Drill Alpha (xbrf0305)."
+  },
+  {
+   "en": "Beta",
+   "ko": "베타",
+   "note": "Designator."
+  },
+  {
+   "en": "Gamma",
+   "ko": "감마",
+   "note": "Designator."
+  },
+  {
+   "en": "Delta",
+   "ko": "델타",
+   "note": "Designator (Field Hospital Delta, Drill Group Delta)."
+  },
+  {
+   "en": "Bravo",
+   "ko": "브라보",
+   "note": "Designator (MIS0801 objectives)."
+  },
+  {
+   "en": "Charlie",
+   "ko": "찰리",
+   "note": "Designator (MIS0801 objectives)."
+  },
+  {
+   "en": "Inner Sphere",
+   "ko": "이너 스피어",
+   "note": "User-fixed. 'IS' as an adjective in desc ('IS Sensors', 'the IS version') -> 'IS' stays Latin; in briefings prefer 이너 스피어."
+  },
+  {
+   "en": "IS",
+   "ko": "IS",
+   "note": "Acronym of Inner Sphere, stays Latin (desc.fit, xsbrf0404 'IS dogs', art 'I.S.')."
+  },
+  {
+   "en": "Clan",
+   "ko": "클랜",
+   "note": "User-fixed. 'the Clans' -> 클랜들 or just 클랜."
+  },
+  {
+   "en": "Clanner",
+   "ko": "클래너",
+   "note": "Pejorative IS slang for Clan warriors (xbrf0201, xsbrf0402)."
+  },
+  {
+   "en": "ClanWarrior",
+   "ko": "클랜워리어",
+   "note": "brf0502 'ClanWarriors' (one word, like 메크워리어)."
+  },
+  {
+   "en": "Bondsman",
+   "ko": "본즈맨",
+   "note": "Clan bondsmen (captured warriors serving the Clan): brf0101-0106, brf0204, brf0301, brf0305, brf0503. Plural 'Bondsmen' -> 본즈맨."
+  },
+  {
+   "en": "Smoke Jaguar",
+   "ko": "스모크 재규어",
+   "note": "User-fixed. Clan Smoke Jaguar; 'the Smoke Jaguars' -> 스모크 재규어. Short 'Jaguar(s)' -> 재규어."
+  },
+  {
+   "en": "Jaguar",
+   "ko": "재규어",
+   "note": "Short for Smoke Jaguar(s); 'Jaguar-controlled' -> 재규어가 장악한."
+  },
+  {
+   "en": "Smoke Jaguar Command Force",
+   "ko": "스모크 재규어 지휘군",
+   "note": "xbrf0303."
+  },
+  {
+   "en": "Jaguar Main Command",
+   "ko": "재규어 주 사령부",
+   "note": "xbrf0305."
+  },
+  {
+   "en": "Jaguar Complex",
+   "ko": "재규어 단지",
+   "note": "xbrf0305 (the engine-drill complex of xbrf0303)."
+  },
+  {
+   "en": "Jade Falcon",
+   "ko": "제이드 팰컨",
+   "note": "Clan Jade Falcon (xsbrf0401, solo; the player is a Falcon commander). 'the Falcons' -> 팰컨."
+  },
+  {
+   "en": "Wolf-Clan-In-Exile",
+   "ko": "망명 울프 클랜",
+   "note": "xsbrf0401 ('Wolf-Clan-In-Exile Ace Pilots')."
+  },
+  {
+   "en": "Star League",
+   "ko": "스타 리그",
+   "note": "Historic Inner Sphere government (xbrf0104-0305, desc98/554). Transliterated per the fixed rule; community alternative 성간 연맹/성간 연대. Also spelled 'Starleague' (xbrf0304). xsbrf0404 quotes '\"Star League\" troops' (the Clan speaker's sneer) -> '\"스타 리그\" 병력'."
+  },
+  {
+   "en": "Starleague",
+   "ko": "스타 리그",
+   "note": "Spelling variant (xbrf0304)."
+  },
+  {
+   "en": "FEDCOM",
+   "ko": "FEDCOM",
+   "note": "Federated Commonwealth dispatch prefix in every header ('FEDCOM:BEACHHEAD/01PRDN01'); acronym stays Latin; keep the whole code line verbatim."
+  },
+  {
+   "en": "STARCOM",
+   "ko": "STARCOM",
+   "note": "Header prefix of xsbrf0401/0404 (Clan side); keep verbatim."
+  },
+  {
+   "en": "Federated Commonwealth",
+   "ko": "연방 공화국",
+   "note": "Not written out in the texts (only FEDCOM); listed in case a translator expands it. namu.wiki: 연방 합중국."
+  },
+  {
+   "en": "Davion",
+   "ko": "다비온",
+   "note": "House Davion (desc310/312/320/321/327/330, art 'FIRST DAVION GUARDS'). Spelling as on namu.wiki."
+  },
+  {
+   "en": "Davion Guards",
+   "ko": "다비온 근위대",
+   "note": "desc312/330; art plate 'FIRST DAVION GUARDS' -> '제1 다비온 근위대' (the player's regiment)."
+  },
+  {
+   "en": "First Davion Guards",
+   "ko": "제1 다비온 근위대",
+   "note": "Operation title cards LSB_OP1-5 / MCXCard1-3."
+  },
+  {
+   "en": "Kurita",
+   "ko": "쿠리타",
+   "note": "House Kurita (brf0201 'A Kurita DEST operative', desc312/325 'Kurita-phile' -> 쿠리타 애호가)."
+  },
+  {
+   "en": "DEST",
+   "ko": "DEST",
+   "note": "Draconis Elite Strike Team (Kurita special forces, brf0201/0202); acronym stays Latin: 'DEST 요원'."
+  },
+  {
+   "en": "Draconis Combine",
+   "ko": "드라코니스 연맹",
+   "note": "desc346 misspells it 'Draonic Combine' - translate as the intended 드라코니스 연맹."
+  },
+  {
+   "en": "Steiner",
+   "ko": "스타이너",
+   "note": "House Steiner (desc314/348 'Steiner-loyalist' -> 스타이너 충성파)."
+  },
+  {
+   "en": "Lyran Commonwealth",
+   "ko": "라이란 연방",
+   "note": "desc304 (namu.wiki form)."
+  },
+  {
+   "en": "Bandit Kingdoms",
+   "ko": "밴딧 킹덤",
+   "note": "desc301 (Periphery bandit realms)."
+  },
+  {
+   "en": "Periphery",
+   "ko": "페리페리",
+   "note": "desc332 'an isolated Periphery world' -> 고립된 페리페리 행성. Community alternative: 변경 우주."
+  },
+  {
+   "en": "Wolf Dragoons",
+   "ko": "울프 용기병대",
+   "note": "desc338 (mercenary unit; namu.wiki form; unit-type word translated like 중대)."
+  },
+  {
+   "en": "Zulu Company",
+   "ko": "줄루 중대",
+   "note": "The player's company (brf0101, brf0504)."
+  },
+  {
+   "en": "X-Ray Company",
+   "ko": "엑스레이 중대",
+   "note": "Captain Nairn's company (brf0501)."
+  },
+  {
+   "en": "Galaxy",
+   "ko": "갤럭시",
+   "note": "Clan unit of several Clusters (brf0204 'a Galaxy or two')."
+  },
+  {
+   "en": "BEACHHEAD",
+   "ko": "비치헤드",
+   "note": "Operation 1 (original). Card 'OPERATION: BEACHHEAD' -> '작전명: 비치헤드'. In the header code line keep the Latin word."
+  },
+  {
+   "en": "SKYHOOK",
+   "ko": "스카이훅",
+   "note": "Operation 2 (original)."
+  },
+  {
+   "en": "VANGUARD",
+   "ko": "뱅가드",
+   "note": "Operation 3 (original)."
+  },
+  {
+   "en": "LINCHPIN",
+   "ko": "린치핀",
+   "note": "Operation 4 (original)."
+  },
+  {
+   "en": "CUTTHROAT",
+   "ko": "컷스로트",
+   "note": "Operation 5 (original)."
+  },
+  {
+   "en": "HYDRA",
+   "ko": "하이드라",
+   "note": "Operation 1 (expansion)."
+  },
+  {
+   "en": "GORGON",
+   "ko": "고르곤",
+   "note": "Operation 2 (expansion)."
+  },
+  {
+   "en": "MINOTAUR",
+   "ko": "미노타우로스",
+   "note": "Operation 3 (expansion); conventional Korean form of the myth (alt. 미노타우르)."
+  },
+  {
+   "en": "SOLO",
+   "ko": "솔로",
+   "note": "Header code of the solo missions (keep Latin in the code line)."
+  },
+  {
+   "en": "HUNTER",
+   "ko": "헌터",
+   "note": "Dev header of the unreferenced brf0304c/s ('FEDCOM:HUNTER/03PRDN04')."
+  },
+  {
+   "en": "PORT ARTHUR REDUX",
+   "ko": "포트 아서 리덕스",
+   "note": "xsbrf0404 title (solo PARedux)."
+  },
+  {
+   "en": "MechCommander",
+   "ko": "메크커맨더",
+   "note": "User-fixed. Strings 1256/870 'MechCommander Expansion compact disc' -> '메크커맨더 확장팩 CD'."
+  },
+  {
+   "en": "Desperate Measures",
+   "ko": "데스퍼릿 메저스",
+   "note": "Expansion subtitle (main-menu logo art mm_bkgd). The logo itself can stay English; in text use 데스퍼릿 메저스 (alt. translated 최후의 수단)."
+  },
+  {
+   "en": "OP299-FARMER-00",
+   "ko": "OP299-FARMER-00",
+   "note": "Encryption tag on the operation cards: keep verbatim."
+  },
+  {
+   "en": "Akodo Haru",
+   "ko": "아코도 하루",
+   "note": "brf0106 'the infamous Captain Akodo Haru' / 'Captain Haru' -> '악명 높은 아코도 하루 대위' / '하루 대위'."
+  },
+  {
+   "en": "Piotrev",
+   "ko": "피오트레프",
+   "note": "brf0301 'Bondsman Major Piotrev' -> '본즈맨 피오트레프 소령'; objective \"Destroy Major's Star\"."
+  },
+  {
+   "en": "Reese",
+   "ko": "리스",
+   "note": "brf0401 'FROM COLONEL REESE' -> '발신: 리스 대령'. The player's superior."
+  },
+  {
+   "en": "Nairn",
+   "ko": "네언",
+   "note": "brf0501/0502, xsbrf0404 'Captain Nairn', 'Cpt. Nairn's Atlas' -> '네언 대위', '네언 대위의 아틀라스'."
+  },
+  {
+   "en": "Katherine Furey",
+   "ko": "캐서린 퓨리",
+   "note": "xbrf0103 'Clan Captain Katherine Furey' (desc472: Star Captain) -> '스타 캡틴 캐서린 퓨리'; ace mech 772."
+  },
+  {
+   "en": "Marcus Osis",
+   "ko": "마커스 오시스",
+   "note": "xbrf0202 'Star Captain Marcus Osis' -> '스타 캡틴 마커스 오시스'; ace mech 773."
+  },
+  {
+   "en": "Rathbun",
+   "ko": "래스번",
+   "note": "xbrf0204 Star Captain."
+  },
+  {
+   "en": "Dulaney",
+   "ko": "덜레이니",
+   "note": "xbrf0204 Star Captain."
+  },
+  {
+   "en": "Kulin",
+   "ko": "쿨린",
+   "note": "xbrf0204 Star Captain ('Star Captain Kulin's Limo' -> '스타 캡틴 쿨린의 리무진')."
+  },
+  {
+   "en": "Marcus Kotare",
+   "ko": "마커스 코타레",
+   "note": "xbrf0305 'Star Colonel Marcus Kotare' -> '스타 커널 마커스 코타레'; 'Kotare' -> 코타레; ace mech 775."
+  },
+  {
+   "en": "Burnell Wirth",
+   "ko": "버넬 워스",
+   "note": "xbrf0305 second in command; desc474; ace mech 774."
+  },
+  {
+   "en": "Kim Ward",
+   "ko": "킴 워드",
+   "note": "desc476; ace mech 776 'Ward's Madcat'."
+  },
+  {
+   "en": "Jefferson Stiles",
+   "ko": "제퍼슨 스타일스",
+   "note": "desc477; ace mech 777."
+  },
+  {
+   "en": "Garrison Bowen",
+   "ko": "개리슨 보웬",
+   "note": "desc478; ace mech 778."
+  },
+  {
+   "en": "Felicia Lopez",
+   "ko": "펠리시아 로페즈",
+   "note": "desc479; ace mech 779."
+  },
+  {
+   "en": "Kim",
+   "ko": "킴",
+   "note": "Solo ace (780 'Kim's Masakari')."
+  },
+  {
+   "en": "Lee",
+   "ko": "리",
+   "note": "Solo ace (781)."
+  },
+  {
+   "en": "Til",
+   "ko": "틸",
+   "note": "Solo ace (782)."
+  },
+  {
+   "en": "Savage",
+   "ko": "새비지",
+   "note": "Solo ace (783 'Savage's Cougar')."
+  },
+  {
+   "en": "Glenn",
+   "ko": "글렌",
+   "note": "Dev joke header 'GLENN ROCKS THE HOUSE' in the unreferenced brf0304c.txt - file is not used, do not bother translating."
+  },
+  {
+   "en": "Trickshot",
+   "ko": "트릭샷",
+   "note": "Nickname in desc347."
+  },
+  {
+   "en": "Deja Vu",
+   "ko": "데자뷔",
+   "note": "xsbrf0404 'Hmmm, Deja Vu.' (French loanword, standard spelling 데자뷔)."
+  }
+ ],
+ "ranks_titles": [
+  {
+   "en": "Commander",
+   "ko": "지휘관",
+   "note": "How the briefings address the player ('Good luck, Commander.' -> '행운을 빈다, 지휘관.'). Not 사령관."
+  },
+  {
+   "en": "Captain",
+   "ko": "대위",
+   "note": "IS rank (Captain Nairn, Captain Akodo Haru). IS ranks follow the name: '네언 대위'."
+  },
+  {
+   "en": "Cpt.",
+   "ko": "대위",
+   "note": "Abbreviation (xsbrf0404, objective 'Destroy Cpt. Nairn's Atlas', 'Escort Allied Cpt. to Extraction Point'). No Korean abbreviation needed."
+  },
+  {
+   "en": "Capt.",
+   "ko": "대위",
+   "note": "Abbreviation (PMW00142/143)."
+  },
+  {
+   "en": "Major",
+   "ko": "소령",
+   "note": "Bondsman Major Piotrev (brf0301)."
+  },
+  {
+   "en": "Colonel",
+   "ko": "대령",
+   "note": "Colonel Reese (brf0401)."
+  },
+  {
+   "en": "Star Captain",
+   "ko": "스타 캡틴",
+   "note": "Clan rank, transliterated, written BEFORE the name: '스타 캡틴 마커스 오시스'. Plural 'Clan Star Captains' -> '클랜 스타 캡틴 3명'."
+  },
+  {
+   "en": "Star Colonel",
+   "ko": "스타 커널",
+   "note": "Clan rank (Marcus Kotare), before the name."
+  },
+  {
+   "en": "Clan Captain",
+   "ko": "스타 캡틴",
+   "note": "xbrf0103 calls Katherine Furey 'Clan Captain'; she is a Star Captain (desc472) - use 스타 캡틴 (or 클랜 지휘관 if the line needs it)."
+  },
+  {
+   "en": "second in command",
+   "ko": "부지휘관",
+   "note": "xbrf0305 (Burnell Wirth)."
+  },
+  {
+   "en": "officer in charge",
+   "ko": "책임 장교",
+   "note": "brf0305."
+  },
+  {
+   "en": "MechWarrior",
+   "ko": "메크워리어",
+   "note": "User-fixed. Pilot of a 'Mech; string 647 (pilot inventory label), art tab 'MECHWARRIORS', 'PURCHASE MECHWARRIOR' -> '메크워리어 고용'."
+  },
+  {
+   "en": "pilot",
+   "ko": "조종사",
+   "note": "Generic word for MechWarriors in UI/briefings ('View pilots in roster.', 'RESCUE CAPTURED PILOTS'). 'Ace Pilot' -> 에이스 파일럿 (fixed expression)."
+  },
+  {
+   "en": "Ace",
+   "ko": "에이스",
+   "note": "'ENEMY ACE' -> '적 에이스'; 'Ace Madcat' (solo objectives) -> '에이스 매드캣'."
+  },
+  {
+   "en": "operative",
+   "ko": "요원",
+   "note": "brf0201 'Kurita DEST (Special Forces) operative' -> '쿠리타 DEST(특수부대) 요원'."
+  },
+  {
+   "en": "Special Forces",
+   "ko": "특수부대",
+   "note": "brf0201."
+  },
+  {
+   "en": "Partisans",
+   "ko": "유격대",
+   "note": "brf0401."
+  },
+  {
+   "en": "resistance cell",
+   "ko": "저항 조직",
+   "note": "brf0105 'a Port Arthur resistance cell' -> '포트 아서 저항 조직'."
+  },
+  {
+   "en": "revolutionaries",
+   "ko": "혁명 세력",
+   "note": "xsbrf0404."
+  },
+  {
+   "en": "Intelligence",
+   "ko": "정보부",
+   "note": "'Intelligence reports that ...' -> '정보부 보고에 따르면 ...'; 'Battalion Intelligence' -> 대대 정보부."
+  },
+  {
+   "en": "Tactical",
+   "ko": "전술부",
+   "note": "'Tactical believes/advises' (brf0105, xbrf0103)."
+  },
+  {
+   "en": "Strategic",
+   "ko": "전략부",
+   "note": "xbrf0201-0305 ('Strategic plans to ...')."
+  },
+  {
+   "en": "Recon",
+   "ko": "정찰대",
+   "note": "'Recon reports ...' -> '정찰대 보고에 따르면 ...'."
+  },
+  {
+   "en": "Command",
+   "ko": "사령부",
+   "note": "'Command wants ...' (xsbrf0402); 'Battalion Command' -> 대대 사령부; 'Command Center on Kathil' -> 캐실의 사령부."
+  },
+  {
+   "en": "Battalion Transport",
+   "ko": "대대 수송대",
+   "note": "brf0101-0105 ('Battalion Transport is only able to carry three Mechs')."
+  },
+  {
+   "en": "Battalion",
+   "ko": "대대",
+   "note": "User-fixed (unit size); 'Battalion has decided' -> 대대 본부는."
+  },
+  {
+   "en": "Company",
+   "ko": "중대",
+   "note": "User-fixed; 'a company of your best pilots' (brf0506) -> 최정예 조종사로 1개 중대."
+  },
+  {
+   "en": "Lance",
+   "ko": "랜스",
+   "note": "User-fixed: IS unit of 4 (brf0505 'a lance of mobile artillery' -> 자주포 1개 랜스)."
+  },
+  {
+   "en": "Star",
+   "ko": "스타",
+   "note": "User-fixed: Clan unit of 5 ('OmniMech Star' -> 옴니메크 스타)."
+  },
+  {
+   "en": "Binary",
+   "ko": "바이너리",
+   "note": "User-fixed: 2 Stars (brf0501 'an elite Binary (2 Stars)' -> '정예 바이너리(2개 스타)')."
+  },
+  {
+   "en": "Point",
+   "ko": "포인트",
+   "note": "Clan unit of 1 (string 6, unreferenced report block)."
+  },
+  {
+   "en": "Force Group",
+   "ko": "전투조",
+   "note": "Deployment group 1-3 on the briefing screen (art LSBDF02-04 'FORCE GROUP 1  T.' -> '전투조 1  T.'; strings 34, 36)."
+  }
+ ],
+ "ui_terms": [
+  {
+   "en": "Ready Area",
+   "ko": "출격 대기 구역",
+   "note": "Repair/mech-bay screen area for units being prepared (strings 32, 49, 67, 71, 645; art LSRBK00/LSBBK00 'READY AREA')."
+  },
+  {
+   "en": "Battalion Inventory",
+   "ko": "대대 보급고",
+   "note": "The battalion's stock you buy from and sell to (45, 46, 65). Source also misspells 'Batallion' (53, 54, 64) - same term."
+  },
+  {
+   "en": "Current Inventory",
+   "ko": "현재 보유 목록",
+   "note": "The player's own units/parts (52; art 'CURRENT INVENTORY LISTING' -> '현재 보유 목록')."
+  },
+  {
+   "en": "inventory",
+   "ko": "보유 목록",
+   "note": "'View BattleMechs in inventory.' -> '보유 중인 배틀메크를 봅니다.' 'Inventory: ' (893) -> '보유: '."
+  },
+  {
+   "en": "Inventory Information",
+   "ko": "보유 정보",
+   "note": "Art LSPBK00/LSRBK00."
+  },
+  {
+   "en": "Force Group",
+   "ko": "전투조",
+   "note": "See ranks_titles. 'Deploy Force Groups into mission.' -> '전투조를 임무에 투입합니다.'"
+  },
+  {
+   "en": "Resource Points",
+   "ko": "자원 포인트",
+   "note": "'Current Resource Points' (31) -> '현재 자원 포인트'; briefings 'for additional Resource Points' -> '추가 자원 포인트 획득'."
+  },
+  {
+   "en": "RP",
+   "ko": "RP",
+   "note": "Acronym stays Latin (75, 867, art). 'RP Remaining' (74) -> '잔여 RP'; 'RP EARNED' -> '획득 RP'."
+  },
+  {
+   "en": "Salvage",
+   "ko": "노획품",
+   "note": "Captured enemy equipment after a mission ('No Salvage Recovered' 865 -> '회수한 노획품 없음'; 'SALVAGE LIST' -> '노획품 목록'; 'lose all future salvage' -> '앞으로의 노획품을 모두 잃습니다')."
+  },
+  {
+   "en": "Refit",
+   "ko": "재장비",
+   "note": "Replacing damaged/destroyed components (57 'Replace all damaged or destroyed components.' = REFIT ALL). Screen 'Repair/Refit' -> '수리/재장비'. NOT the Refit Truck (정비 트럭)."
+  },
+  {
+   "en": "Refit All",
+   "ko": "전체 재장비",
+   "note": "Button art lsrupm01/03/06 (66x16 px)."
+  },
+  {
+   "en": "Repair",
+   "ko": "수리",
+   "note": "58 'Repair all damaged systems.' = REPAIR ALL."
+  },
+  {
+   "en": "Repair All",
+   "ko": "전체 수리",
+   "note": "Button art lsrupm02/04/07 (66x16 px)."
+  },
+  {
+   "en": "Rearm",
+   "ko": "재무장",
+   "note": "49 'add a pilot, repair, or rearm'."
+  },
+  {
+   "en": "Outfit",
+   "ko": "장비",
+   "note": "66 'Outfit and repair units.' -> '유닛을 장비하고 수리합니다.'"
+  },
+  {
+   "en": "Purchase",
+   "ko": "구매",
+   "note": "Screen PurchaseScreen; art 'PURCHASING' -> '구매'; 'Purchase from Battalion Inventory.' (65)."
+  },
+  {
+   "en": "Buy",
+   "ko": "구매",
+   "note": "48 'Drag to inventory to buy.'"
+  },
+  {
+   "en": "Sell",
+   "ko": "판매",
+   "note": "45; 'sell back units' (882-884) -> '유닛을 되팔다' (판매)."
+  },
+  {
+   "en": "Transfer",
+   "ko": "전출",
+   "note": "46 'Drag into Battalion Inventory to transfer.' (pilots leaving the unit)."
+  },
+  {
+   "en": "Hire (Purchase MechWarrior)",
+   "ko": "고용",
+   "note": "Art LSPCBP00 'PURCHASE MECHWARRIOR' -> '메크워리어 고용'; 'REASSIGN MECHWARRIOR' -> '메크워리어 재배치'."
+  },
+  {
+   "en": "Install",
+   "ko": "장착",
+   "note": "50."
+  },
+  {
+   "en": "Assign",
+   "ko": "배정",
+   "note": "51, 53."
+  },
+  {
+   "en": "Remove",
+   "ko": "제거",
+   "note": "52, 54, 63, 98; 'Permanently remove pilot' (95) -> '조종사 영구 제외'."
+  },
+  {
+   "en": "Logistics",
+   "ko": "병참",
+   "note": "Logistics screens in general."
+  },
+  {
+   "en": "'Mech Bay",
+   "ko": "메크 격납고",
+   "note": "Art LSCBG03 ''MECH BAY'; string 861 'MechBay' -> 메크 격납고."
+  },
+  {
+   "en": "Briefing/Deployment",
+   "ko": "브리핑/출격",
+   "note": "Art LSCBG01 (207x18 px)."
+  },
+  {
+   "en": "Main Menu",
+   "ko": "메인 메뉴",
+   "note": "Art LSCBG00; 646 'Exit to Main Menu.' -> '메인 메뉴로 나갑니다.'"
+  },
+  {
+   "en": "Deploy",
+   "ko": "출격",
+   "note": "Placing units into the mission's force groups; 'deploy into mission' -> 임무에 투입. 'deployment' -> 출격, 'un-deploy' (64) -> 출격 해제, 'deployment restrictions' (76) -> 출격 제한."
+  },
+  {
+   "en": "Begin Mission",
+   "ko": "임무 개시",
+   "note": "Art Lsbdf00/01 (94x19 px)."
+  },
+  {
+   "en": "Drop Weight Limit",
+   "ko": "투입 중량 제한",
+   "note": "Art lsbdf07/LSBBK00; 'CURRENT DROP WEIGHT' -> '현재 투입 중량'; 'TONS' -> '톤'."
+  },
+  {
+   "en": "Campaign Data",
+   "ko": "캠페인 데이터",
+   "note": "Art LSBBK00."
+  },
+  {
+   "en": "Variant",
+   "ko": "파생형",
+   "note": "68-70: 'View Armor BattleMech variant.' -> '장갑 강화형 배틀메크를 봅니다.'"
+  },
+  {
+   "en": "Armor variant",
+   "ko": "장갑 강화형",
+   "note": "A variant (68)."
+  },
+  {
+   "en": "Weapon Load variant",
+   "ko": "화력 강화형",
+   "note": "W variant (69)."
+  },
+  {
+   "en": "Jump capable variant",
+   "ko": "점프형",
+   "note": "J variant (70); 'jump-capable 'Mechs' in briefings -> '점프 가능한 메크'."
+  },
+  {
+   "en": "Tonnage",
+   "ko": "톤수",
+   "note": "MECHTEXT heading 1."
+  },
+  {
+   "en": "Tons",
+   "ko": "톤",
+   "note": "110 (30-byte buffer); '%.1f tons' (639) -> '%.1f톤'."
+  },
+  {
+   "en": "Ton",
+   "ko": "톤",
+   "note": "78 '%.0f Ton %s 'Mech' -> '%.0f톤 %s급 메크'; 83 '%.0f Ton %s Vehicle' -> '%.0f톤 %s급 차량'."
+  },
+  {
+   "en": "Chassis",
+   "ko": "섀시",
+   "note": "868 'Chassis missing internal structure in key location.'"
+  },
+  {
+   "en": "Loadout / component load",
+   "ko": "장비 적재량",
+   "note": "62 'Current component load of BattleMech.' -> '배틀메크의 현재 장비 적재량.'"
+  },
+  {
+   "en": "Payload",
+   "ko": "적재량",
+   "note": "Art 'PAYLOAD', 'VEHICLE PAYLOAD' -> '차량 적재량'."
+  },
+  {
+   "en": "Ready Room",
+   "ko": "대기실",
+   "note": "Multiplayer art RROOM00 (out of scope, listed for consistency)."
+  },
+  {
+   "en": "Mission Briefing",
+   "ko": "임무 브리핑",
+   "note": "40, art LSBDW00 vertical tab."
+  },
+  {
+   "en": "Operation Briefing",
+   "ko": "작전 브리핑",
+   "note": "39, art LSBDW00 vertical tab."
+  },
+  {
+   "en": "Campaign Briefing",
+   "ko": "캠페인 브리핑",
+   "note": "37/89 (unreferenced)."
+  },
+  {
+   "en": "Briefing",
+   "ko": "브리핑",
+   "note": "Screen name."
+  },
+  {
+   "en": "Operation",
+   "ko": "작전",
+   "note": "A group of ~6 missions (Op 1-5 original, 1-3 expansion). 'OPERATION #' (save screen) -> '작전 번호'; card 'OPERATION: HYDRA' -> '작전명: 하이드라'."
+  },
+  {
+   "en": "Mission",
+   "ko": "임무",
+   "note": "'MISSION #' -> '임무 번호'."
+  },
+  {
+   "en": "Campaign",
+   "ko": "캠페인",
+   "note": "'NEW CAMPAIGN' -> '새 캠페인'; 'EXPANSION CAMPAIGN' -> '확장팩 캠페인'; 'ORIGINAL CAMPAIGN' -> '오리지널 캠페인'."
+  },
+  {
+   "en": "Solo Missions",
+   "ko": "단독 임무",
+   "note": "Main-menu art mm_xbg02."
+  },
+  {
+   "en": "Objective",
+   "ko": "목표",
+   "note": "'Objective %i: %s' (string 1) -> '목표 %i: %s'."
+  },
+  {
+   "en": "Primary Objective",
+   "ko": "주 목표",
+   "note": "in-mission 125 'Primary'; briefings 'Your primary objective' -> '주 목표'."
+  },
+  {
+   "en": "Secondary Objectives",
+   "ko": "부 목표",
+   "note": "866; briefing '(secondary)' -> '(부 목표)'."
+  },
+  {
+   "en": "Bonus Objectives",
+   "ko": "보너스 목표",
+   "note": "864."
+  },
+  {
+   "en": "Mission Objectives",
+   "ko": "임무 목표",
+   "note": "Results art mr_bkgd."
+  },
+  {
+   "en": "Save",
+   "ko": "저장",
+   "note": "Art MM_BG03; 'SAVE MISSION' -> '임무 저장'; 118 'Game saved.' -> '게임을 저장했습니다.'"
+  },
+  {
+   "en": "Load",
+   "ko": "불러오기",
+   "note": "Art MM_BG02; 'LOAD MISSION' -> '임무 불러오기'."
+  },
+  {
+   "en": "Delete",
+   "ko": "삭제",
+   "note": "Art MM_BG01; 116 'Are you sure you want to delete this file?' -> '이 파일을 삭제하시겠습니까?'"
+  },
+  {
+   "en": "Overwrite",
+   "ko": "덮어쓰기",
+   "note": "117 'Overwrite this saved game?' -> '저장된 게임을 덮어쓰시겠습니까?'"
+  },
+  {
+   "en": "Game List",
+   "ko": "게임 목록",
+   "note": "Art MM_WN01/02."
+  },
+  {
+   "en": "<empty>",
+   "ko": "<비어 있음>",
+   "note": "897 (empty save slot); keep the angle brackets."
+  },
+  {
+   "en": "Preferences",
+   "ko": "환경 설정",
+   "note": "Art MM_SSG03/mm_xbg06, PREFS_00."
+  },
+  {
+   "en": "Screen Brightness",
+   "ko": "화면 밝기",
+   "note": "PREFS_00."
+  },
+  {
+   "en": "Difficulty",
+   "ko": "난이도",
+   "note": "PREFS_00 'DIFFICULTY (EASY / REGULAR / HARD)' -> '난이도 (쉬움 / 보통 / 어려움)'. Not the pilot rank Regular (정규)."
+  },
+  {
+   "en": "Music Volume",
+   "ko": "음악 음량",
+   "note": "PREFS_00."
+  },
+  {
+   "en": "Radio Message Volume",
+   "ko": "무전 음량",
+   "note": "PREFS_00."
+  },
+  {
+   "en": "Sound FX Volume",
+   "ko": "효과음 음량",
+   "note": "PREFS_00."
+  },
+  {
+   "en": "Opening Cinema",
+   "ko": "오프닝 영상",
+   "note": "MM_SSG05; 'ORIGINAL CINEMA' (mm_xbg08) -> '오리지널 영상'."
+  },
+  {
+   "en": "Return to Game",
+   "ko": "게임으로 돌아가기",
+   "note": "MM_SSG06."
+  },
+  {
+   "en": "Quit",
+   "ko": "종료",
+   "note": "MM_SSG07."
+  },
+  {
+   "en": "Multiplayer",
+   "ko": "멀티플레이",
+   "note": "Menu entry (MP screens out of scope)."
+  },
+  {
+   "en": "Accept",
+   "ko": "확인",
+   "note": "Button art (49x14 / 63x14 px). Paired with CANCEL (purchase/sell dialogs) -> 확인 / 취소, the usual Korean UI pair; OK is also 확인 (never on the same dialog)."
+  },
+  {
+   "en": "Cancel",
+   "ko": "취소",
+   "note": "Button art."
+  },
+  {
+   "en": "Continue",
+   "ko": "계속",
+   "note": "Button art."
+  },
+  {
+   "en": "OK",
+   "ko": "확인",
+   "note": "Button art."
+  },
+  {
+   "en": "Yes",
+   "ko": "예",
+   "note": "Button art."
+  },
+  {
+   "en": "No",
+   "ko": "아니요",
+   "note": "Button art."
+  },
+  {
+   "en": "Next Mission",
+   "ko": "다음 임무",
+   "note": "Results art MR_MS01 (107x18 px)."
+  },
+  {
+   "en": "Replay Mission",
+   "ko": "임무 재시도",
+   "note": "Results art MR_MF01."
+  },
+  {
+   "en": "Mission Successful",
+   "ko": "임무 성공",
+   "note": "Results art MR_MS00."
+  },
+  {
+   "en": "Mission Failed",
+   "ko": "임무 실패",
+   "note": "Results art MR_MF00."
+  },
+  {
+   "en": "Battle Statistics",
+   "ko": "전투 통계",
+   "note": "Results art mr_bkgd."
+  },
+  {
+   "en": "Kills",
+   "ko": "격파",
+   "note": "Results 'KILLS:' -> '격파:'."
+  },
+  {
+   "en": "Total Enemy Units Destroyed",
+   "ko": "격파한 적 유닛 수",
+   "note": "Results art; 'Enemy 'Mechs Destroyed' -> '격파한 적 메크 수', 'Enemy Pilots Killed' -> '사망한 적 조종사 수', 'Total Player Units Destroyed' -> '파괴된 아군 유닛 수', 'Player 'Mechs Destroyed' -> '파괴된 아군 메크 수'."
+  },
+  {
+   "en": "Callsign",
+   "ko": "호출부호",
+   "note": "Art 'CALLSIGN:' -> '호출부호:'."
+  },
+  {
+   "en": "Rank (pilot)",
+   "ko": "등급",
+   "note": "Art 'RANK:' shows Green..Elite -> '등급:' (not 계급)."
+  },
+  {
+   "en": "Gunnery",
+   "ko": "사격",
+   "note": "Pilot skill."
+  },
+  {
+   "en": "Piloting",
+   "ko": "조종",
+   "note": "Pilot skill."
+  },
+  {
+   "en": "Jumping",
+   "ko": "점프",
+   "note": "Pilot skill."
+  },
+  {
+   "en": "Sensors",
+   "ko": "센서",
+   "note": "Pilot skill."
+  },
+  {
+   "en": "Engines",
+   "ko": "엔진",
+   "note": "Repair art 'ARMOR / INTERNAL / ENGINES' -> '장갑 / 내부 구조 / 엔진'."
+  },
+  {
+   "en": "Max Speed",
+   "ko": "최고 속도",
+   "note": "Art 'MAX SPEED:'."
+  },
+  {
+   "en": "Vehicle Type",
+   "ko": "차량 종류",
+   "note": "Art 'VEHICLE TYPE:'."
+  },
+  {
+   "en": "Avail",
+   "ko": "보유",
+   "note": "Purchase art 'AVAIL:' (count available)."
+  },
+  {
+   "en": "Cost",
+   "ko": "비용",
+   "note": "Purchase art 'COST:'."
+  },
+  {
+   "en": "Unit Cost",
+   "ko": "단가",
+   "note": "72."
+  },
+  {
+   "en": "Quantity Desired",
+   "ko": "구매 수량",
+   "note": "73."
+  },
+  {
+   "en": "Weight",
+   "ko": "중량",
+   "note": "Art 'WEIGHT:'."
+  },
+  {
+   "en": "Class",
+   "ko": "체급",
+   "note": "Art 'CLASS:' (Light..Assault)."
+  },
+  {
+   "en": "Speed",
+   "ko": "속도",
+   "note": "Art 'SPEED:'."
+  },
+  {
+   "en": "Struct",
+   "ko": "구조",
+   "note": "Art 'STRUCT:' (internal structure)."
+  },
+  {
+   "en": "Jump",
+   "ko": "점프",
+   "note": "Art 'JUMP:'."
+  },
+  {
+   "en": "Damage",
+   "ko": "피해",
+   "note": "Art 'DAMAGE:'."
+  },
+  {
+   "en": "Range",
+   "ko": "사거리",
+   "note": "Art 'RANGE:'."
+  },
+  {
+   "en": "Type",
+   "ko": "종류",
+   "note": "Art 'TYPE:'."
+  },
+  {
+   "en": "Unit",
+   "ko": "유닛",
+   "note": "Any mech or vehicle ('Combat effectiveness of unit.' 55 -> '유닛의 전투 효율.')."
+  },
+  {
+   "en": "Combat effectiveness",
+   "ko": "전투 효율",
+   "note": "55; MECHTEXT 'Effectiveness' -> 전투 효율."
+  },
+  {
+   "en": "roster",
+   "ko": "명단",
+   "note": "42 'View pilots in roster.' -> '명단의 조종사를 봅니다.'"
+  },
+  {
+   "en": "support vehicles",
+   "ko": "지원 차량",
+   "note": "44."
+  },
+  {
+   "en": "components",
+   "ko": "부품",
+   "note": "43; art tab 'COMPONENTS' -> '부품'; 'PURCHASE COMPONENT' -> '부품 구매'."
+  },
+  {
+   "en": "'Mechs (tab)",
+   "ko": "메크",
+   "note": "Art LSCDW* vertical tabs ''MECHS | MECHWARRIORS | COMPONENTS | VEHICLES' -> '메크 | 메크워리어 | 부품 | 차량' (13 px wide vertical strip: redraw with care)."
+  },
+  {
+   "en": "Vehicles",
+   "ko": "차량",
+   "note": "Tab / 'PURCHASE VEHICLE' -> '차량 구매', 'SELL VEHICLE' -> '차량 판매'."
+  },
+  {
+   "en": "N/A",
+   "ko": "없음",
+   "note": "108 (field value, e.g. jump range of a non-jumper)."
+  },
+  {
+   "en": "U",
+   "ko": "U",
+   "note": "901 (purchase screens, single letter; meaning unverified - probably 'unlimited'). Keep 'U' until checked in game."
+  },
+  {
+   "en": "Interface help",
+   "ko": "인터페이스 도움말",
+   "note": "29 'Interface help information is displayed here.' -> '인터페이스 도움말이 여기에 표시됩니다.'"
+  },
+  {
+   "en": "compact disc",
+   "ko": "CD",
+   "note": "1256/870 'Please insert the ... compact disc in your CD-ROM drive.' -> '... CD를 CD-ROM 드라이브에 넣어 주십시오.'"
+  }
+ ],
+ "game_terms": [
+  {
+   "en": "'Mech",
+   "ko": "메크",
+   "note": "User-fixed. Drop the apostrophe/back-tick ('Mech, `Mech, 'Mechs, `Mechs -> 메크). Plural not marked."
+  },
+  {
+   "en": "BattleMech",
+   "ko": "배틀메크",
+   "note": "User-fixed."
+  },
+  {
+   "en": "OmniMech",
+   "ko": "옴니메크",
+   "note": "Clan configurable mech ('Omnimech' variant spelling)."
+  },
+  {
+   "en": "MechWarrior",
+   "ko": "메크워리어",
+   "note": "User-fixed."
+  },
+  {
+   "en": "Light",
+   "ko": "경량",
+   "note": "Id 79. SHARED: weight class AND damage/armor rating (Very Lgt < Light < Moderate < Heavy < Very Hvy). 15-byte buffer in VehicleInventoryBlock/VehiclePurchaseBlock -> max 14 bytes (7 Hangul). In prose: 'light 'Mech' -> 경량급 메크."
+  },
+  {
+   "en": "Medium",
+   "ko": "중간",
+   "note": "Id 80. SHARED: weight class, weapon range (in-mission HUD too) and speed scale. '중형' would be wrong for range, '중거리' wrong for weight -> neutral 중간. Max 14 bytes. In prose use 중형급 (weight) / 중거리 (range)."
+  },
+  {
+   "en": "Heavy",
+   "ko": "중량",
+   "note": "Id 81. SHARED: weight class and damage/armor rating. Max 14 bytes. Prose: 중량급."
+  },
+  {
+   "en": "Assault",
+   "ko": "강습",
+   "note": "Id 82. Weight class. Max 14 bytes. Prose: 강습급 ('assault-class' -> 강습급)."
+  },
+  {
+   "en": "Very Lgt",
+   "ko": "초경량",
+   "note": "Id 100 (damage/armor scale). Max 14 bytes."
+  },
+  {
+   "en": "Moderate",
+   "ko": "보통",
+   "note": "Id 101. Max 14 bytes."
+  },
+  {
+   "en": "Very Hvy",
+   "ko": "초중량",
+   "note": "Id 102. Max 14 bytes."
+  },
+  {
+   "en": "Devastating",
+   "ko": "치명적",
+   "note": "Id 103 (damage, top of the scale)."
+  },
+  {
+   "en": "Very Fast",
+   "ko": "매우 빠름",
+   "note": "Id 104 (speed scale; the middle step reuses id 80 '중간')."
+  },
+  {
+   "en": "Fast",
+   "ko": "빠름",
+   "note": "Id 105."
+  },
+  {
+   "en": "Slow",
+   "ko": "느림",
+   "note": "Id 106."
+  },
+  {
+   "en": "Very Slow",
+   "ko": "매우 느림",
+   "note": "Id 107."
+  },
+  {
+   "en": "Very Short",
+   "ko": "초단거리",
+   "note": "Id 86 (range scale)."
+  },
+  {
+   "en": "Short",
+   "ko": "단거리",
+   "note": "Id 85 (range; also in-mission weapon list)."
+  },
+  {
+   "en": "Long",
+   "ko": "장거리",
+   "note": "Id 109 (range; also in-mission)."
+  },
+  {
+   "en": "light 'Mech (prose)",
+   "ko": "경량급 메크",
+   "note": "Briefings/desc: weight class + 급. 'Heavy 'Mech' -> 중량급 메크, 'assault-class OmniMech' -> 강습급 옴니메크, 'medium OmniMechs' -> 중형급 옴니메크."
+  },
+  {
+   "en": "Green",
+   "ko": "신참",
+   "note": "Id 112 pilot rank. Also generic profile names 'Clan Green' -> 클랜 신참."
+  },
+  {
+   "en": "Regular",
+   "ko": "정규",
+   "note": "Id 113 pilot rank (PREFS difficulty REGULAR is 보통 instead)."
+  },
+  {
+   "en": "Veteran",
+   "ko": "숙련",
+   "note": "Id 114 pilot rank; in prose 'A Davion veteran' -> 다비온의 베테랑 is acceptable."
+  },
+  {
+   "en": "Elite",
+   "ko": "정예",
+   "note": "Id 115 pilot rank; 'Elite ClanWarriors' -> 정예 클랜워리어."
+  },
+  {
+   "en": "Dead",
+   "ko": "사망",
+   "note": "Id 854 (results screen)."
+  },
+  {
+   "en": "Injured",
+   "ko": "부상",
+   "note": "Id 855."
+  },
+  {
+   "en": "Active",
+   "ko": "정상",
+   "note": "Id 856 (pilot fit for duty)."
+  },
+  {
+   "en": "Friendly",
+   "ko": "아군",
+   "note": "Id 182; also 'friendly units' -> 아군 유닛."
+  },
+  {
+   "en": "Enemy",
+   "ko": "적군",
+   "note": "Id 183 (results column). In running text just 적 ('enemy units' -> 적 유닛)."
+  },
+  {
+   "en": "Allied",
+   "ko": "아군",
+   "note": "'Allied Support Building', 'Allied Captain' -> 아군 지원 건물, 아군 대위."
+  },
+  {
+   "en": "Fire Support",
+   "ko": "화력 지원",
+   "note": "Briefing block 'FIRE SUPPORT:'."
+  },
+  {
+   "en": "Artillery",
+   "ko": "포격",
+   "note": "'ARTILLERY: 0 Small  0 Large' -> '포격: 소형 0  대형 0'. Artillery as weapons/pieces -> 야포/포 ('artillery pieces' -> 야포)."
+  },
+  {
+   "en": "Small Strike",
+   "ko": "소형 포격",
+   "note": "In-mission 147; 'A single Large Artillery Strike' (brf0102) -> 대형 포격 한 번."
+  },
+  {
+   "en": "Large Strike",
+   "ko": "대형 포격",
+   "note": "In-mission 148."
+  },
+  {
+   "en": "Sensor Probe",
+   "ko": "센서 프로브",
+   "note": "Fire-support item (in-mission 149, briefings)."
+  },
+  {
+   "en": "Camera Drone",
+   "ko": "카메라 드론",
+   "note": "Fire-support item (in-mission 150)."
+  },
+  {
+   "en": "airstrike",
+   "ko": "공습",
+   "note": "brf0103/0201/0505."
+  },
+  {
+   "en": "air superiority",
+   "ko": "제공권",
+   "note": "brf0103."
+  },
+  {
+   "en": "Extraction Point",
+   "ko": "철수 지점",
+   "note": "Where forces are picked up ('Withdraw to extraction point' -> '철수 지점으로 후퇴')."
+  },
+  {
+   "en": "drop zone",
+   "ko": "강하 지점",
+   "note": "'dropzone' (brf0102), 'forward drop zone' (brf0105) -> 전방 강하 지점."
+  },
+  {
+   "en": "combat drop",
+   "ko": "전투 강하",
+   "note": "brf0103/0401."
+  },
+  {
+   "en": "landing zone",
+   "ko": "착륙 지대",
+   "note": "xbrf0101 'SECURE LANDING ZONE' -> '착륙 지대 확보'."
+  },
+  {
+   "en": "tactical map",
+   "ko": "전술 지도",
+   "note": "brf0101/0102, xbrf0202."
+  },
+  {
+   "en": "engagement area",
+   "ko": "교전 지역",
+   "note": "brf0101/0405."
+  },
+  {
+   "en": "Dropship",
+   "ko": "드롭십",
+   "note": "xbrf0203/0303/0304 ('dropship engines')."
+  },
+  {
+   "en": "HPG",
+   "ko": "HPG",
+   "note": "HyperPulse Generator (interstellar communications), acronym stays Latin; brf0204 'hyperpulse generators (HPGs)' -> '하이퍼펄스 발생기(HPG)'."
+  },
+  {
+   "en": "Hyperpulse Generator",
+   "ko": "하이퍼펄스 발생기",
+   "note": "brf0204; in-mission building 298 'HyperPulse Generator'; objective 'Destroy Hyperpulse Generator Dishes' -> '하이퍼펄스 발생기 안테나 파괴'."
+  },
+  {
+   "en": "Mobile Orbital Gun",
+   "ko": "이동식 궤도포",
+   "note": "brf0406/0506; MOG stays Latin (xbrf0203 'Destroy MOG & Targeting Computer 1' -> 'MOG 및 표적 컴퓨터 1 파괴')."
+  },
+  {
+   "en": "MOG",
+   "ko": "MOG",
+   "note": "Acronym of Mobile Orbital Gun."
+  },
+  {
+   "en": "Orbital Gun",
+   "ko": "궤도포",
+   "note": "brf0401/0402."
+  },
+  {
+   "en": "powered down",
+   "ko": "전원 차단",
+   "note": "desc13 'powered down 'Mechs' -> 전원이 차단된 메크; brf0103 'powered it down' -> 전원을 내렸다."
+  },
+  {
+   "en": "jump-capable",
+   "ko": "점프 가능",
+   "note": "brf0203, xbrf0103."
+  },
+  {
+   "en": "Salvage",
+   "ko": "노획품",
+   "note": "See ui_terms."
+  },
+  {
+   "en": "Resource Points",
+   "ko": "자원 포인트",
+   "note": "See ui_terms."
+  },
+  {
+   "en": "fire-support 'Mech",
+   "ko": "화력 지원 메크",
+   "note": "desc406/418/427/448."
+  },
+  {
+   "en": "scout",
+   "ko": "정찰",
+   "note": "'scout 'Mech' -> 정찰 메크; 'heavy scout' -> 중량급 정찰기."
+  },
+  {
+   "en": "recon",
+   "ko": "정찰",
+   "note": "'recon missions' -> 정찰 임무."
+  },
+  {
+   "en": "Repair Bay",
+   "ko": "수리 시설",
+   "note": "brf0305, xbrf0103/0104/0302 (in-mission buildings 384 'Mech Repair Bay' -> 메크 수리 시설, 576 'Vehicle Repair Bay' -> 차량 수리 시설). Not the logistics 'Mech Bay (메크 격납고)."
+  },
+  {
+   "en": "Star League era relic",
+   "ko": "스타 리그 시대의 유물",
+   "note": "desc98/472."
+  }
+ ],
+ "mech_locations": [
+  {
+   "en": "Head",
+   "ko": "머리",
+   "note": "MECHTEXT ArmorLocations0 / MECHREP Box0."
+  },
+  {
+   "en": "Center Torso",
+   "ko": "중앙 몸통",
+   "note": "Location1 / Box1."
+  },
+  {
+   "en": "Left Torso",
+   "ko": "왼쪽 몸통",
+   "note": "Location2 / Box2."
+  },
+  {
+   "en": "Right Torso",
+   "ko": "오른쪽 몸통",
+   "note": "Location3 / Box3."
+  },
+  {
+   "en": "Left Arm",
+   "ko": "왼팔",
+   "note": "Location4 / Box4."
+  },
+  {
+   "en": "Right Arm",
+   "ko": "오른팔",
+   "note": "Location5 / Box5."
+  },
+  {
+   "en": "Left Leg",
+   "ko": "왼다리",
+   "note": "Location6 / Box6."
+  },
+  {
+   "en": "Right Leg",
+   "ko": "오른다리",
+   "note": "Location7 / Box7."
+  },
+  {
+   "en": "Rear",
+   "ko": "후면",
+   "note": "MECHTEXT heading 10; mission art 'REAR' (26x12 px)."
+  },
+  {
+   "en": "Front",
+   "ko": "전면",
+   "note": "Mission art MFDDBG01 'FRONT' (31x12 px) - in-mission, listed for consistency."
+  },
+  {
+   "en": "HEAD",
+   "ko": "머리",
+   "note": "MECHTEXT BodyLocations (upper-case set): same Korean as the mixed-case set."
+  },
+  {
+   "en": "CTORSO",
+   "ko": "중앙 몸통",
+   "note": "BodyLocations1."
+  },
+  {
+   "en": "LTORSO",
+   "ko": "왼쪽 몸통",
+   "note": "BodyLocations2."
+  },
+  {
+   "en": "RTORSO",
+   "ko": "오른쪽 몸통",
+   "note": "BodyLocations3."
+  },
+  {
+   "en": "LARM",
+   "ko": "왼팔",
+   "note": "BodyLocations4."
+  },
+  {
+   "en": "RARM",
+   "ko": "오른팔",
+   "note": "BodyLocations5."
+  },
+  {
+   "en": "LLEG",
+   "ko": "왼다리",
+   "note": "BodyLocations6."
+  },
+  {
+   "en": "RLEG",
+   "ko": "오른다리",
+   "note": "BodyLocations7."
+  },
+  {
+   "en": "HD",
+   "ko": "HD",
+   "note": "BodyAbbreviations: HD CT LT RT LA RA LL RL stay Latin (acronym rule, tiny slots)."
+  },
+  {
+   "en": "CT",
+   "ko": "CT",
+   "note": "BodyAbbreviations1."
+  },
+  {
+   "en": "LT",
+   "ko": "LT",
+   "note": "BodyAbbreviations2."
+  },
+  {
+   "en": "RT",
+   "ko": "RT",
+   "note": "BodyAbbreviations3."
+  },
+  {
+   "en": "LA",
+   "ko": "LA",
+   "note": "BodyAbbreviations4."
+  },
+  {
+   "en": "RA",
+   "ko": "RA",
+   "note": "BodyAbbreviations5."
+  },
+  {
+   "en": "LL",
+   "ko": "LL",
+   "note": "BodyAbbreviations6."
+  },
+  {
+   "en": "RL",
+   "ko": "RL",
+   "note": "BodyAbbreviations7."
+  },
+  {
+   "en": "Location",
+   "ko": "부위",
+   "note": "MECHTEXT heading 7."
+  },
+  {
+   "en": "Tonnage",
+   "ko": "톤수",
+   "note": "MECHTEXT heading 1."
+  },
+  {
+   "en": "Armor",
+   "ko": "장갑",
+   "note": "MECHTEXT heading 5."
+  },
+  {
+   "en": "Recycle",
+   "ko": "재장전",
+   "note": "MECHTEXT heading 12 (time between shots)."
+  },
+  {
+   "en": "Ammo",
+   "ko": "탄약",
+   "note": "MECHTEXT heading 14."
+  },
+  {
+   "en": "Internal",
+   "ko": "내부",
+   "note": "MECHTEXT heading 8 (first half of 'Internal Structure', drawn as its own label)."
+  },
+  {
+   "en": "Structure",
+   "ko": "구조",
+   "note": "MECHTEXT heading 9."
+  },
+  {
+   "en": "Name",
+   "ko": "이름",
+   "note": "MECHTEXT heading 0."
+  },
+  {
+   "en": "Top Speed",
+   "ko": "최고 속도",
+   "note": "MECHTEXT heading 2."
+  },
+  {
+   "en": "Normal Speed",
+   "ko": "일반 속도",
+   "note": "MECHTEXT heading 3."
+  },
+  {
+   "en": "Jump Range",
+   "ko": "점프 거리",
+   "note": "MECHTEXT heading 4."
+  },
+  {
+   "en": "Heat Sinks",
+   "ko": "방열기",
+   "note": "MECHTEXT heading 6."
+  },
+  {
+   "en": "Weapon",
+   "ko": "무기",
+   "note": "MECHTEXT heading 11."
+  },
+  {
+   "en": "Status",
+   "ko": "상태",
+   "note": "MECHTEXT heading 13; 56 'Overall status of unit.' -> '유닛의 전체 상태.'"
+  },
+  {
+   "en": "Fatigue",
+   "ko": "피로",
+   "note": "MECHTEXT heading 15."
+  },
+  {
+   "en": "Morale",
+   "ko": "사기",
+   "note": "MECHTEXT heading 16."
+  },
+  {
+   "en": "Wounds",
+   "ko": "부상",
+   "note": "MECHTEXT heading 17."
+  },
+  {
+   "en": "Effectiveness",
+   "ko": "전투 효율",
+   "note": "MECHTEXT heading 18."
+  },
+  {
+   "en": "Current Orders",
+   "ko": "현재 명령",
+   "note": "MECHTEXT heading 19."
+  },
+  {
+   "en": "Time",
+   "ko": "시간",
+   "note": "MECHTEXT heading 20."
+  },
+  {
+   "en": "No Damage",
+   "ko": "손상 없음",
+   "note": "MECHTEXT DamageStates0."
+  },
+  {
+   "en": "Partial Damage",
+   "ko": "부분 손상",
+   "note": "DamageStates1."
+  },
+  {
+   "en": "Destroyed",
+   "ko": "파괴됨",
+   "note": "DamageStates2."
+  },
+  {
+   "en": "Disabled",
+   "ko": "작동 불능",
+   "note": "DamageStates3."
+  },
+  {
+   "en": "key location",
+   "ko": "핵심 부위",
+   "note": "868 'Chassis missing internal structure in key location.'"
+  }
+ ],
+ "structures_objectives": [
+  {
+   "en": "HQ",
+   "ko": "HQ",
+   "note": "Acronym stays Latin: 'Camp HQ' -> 수용소 HQ, 'Base HQ' -> 기지 HQ, 'HQ Vehicle' -> HQ 차량, 'HQ's' -> HQ."
+  },
+  {
+   "en": "Headquarters",
+   "ko": "본부",
+   "note": "'Clan Headquarters building' (brf0104) -> 클랜 본부 건물; title 'HEADQUARTERS BUILDING' -> 본부 건물."
+  },
+  {
+   "en": "Turret",
+   "ko": "포탑",
+   "note": "'automated turret defenses' -> 자동 포탑 방어 시설."
+  },
+  {
+   "en": "Turret Control Tower",
+   "ko": "포탑 통제탑",
+   "note": "brf0104, xbrf0101 etc.; objective 'Protect All Base Turret Controls (3)' -> '기지 포탑 통제탑 3곳 보호'."
+  },
+  {
+   "en": "Turret Control",
+   "ko": "포탑 통제소",
+   "note": "In-mission building 254; brf0206 'turret control'."
+  },
+  {
+   "en": "Heavy Turret Control Tower",
+   "ko": "강화 포탑 통제탑",
+   "note": "xbrf0103 (better armored)."
+  },
+  {
+   "en": "Artillery Turret",
+   "ko": "포격 포탑",
+   "note": "xbrf0104/0203."
+  },
+  {
+   "en": "Gate Control Building",
+   "ko": "성문 통제 건물",
+   "note": "brf0104; 'Defensive gates' -> 방어 성문."
+  },
+  {
+   "en": "Power Generator",
+   "ko": "발전기",
+   "note": "brf0104/0202; 'geothermal generators' (brf0301) -> 지열 발전기."
+  },
+  {
+   "en": "Turret Power",
+   "ko": "포탑 전원",
+   "note": "'Primary Turret Power' -> 주 포탑 전원, 'Northern/Southern Turret Power' -> 북쪽/남쪽 포탑 전원, 'Local Turret Power' -> 현지 포탑 전원 시설."
+  },
+  {
+   "en": "Power Complex",
+   "ko": "발전 단지",
+   "note": "brf0503 'Power Complex Alpha' -> 발전 단지 알파."
+  },
+  {
+   "en": "Sensor Control",
+   "ko": "센서 통제소",
+   "note": "brf0305/0306, xbrf0102/0301 (in-mission 577)."
+  },
+  {
+   "en": "Sensor Tower",
+   "ko": "센서탑",
+   "note": "xbrf0102."
+  },
+  {
+   "en": "Sensor Complex",
+   "ko": "센서 단지",
+   "note": "brf0306."
+  },
+  {
+   "en": "Perimeter Alarm",
+   "ko": "경계 경보기",
+   "note": "brf0202, xbrf0104 (in-mission 410); 'General Alarm' -> 전체 경보."
+  },
+  {
+   "en": "Activation Marker",
+   "ko": "활성화 표지",
+   "note": "brf0104 (in-mission 239)."
+  },
+  {
+   "en": "Barracks",
+   "ko": "막사",
+   "note": "brf0104."
+  },
+  {
+   "en": "Component Warehouse",
+   "ko": "부품 창고",
+   "note": "xbrf0101 (in-mission 462)."
+  },
+  {
+   "en": "Component Vault",
+   "ko": "부품 보관고",
+   "note": "xbrf0103/0201 (in-mission 225)."
+  },
+  {
+   "en": "Industrial Complex",
+   "ko": "산업 단지",
+   "note": "brf0301/0404 (in-mission 204)."
+  },
+  {
+   "en": "Industrial Zone",
+   "ko": "산업 지구",
+   "note": "brf0106."
+  },
+  {
+   "en": "Administration Building",
+   "ko": "행정 건물",
+   "note": "brf0306 (in-mission 469 'Clan Administration Building' -> 클랜 행정 건물)."
+  },
+  {
+   "en": "Command Building",
+   "ko": "지휘 건물",
+   "note": "xbrf0104."
+  },
+  {
+   "en": "Command Center",
+   "ko": "지휘 본부",
+   "note": "xbrf0204 'Star League Command Center' -> 스타 리그 지휘 본부 (in-mission 216); objective 'Capture Clan Command Center' -> 클랜 지휘 본부 점령."
+  },
+  {
+   "en": "Research Complex",
+   "ko": "연구 단지",
+   "note": "xbrf0201 (in-mission 218)."
+  },
+  {
+   "en": "Research Facilities",
+   "ko": "연구 시설",
+   "note": "xbrf0304."
+  },
+  {
+   "en": "Engine Drill",
+   "ko": "엔진 드릴",
+   "note": "xbrf0303/0304 (in-mission 217); 'Vault Drill Group Beta' -> 보관고 드릴 그룹 베타, 'Hidden Vault Drill Alpha' -> 숨겨진 보관고 드릴 알파, 'Drill Group' -> 드릴 그룹."
+  },
+  {
+   "en": "Gantry",
+   "ko": "갠트리",
+   "note": "xbrf0303 (in-mission 228)."
+  },
+  {
+   "en": "Elemental Training Cadre",
+   "ko": "엘리멘탈 훈련대",
+   "note": "xbrf0302."
+  },
+  {
+   "en": "Vehicle Depot",
+   "ko": "차량 정비창",
+   "note": "xbrf0302."
+  },
+  {
+   "en": "Fuel Depot",
+   "ko": "연료 저장소",
+   "note": "brf0504 title 'CAPTURE AND DEFEND FUEL DEPOT' -> '연료 저장소 점령 및 방어'."
+  },
+  {
+   "en": "Oil Derrick",
+   "ko": "유정탑",
+   "note": "brf0504, xsbrf0404 (in-mission 574)."
+  },
+  {
+   "en": "Natural Gas Tower",
+   "ko": "천연가스탑",
+   "note": "brf0101 (in-mission 590)."
+  },
+  {
+   "en": "Garrison Building",
+   "ko": "주둔지 건물",
+   "note": "brf0101; 'Garrison Base' -> 주둔 기지; 'garrison Bondsman armor' (brf0503) -> 본즈맨 주둔 기갑 부대."
+  },
+  {
+   "en": "Prison Barn",
+   "ko": "감옥 헛간",
+   "note": "brf0102 ('a \"prison\" barn' -> '\"감옥\"으로 쓰는 헛간')."
+  },
+  {
+   "en": "work camp",
+   "ko": "노동 수용소",
+   "note": "brf0101 title 'LIBERATE WORK CAMPS' -> '노동 수용소 해방'."
+  },
+  {
+   "en": "re-education camp",
+   "ko": "재교육 수용소",
+   "note": "brf0101/0304."
+  },
+  {
+   "en": "field base",
+   "ko": "야전 기지",
+   "note": "brf0102/0304/0403; 'field camp' -> 야전 캠프."
+  },
+  {
+   "en": "Support Building",
+   "ko": "지원 건물",
+   "note": "brf0104 'Allied Support Building' -> 아군 지원 건물."
+  },
+  {
+   "en": "supply cache",
+   "ko": "보급품 은닉처",
+   "note": "brf0202."
+  },
+  {
+   "en": "convoy",
+   "ko": "수송대",
+   "note": "brf0203/0302/0303, xbrf0202."
+  },
+  {
+   "en": "depot",
+   "ko": "보급소",
+   "note": "brf0402 'Kylemartin depot', 'main supply depot' (xbrf0202) -> 주 보급소."
+  },
+  {
+   "en": "outpost",
+   "ko": "전초기지",
+   "note": "xbrf0101/0103."
+  },
+  {
+   "en": "stronghold",
+   "ko": "거점",
+   "note": "brf0104."
+  },
+  {
+   "en": "Air Control Tower",
+   "ko": "항공 관제탑",
+   "note": "brf0505 (in-mission 513)."
+  },
+  {
+   "en": "Targeting Computer",
+   "ko": "표적 컴퓨터",
+   "note": "xbrf0203."
+  },
+  {
+   "en": "HPG Station",
+   "ko": "HPG 기지국",
+   "note": "xbrf0301; 'HPG Base' -> HPG 기지."
+  },
+  {
+   "en": "Bridge",
+   "ko": "다리",
+   "note": "xbrf0201 'Destroy Bridge' -> '다리 파괴'; 'bridge span' (brf0102) -> 교량 경간."
+  },
+  {
+   "en": "Farm Building",
+   "ko": "농장 건물",
+   "note": "xsbrf0404."
+  },
+  {
+   "en": "weapon vaults",
+   "ko": "무기 보관고",
+   "note": "xbrf0303/0305 'Star League weapon vaults' -> 스타 리그 무기 보관고."
+  },
+  {
+   "en": "nuclear weapons",
+   "ko": "핵무기",
+   "note": "xbrf0301/0305 'weapons of mass destruction' -> 대량 살상 무기."
+  },
+  {
+   "en": "Liberate",
+   "ko": "해방",
+   "note": "Title verb: 'LIBERATE X' -> 'X 해방'. Objective verbs (명령형 in briefings, 명사형 in objective names): Destroy 파괴, Capture 점령 (buildings/bases) / 노획 (vehicles, supplies, Mechs), Defend/Protect 방어/보호, Escort 호위, Rescue 구출, Eliminate/Take Out 제거, Secure 확보, Intercept 요격, Interdict 차단, Link up 합류, Move/Get to 이동, Withdraw 후퇴, Seek and Destroy 수색 섬멸, Obliterate 완전 파괴, Exterminate 섬멸, Neutralize 무력화."
+  }
+ ],
+ "briefing_terms": [
+  {
+   "en": "****CLASSIFIED****",
+   "ko": "****기밀****",
+   "note": "First line of every briefing (%fm%fc1%c...). Keep the asterisks."
+  },
+  {
+   "en": "FEDCOM:BEACHHEAD/01PRDN01",
+   "ko": "FEDCOM:BEACHHEAD/01PRDN01",
+   "note": "Dispatch code line: keep verbatim (also STARCOM:SOLO/..., FEDCOM:<placeholder>/... in the unused xbrf0304)."
+  },
+  {
+   "en": "----------",
+   "ko": "----------",
+   "note": "Separator, keep."
+  },
+  {
+   "en": "FIRE SUPPORT:",
+   "ko": "화력 지원:"
+  },
+  {
+   "en": "ARTILLERY: 0 Small  0 Large",
+   "ko": "포격: 소형 0  대형 0",
+   "note": "Keep the numbers and the two-space gap; 'ARTILLERY: 2 Small' (no Large) -> '포격: 소형 2'."
+  },
+  {
+   "en": "SENSOR PROBE: 0",
+   "ko": "센서 프로브: 0"
+  },
+  {
+   "en": "CAMERA DRONE: 0",
+   "ko": "카메라 드론: 0"
+  },
+  {
+   "en": "**TACTICAL WARNING**",
+   "ko": "**전술 경고**"
+  },
+  {
+   "en": "**TACTICAL NOTICE**",
+   "ko": "**전술 참고**"
+  },
+  {
+   "en": "<<<<END DISPATCH",
+   "ko": "<<<<전문 끝",
+   "note": "Keep the exact number of '<' / '>' of each file ('<<<<<END DISPATCH', '>>>END DISPATCH', '<<<< END DISPATCH')."
+  },
+  {
+   "en": "DISPATCH>>",
+   "ko": "전문>>",
+   "note": "Unreferenced brf0304c/s only."
+  },
+  {
+   "en": "MISSION TIME LIMIT- 15:00",
+   "ko": "임무 제한 시간- 15:00",
+   "note": "Keep the time format."
+  },
+  {
+   "en": "OBJECTIVE TIME LIMIT- 06:00",
+   "ko": "목표 제한 시간- 06:00",
+   "note": "brf0206."
+  },
+  {
+   "en": "TIME LIMIT: 25 MINUTES",
+   "ko": "제한 시간: 25분",
+   "note": "xbrf0201/0203; '***25 MINUTE TIME LIMIT***' (xbrf0303) -> '***제한 시간 25분***'."
+  },
+  {
+   "en": "MISSION LEVEL: DIFFICULT",
+   "ko": "임무 난이도: 어려움",
+   "note": "xsbrf0401."
+  },
+  {
+   "en": "(secondary)",
+   "ko": "(부 목표)",
+   "note": "Expansion objective lines."
+  },
+  {
+   "en": "FROM COLONEL REESE:",
+   "ko": "발신: 리스 대령",
+   "note": "brf0401. The English ends with ':'; the Korean needs no second colon."
+  },
+  {
+   "en": "ENEMY ACE:",
+   "ko": "적 에이스:",
+   "note": "xbrf0103; '*ENEMY ACES' (xbrf0304) -> '*적 에이스'."
+  },
+  {
+   "en": "Good luck.",
+   "ko": "행운을 빈다.",
+   "note": "Narrative closing line."
+  },
+  {
+   "en": "Good Hunting, Commander.",
+   "ko": "좋은 사냥이 되길 빈다, 지휘관.",
+   "note": "xsbrf0401/0404 (Clan voice)."
+  },
+  {
+   "en": "Be advised that ...",
+   "ko": "...에 유의하라.",
+   "note": "Recurring order formula."
+  },
+  {
+   "en": "Intelligence reports that ...",
+   "ko": "정보부 보고에 따르면 ...",
+   "note": "Recurring formula; 'Recon reports ...' -> '정찰대 보고에 따르면 ...'."
+  },
+  {
+   "en": "*Raven or Light Clan `Mechs Only.*",
+   "ko": "*레이븐 또는 클랜 경량급 메크 전용.*",
+   "note": "desc.fit equipment restriction (desc15, 37, 38, 42, 43) - keep the asterisks."
+  }
+ ],
+ "fixed_phrases": [
+  {
+   "en": "This variant has extra armor and no jump-jets.",
+   "ko": "이 파생형은 장갑이 강화되었고 점프젯이 없다.",
+   "note": "desc400-471 (A variants)."
+  },
+  {
+   "en": "This variant has extra weapons and no jump-jets.",
+   "ko": "이 파생형은 무장이 강화되었고 점프젯이 없다.",
+   "note": "W variants."
+  },
+  {
+   "en": "This variant has jump-jets at the expense of armor and weapons.",
+   "ko": "이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다.",
+   "note": "J variants."
+  },
+  {
+   "en": "This rare variant has jump-jets at the expense of armor and weapons.",
+   "ko": "이 희귀한 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다.",
+   "note": "Rare J variants (Atlas, Awesome, Hunchback IIC, Masakari, Vulture)."
+  },
+  {
+   "en": "It carries limited ammo. (40 shots)",
+   "ko": "탄약이 제한적이다. (40발)",
+   "note": "Weapon desc; keep the number."
+  },
+  {
+   "en": "It carries very limited ammo.",
+   "ko": "탄약이 매우 제한적이다."
+  },
+  {
+   "en": "It carries extremely limited ammo.",
+   "ko": "탄약이 극히 제한적이다.",
+   "note": "desc104."
+  },
+  {
+   "en": "It carries extended ammo.",
+   "ko": "탄약이 넉넉하다.",
+   "note": "desc107."
+  },
+  {
+   "en": "LOAD VAL:%fc8  0.0",
+   "ko": "적재값:%fc8  0.0",
+   "note": "End of every weapon/equipment description; keep code, spaces and the number exactly."
+  },
+  {
+   "en": "IF YOU SEE THIS DESCRIPTION PLEASE REPORT IT AS A BUG--- MACHINE GUN",
+   "ko": "이 부품에 대한 설명이 아직 준비되지 않았습니다.",
+   "note": "Placeholder texts (desc105, 106, 114, 115, 121, 122, 124, 131, 132, 134, 136). MG/AMS can be bought, so players may see them: render as '(설명 없음) <부품명>' unless the lead decides to write real descriptions. Updated 2026-10-19: one neutral sentence (TR-D)."
+  },
+  {
+   "en": "CUT FROM MULTIPLAYER. IF YOU SEE THIS, REPORT IT AS A BUG!",
+   "ko": "(멀티플레이 전용 - 사용되지 않음)",
+   "note": "desc500/501."
+  }
+ ],
+ "art_plates": [
+  {
+   "en": "ATLAS-A",
+   "ko": "아틀라스-A",
+   "note": "100x12 px plate (LSCFLMA00, LSPFDMA00, LSPFLMA00). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "AWESOME-A",
+   "ko": "오섬-A",
+   "note": "100x12 px plate (LSCFLMA01, LSPFDMA01, LSPFLMA01). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CATAPULT-A",
+   "ko": "캐터펄트-A",
+   "note": "100x12 px plate (LSCFLMA02, LSPFDMA02, LSPFLMA02). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CENTURION-A",
+   "ko": "센추리온-A",
+   "note": "100x12 px plate (LSCFLMA03, LSPFDMA03, LSPFLMA03). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "COMMANDO-A",
+   "ko": "코만도-A",
+   "note": "100x12 px plate (LSCFLMA04, LSPFDMA04, LSPFLMA04). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "COUGAR-A",
+   "ko": "쿠거-A",
+   "note": "100x12 px plate (LSCFLMA05, LSPFDMA05, LSPFLMA05). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "FIRESTARTER-A",
+   "ko": "파이어스타터-A",
+   "note": "100x12 px plate (LSCFLMA06, LSPFDMA06, LSPFLMA06). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HOLLANDER II-A",
+   "ko": "홀랜더 II-A",
+   "note": "100x12 px plate (LSCFLMA07, LSPFDMA07, LSPFLMA07). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HUNCHBACK-A",
+   "ko": "헌치백-A",
+   "note": "100x12 px plate (LSCFLMA08, LSPFDMA08, LSPFLMA08). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HUNCHBACK IIC-A",
+   "ko": "헌치백 IIC-A",
+   "note": "100x12 px plate (LSCFLMA09, LSPFDMA09, LSPFLMA09). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "JAGERMECH-A",
+   "ko": "예거메크-A",
+   "note": "100x12 px plate (LSCFLMA10, LSPFDMA10, LSPFLMA10). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LOKI-A",
+   "ko": "로키-A",
+   "note": "100x12 px plate (LSCFLMA11, LSPFDMA11, LSPFLMA11). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MAD CAT-A",
+   "ko": "매드캣-A",
+   "note": "100x12 px plate (LSCFLMA12, LSPFDMA12, LSPFLMA12). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MASAKARI-A",
+   "ko": "마사카리-A",
+   "note": "100x12 px plate (LSCFLMA13, LSPFDMA13, LSPFLMA13). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "RAVEN-A",
+   "ko": "레이븐-A",
+   "note": "100x12 px plate (LSCFLMA14, LSPFDMA14, LSPFLMA14). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "THOR-A",
+   "ko": "토르-A",
+   "note": "100x12 px plate (LSCFLMA15, LSPFDMA15, LSPFLMA15). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ULLER-A",
+   "ko": "울러-A",
+   "note": "100x12 px plate (LSCFLMA16, LSPFDMA16, LSPFLMA16). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "VULTURE-A",
+   "ko": "벌처-A",
+   "note": "100x12 px plate (LSCFLMA17, LSPFDMA17, LSPFLMA17). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "STILETTO-A",
+   "ko": "스틸레토-A",
+   "note": "100x12 px plate (LSCFLMA18, LSPFDMA18, LSPFLMA18). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "BUSHWACKER-A",
+   "ko": "부시왜커-A",
+   "note": "100x12 px plate (LSCFLMA19, LSPFDMA19, LSPFLMA19). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MAULER-A",
+   "ko": "몰러-A",
+   "note": "100x12 px plate (LSCFLMA20, LSPFDMA20, LSPFLMA20). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SHADOW CAT-A",
+   "ko": "섀도캣-A",
+   "note": "100x12 px plate (LSCFLMA21, LSPFDMA21, LSPFLMA21). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "NOVA CAT-A",
+   "ko": "노바캣-A",
+   "note": "100x12 px plate (LSCFLMA22, LSPFDMA22, LSPFLMA22). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "TURKINA-A",
+   "ko": "터키나-A",
+   "note": "100x12 px plate (LSCFLMA23, LSPFDMA23, LSPFLMA23). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ATLAS-J",
+   "ko": "아틀라스-J",
+   "note": "100x12 px plate (LSCFLMJ00, LSPFDMJ00, LSPFLMJ00). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "AWESOME-J",
+   "ko": "오섬-J",
+   "note": "100x12 px plate (LSCFLMJ01, LSPFDMJ01, LSPFLMJ01). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CATAPULT-J",
+   "ko": "캐터펄트-J",
+   "note": "100x12 px plate (LSCFLMJ02, LSPFDMJ02, LSPFLMJ02). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CENTURION-J",
+   "ko": "센추리온-J",
+   "note": "100x12 px plate (LSCFLMJ03, LSPFDMJ03, LSPFLMJ03). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "COMMANDO-J",
+   "ko": "코만도-J",
+   "note": "100x12 px plate (LSCFLMJ04, LSPFDMJ04, LSPFLMJ04). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "COUGAR-J",
+   "ko": "쿠거-J",
+   "note": "100x12 px plate (LSCFLMJ05, LSPFDMJ05, LSPFLMJ05). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "FIRESTARTER-J",
+   "ko": "파이어스타터-J",
+   "note": "100x12 px plate (LSCFLMJ06, LSPFDMJ06, LSPFLMJ06). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HOLLANDER II-J",
+   "ko": "홀랜더 II-J",
+   "note": "100x12 px plate (LSCFLMJ07, LSPFDMJ07, LSPFLMJ07). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HUNCHBACK-J",
+   "ko": "헌치백-J",
+   "note": "100x12 px plate (LSCFLMJ08, LSPFDMJ08, LSPFLMJ08). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HUNCHBACK IIC-J",
+   "ko": "헌치백 IIC-J",
+   "note": "100x12 px plate (LSCFLMJ09, LSPFDMJ09, LSPFLMJ09). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "JAGERMECH-J",
+   "ko": "예거메크-J",
+   "note": "100x12 px plate (LSCFLMJ10, LSPFDMJ10, LSPFLMJ10). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LOKI-J",
+   "ko": "로키-J",
+   "note": "100x12 px plate (LSCFLMJ11, LSPFDMJ11, LSPFLMJ11). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MAD CAT-J",
+   "ko": "매드캣-J",
+   "note": "100x12 px plate (LSCFLMJ12, LSPFDMJ12, LSPFLMJ12). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MASAKARI-J",
+   "ko": "마사카리-J",
+   "note": "100x12 px plate (LSCFLMJ13, LSPFDMJ13, LSPFLMJ13). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "RAVEN-J",
+   "ko": "레이븐-J",
+   "note": "100x12 px plate (LSCFLMJ14, LSPFDMJ14, LSPFLMJ14). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "THOR-J",
+   "ko": "토르-J",
+   "note": "100x12 px plate (LSCFLMJ15, LSPFDMJ15, LSPFLMJ15). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ULLER-J",
+   "ko": "울러-J",
+   "note": "100x12 px plate (LSCFLMJ16, LSPFDMJ16, LSPFLMJ16). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "VULTURE-J",
+   "ko": "벌처-J",
+   "note": "100x12 px plate (LSCFLMJ17, LSPFDMJ17, LSPFLMJ17). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "STILETTO-J",
+   "ko": "스틸레토-J",
+   "note": "100x12 px plate (LSCFLMJ18, LSPFDMJ18, LSPFLMJ18). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "BUSHWACKER-J",
+   "ko": "부시왜커-J",
+   "note": "100x12 px plate (LSCFLMJ19, LSPFDMJ19, LSPFLMJ19). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MAULER-J",
+   "ko": "몰러-J",
+   "note": "100x12 px plate (LSCFLMJ20, LSPFDMJ20, LSPFLMJ20). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SHADOW CAT-J",
+   "ko": "섀도캣-J",
+   "note": "100x12 px plate (LSCFLMJ21, LSPFDMJ21, LSPFLMJ21). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "NOVA CAT-J",
+   "ko": "노바캣-J",
+   "note": "100x12 px plate (LSCFLMJ22, LSPFDMJ22, LSPFLMJ22). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "TURKINA-J",
+   "ko": "터키나-J",
+   "note": "100x12 px plate (LSCFLMJ23, LSPFDMJ23, LSPFLMJ23). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ATLAS-W",
+   "ko": "아틀라스-W",
+   "note": "100x12 px plate (LSCFLMW00, LSPFDMW00, LSPFLMW00). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "AWESOME-W",
+   "ko": "오섬-W",
+   "note": "100x12 px plate (LSCFLMW01, LSPFDMW01, LSPFLMW01). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CATAPULT-W",
+   "ko": "캐터펄트-W",
+   "note": "100x12 px plate (LSCFLMW02, LSPFDMW02, LSPFLMW02). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CENTURION-W",
+   "ko": "센추리온-W",
+   "note": "100x12 px plate (LSCFLMW03, LSPFDMW03, LSPFLMW03). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "COMMANDO-W",
+   "ko": "코만도-W",
+   "note": "100x12 px plate (LSCFLMW04, LSPFDMW04, LSPFLMW04). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "COUGAR-W",
+   "ko": "쿠거-W",
+   "note": "100x12 px plate (LSCFLMW05, LSPFDMW05, LSPFLMW05). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "FIRESTARTER-W",
+   "ko": "파이어스타터-W",
+   "note": "100x12 px plate (LSCFLMW06, LSPFDMW06, LSPFLMW06). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HOLLANDER II-W",
+   "ko": "홀랜더 II-W",
+   "note": "100x12 px plate (LSCFLMW07, LSPFDMW07, LSPFLMW07). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HUNCHBACK-W",
+   "ko": "헌치백-W",
+   "note": "100x12 px plate (LSCFLMW08, LSPFDMW08, LSPFLMW08). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HUNCHBACK IIC-W",
+   "ko": "헌치백 IIC-W",
+   "note": "100x12 px plate (LSCFLMW09, LSPFDMW09, LSPFLMW09). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "JAGERMECH-W",
+   "ko": "예거메크-W",
+   "note": "100x12 px plate (LSCFLMW10, LSPFDMW10, LSPFLMW10). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LOKI-W",
+   "ko": "로키-W",
+   "note": "100x12 px plate (LSCFLMW11, LSPFDMW11, LSPFLMW11). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MAD CAT-W",
+   "ko": "매드캣-W",
+   "note": "100x12 px plate (LSCFLMW12, LSPFDMW12, LSPFLMW12). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MASAKARI-W",
+   "ko": "마사카리-W",
+   "note": "100x12 px plate (LSCFLMW13, LSPFDMW13, LSPFLMW13). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "RAVEN-W",
+   "ko": "레이븐-W",
+   "note": "100x12 px plate (LSCFLMW14, LSPFDMW14, LSPFLMW14). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "THOR-W",
+   "ko": "토르-W",
+   "note": "100x12 px plate (LSCFLMW15, LSPFDMW15, LSPFLMW15). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ULLER-W",
+   "ko": "울러-W",
+   "note": "100x12 px plate (LSCFLMW16, LSPFDMW16, LSPFLMW16). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "VULTURE-W",
+   "ko": "벌처-W",
+   "note": "100x12 px plate (LSCFLMW17, LSPFDMW17, LSPFLMW17). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "STILETTO-W",
+   "ko": "스틸레토-W",
+   "note": "100x12 px plate (LSCFLMW18, LSPFDMW18, LSPFLMW18). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "BUSHWACKER-W",
+   "ko": "부시왜커-W",
+   "note": "100x12 px plate (LSCFLMW19, LSPFDMW19, LSPFLMW19). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MAULER-W",
+   "ko": "몰러-W",
+   "note": "100x12 px plate (LSCFLMW20, LSPFDMW20, LSPFLMW20). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SHADOW CAT-W",
+   "ko": "섀도캣-W",
+   "note": "100x12 px plate (LSCFLMW21, LSPFDMW21, LSPFLMW21). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "NOVA CAT-W",
+   "ko": "노바캣-W",
+   "note": "100x12 px plate (LSCFLMW22, LSPFDMW22, LSPFLMW22). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "TURKINA-W",
+   "ko": "터키나-W",
+   "note": "100x12 px plate (LSCFLMW23, LSPFDMW23, LSPFLMW23). Baked into the TGA: redraw; must fit 100 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "APC",
+   "ko": "APC",
+   "note": "120x12 px plate (LSCFLV00). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "BULLDOG",
+   "ko": "불독",
+   "note": "120x12 px plate (LSCFLV01). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CONDOR",
+   "ko": "콘도르",
+   "note": "120x12 px plate (LSCFLV02). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ELEMENTAL CARRIER",
+   "ko": "엘리멘탈 캐리어",
+   "note": "120x12 px plate (LSCFLV03). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HARASSER",
+   "ko": "해러서",
+   "note": "120x12 px plate (LSCFLV04). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "J. EDGAR",
+   "ko": "J. 에드거",
+   "note": "120x12 px plate (LSCFLV05). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LIGHT TRANSPORT",
+   "ko": "경수송차",
+   "note": "120x12 px plate (LSCFLV06). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LRM CARRIER",
+   "ko": "LRM 캐리어",
+   "note": "120x12 px plate (LSCFLV07). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MINELAYER",
+   "ko": "지뢰 부설차",
+   "note": "120x12 px plate (LSCFLV08). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MINESWEEPER",
+   "ko": "지뢰 제거차",
+   "note": "120x12 px plate (LSCFLV09). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MOBILE HQ",
+   "ko": "이동 HQ",
+   "note": "120x12 px plate (LSCFLV10). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "PEGASUS",
+   "ko": "페가수스",
+   "note": "120x12 px plate (LSCFLV11). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "AEROSPACE SPOTTER",
+   "ko": "에어로스페이스 관측차",
+   "note": "120x12 px plate (LSCFLV12). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "REFIT TRUCK",
+   "ko": "정비 트럭",
+   "note": "120x12 px plate (LSCFLV13). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ROMMEL",
+   "ko": "롬멜",
+   "note": "120x12 px plate (LSCFLV14). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SARACEN",
+   "ko": "사라센",
+   "note": "120x12 px plate (LSCFLV15). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SAVANNAH MASTER",
+   "ko": "사바나 마스터",
+   "note": "120x12 px plate (LSCFLV16). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SCHREK PPC CARRIER",
+   "ko": "슈렉 PPC 캐리어",
+   "note": "120x12 px plate (LSCFLV17). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SRM CARRIER",
+   "ko": "SRM 캐리어",
+   "note": "120x12 px plate (LSCFLV18). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "STRIKER",
+   "ko": "스트라이커",
+   "note": "120x12 px plate (LSCFLV19). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SWIFTWIND",
+   "ko": "스위프트윈드",
+   "note": "120x12 px plate (LSCFLV20). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "VON LUCKNER",
+   "ko": "폰 루크너",
+   "note": "120x12 px plate (LSCFLV21). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ELEMENTAL (TYPE I)",
+   "ko": "엘리멘탈 (I형)",
+   "note": "120x12 px plate (LSCFLV22). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ELEMENTAL (TYPE II)",
+   "ko": "엘리멘탈 (II형)",
+   "note": "120x12 px plate (LSCFLV23). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ELEMENTAL (TYPE III)",
+   "ko": "엘리멘탈 (III형)",
+   "note": "120x12 px plate (LSCFLV24). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ARTILLERY LOADER",
+   "ko": "포탄 적재차",
+   "note": "120x12 px plate (LSCFLV25). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "FUEL TRUCK",
+   "ko": "연료 트럭",
+   "note": "120x12 px plate (LSCFLV26). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MOBILE ARTILLERY",
+   "ko": "자주포",
+   "note": "120x12 px plate (LSCFLV27). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SALVAGE TRUCK",
+   "ko": "회수 트럭",
+   "note": "120x12 px plate (LSCFLV28). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CENTIPEDE",
+   "ko": "센티피드",
+   "note": "120x12 px plate (LSCFLV29). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "REGULATOR",
+   "ko": "레귤레이터",
+   "note": "120x12 px plate (LSCFLV30). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MANTICORE",
+   "ko": "맨티코어",
+   "note": "120x12 px plate (LSCFLV31). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ALACORN",
+   "ko": "알라콘",
+   "note": "120x12 px plate (LSCFLV32). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "PILUM",
+   "ko": "필룸",
+   "note": "120x12 px plate (LSCFLV33). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "AMMO TRUCK",
+   "ko": "탄약 트럭",
+   "note": "120x12 px plate (LSCFLV34). Baked into the TGA: redraw; must fit 120 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN ACTIVE PROBE",
+   "ko": "클랜 액티브 프로브",
+   "note": "200x12 px plate (LSPFDC00, LSPFLC00). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ANTI-MISSILE SYSTEM",
+   "ko": "대미사일 시스템",
+   "note": "200x12 px plate (LSPFDC01, LSPFLC01). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LIGHT AUTOCANNON",
+   "ko": "경오토캐논",
+   "note": "200x12 px plate (LSPFDC02, LSPFLC02). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LIGHT ULTRA AUTOCANNON",
+   "ko": "경울트라 오토캐논",
+   "note": "200x12 px plate (LSPFDC03, LSPFLC03). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "AUTOCANNON",
+   "ko": "오토캐논",
+   "note": "200x12 px plate (LSPFDC04, LSPFLC04). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN ULTRA AUTOCANNON",
+   "ko": "클랜 울트라 오토캐논",
+   "note": "200x12 px plate (LSPFDC05, LSPFLC05). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HEAVY AUTOCANNON",
+   "ko": "중오토캐논",
+   "note": "200x12 px plate (LSPFDC06, LSPFLC06). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN HEAVY ULTRA AUTOCANNON",
+   "ko": "클랜 중울트라 오토캐논",
+   "note": "200x12 px plate (LSPFDC07, LSPFLC07). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "BEAGLE PROBE",
+   "ko": "비글 프로브",
+   "note": "200x12 px plate (LSPFDC08, LSPFLC08). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN ECM SUITE",
+   "ko": "클랜 ECM 장비",
+   "note": "200x12 px plate (LSPFDC09, LSPFLC09). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HEAVY FLAMER",
+   "ko": "중화염방사기",
+   "note": "200x12 px plate (LSPFDC10, LSPFLC10). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "GAUSS RIFLE",
+   "ko": "가우스 라이플",
+   "note": "200x12 px plate (LSPFDC11, LSPFLC11). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "GUARDIAN ECM",
+   "ko": "가디언 ECM",
+   "note": "200x12 px plate (LSPFDC12, LSPFLC12). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LASER",
+   "ko": "레이저",
+   "note": "200x12 px plate (LSPFDC13, LSPFLC13). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN ER LASER",
+   "ko": "클랜 ER 레이저",
+   "note": "200x12 px plate (LSPFDC14, LSPFLC14). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "PULSE LASER",
+   "ko": "펄스 레이저",
+   "note": "200x12 px plate (LSPFDC15, LSPFLC15). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LARGE LASER",
+   "ko": "대형 레이저",
+   "note": "200x12 px plate (LSPFDC16, LSPFLC16). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LARGE ER LASER",
+   "ko": "대형 ER 레이저",
+   "note": "200x12 px plate (LSPFDC17, LSPFLC17). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LARGE PULSE LASER",
+   "ko": "대형 펄스 레이저",
+   "note": "200x12 px plate (LSPFDC18, LSPFLC18). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SHORT RANGE MISSILE PACK",
+   "ko": "단거리 미사일 팩",
+   "note": "200x12 px plate (LSPFDC19, LSPFLC19). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "STREAK SRM PACK",
+   "ko": "스트릭 SRM 팩",
+   "note": "200x12 px plate (LSPFDC20, LSPFLC20). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SHORT RANGE MISSILE/6",
+   "ko": "단거리 미사일/6",
+   "note": "200x12 px plate (LSPFDC21, LSPFLC21). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "STREAK SHORT RANGE MISSILE/6",
+   "ko": "스트릭 단거리 미사일/6",
+   "note": "200x12 px plate (LSPFDC22, LSPFLC22). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LONG RANGE MISSILE RACK",
+   "ko": "장거리 미사일 랙",
+   "note": "200x12 px plate (LSPFDC23, LSPFLC23). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LONG RANGE MISSILE/15",
+   "ko": "장거리 미사일/15",
+   "note": "200x12 px plate (LSPFDC24, LSPFLC24). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LONG RANGE MISSILE/20",
+   "ko": "장거리 미사일/20",
+   "note": "200x12 px plate (LSPFDC25, LSPFLC25). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MACHINE GUN",
+   "ko": "기관총",
+   "note": "200x12 px plate (LSPFDC26, LSPFLC26). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "PARTICLE PROJECTOR CANNON",
+   "ko": "입자 투사포",
+   "note": "200x12 px plate (LSPFDC27, LSPFLC27). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ER PARTICLE PROJECTOR CANNON",
+   "ko": "ER 입자 투사포",
+   "note": "200x12 px plate (LSPFDC28, LSPFLC28). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SENSOR (BASIC)",
+   "ko": "센서 (기본형)",
+   "note": "200x12 px plate (LSPFDC29, LSPFLC29). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SENSOR (INTERMEDIATE)",
+   "ko": "센서 (중급형)",
+   "note": "200x12 px plate (LSPFDC30, LSPFLC30). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SENSOR (ADVANCED)",
+   "ko": "센서 (고급형)",
+   "note": "200x12 px plate (LSPFDC31, LSPFLC31). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN SENSOR (STANDARD)",
+   "ko": "클랜 센서 (표준형)",
+   "note": "200x12 px plate (LSPFDC32, LSPFLC32). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN SENSOR (EXTENDED)",
+   "ko": "클랜 센서 (확장형)",
+   "note": "200x12 px plate (LSPFDC33, LSPFLC33). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN GAUSS RIFLE",
+   "ko": "클랜 가우스 라이플",
+   "note": "200x12 px plate (LSPFDC34, LSPFLC34). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN LONG RANGE MISSILE RACK",
+   "ko": "클랜 장거리 미사일 랙",
+   "note": "200x12 px plate (LSPFDC35, LSPFLC35). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN LRM-15",
+   "ko": "클랜 LRM-15",
+   "note": "200x12 px plate (LSPFDC36, LSPFLC36). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN LRM-20",
+   "ko": "클랜 LRM-20",
+   "note": "200x12 px plate (LSPFDC37, LSPFLC37). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN SHORT RANGE MISSILE PACK",
+   "ko": "클랜 단거리 미사일 팩",
+   "note": "200x12 px plate (LSPFDC38, LSPFLC38). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN SRM-6",
+   "ko": "클랜 SRM-6",
+   "note": "200x12 px plate (LSPFDC39, LSPFLC39). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN STREAK SRM PACK",
+   "ko": "클랜 스트릭 SRM 팩",
+   "note": "200x12 px plate (LSPFDC40, LSPFLC40). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN LARGE ER LASER",
+   "ko": "클랜 대형 ER 레이저",
+   "note": "200x12 px plate (LSPFDC41, LSPFLC41). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN LARGE PULSE LASER",
+   "ko": "클랜 대형 펄스 레이저",
+   "note": "200x12 px plate (LSPFDC42, LSPFLC42). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN PULSE LASER",
+   "ko": "클랜 펄스 레이저",
+   "note": "200x12 px plate (LSPFDC43, LSPFLC43). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN HEAVY FLAMER",
+   "ko": "클랜 중화염방사기",
+   "note": "200x12 px plate (LSPFDC44, LSPFLC44). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN LIGHT ULTRA AUTOCANNON",
+   "ko": "클랜 경울트라 오토캐논",
+   "note": "200x12 px plate (LSPFDC45, LSPFLC45). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN ER PPC",
+   "ko": "클랜 ER PPC",
+   "note": "200x12 px plate (LSPFDC46, LSPFLC46). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LIGHT GAUSS RIFLE",
+   "ko": "경가우스 라이플",
+   "note": "200x12 px plate (LSPFDC47, LSPFLC47). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LIGHT LB-X AUTOCANNON",
+   "ko": "경 LB-X 오토캐논",
+   "note": "200x12 px plate (LSPFDC48, LSPFLC48). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LB-X AUTOCANNON",
+   "ko": "LB-X 오토캐논",
+   "note": "200x12 px plate (LSPFDC49, LSPFLC49). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HEAVY LB-X AUTOCANNON",
+   "ko": "중 LB-X 오토캐논",
+   "note": "200x12 px plate (LSPFDC50, LSPFLC50). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN LIGHT LB-X AUTOCANNON",
+   "ko": "클랜 경 LB-X 오토캐논",
+   "note": "200x12 px plate (LSPFDC51, LSPFLC51). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN LB-X AUTOCANNON",
+   "ko": "클랜 LB-X 오토캐논",
+   "note": "200x12 px plate (LSPFDC52, LSPFLC52). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CLAN HEAVY LB-X AUTOCANNON",
+   "ko": "클랜 중 LB-X 오토캐논",
+   "note": "200x12 px plate (LSPFDC53, LSPFLC53). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HEAVY THUNDERBOLT",
+   "ko": "헤비 선더볼트",
+   "note": "200x12 px plate (LSPFDC54, LSPFLC54). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LARGE X-PULSE LASER",
+   "ko": "대형 X-펄스 레이저",
+   "note": "200x12 px plate (LSPFDC55, LSPFLC55). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SNIPER CANNON",
+   "ko": "스나이퍼 포",
+   "note": "200x12 px plate (LSPFDC56, LSPFLC56). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LONG TOM CANNON",
+   "ko": "롱 톰 포",
+   "note": "200x12 px plate (LSPFDC57, LSPFLC57). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "RAIL GUN",
+   "ko": "레일건",
+   "note": "200x12 px plate (LSPFDC58, LSPFLC58). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "APC",
+   "ko": "APC",
+   "note": "200x12 px plate (LSPFDV00, LSPFLV00). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "BULLDOG MEDIUM TANK",
+   "ko": "불독 중형 전차",
+   "note": "200x12 px plate (LSPFDV01, LSPFLV01). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CONDOR HEAVY HOVER TANK",
+   "ko": "콘도르 중호버 전차",
+   "note": "200x12 px plate (LSPFDV02, LSPFLV02). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ELEMENTAL CARRIER",
+   "ko": "엘리멘탈 캐리어",
+   "note": "200x12 px plate (LSPFDV03, LSPFLV03). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HARASSER LIGHT MISSILE TANK",
+   "ko": "해러서 경미사일 전차",
+   "note": "200x12 px plate (LSPFDV04, LSPFLV04). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "J. EDGAR LIGHT HOVER TANK",
+   "ko": "J. 에드거 경호버 전차",
+   "note": "200x12 px plate (LSPFDV05, LSPFLV05). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LIGHT TRANSPORT",
+   "ko": "경수송차",
+   "note": "200x12 px plate (LSPFDV06, LSPFLV06). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LRM CARRIER",
+   "ko": "LRM 캐리어",
+   "note": "200x12 px plate (LSPFDV07, LSPFLV07). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MINELAYER",
+   "ko": "지뢰 부설차",
+   "note": "200x12 px plate (LSPFDV08, LSPFLV08). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MINESWEEPER",
+   "ko": "지뢰 제거차",
+   "note": "200x12 px plate (LSPFDV09, LSPFLV09). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MOBILE HQ",
+   "ko": "이동 HQ",
+   "note": "200x12 px plate (LSPFDV10, LSPFLV10). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "PEGASUS LIGHT SCOUT TANK",
+   "ko": "페가수스 경정찰 전차",
+   "note": "200x12 px plate (LSPFDV11, LSPFLV11). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "AEROSPACE SPOTTER",
+   "ko": "에어로스페이스 관측차",
+   "note": "200x12 px plate (LSPFDV12, LSPFLV12). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "REFIT TRUCK",
+   "ko": "정비 트럭",
+   "note": "200x12 px plate (LSPFDV13, LSPFLV13). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ROMMEL MEDIUM TANK",
+   "ko": "롬멜 중형 전차",
+   "note": "200x12 px plate (LSPFDV14, LSPFLV14). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SARACEN HOVER TANK",
+   "ko": "사라센 호버 전차",
+   "note": "200x12 px plate (LSPFDV15, LSPFLV15). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SAVANNAH MASTER",
+   "ko": "사바나 마스터",
+   "note": "200x12 px plate (LSPFDV16, LSPFLV16). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SCHREK PPC CARRIER",
+   "ko": "슈렉 PPC 캐리어",
+   "note": "200x12 px plate (LSPFDV17, LSPFLV17). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SRM CARRIER",
+   "ko": "SRM 캐리어",
+   "note": "200x12 px plate (LSPFDV18, LSPFLV18). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "STRIKER LIGHT TANK",
+   "ko": "스트라이커 경전차",
+   "note": "200x12 px plate (LSPFDV19, LSPFLV19). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SWIFTWIND SCOUT CAR",
+   "ko": "스위프트윈드 정찰차",
+   "note": "200x12 px plate (LSPFDV20, LSPFLV20). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "VON LUCKNER HEAVY TANK",
+   "ko": "폰 루크너 중전차",
+   "note": "200x12 px plate (LSPFDV21, LSPFLV21). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ELEMENTAL (TYPE I)",
+   "ko": "엘리멘탈 (I형)",
+   "note": "200x12 px plate (LSPFDV22, LSPFLV22). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ELEMENTAL (TYPE II)",
+   "ko": "엘리멘탈 (II형)",
+   "note": "200x12 px plate (LSPFDV23, LSPFLV23). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ELEMENTAL (TYPE III)",
+   "ko": "엘리멘탈 (III형)",
+   "note": "200x12 px plate (LSPFDV24, LSPFLV24). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ARTILLERY LOADER",
+   "ko": "포탄 적재차",
+   "note": "200x12 px plate (LSPFDV25, LSPFLV25). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "FUEL TRUCK",
+   "ko": "연료 트럭",
+   "note": "200x12 px plate (LSPFDV26, LSPFLV26). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MOBILE ARTILLERY",
+   "ko": "자주포",
+   "note": "200x12 px plate (LSPFDV27, LSPFLV27). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SALVAGE TRUCK",
+   "ko": "회수 트럭",
+   "note": "200x12 px plate (LSPFDV28, LSPFLV28). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "CENTIPEDE SCOUT CAR",
+   "ko": "센티피드 정찰차",
+   "note": "200x12 px plate (LSPFDV29, LSPFLV29). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "REGULATOR HOVER TANK",
+   "ko": "레귤레이터 호버 전차",
+   "note": "200x12 px plate (LSPFDV30, LSPFLV30). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MANTICORE HEAVY TANK",
+   "ko": "맨티코어 중전차",
+   "note": "200x12 px plate (LSPFDV31, LSPFLV31). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ALACORN MK VII HEAVY TANK",
+   "ko": "알라콘 MK VII 중전차",
+   "note": "200x12 px plate (LSPFDV32, LSPFLV32). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "PILUM HEAVY TANK",
+   "ko": "필룸 중전차",
+   "note": "200x12 px plate (LSPFDV33, LSPFLV33). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "AMMO TRUCK",
+   "ko": "탄약 트럭",
+   "note": "200x12 px plate (LSPFDV34, LSPFLV34). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "BEAST",
+   "ko": "비스트",
+   "note": "200x12 px plate (LSPFLP00). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HAWK",
+   "ko": "호크",
+   "note": "200x12 px plate (LSPFLP01). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SIREN",
+   "ko": "사이렌",
+   "note": "200x12 px plate (LSPFLP02). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ROOSTER",
+   "ko": "루스터",
+   "note": "200x12 px plate (LSPFLP03). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "ISIS",
+   "ko": "아이시스",
+   "note": "200x12 px plate (LSPFLP04). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "GUNMAN",
+   "ko": "건맨",
+   "note": "200x12 px plate (LSPFLP05). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MYSTIQUE",
+   "ko": "미스틱",
+   "note": "200x12 px plate (LSPFLP06). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SKATER",
+   "ko": "스케이터",
+   "note": "200x12 px plate (LSPFLP07). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SPICE",
+   "ko": "스파이스",
+   "note": "200x12 px plate (LSPFLP08). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "BARON",
+   "ko": "배런",
+   "note": "200x12 px plate (LSPFLP09). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "FIEND",
+   "ko": "핀드",
+   "note": "200x12 px plate (LSPFLP10). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "RONIN",
+   "ko": "로닌",
+   "note": "200x12 px plate (LSPFLP11). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "GATOR",
+   "ko": "게이터",
+   "note": "200x12 px plate (LSPFLP12). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "REBEL",
+   "ko": "레블",
+   "note": "200x12 px plate (LSPFLP13). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HUNTER",
+   "ko": "헌터",
+   "note": "200x12 px plate (LSPFLP14). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "LYNX",
+   "ko": "링크스",
+   "note": "200x12 px plate (LSPFLP15). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "HITMAN",
+   "ko": "히트맨",
+   "note": "200x12 px plate (LSPFLP16). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "COUNTESS",
+   "ko": "카운티스",
+   "note": "200x12 px plate (LSPFLP17). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "SCARAB",
+   "ko": "스캐럽",
+   "note": "200x12 px plate (LSPFLP18). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "OUTLAW",
+   "ko": "아웃로",
+   "note": "200x12 px plate (LSPFLP19). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "FALCON",
+   "ko": "팰컨",
+   "note": "200x12 px plate (LSPFLP20). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "BURNOUT",
+   "ko": "번아웃",
+   "note": "200x12 px plate (LSPFLP21). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "GOBLIN",
+   "ko": "고블린",
+   "note": "200x12 px plate (LSPFLP22). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "MANTIS",
+   "ko": "맨티스",
+   "note": "200x12 px plate (LSPFLP23). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "DRAGON",
+   "ko": "드래곤",
+   "note": "200x12 px plate (LSPFLP24). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "BLAZE",
+   "ko": "블레이즈",
+   "note": "200x12 px plate (LSPFLP25). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "THUNDER",
+   "ko": "선더",
+   "note": "200x12 px plate (LSPFLP26). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "PAINGOD",
+   "ko": "페인갓",
+   "note": "200x12 px plate (LSPFLP27). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "FIRESTORM",
+   "ko": "파이어스톰",
+   "note": "200x12 px plate (LSPFLP28). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  },
+  {
+   "en": "VIXEN",
+   "ko": "빅슨",
+   "note": "200x12 px plate (LSPFLP29). Baked into the TGA: redraw; must fit 200 px (check_glossary.py reports the 8/10/12 px Galmuri widths)."
+  }
+ ]
+}

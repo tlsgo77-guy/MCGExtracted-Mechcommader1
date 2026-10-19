@@ -1,0 +1,4546 @@
+{
+ "rules": [
+  {
+   "match": "*",
+   "source_contains": "TERRAIN",
+   "has_text": false,
+   "text_guess": "",
+   "note": "tactical map image of a mission (TERRAIN.FST); no readable text"
+  },
+  {
+   "match": "mfdBts01",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / SALVAGE (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "mfdBts03",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / CHAT (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "mfdDts01",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / SALVAGE (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "mfdDts03",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / CHAT (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "mfdMts01",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / SALVAGE (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "mfdMts03",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / CHAT (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "mfdSts01",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / SALVAGE (vertical tab strip)"
+  },
+  {
+   "match": "mfdSts03",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / CHAT (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "mfdsts04",
+   "has_text": true,
+   "text_guess": "CHAT (vertical)"
+  },
+  {
+   "match": "mfdsts05",
+   "has_text": true,
+   "text_guess": "CHAT (vertical)"
+  },
+  {
+   "match": "mfdsbg00",
+   "has_text": true,
+   "text_guess": "TEAM (vertical)"
+  },
+  {
+   "match": "mfdsbh00",
+   "has_text": true,
+   "text_guess": "TEAM (vertical)"
+  },
+  {
+   "match": "mfdsbn00",
+   "has_text": true,
+   "text_guess": "TEAM (vertical)"
+  },
+  {
+   "match": "mfddbg00",
+   "has_text": true,
+   "text_guess": "ARMOR"
+  },
+  {
+   "match": "mfddbh00",
+   "has_text": true,
+   "text_guess": "ARMOR"
+  },
+  {
+   "match": "mfddbn00",
+   "has_text": true,
+   "text_guess": "ARMOR"
+  },
+  {
+   "match": "mfddbg01",
+   "has_text": true,
+   "text_guess": "FRONT"
+  },
+  {
+   "match": "mfddbh01",
+   "has_text": true,
+   "text_guess": "FRONT"
+  },
+  {
+   "match": "mfddbn01",
+   "has_text": true,
+   "text_guess": "FRONT"
+  },
+  {
+   "match": "mfddbg02",
+   "has_text": true,
+   "text_guess": "PAYLOAD"
+  },
+  {
+   "match": "mfddbh02",
+   "has_text": true,
+   "text_guess": "PAYLOAD"
+  },
+  {
+   "match": "mfddbn02",
+   "has_text": true,
+   "text_guess": "PAYLOAD"
+  },
+  {
+   "match": "mfddbg03",
+   "has_text": true,
+   "text_guess": "REAR"
+  },
+  {
+   "match": "mfddbh03",
+   "has_text": true,
+   "text_guess": "REAR"
+  },
+  {
+   "match": "mfddbn03",
+   "has_text": true,
+   "text_guess": "REAR"
+  },
+  {
+   "match": "mfddwn00",
+   "has_text": true,
+   "text_guess": "GUNNERY / PILOTING / JUMPING / SENSORS (pilot panel)"
+  },
+  {
+   "match": "guiubf1",
+   "has_text": true,
+   "text_guess": "F1 (function key tag with star)"
+  },
+  {
+   "match": "guiubf2",
+   "has_text": true,
+   "text_guess": "F2 (function key tag with star)"
+  },
+  {
+   "match": "guiubf3",
+   "has_text": true,
+   "text_guess": "F3 (function key tag with star)"
+  },
+  {
+   "match": "guiubf4",
+   "has_text": true,
+   "text_guess": "F4 (function key tag with star)"
+  },
+  {
+   "match": "X_mfdBts01",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / SALVAGE (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "X_mfdBts03",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / CHAT (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "X_mfdDts01",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / SALVAGE (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "X_mfdDts03",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / CHAT (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "X_mfdMts01",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / SALVAGE (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "X_mfdMts03",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / CHAT (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "X_mfdSts01",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / SALVAGE (vertical tab strip)"
+  },
+  {
+   "match": "X_mfdSts03",
+   "has_text": true,
+   "text_guess": "MAP / DATA / BRIEFING / CHAT (vertical tab strip, 4 tabs)"
+  },
+  {
+   "match": "X_mfdsts04",
+   "has_text": true,
+   "text_guess": "CHAT (vertical)"
+  },
+  {
+   "match": "X_mfdsts05",
+   "has_text": true,
+   "text_guess": "CHAT (vertical)"
+  },
+  {
+   "match": "X_mfdsbg00",
+   "has_text": true,
+   "text_guess": "TEAM (vertical)"
+  },
+  {
+   "match": "X_mfdsbh00",
+   "has_text": true,
+   "text_guess": "TEAM (vertical)"
+  },
+  {
+   "match": "X_mfdsbn00",
+   "has_text": true,
+   "text_guess": "TEAM (vertical)"
+  },
+  {
+   "match": "X_mfddbg00",
+   "has_text": true,
+   "text_guess": "ARMOR"
+  },
+  {
+   "match": "X_mfddbh00",
+   "has_text": true,
+   "text_guess": "ARMOR"
+  },
+  {
+   "match": "X_mfddbn00",
+   "has_text": true,
+   "text_guess": "ARMOR"
+  },
+  {
+   "match": "X_mfddbg01",
+   "has_text": true,
+   "text_guess": "FRONT"
+  },
+  {
+   "match": "X_mfddbh01",
+   "has_text": true,
+   "text_guess": "FRONT"
+  },
+  {
+   "match": "X_mfddbn01",
+   "has_text": true,
+   "text_guess": "FRONT"
+  },
+  {
+   "match": "X_mfddbg02",
+   "has_text": true,
+   "text_guess": "PAYLOAD"
+  },
+  {
+   "match": "X_mfddbh02",
+   "has_text": true,
+   "text_guess": "PAYLOAD"
+  },
+  {
+   "match": "X_mfddbn02",
+   "has_text": true,
+   "text_guess": "PAYLOAD"
+  },
+  {
+   "match": "X_mfddbg03",
+   "has_text": true,
+   "text_guess": "REAR"
+  },
+  {
+   "match": "X_mfddbh03",
+   "has_text": true,
+   "text_guess": "REAR"
+  },
+  {
+   "match": "X_mfddbn03",
+   "has_text": true,
+   "text_guess": "REAR"
+  },
+  {
+   "match": "X_mfddwn00",
+   "has_text": true,
+   "text_guess": "GUNNERY / PILOTING / JUMPING / SENSORS (pilot panel)"
+  },
+  {
+   "match": "X_guiubf1",
+   "has_text": true,
+   "text_guess": "F1 (function key tag with star)"
+  },
+  {
+   "match": "X_guiubf2",
+   "has_text": true,
+   "text_guess": "F2 (function key tag with star)"
+  },
+  {
+   "match": "X_guiubf3",
+   "has_text": true,
+   "text_guess": "F3 (function key tag with star)"
+  },
+  {
+   "match": "X_guiubf4",
+   "has_text": true,
+   "text_guess": "F4 (function key tag with star)"
+  },
+  {
+   "match": "mfdmwn01",
+   "has_text": "unsure",
+   "text_guess": "",
+   "note": "48x48 radar-style picture with a small red label; text not legible at this size"
+  },
+  {
+   "match": "x_mfdmwn01",
+   "has_text": "unsure",
+   "text_guess": "",
+   "note": "48x48 radar-style picture with a small red label; text not legible at this size"
+  },
+  {
+   "match": "*mfd*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "HUD icon / frame piece, no readable text"
+  },
+  {
+   "match": "*guiub*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "HUD bar / icon, no text"
+  },
+  {
+   "match": "lscsb0*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll bar piece"
+  },
+  {
+   "match": "lscup?00",
+   "has_text": false,
+   "text_guess": "",
+   "note": "frame"
+  },
+  {
+   "match": "lsrupm*",
+   "has_text": "unsure",
+   "text_guess": ""
+  },
+  {
+   "match": "lscicc*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "component icon 30x30"
+  },
+  {
+   "match": "lspidc*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "component line drawing"
+  },
+  {
+   "match": "lspilc*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "component line drawing"
+  },
+  {
+   "match": "lscddm*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "mech line-drawing strip"
+  },
+  {
+   "match": "lscddv*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "vehicle line-drawing strip"
+  },
+  {
+   "match": "lscdsm*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "damage bar"
+  },
+  {
+   "match": "lscicm*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "mech icon strip"
+  },
+  {
+   "match": "lscicv*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "vehicle icon strip"
+  },
+  {
+   "match": "mmask*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "mech silhouette mask"
+  },
+  {
+   "match": "vmask*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "vehicle silhouette mask"
+  },
+  {
+   "match": "pilot*",
+   "has_text": false,
+   "text_guess": "",
+   "note": "pilot portrait (face)"
+  },
+  {
+   "match": "*.log",
+   "has_text": false,
+   "text_guess": "",
+   "note": "briefing-screen map; only F1..F3 lance tags and numbered objective markers (language-neutral)"
+  }
+ ],
+ "files": {
+  "BG_ACCEPT": {
+   "has_text": true,
+   "text_guess": "ACCEPT",
+   "note": "button state: pressed"
+  },
+  "BH_ACCEPT": {
+   "has_text": true,
+   "text_guess": "ACCEPT",
+   "note": "button state: normal/over"
+  },
+  "BN_ACCEPT": {
+   "has_text": true,
+   "text_guess": "ACCEPT",
+   "note": "button state: greyed"
+  },
+  "BG_BEGIN": {
+   "has_text": true,
+   "text_guess": "BEGIN PLANNING",
+   "note": "button state: pressed"
+  },
+  "BH_BEGIN": {
+   "has_text": true,
+   "text_guess": "BEGIN PLANNING",
+   "note": "button state: normal/over"
+  },
+  "BN_BEGIN": {
+   "has_text": true,
+   "text_guess": "BEGIN PLANNING",
+   "note": "button state: greyed"
+  },
+  "BG_CANCL": {
+   "has_text": true,
+   "text_guess": "CANCEL",
+   "note": "button state: pressed"
+  },
+  "BH_CANCL": {
+   "has_text": true,
+   "text_guess": "CANCEL",
+   "note": "button state: normal/over"
+  },
+  "BN_CANCL": {
+   "has_text": true,
+   "text_guess": "CANCEL",
+   "note": "button state: greyed"
+  },
+  "BG_CONN": {
+   "has_text": true,
+   "text_guess": "CONNECT",
+   "note": "button state: pressed"
+  },
+  "BH_CONN": {
+   "has_text": true,
+   "text_guess": "CONNECT",
+   "note": "button state: normal/over"
+  },
+  "BN_CONN": {
+   "has_text": true,
+   "text_guess": "CONNECT",
+   "note": "button state: greyed"
+  },
+  "BG_DIAL": {
+   "has_text": true,
+   "text_guess": "DIAL NUMBER",
+   "note": "button state: pressed"
+  },
+  "BH_DIAL": {
+   "has_text": true,
+   "text_guess": "DIAL NUMBER",
+   "note": "button state: normal/over"
+  },
+  "BN_DIAL": {
+   "has_text": true,
+   "text_guess": "DIAL NUMBER",
+   "note": "button state: greyed"
+  },
+  "BG_EXIT": {
+   "has_text": true,
+   "text_guess": "EXIT MULTIPLAYER (with status light)",
+   "note": "button state: pressed"
+  },
+  "BH_EXIT": {
+   "has_text": true,
+   "text_guess": "EXIT MULTIPLAYER (with status light)",
+   "note": "button state: normal/over"
+  },
+  "BN_EXIT": {
+   "has_text": true,
+   "text_guess": "EXIT MULTIPLAYER (with status light)",
+   "note": "button state: greyed"
+  },
+  "BG_GO": {
+   "has_text": true,
+   "text_guess": "GO!",
+   "note": "button state: pressed"
+  },
+  "BH_GO": {
+   "has_text": true,
+   "text_guess": "GO!",
+   "note": "button state: normal/over"
+  },
+  "BN_GO": {
+   "has_text": true,
+   "text_guess": "GO!",
+   "note": "button state: greyed"
+  },
+  "BG_HOST": {
+   "has_text": true,
+   "text_guess": "HOST GAME",
+   "note": "button state: pressed"
+  },
+  "BH_HOST": {
+   "has_text": true,
+   "text_guess": "HOST GAME",
+   "note": "button state: normal/over"
+  },
+  "BN_HOST": {
+   "has_text": true,
+   "text_guess": "HOST GAME",
+   "note": "button state: greyed"
+  },
+  "BG_INTER": {
+   "has_text": true,
+   "text_guess": "INTERNET",
+   "note": "button state: pressed"
+  },
+  "BH_INTER": {
+   "has_text": true,
+   "text_guess": "INTERNET",
+   "note": "button state: normal/over"
+  },
+  "BN_INTER": {
+   "has_text": true,
+   "text_guess": "INTERNET",
+   "note": "button state: greyed"
+  },
+  "BG_IPX": {
+   "has_text": true,
+   "text_guess": "IPX",
+   "note": "button state: pressed"
+  },
+  "BH_IPX": {
+   "has_text": true,
+   "text_guess": "IPX",
+   "note": "button state: normal/over"
+  },
+  "BN_IPX": {
+   "has_text": true,
+   "text_guess": "IPX",
+   "note": "button state: greyed"
+  },
+  "BG_JOIN": {
+   "has_text": true,
+   "text_guess": "JOIN GAME",
+   "note": "button state: pressed"
+  },
+  "BH_JOIN": {
+   "has_text": true,
+   "text_guess": "JOIN GAME",
+   "note": "button state: normal/over"
+  },
+  "BN_JOIN": {
+   "has_text": true,
+   "text_guess": "JOIN GAME",
+   "note": "button state: greyed"
+  },
+  "BG_LAN": {
+   "has_text": true,
+   "text_guess": "NETWORK",
+   "note": "button state: pressed"
+  },
+  "BH_LAN": {
+   "has_text": true,
+   "text_guess": "NETWORK",
+   "note": "button state: normal/over"
+  },
+  "BN_LAN": {
+   "has_text": true,
+   "text_guess": "NETWORK",
+   "note": "button state: greyed"
+  },
+  "BG_LEAVE": {
+   "has_text": true,
+   "text_guess": "LEAVE",
+   "note": "button state: pressed"
+  },
+  "BH_LEAVE": {
+   "has_text": true,
+   "text_guess": "LEAVE",
+   "note": "button state: normal/over"
+  },
+  "BN_LEAVE": {
+   "has_text": true,
+   "text_guess": "LEAVE",
+   "note": "button state: greyed"
+  },
+  "BG_MAP": {
+   "has_text": true,
+   "text_guess": "LOAD MAP",
+   "note": "button state: pressed"
+  },
+  "BH_MAP": {
+   "has_text": true,
+   "text_guess": "LOAD MAP",
+   "note": "button state: normal/over"
+  },
+  "BN_MAP": {
+   "has_text": true,
+   "text_guess": "LOAD MAP",
+   "note": "button state: greyed"
+  },
+  "BG_MODEM": {
+   "has_text": true,
+   "text_guess": "MODEM",
+   "note": "button state: pressed"
+  },
+  "BH_MODEM": {
+   "has_text": true,
+   "text_guess": "MODEM",
+   "note": "button state: normal/over"
+  },
+  "BN_MODEM": {
+   "has_text": true,
+   "text_guess": "MODEM",
+   "note": "button state: greyed"
+  },
+  "BG_NO": {
+   "has_text": true,
+   "text_guess": "NO",
+   "note": "button state: pressed"
+  },
+  "BH_NO": {
+   "has_text": true,
+   "text_guess": "NO",
+   "note": "button state: normal/over"
+  },
+  "BN_NO": {
+   "has_text": true,
+   "text_guess": "NO",
+   "note": "button state: greyed"
+  },
+  "BG_okay": {
+   "has_text": true,
+   "text_guess": "OK",
+   "note": "button state: pressed"
+  },
+  "BH_okay": {
+   "has_text": true,
+   "text_guess": "OK",
+   "note": "button state: normal/over"
+  },
+  "BN_okay": {
+   "has_text": true,
+   "text_guess": "OK",
+   "note": "button state: greyed"
+  },
+  "BG_SERIA": {
+   "has_text": true,
+   "text_guess": "SERIAL",
+   "note": "button state: pressed"
+  },
+  "BH_SERIA": {
+   "has_text": true,
+   "text_guess": "SERIAL",
+   "note": "button state: normal/over"
+  },
+  "BN_SERIA": {
+   "has_text": true,
+   "text_guess": "SERIAL",
+   "note": "button state: greyed"
+  },
+  "BG_SESSION": {
+   "has_text": true,
+   "text_guess": "SESSION CONTROL (with status light)",
+   "note": "button state: pressed"
+  },
+  "BH_SESSION": {
+   "has_text": true,
+   "text_guess": "SESSION CONTROL (with status light)",
+   "note": "button state: normal/over"
+  },
+  "BN_SESSION": {
+   "has_text": true,
+   "text_guess": "SESSION CONTROL (with status light)",
+   "note": "button state: greyed"
+  },
+  "BG_SESSN": {
+   "has_text": true,
+   "text_guess": "CREATE SESSION",
+   "note": "button state: pressed"
+  },
+  "BH_SESSN": {
+   "has_text": true,
+   "text_guess": "CREATE SESSION",
+   "note": "button state: normal/over"
+  },
+  "BN_SESSN": {
+   "has_text": true,
+   "text_guess": "CREATE SESSION",
+   "note": "button state: greyed"
+  },
+  "BG_TCP": {
+   "has_text": true,
+   "text_guess": "TCP/IP",
+   "note": "button state: pressed"
+  },
+  "BH_TCP": {
+   "has_text": true,
+   "text_guess": "TCP/IP",
+   "note": "button state: normal/over"
+  },
+  "BN_TCP": {
+   "has_text": true,
+   "text_guess": "TCP/IP",
+   "note": "button state: greyed"
+  },
+  "BG_TEAM": {
+   "has_text": true,
+   "text_guess": "TEAM (vertical, rotated 90 degrees)",
+   "note": "button state: pressed"
+  },
+  "BH_TEAM": {
+   "has_text": true,
+   "text_guess": "TEAM (vertical, rotated 90 degrees)",
+   "note": "button state: normal/over"
+  },
+  "BN_TEAM": {
+   "has_text": true,
+   "text_guess": "TEAM (vertical, rotated 90 degrees)",
+   "note": "button state: greyed"
+  },
+  "BG_WAIT": {
+   "has_text": true,
+   "text_guess": "WAIT",
+   "note": "button state: pressed"
+  },
+  "BH_WAIT": {
+   "has_text": true,
+   "text_guess": "WAIT",
+   "note": "button state: normal/over"
+  },
+  "BN_WAIT": {
+   "has_text": true,
+   "text_guess": "WAIT",
+   "note": "button state: greyed"
+  },
+  "BG_YES": {
+   "has_text": true,
+   "text_guess": "YES",
+   "note": "button state: pressed"
+  },
+  "BH_YES": {
+   "has_text": true,
+   "text_guess": "YES",
+   "note": "button state: normal/over"
+  },
+  "BN_YES": {
+   "has_text": true,
+   "text_guess": "YES",
+   "note": "button state: greyed"
+  },
+  "MM_BG00": {
+   "has_text": true,
+   "text_guess": "CANCEL",
+   "note": "load/save screen button, state: pressed"
+  },
+  "MM_BH00": {
+   "has_text": true,
+   "text_guess": "CANCEL",
+   "note": "load/save screen button, state: normal/over"
+  },
+  "MM_BN00": {
+   "has_text": true,
+   "text_guess": "CANCEL",
+   "note": "load/save screen button, state: greyed"
+  },
+  "MM_BG01": {
+   "has_text": true,
+   "text_guess": "DELETE",
+   "note": "load/save screen button, state: pressed"
+  },
+  "MM_BH01": {
+   "has_text": true,
+   "text_guess": "DELETE",
+   "note": "load/save screen button, state: normal/over"
+  },
+  "MM_BN01": {
+   "has_text": true,
+   "text_guess": "DELETE",
+   "note": "load/save screen button, state: greyed"
+  },
+  "MM_BG02": {
+   "has_text": true,
+   "text_guess": "LOAD",
+   "note": "load/save screen button, state: pressed"
+  },
+  "MM_BH02": {
+   "has_text": true,
+   "text_guess": "LOAD",
+   "note": "load/save screen button, state: normal/over"
+  },
+  "MM_BN02": {
+   "has_text": true,
+   "text_guess": "LOAD",
+   "note": "load/save screen button, state: greyed"
+  },
+  "MM_BG03": {
+   "has_text": true,
+   "text_guess": "SAVE",
+   "note": "load/save screen button, state: pressed"
+  },
+  "MM_BH03": {
+   "has_text": true,
+   "text_guess": "SAVE",
+   "note": "load/save screen button, state: normal/over"
+  },
+  "MM_BN03": {
+   "has_text": true,
+   "text_guess": "SAVE",
+   "note": "load/save screen button, state: greyed"
+  },
+  "MM_SSG00": {
+   "has_text": true,
+   "text_guess": "NEW CAMPAIGN",
+   "note": "main menu button (original layout), state: pressed"
+  },
+  "MM_SSH00": {
+   "has_text": true,
+   "text_guess": "NEW CAMPAIGN",
+   "note": "main menu button (original layout), state: normal/over"
+  },
+  "MM_SSN00": {
+   "has_text": true,
+   "text_guess": "NEW CAMPAIGN",
+   "note": "main menu button (original layout), state: greyed"
+  },
+  "MM_SSG01": {
+   "has_text": true,
+   "text_guess": "SAVE MISSION",
+   "note": "main menu button (original layout), state: pressed"
+  },
+  "MM_SSH01": {
+   "has_text": true,
+   "text_guess": "SAVE MISSION",
+   "note": "main menu button (original layout), state: normal/over"
+  },
+  "MM_SSN01": {
+   "has_text": true,
+   "text_guess": "SAVE MISSION",
+   "note": "main menu button (original layout), state: greyed"
+  },
+  "MM_SSG02": {
+   "has_text": true,
+   "text_guess": "LOAD MISSION",
+   "note": "main menu button (original layout), state: pressed"
+  },
+  "MM_SSH02": {
+   "has_text": true,
+   "text_guess": "LOAD MISSION",
+   "note": "main menu button (original layout), state: normal/over"
+  },
+  "MM_SSN02": {
+   "has_text": true,
+   "text_guess": "LOAD MISSION",
+   "note": "main menu button (original layout), state: greyed"
+  },
+  "MM_SSG03": {
+   "has_text": true,
+   "text_guess": "PREFERENCES",
+   "note": "main menu button (original layout), state: pressed"
+  },
+  "MM_SSH03": {
+   "has_text": true,
+   "text_guess": "PREFERENCES",
+   "note": "main menu button (original layout), state: normal/over"
+  },
+  "MM_SSN03": {
+   "has_text": true,
+   "text_guess": "PREFERENCES",
+   "note": "main menu button (original layout), state: greyed"
+  },
+  "MM_SSG04": {
+   "has_text": true,
+   "text_guess": "MULTIPLAYER",
+   "note": "main menu button (original layout), state: pressed"
+  },
+  "MM_SSH04": {
+   "has_text": true,
+   "text_guess": "MULTIPLAYER",
+   "note": "main menu button (original layout), state: normal/over"
+  },
+  "MM_SSN04": {
+   "has_text": true,
+   "text_guess": "MULTIPLAYER",
+   "note": "main menu button (original layout), state: greyed"
+  },
+  "MM_SSG05": {
+   "has_text": true,
+   "text_guess": "OPENING CINEMA",
+   "note": "main menu button (original layout), state: pressed"
+  },
+  "MM_SSH05": {
+   "has_text": true,
+   "text_guess": "OPENING CINEMA",
+   "note": "main menu button (original layout), state: normal/over"
+  },
+  "MM_SSN05": {
+   "has_text": true,
+   "text_guess": "OPENING CINEMA",
+   "note": "main menu button (original layout), state: greyed"
+  },
+  "MM_SSG06": {
+   "has_text": true,
+   "text_guess": "RETURN TO GAME",
+   "note": "main menu button (original layout), state: pressed"
+  },
+  "MM_SSH06": {
+   "has_text": true,
+   "text_guess": "RETURN TO GAME",
+   "note": "main menu button (original layout), state: normal/over"
+  },
+  "MM_SSN06": {
+   "has_text": true,
+   "text_guess": "RETURN TO GAME",
+   "note": "main menu button (original layout), state: greyed"
+  },
+  "MM_SSG07": {
+   "has_text": true,
+   "text_guess": "QUIT",
+   "note": "main menu button (original layout), state: pressed"
+  },
+  "MM_SSH07": {
+   "has_text": true,
+   "text_guess": "QUIT",
+   "note": "main menu button (original layout), state: normal/over"
+  },
+  "MM_SSN07": {
+   "has_text": true,
+   "text_guess": "QUIT",
+   "note": "main menu button (original layout), state: greyed"
+  },
+  "mm_xbg00": {
+   "has_text": true,
+   "text_guess": "EXPANSION CAMPAIGN",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: pressed"
+  },
+  "mm_xbh00": {
+   "has_text": true,
+   "text_guess": "EXPANSION CAMPAIGN",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: normal/over"
+  },
+  "mm_xbn00": {
+   "has_text": true,
+   "text_guess": "EXPANSION CAMPAIGN",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: greyed"
+  },
+  "mm_xbg01": {
+   "has_text": true,
+   "text_guess": "ORIGINAL CAMPAIGN",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: pressed"
+  },
+  "mm_xbh01": {
+   "has_text": true,
+   "text_guess": "ORIGINAL CAMPAIGN",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: normal/over"
+  },
+  "mm_xbn01": {
+   "has_text": true,
+   "text_guess": "ORIGINAL CAMPAIGN",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: greyed"
+  },
+  "mm_xbg02": {
+   "has_text": true,
+   "text_guess": "SOLO MISSIONS",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: pressed"
+  },
+  "mm_xbh02": {
+   "has_text": true,
+   "text_guess": "SOLO MISSIONS",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: normal/over"
+  },
+  "mm_xbn02": {
+   "has_text": true,
+   "text_guess": "SOLO MISSIONS",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: greyed"
+  },
+  "mm_xbg03": {
+   "has_text": true,
+   "text_guess": "MULTIPLAYER",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: pressed"
+  },
+  "mm_xbh03": {
+   "has_text": true,
+   "text_guess": "MULTIPLAYER",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: normal/over"
+  },
+  "mm_xbn03": {
+   "has_text": true,
+   "text_guess": "MULTIPLAYER",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: greyed"
+  },
+  "mm_xbg04": {
+   "has_text": true,
+   "text_guess": "LOAD MISSION",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: pressed"
+  },
+  "mm_xbh04": {
+   "has_text": true,
+   "text_guess": "LOAD MISSION",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: normal/over"
+  },
+  "mm_xbn04": {
+   "has_text": true,
+   "text_guess": "LOAD MISSION",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: greyed"
+  },
+  "mm_xbg05": {
+   "has_text": true,
+   "text_guess": "SAVE MISSION",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: pressed"
+  },
+  "mm_xbh05": {
+   "has_text": true,
+   "text_guess": "SAVE MISSION",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: normal/over"
+  },
+  "mm_xbn05": {
+   "has_text": true,
+   "text_guess": "SAVE MISSION",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: greyed"
+  },
+  "mm_xbg06": {
+   "has_text": true,
+   "text_guess": "PREFERENCES",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: pressed"
+  },
+  "mm_xbh06": {
+   "has_text": true,
+   "text_guess": "PREFERENCES",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: normal/over"
+  },
+  "mm_xbn06": {
+   "has_text": true,
+   "text_guess": "PREFERENCES",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: greyed"
+  },
+  "mm_xbg07": {
+   "has_text": true,
+   "text_guess": "RETURN TO GAME",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: pressed"
+  },
+  "mm_xbh07": {
+   "has_text": true,
+   "text_guess": "RETURN TO GAME",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: normal/over"
+  },
+  "mm_xbn07": {
+   "has_text": true,
+   "text_guess": "RETURN TO GAME",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: greyed"
+  },
+  "mm_xbg08": {
+   "has_text": true,
+   "text_guess": "ORIGINAL CINEMA",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: pressed"
+  },
+  "mm_xbh08": {
+   "has_text": true,
+   "text_guess": "ORIGINAL CINEMA",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: normal/over"
+  },
+  "mm_xbn08": {
+   "has_text": true,
+   "text_guess": "ORIGINAL CINEMA",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: greyed"
+  },
+  "mm_xbg09": {
+   "has_text": true,
+   "text_guess": "QUIT",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: pressed"
+  },
+  "mm_xbh09": {
+   "has_text": true,
+   "text_guess": "QUIT",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: normal/over"
+  },
+  "mm_xbn09": {
+   "has_text": true,
+   "text_guess": "QUIT",
+   "note": "main menu button (expansion layout, mainscreen.fit), state: greyed"
+  },
+  "mm_bkgd": {
+   "has_text": true,
+   "text_guess": "MECHCOMMANDER: DESPERATE MEASURES (title logo) + the small-print copyright / license notice at the bottom",
+   "note": "main menu background, 640x480; magenta box = area where the menu buttons are drawn"
+  },
+  "MM_WN00": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "landscape picture only"
+  },
+  "MM_WN01": {
+   "has_text": true,
+   "text_guess": "LOAD MISSION; GAME LIST; OPERATION #; MISSION #; RESOURCE POINTS",
+   "note": "load screen panel (loadscreen.fit)"
+  },
+  "MM_WN02": {
+   "has_text": true,
+   "text_guess": "SAVE MISSION; GAME LIST; OPERATION #; MISSION #; RESOURCE POINTS",
+   "note": "save screen panel (savescreen.fit)"
+  },
+  "ACCESS00": {
+   "has_text": true,
+   "text_guess": "MULTIPLAYER ACCESS"
+  },
+  "ASKED": {
+   "has_text": true,
+   "text_guess": "EXIT MULTIPLAYER?  Press [ESC] to return to game / Press [ENTER] to exit game"
+  },
+  "pause": {
+   "has_text": true,
+   "text_guess": "MISSION PAUSED  Press [ESC] to resume mission / Press [ENTER] to abort mission"
+  },
+  "DBOX_BOTTOM": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "dialog frame piece"
+  },
+  "DBOX_MIDDLE": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "dialog frame piece"
+  },
+  "DBOX_TOP": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "dialog frame piece"
+  },
+  "Lan00": {
+   "has_text": true,
+   "text_guess": "NETWORK CONNECTION; AVAILABLE GAMES; SLOTS; PLAYER LIST; PLAYER NAME"
+  },
+  "LAN01": {
+   "has_text": true,
+   "text_guess": "SESSION NAME; PLAYERS"
+  },
+  "LAN02": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "empty field frame"
+  },
+  "Modem00": {
+   "has_text": true,
+   "text_guess": "MODEM CONNECTION"
+  },
+  "Modem00A": {
+   "has_text": true,
+   "text_guess": "AVAILABLE MODEMS; PLAYER NAME"
+  },
+  "MODEM01": {
+   "has_text": true,
+   "text_guess": "PHONE NUMBER"
+  },
+  "MODEM02": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "empty field frame"
+  },
+  "PREFS_00": {
+   "has_text": true,
+   "text_guess": "PREFERENCES; SCREEN BRIGHTNESS; DIFFICULTY (EASY / REGULAR / HARD); MUSIC VOLUME; RADIO MESSAGE VOLUME; SOUND FX VOLUME"
+  },
+  "PREFS_01": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "check-box glyph"
+  },
+  "PREFS_02": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "slider knob"
+  },
+  "RROOM00": {
+   "has_text": true,
+   "text_guess": "READY ROOM; PLAYER LIST"
+  },
+  "Serial00": {
+   "has_text": true,
+   "text_guess": "SERIAL CONNECTION; PLAYER NAME; COM PORT"
+  },
+  "SERIAL01": {
+   "has_text": true,
+   "text_guess": "COM PORT"
+  },
+  "SERIAL02": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "empty field frame"
+  },
+  "SES_BG_BEGIN": {
+   "has_text": true,
+   "text_guess": "BEGIN PLANNING",
+   "note": "multiplayer session screen button, state: pressed"
+  },
+  "SES_BH_BEGIN": {
+   "has_text": true,
+   "text_guess": "BEGIN PLANNING",
+   "note": "multiplayer session screen button, state: normal/over"
+  },
+  "SES_BN_BEGIN": {
+   "has_text": true,
+   "text_guess": "BEGIN PLANNING",
+   "note": "multiplayer session screen button, state: greyed"
+  },
+  "SES_BG_CLAN": {
+   "has_text": true,
+   "text_guess": "CLAN",
+   "note": "multiplayer session screen button, state: pressed"
+  },
+  "SES_BH_CLAN": {
+   "has_text": true,
+   "text_guess": "CLAN",
+   "note": "multiplayer session screen button, state: normal/over"
+  },
+  "SES_BN_CLAN": {
+   "has_text": true,
+   "text_guess": "CLAN",
+   "note": "multiplayer session screen button, state: greyed"
+  },
+  "SES_BG_IS": {
+   "has_text": true,
+   "text_guess": "I.S.",
+   "note": "multiplayer session screen button, state: pressed"
+  },
+  "SES_BH_IS": {
+   "has_text": true,
+   "text_guess": "I.S.",
+   "note": "multiplayer session screen button, state: normal/over"
+  },
+  "SES_BN_IS": {
+   "has_text": true,
+   "text_guess": "I.S.",
+   "note": "multiplayer session screen button, state: greyed"
+  },
+  "SES_BG_MAP": {
+   "has_text": true,
+   "text_guess": "LOAD MAP",
+   "note": "multiplayer session screen button, state: pressed"
+  },
+  "SES_BH_MAP": {
+   "has_text": true,
+   "text_guess": "LOAD MAP",
+   "note": "multiplayer session screen button, state: normal/over"
+  },
+  "SES_BN_MAP": {
+   "has_text": true,
+   "text_guess": "LOAD MAP",
+   "note": "multiplayer session screen button, state: greyed"
+  },
+  "SES_BG_RPUP": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll arrow glyph"
+  },
+  "SES_BG_RPDN": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll arrow glyph"
+  },
+  "SES_BH_RPUP": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll arrow glyph"
+  },
+  "SES_BH_RPDN": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll arrow glyph"
+  },
+  "SES_BN_RPUP": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll arrow glyph"
+  },
+  "SES_BN_RPDN": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll arrow glyph"
+  },
+  "Ses_bk00": {
+   "has_text": true,
+   "text_guess": "COMMUNICATIONS; PLAYER LIST; MULTIPLAYER CHAT (vertical); MAP THUMBNAIL; MISSION DESCRIPTION; MISSION NAME; MISSION TIME LIMIT; MAP NAME; TEAM 1; TEAM 2; TEAM 1 RP; TEAM 2 RP; RP PER PLAYER; P1..P6 header",
+   "note": "multiplayer session screen background 640x480"
+  },
+  "SES_P1": {
+   "has_text": true,
+   "text_guess": "P1",
+   "note": "player slot tag (language-neutral)"
+  },
+  "SES_P2": {
+   "has_text": true,
+   "text_guess": "P2",
+   "note": "player slot tag (language-neutral)"
+  },
+  "SES_P3": {
+   "has_text": true,
+   "text_guess": "P3",
+   "note": "player slot tag (language-neutral)"
+  },
+  "SES_P4": {
+   "has_text": true,
+   "text_guess": "P4",
+   "note": "player slot tag (language-neutral)"
+  },
+  "SES_P5": {
+   "has_text": true,
+   "text_guess": "P5",
+   "note": "player slot tag (language-neutral)"
+  },
+  "SES_P6": {
+   "has_text": true,
+   "text_guess": "P6",
+   "note": "player slot tag (language-neutral)"
+  },
+  "MR_BKGD": {
+   "has_text": true,
+   "text_guess": "BATTLE STATISTICS; Total Enemy Units Destroyed; Enemy 'Mechs Destroyed; Enemy Pilots Killed; Total Player Units Destroyed; Player 'Mechs Destroyed; MISSION OBJECTIVES; SALVAGE LIST; KILLS:; GUNNERY:/PILOTING:/JUMPING:/SENSORS: (x12 pilot cards)"
+  },
+  "MR_MF00": {
+   "has_text": true,
+   "text_guess": "MISSION FAILED"
+  },
+  "MR_MS00": {
+   "has_text": true,
+   "text_guess": "MISSION SUCCESSFUL; RP EARNED"
+  },
+  "MR_MF01": {
+   "has_text": true,
+   "text_guess": "REPLAY MISSION",
+   "note": "button state 1"
+  },
+  "MR_MS01": {
+   "has_text": true,
+   "text_guess": "NEXT MISSION",
+   "note": "button state 1"
+  },
+  "MR_MF02": {
+   "has_text": true,
+   "text_guess": "REPLAY MISSION",
+   "note": "button state 2"
+  },
+  "MR_MS02": {
+   "has_text": true,
+   "text_guess": "NEXT MISSION",
+   "note": "button state 2"
+  },
+  "mrm_bkgd": {
+   "has_text": true,
+   "text_guess": "BATTLE STATISTICS; King of the Battlefield; Player; Affiliation; Kills:; Total Enemy Units Destroyed; Enemy 'Mechs Destroyed; Enemy Pilots Killed; Total Allied Units Destroyed; Allied 'Mechs Destroyed; Total Mission Time; Player Ranking; MISSION OBJECTIVES; KILLS:; GUNNERY:/PILOTING:/JUMPING:/SENSORS:",
+   "note": "multiplayer results background"
+  },
+  "mrm_bkgd00": {
+   "has_text": true,
+   "text_guess": "FRIENDLY UNIT STATISTICS | ENEMY UNIT STATISTICS",
+   "note": "tab strip, selected = friendly"
+  },
+  "mrm_bkgd01": {
+   "has_text": true,
+   "text_guess": "FRIENDLY UNIT STATISTICS | ENEMY UNIT STATISTICS",
+   "note": "tab strip, selected = enemy"
+  },
+  "mrm_bkgd02": {
+   "has_text": true,
+   "text_guess": "CONTINUE"
+  },
+  "mrm_bkgd03": {
+   "has_text": true,
+   "text_guess": "CONTINUE"
+  },
+  "MRM_MF00": {
+   "has_text": true,
+   "text_guess": "MISSION FAILED"
+  },
+  "MRM_MS00": {
+   "has_text": true,
+   "text_guess": "MISSION SUCCESSFUL"
+  },
+  "GUIMR07": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "tiny icon"
+  },
+  "GUIMR08": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "tiny icon"
+  },
+  "X_MR_BKGD": {
+   "has_text": true,
+   "text_guess": "BATTLE STATISTICS; Total Enemy Units Destroyed; Enemy 'Mechs Destroyed; Enemy Pilots Killed; Total Player Units Destroyed; Player 'Mechs Destroyed; MISSION OBJECTIVES; SALVAGE LIST; KILLS:; GUNNERY:/PILOTING:/JUMPING:/SENSORS: (x12 pilot cards)"
+  },
+  "X_MR_MF00": {
+   "has_text": true,
+   "text_guess": "MISSION FAILED"
+  },
+  "X_MR_MS00": {
+   "has_text": true,
+   "text_guess": "MISSION SUCCESSFUL; RP EARNED"
+  },
+  "X_MR_MF01": {
+   "has_text": true,
+   "text_guess": "REPLAY MISSION",
+   "note": "button state 1"
+  },
+  "X_MR_MS01": {
+   "has_text": true,
+   "text_guess": "NEXT MISSION",
+   "note": "button state 1"
+  },
+  "X_MR_MF02": {
+   "has_text": true,
+   "text_guess": "REPLAY MISSION",
+   "note": "button state 2"
+  },
+  "X_MR_MS02": {
+   "has_text": true,
+   "text_guess": "NEXT MISSION",
+   "note": "button state 2"
+  },
+  "X_MRMBKGD": {
+   "has_text": true,
+   "text_guess": "BATTLE STATISTICS; King of the Battlefield; Player; Affiliation; Kills:; Total Enemy Units Destroyed; Enemy 'Mechs Destroyed; Enemy Pilots Killed; Total Allied Units Destroyed; Allied 'Mechs Destroyed; Total Mission Time; Player Ranking; MISSION OBJECTIVES; KILLS:; GUNNERY:/PILOTING:/JUMPING:/SENSORS:",
+   "note": "multiplayer results background"
+  },
+  "X_MRMBKGD00": {
+   "has_text": true,
+   "text_guess": "FRIENDLY UNIT STATISTICS | ENEMY UNIT STATISTICS",
+   "note": "tab strip, selected = friendly"
+  },
+  "X_MRMBKGD01": {
+   "has_text": true,
+   "text_guess": "FRIENDLY UNIT STATISTICS | ENEMY UNIT STATISTICS",
+   "note": "tab strip, selected = enemy"
+  },
+  "X_MRMBKGD02": {
+   "has_text": true,
+   "text_guess": "CONTINUE"
+  },
+  "X_MRMBKGD03": {
+   "has_text": true,
+   "text_guess": "CONTINUE"
+  },
+  "X_MRMMF00": {
+   "has_text": true,
+   "text_guess": "MISSION FAILED"
+  },
+  "X_MRMMS00": {
+   "has_text": true,
+   "text_guess": "MISSION SUCCESSFUL"
+  },
+  "X_GUIMR07": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "tiny icon"
+  },
+  "X_GUIMR08": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "tiny icon"
+  },
+  "LSB_OP0": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "operation card without text (logo only)"
+  },
+  "LSB_OP1": {
+   "has_text": true,
+   "text_guess": "OPERATION: BEACHHEAD / ALL STATIONS COMMUNICATION / FIRST DAVION GUARDS / ACCESS: RESTRICTED / ENCRYPT:SIG/OP299-FARMER-00/A::ENCRYPT",
+   "note": "operation title card shown in the operation briefing; operation number = file index"
+  },
+  "LSB_OP2": {
+   "has_text": true,
+   "text_guess": "OPERATION: SKYHOOK / ALL STATIONS COMMUNICATION / FIRST DAVION GUARDS / ACCESS: RESTRICTED / ENCRYPT:SIG/OP299-FARMER-00/A::ENCRYPT",
+   "note": "operation title card shown in the operation briefing; operation number = file index"
+  },
+  "LSB_OP3": {
+   "has_text": true,
+   "text_guess": "OPERATION: VANGUARD / ALL STATIONS COMMUNICATION / FIRST DAVION GUARDS / ACCESS: RESTRICTED / ENCRYPT:SIG/OP299-FARMER-00/A::ENCRYPT",
+   "note": "operation title card shown in the operation briefing; operation number = file index"
+  },
+  "LSB_OP4": {
+   "has_text": true,
+   "text_guess": "OPERATION: LINCHPIN / ALL STATIONS COMMUNICATION / FIRST DAVION GUARDS / ACCESS: RESTRICTED / ENCRYPT:SIG/OP299-FARMER-00/A::ENCRYPT",
+   "note": "operation title card shown in the operation briefing; operation number = file index"
+  },
+  "LSB_OP5": {
+   "has_text": true,
+   "text_guess": "OPERATION: CUTTHROAT / ALL STATIONS COMMUNICATION / FIRST DAVION GUARDS / ACCESS: RESTRICTED / ENCRYPT:SIG/OP299-FARMER-00/A::ENCRYPT",
+   "note": "operation title card shown in the operation briefing; operation number = file index"
+  },
+  "LSB_OP6": {
+   "has_text": true,
+   "text_guess": "END TRANSMISSION"
+  },
+  "MCXCard1": {
+   "has_text": true,
+   "text_guess": "OPERATION: HYDRA / ALL STATIONS COMMUNICATION / FIRST DAVION GUARDS / ACCESS: RESTRICTED / ENCRYPT:SIG/OP299-FARMER-00/A::ENCRYPT",
+   "note": "expansion campaign operation card"
+  },
+  "MCXCard2": {
+   "has_text": true,
+   "text_guess": "OPERATION: GORGON / ALL STATIONS COMMUNICATION / FIRST DAVION GUARDS / ACCESS: RESTRICTED / ENCRYPT:SIG/OP299-FARMER-00/A::ENCRYPT",
+   "note": "expansion campaign operation card"
+  },
+  "MCXCard3": {
+   "has_text": true,
+   "text_guess": "OPERATION: MINOTAUR / ALL STATIONS COMMUNICATION / FIRST DAVION GUARDS / ACCESS: RESTRICTED / ENCRYPT:SIG/OP299-FARMER-00/A::ENCRYPT",
+   "note": "expansion campaign operation card"
+  },
+  "LSBBK00": {
+   "has_text": true,
+   "text_guess": "FORCE GROUP 1 / 2 / 3; CAMPAIGN DATA; READY AREA; RP; DROP WEIGHT LIMIT / CURRENT DROP WEIGHT / TONS",
+   "note": "mission briefing / deployment screen background 640x480"
+  },
+  "LSBBK01": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "empty panel"
+  },
+  "LSBBKM00": {
+   "has_text": true,
+   "text_guess": "CALLSIGN:; RANK:; GUNNERY / PILOTING / JUMPING / SENSORS; ARMOR / INTERNAL / ENGINES; PAYLOAD",
+   "note": "selected-mech info panel"
+  },
+  "LSBBKV00": {
+   "has_text": true,
+   "text_guess": "MAX SPEED:; VEHICLE TYPE:; VEHICLE PAYLOAD",
+   "note": "selected-vehicle info panel"
+  },
+  "Lsbdf00": {
+   "has_text": true,
+   "text_guess": "BEGIN MISSION",
+   "note": "deploy button, 3 states (normal / greyed / pressed)"
+  },
+  "Lsbdf00A": {
+   "has_text": true,
+   "text_guess": "BEGIN MISSION",
+   "note": "deploy button, 3 states (normal / greyed / pressed)"
+  },
+  "Lsbdf01": {
+   "has_text": true,
+   "text_guess": "BEGIN MISSION",
+   "note": "deploy button, 3 states (normal / greyed / pressed)"
+  },
+  "LSBDF02": {
+   "has_text": true,
+   "text_guess": "FORCE GROUP 1  T.",
+   "note": "force group header bar"
+  },
+  "LSBDF03": {
+   "has_text": true,
+   "text_guess": "FORCE GROUP 2  T.",
+   "note": "force group header bar"
+  },
+  "LSBDF04": {
+   "has_text": true,
+   "text_guess": "FORCE GROUP 3  T.",
+   "note": "force group header bar"
+  },
+  "LSBDF05": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "bar / frame without text"
+  },
+  "LSBDF05B": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "bar / frame without text"
+  },
+  "LSBDF06": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "bar / frame without text"
+  },
+  "lsbdf07": {
+   "has_text": true,
+   "text_guess": "DROP WEIGHT LIMIT / CURRENT DROP WEIGHT / TONS"
+  },
+  "LSBDW00": {
+   "has_text": true,
+   "text_guess": "OPERATION BRIEFING / MISSION BRIEFING (vertical tabs)",
+   "note": "state: operation tab selected"
+  },
+  "LSBDW01": {
+   "has_text": true,
+   "text_guess": "OPERATION BRIEFING / MISSION BRIEFING (vertical tabs)",
+   "note": "state: mission tab selected"
+  },
+  "LSBDW02": {
+   "has_text": true,
+   "text_guess": "MULTIPLAYER CHAT / MISSION BRIEFING (vertical tabs)"
+  },
+  "LSBDW03": {
+   "has_text": true,
+   "text_guess": "MULTIPLAYER CHAT / MISSION BRIEFING (vertical tabs)"
+  },
+  "LSBDW04": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "chat input frame"
+  },
+  "LSBDW05": {
+   "has_text": true,
+   "text_guess": "TEAM (vertical)"
+  },
+  "LSBDW06": {
+   "has_text": true,
+   "text_guess": "TEAM (vertical)"
+  },
+  "LSBDW07": {
+   "has_text": true,
+   "text_guess": "TEAM (vertical)"
+  },
+  "lsbdw08": {
+   "has_text": true,
+   "text_guess": "MULTIPLAYER CHAT (vertical)"
+  },
+  "LSC_P0": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "blank bar"
+  },
+  "LSC_P1": {
+   "has_text": true,
+   "text_guess": "P1",
+   "note": "player slot tag (language-neutral)"
+  },
+  "LSC_P2": {
+   "has_text": true,
+   "text_guess": "P2",
+   "note": "player slot tag (language-neutral)"
+  },
+  "LSC_P3": {
+   "has_text": true,
+   "text_guess": "P3",
+   "note": "player slot tag (language-neutral)"
+  },
+  "LSC_P4": {
+   "has_text": true,
+   "text_guess": "P4",
+   "note": "player slot tag (language-neutral)"
+  },
+  "LSC_P5": {
+   "has_text": true,
+   "text_guess": "P5",
+   "note": "player slot tag (language-neutral)"
+  },
+  "LSC_P6": {
+   "has_text": true,
+   "text_guess": "P6",
+   "note": "player slot tag (language-neutral)"
+  },
+  "LSC_PG": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "status light"
+  },
+  "lsc_pG1": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "status light"
+  },
+  "LSC_PH": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "status light"
+  },
+  "lsc_pn": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "status light"
+  },
+  "LSCBG00": {
+   "has_text": true,
+   "text_guess": "MAIN MENU",
+   "note": "logistics navigation button with status light, state: pressed"
+  },
+  "LSCBH00": {
+   "has_text": true,
+   "text_guess": "MAIN MENU",
+   "note": "logistics navigation button with status light, state: normal/over"
+  },
+  "LSCBN00": {
+   "has_text": true,
+   "text_guess": "MAIN MENU",
+   "note": "logistics navigation button with status light, state: greyed"
+  },
+  "LSCBG01": {
+   "has_text": true,
+   "text_guess": "BRIEFING/DEPLOYMENT",
+   "note": "logistics navigation button with status light, state: pressed"
+  },
+  "LSCBH01": {
+   "has_text": true,
+   "text_guess": "BRIEFING/DEPLOYMENT",
+   "note": "logistics navigation button with status light, state: normal/over"
+  },
+  "LSCBN01": {
+   "has_text": true,
+   "text_guess": "BRIEFING/DEPLOYMENT",
+   "note": "logistics navigation button with status light, state: greyed"
+  },
+  "LSCBG02": {
+   "has_text": true,
+   "text_guess": "PURCHASING",
+   "note": "logistics navigation button with status light, state: pressed"
+  },
+  "LSCBH02": {
+   "has_text": true,
+   "text_guess": "PURCHASING",
+   "note": "logistics navigation button with status light, state: normal/over"
+  },
+  "LSCBN02": {
+   "has_text": true,
+   "text_guess": "PURCHASING",
+   "note": "logistics navigation button with status light, state: greyed"
+  },
+  "LSCBG03": {
+   "has_text": true,
+   "text_guess": "'MECH BAY",
+   "note": "logistics navigation button with status light, state: pressed"
+  },
+  "LSCBH03": {
+   "has_text": true,
+   "text_guess": "'MECH BAY",
+   "note": "logistics navigation button with status light, state: normal/over"
+  },
+  "LSCBN03": {
+   "has_text": true,
+   "text_guess": "'MECH BAY",
+   "note": "logistics navigation button with status light, state: greyed"
+  },
+  "LSCDWM": {
+   "has_text": true,
+   "text_guess": "'MECHS | MECHWARRIORS | COMPONENTS | VEHICLES (vertical tab strip, 'MECHS selected)",
+   "note": "inventory tab strip (the order of the file names is not the order of the tabs)"
+  },
+  "LSCDWP": {
+   "has_text": true,
+   "text_guess": "'MECHS | MECHWARRIORS | COMPONENTS | VEHICLES (vertical tab strip, MECHWARRIORS selected)",
+   "note": "inventory tab strip (the order of the file names is not the order of the tabs)"
+  },
+  "LSCDWC": {
+   "has_text": true,
+   "text_guess": "'MECHS | MECHWARRIORS | COMPONENTS | VEHICLES (vertical tab strip, COMPONENTS selected)",
+   "note": "inventory tab strip (the order of the file names is not the order of the tabs)"
+  },
+  "LSCDWV": {
+   "has_text": true,
+   "text_guess": "'MECHS | MECHWARRIORS | COMPONENTS | VEHICLES (vertical tab strip, VEHICLES selected)",
+   "note": "inventory tab strip (the order of the file names is not the order of the tabs)"
+  },
+  "LSCIIC": {
+   "has_text": true,
+   "text_guess": "RECYCLE: / DAMAGE: / RANGE:",
+   "note": "component info panel"
+  },
+  "LSCIIM": {
+   "has_text": true,
+   "text_guess": "WEIGHT: / CLASS: / SPEED: / ARMOR: / STRUCT: / JUMP:",
+   "note": "mech info panel"
+  },
+  "LSCIIP": {
+   "has_text": true,
+   "text_guess": "GUNNERY / PILOTING / JUMPING / SENSORS; RANK:",
+   "note": "pilot info panel"
+  },
+  "LSCIIV": {
+   "has_text": true,
+   "text_guess": "WEIGHT: / TYPE: / SPEED: / ARMOR:",
+   "note": "vehicle info panel"
+  },
+  "LSPBIC00": {
+   "has_text": true,
+   "text_guess": "AVAIL: COST: / RECYCLE: DAMAGE: RANGE:",
+   "note": "purchase screen component info panel"
+  },
+  "LSPBIM00": {
+   "has_text": true,
+   "text_guess": "AVAIL: COST: / WEIGHT: CLASS: SPEED: / ARMOR: STRUCT: JUMP:",
+   "note": "purchase screen mech info panel"
+  },
+  "LSPBIP00": {
+   "has_text": true,
+   "text_guess": "COST: / GUNNERY / PILOTING / JUMPING / SENSORS; RANK:",
+   "note": "purchase screen pilot info panel"
+  },
+  "LSPBIV00": {
+   "has_text": true,
+   "text_guess": "AVAIL: COST: / WEIGHT: TYPE: SPEED: ARMOR:",
+   "note": "purchase screen vehicle info panel"
+  },
+  "LSPBIM01": {
+   "has_text": true,
+   "text_guess": "A / W / J (one letter)",
+   "note": "variant selector glyph: Armor / Weapon load / Jump; the letters are text"
+  },
+  "LSPBIM02": {
+   "has_text": true,
+   "text_guess": "A / W / J (one letter)",
+   "note": "variant selector glyph: Armor / Weapon load / Jump; the letters are text"
+  },
+  "LSPBIM03": {
+   "has_text": true,
+   "text_guess": "A / W / J (one letter)",
+   "note": "variant selector glyph: Armor / Weapon load / Jump; the letters are text"
+  },
+  "LSPBIM04": {
+   "has_text": true,
+   "text_guess": "A / W / J (one letter)",
+   "note": "variant selector glyph: Armor / Weapon load / Jump; the letters are text"
+  },
+  "LSPBIM05": {
+   "has_text": true,
+   "text_guess": "A / W / J (one letter)",
+   "note": "variant selector glyph: Armor / Weapon load / Jump; the letters are text"
+  },
+  "LSPBIM06": {
+   "has_text": true,
+   "text_guess": "A / W / J (one letter)",
+   "note": "variant selector glyph: Armor / Weapon load / Jump; the letters are text"
+  },
+  "LSPBIM07": {
+   "has_text": true,
+   "text_guess": "A / W / J (one letter)",
+   "note": "variant selector glyph: Armor / Weapon load / Jump; the letters are text"
+  },
+  "LSPBIM08": {
+   "has_text": true,
+   "text_guess": "A / W / J (one letter)",
+   "note": "variant selector glyph: Armor / Weapon load / Jump; the letters are text"
+  },
+  "LSPBIM09": {
+   "has_text": true,
+   "text_guess": "A / W / J (one letter)",
+   "note": "variant selector glyph: Armor / Weapon load / Jump; the letters are text"
+  },
+  "LSPBK00": {
+   "has_text": true,
+   "text_guess": "BATTALION INVENTORY; RP; CURRENT INVENTORY LISTING; INVENTORY INFORMATION",
+   "note": "purchase screen background 640x480"
+  },
+  "LSPBK01": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "emblem only"
+  },
+  "LSPCB00": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "dialog frame"
+  },
+  "LSPCB01": {
+   "has_text": true,
+   "text_guess": "ACCEPT"
+  },
+  "LSPCB02": {
+   "has_text": true,
+   "text_guess": "CANCEL"
+  },
+  "LSPCB03": {
+   "has_text": true,
+   "text_guess": "ACCEPT"
+  },
+  "LSPCB04": {
+   "has_text": true,
+   "text_guess": "CANCEL"
+  },
+  "LSPCB05": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "arrow glyph"
+  },
+  "LSPCB06": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "arrow glyph"
+  },
+  "LSPCB07": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "arrow glyph"
+  },
+  "LSPCB09": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "arrow glyph"
+  },
+  "LSPCB08": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "arrow glyph"
+  },
+  "LSPCB10": {
+   "has_text": true,
+   "text_guess": "CONTINUE"
+  },
+  "LSPCB11": {
+   "has_text": true,
+   "text_guess": "CONTINUE"
+  },
+  "LSPCBC00": {
+   "has_text": true,
+   "text_guess": "PURCHASE COMPONENT",
+   "note": "purchase dialog title bar"
+  },
+  "LSPCBC01": {
+   "has_text": true,
+   "text_guess": "SELL COMPONENT",
+   "note": "purchase dialog title bar"
+  },
+  "LSPCBM00": {
+   "has_text": true,
+   "text_guess": "PURCHASE BATTLEMECH",
+   "note": "purchase dialog title bar"
+  },
+  "LSPCBM01": {
+   "has_text": true,
+   "text_guess": "SELL BATTLEMECH",
+   "note": "purchase dialog title bar"
+  },
+  "LSPCBP00": {
+   "has_text": true,
+   "text_guess": "PURCHASE MECHWARRIOR",
+   "note": "purchase dialog title bar"
+  },
+  "LSPCBP01": {
+   "has_text": true,
+   "text_guess": "REASSIGN MECHWARRIOR",
+   "note": "purchase dialog title bar"
+  },
+  "LSPCBV00": {
+   "has_text": true,
+   "text_guess": "PURCHASE VEHICLE",
+   "note": "purchase dialog title bar"
+  },
+  "LSPCBV01": {
+   "has_text": true,
+   "text_guess": "SELL VEHICLE",
+   "note": "purchase dialog title bar"
+  },
+  "LSRBK00": {
+   "has_text": true,
+   "text_guess": "READY AREA; RP; CURRENT INVENTORY LISTING; INVENTORY INFORMATION",
+   "note": "repair screen background 640x480"
+  },
+  "LSRBK01": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "emblem only"
+  },
+  "LSRUPM00": {
+   "has_text": true,
+   "text_guess": "CALLSIGN:; RANK:; GUNNERY / PILOTING / JUMPING / SENSORS; ARMOR / INTERNAL / ENGINES; PAYLOAD",
+   "note": "repair screen mech panel"
+  },
+  "LSRUPV00": {
+   "has_text": true,
+   "text_guess": "MAX SPEED:; VEHICLE TYPE:; VEHICLE PAYLOAD",
+   "note": "repair screen vehicle panel"
+  },
+  "lsrupm01": {
+   "has_text": true,
+   "text_guess": "REFIT ALL",
+   "note": "repair screen button (states: normal / pressed / greyed)"
+  },
+  "lsrupm02": {
+   "has_text": true,
+   "text_guess": "REPAIR ALL",
+   "note": "repair screen button (states: normal / pressed / greyed)"
+  },
+  "lsrupm03": {
+   "has_text": true,
+   "text_guess": "REFIT ALL",
+   "note": "repair screen button (states: normal / pressed / greyed)"
+  },
+  "lsrupm04": {
+   "has_text": true,
+   "text_guess": "REPAIR ALL",
+   "note": "repair screen button (states: normal / pressed / greyed)"
+  },
+  "lsrupm06": {
+   "has_text": true,
+   "text_guess": "REFIT ALL",
+   "note": "repair screen button (states: normal / pressed / greyed)"
+  },
+  "lsrupm07": {
+   "has_text": true,
+   "text_guess": "REPAIR ALL",
+   "note": "repair screen button (states: normal / pressed / greyed)"
+  },
+  "lsrupm10": {
+   "has_text": true,
+   "text_guess": "CALLSIGN:; RANK:; GUNNERY / PILOTING / JUMPING / SENSORS",
+   "note": "pilot box"
+  },
+  "LSRUPM05": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "slider / bar piece"
+  },
+  "lsrupm08": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "slider / bar piece"
+  },
+  "lsrupm09": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "slider / bar piece"
+  },
+  "lsrupm11": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "slider / bar piece"
+  },
+  "lsrupm12": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "slider / bar piece"
+  },
+  "lsrupm13": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "slider / bar piece"
+  },
+  "BLKFNT": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "BLKFNT10": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "BLUE": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "BLUE10": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "BLUEDRP": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "GREEN": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "GREEN10": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "GRYFNT": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "GRYFNT10": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "GRYFNT12": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "RED": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "RED10": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "WHITE": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "WHITE10": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "WHITE12": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "YELLDRP": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "YELLOW": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "YELLOW10": {
+   "has_text": true,
+   "text_guess": "font glyph sheet (ASCII character cells)",
+   "note": "source bitmap of the bitmap font of the same name (MISC.FST/*.FNT); not shown to the player as text"
+  },
+  "BLUEINV": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "plain inventory panel colour"
+  },
+  "GREENINV": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "plain inventory panel colour"
+  },
+  "REDINV": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "plain inventory panel colour"
+  },
+  "INVBLOCK": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "plain inventory panel colour"
+  },
+  "scroll": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll bar glyph"
+  },
+  "sdnbup": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll bar glyph"
+  },
+  "supbup": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll bar glyph"
+  },
+  "splashscroll": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll bar glyph"
+  },
+  "splashsdnbup": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll bar glyph"
+  },
+  "splashsupbup": {
+   "has_text": false,
+   "text_guess": "",
+   "note": "scroll bar glyph"
+  },
+  "LSCFLMA00": {
+   "has_text": true,
+   "text_guess": "ATLAS-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA01": {
+   "has_text": true,
+   "text_guess": "AWESOME-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA02": {
+   "has_text": true,
+   "text_guess": "CATAPULT-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA03": {
+   "has_text": true,
+   "text_guess": "CENTURION-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA04": {
+   "has_text": true,
+   "text_guess": "COMMANDO-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA05": {
+   "has_text": true,
+   "text_guess": "COUGAR-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA06": {
+   "has_text": true,
+   "text_guess": "FIRESTARTER-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA07": {
+   "has_text": true,
+   "text_guess": "HOLLANDER II-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA08": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA09": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK IIC-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA10": {
+   "has_text": true,
+   "text_guess": "JAGERMECH-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA11": {
+   "has_text": true,
+   "text_guess": "LOKI-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA12": {
+   "has_text": true,
+   "text_guess": "MAD CAT-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA13": {
+   "has_text": true,
+   "text_guess": "MASAKARI-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA14": {
+   "has_text": true,
+   "text_guess": "RAVEN-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA15": {
+   "has_text": true,
+   "text_guess": "THOR-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA16": {
+   "has_text": true,
+   "text_guess": "ULLER-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA17": {
+   "has_text": true,
+   "text_guess": "VULTURE-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA18": {
+   "has_text": true,
+   "text_guess": "STILETTO-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA19": {
+   "has_text": true,
+   "text_guess": "BUSHWACKER-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA20": {
+   "has_text": true,
+   "text_guess": "MAULER-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA21": {
+   "has_text": true,
+   "text_guess": "SHADOW CAT-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA22": {
+   "has_text": true,
+   "text_guess": "NOVA CAT-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMA23": {
+   "has_text": true,
+   "text_guess": "TURKINA-A",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW00": {
+   "has_text": true,
+   "text_guess": "ATLAS-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW01": {
+   "has_text": true,
+   "text_guess": "AWESOME-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW02": {
+   "has_text": true,
+   "text_guess": "CATAPULT-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW03": {
+   "has_text": true,
+   "text_guess": "CENTURION-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW04": {
+   "has_text": true,
+   "text_guess": "COMMANDO-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW05": {
+   "has_text": true,
+   "text_guess": "COUGAR-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW06": {
+   "has_text": true,
+   "text_guess": "FIRESTARTER-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW07": {
+   "has_text": true,
+   "text_guess": "HOLLANDER II-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW08": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW09": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK IIC-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW10": {
+   "has_text": true,
+   "text_guess": "JAGERMECH-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW11": {
+   "has_text": true,
+   "text_guess": "LOKI-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW12": {
+   "has_text": true,
+   "text_guess": "MAD CAT-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW13": {
+   "has_text": true,
+   "text_guess": "MASAKARI-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW14": {
+   "has_text": true,
+   "text_guess": "RAVEN-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW15": {
+   "has_text": true,
+   "text_guess": "THOR-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW16": {
+   "has_text": true,
+   "text_guess": "ULLER-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW17": {
+   "has_text": true,
+   "text_guess": "VULTURE-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW18": {
+   "has_text": true,
+   "text_guess": "STILETTO-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW19": {
+   "has_text": true,
+   "text_guess": "BUSHWACKER-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW20": {
+   "has_text": true,
+   "text_guess": "MAULER-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW21": {
+   "has_text": true,
+   "text_guess": "SHADOW CAT-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW22": {
+   "has_text": true,
+   "text_guess": "NOVA CAT-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMW23": {
+   "has_text": true,
+   "text_guess": "TURKINA-W",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ00": {
+   "has_text": true,
+   "text_guess": "ATLAS-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ01": {
+   "has_text": true,
+   "text_guess": "AWESOME-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ02": {
+   "has_text": true,
+   "text_guess": "CATAPULT-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ03": {
+   "has_text": true,
+   "text_guess": "CENTURION-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ04": {
+   "has_text": true,
+   "text_guess": "COMMANDO-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ05": {
+   "has_text": true,
+   "text_guess": "COUGAR-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ06": {
+   "has_text": true,
+   "text_guess": "FIRESTARTER-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ07": {
+   "has_text": true,
+   "text_guess": "HOLLANDER II-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ08": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ09": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK IIC-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ10": {
+   "has_text": true,
+   "text_guess": "JAGERMECH-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ11": {
+   "has_text": true,
+   "text_guess": "LOKI-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ12": {
+   "has_text": true,
+   "text_guess": "MAD CAT-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ13": {
+   "has_text": true,
+   "text_guess": "MASAKARI-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ14": {
+   "has_text": true,
+   "text_guess": "RAVEN-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ15": {
+   "has_text": true,
+   "text_guess": "THOR-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ16": {
+   "has_text": true,
+   "text_guess": "ULLER-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ17": {
+   "has_text": true,
+   "text_guess": "VULTURE-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ18": {
+   "has_text": true,
+   "text_guess": "STILETTO-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ19": {
+   "has_text": true,
+   "text_guess": "BUSHWACKER-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ20": {
+   "has_text": true,
+   "text_guess": "MAULER-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ21": {
+   "has_text": true,
+   "text_guess": "SHADOW CAT-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ22": {
+   "has_text": true,
+   "text_guess": "NOVA CAT-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSCFLMJ23": {
+   "has_text": true,
+   "text_guess": "TURKINA-J",
+   "note": "BattleMech inventory/repair name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA00": {
+   "has_text": true,
+   "text_guess": "ATLAS-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA01": {
+   "has_text": true,
+   "text_guess": "AWESOME-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA02": {
+   "has_text": true,
+   "text_guess": "CATAPULT-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA03": {
+   "has_text": true,
+   "text_guess": "CENTURION-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA04": {
+   "has_text": true,
+   "text_guess": "COMMANDO-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA05": {
+   "has_text": true,
+   "text_guess": "COUGAR-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA06": {
+   "has_text": true,
+   "text_guess": "FIRESTARTER-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA07": {
+   "has_text": true,
+   "text_guess": "HOLLANDER II-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA08": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA09": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK IIC-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA10": {
+   "has_text": true,
+   "text_guess": "JAGERMECH-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA11": {
+   "has_text": true,
+   "text_guess": "LOKI-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA12": {
+   "has_text": true,
+   "text_guess": "MAD CAT-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA13": {
+   "has_text": true,
+   "text_guess": "MASAKARI-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA14": {
+   "has_text": true,
+   "text_guess": "RAVEN-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA15": {
+   "has_text": true,
+   "text_guess": "THOR-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA16": {
+   "has_text": true,
+   "text_guess": "ULLER-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA17": {
+   "has_text": true,
+   "text_guess": "VULTURE-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA18": {
+   "has_text": true,
+   "text_guess": "STILETTO-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA19": {
+   "has_text": true,
+   "text_guess": "BUSHWACKER-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA20": {
+   "has_text": true,
+   "text_guess": "MAULER-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA21": {
+   "has_text": true,
+   "text_guess": "SHADOW CAT-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA22": {
+   "has_text": true,
+   "text_guess": "NOVA CAT-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMA23": {
+   "has_text": true,
+   "text_guess": "TURKINA-A",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW00": {
+   "has_text": true,
+   "text_guess": "ATLAS-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW01": {
+   "has_text": true,
+   "text_guess": "AWESOME-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW02": {
+   "has_text": true,
+   "text_guess": "CATAPULT-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW03": {
+   "has_text": true,
+   "text_guess": "CENTURION-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW04": {
+   "has_text": true,
+   "text_guess": "COMMANDO-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW05": {
+   "has_text": true,
+   "text_guess": "COUGAR-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW06": {
+   "has_text": true,
+   "text_guess": "FIRESTARTER-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW07": {
+   "has_text": true,
+   "text_guess": "HOLLANDER II-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW08": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW09": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK IIC-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW10": {
+   "has_text": true,
+   "text_guess": "JAGERMECH-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW11": {
+   "has_text": true,
+   "text_guess": "LOKI-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW12": {
+   "has_text": true,
+   "text_guess": "MAD CAT-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW13": {
+   "has_text": true,
+   "text_guess": "MASAKARI-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW14": {
+   "has_text": true,
+   "text_guess": "RAVEN-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW15": {
+   "has_text": true,
+   "text_guess": "THOR-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW16": {
+   "has_text": true,
+   "text_guess": "ULLER-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW17": {
+   "has_text": true,
+   "text_guess": "VULTURE-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW18": {
+   "has_text": true,
+   "text_guess": "STILETTO-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW19": {
+   "has_text": true,
+   "text_guess": "BUSHWACKER-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW20": {
+   "has_text": true,
+   "text_guess": "MAULER-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW21": {
+   "has_text": true,
+   "text_guess": "SHADOW CAT-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW22": {
+   "has_text": true,
+   "text_guess": "NOVA CAT-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMW23": {
+   "has_text": true,
+   "text_guess": "TURKINA-W",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ00": {
+   "has_text": true,
+   "text_guess": "ATLAS-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ01": {
+   "has_text": true,
+   "text_guess": "AWESOME-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ02": {
+   "has_text": true,
+   "text_guess": "CATAPULT-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ03": {
+   "has_text": true,
+   "text_guess": "CENTURION-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ04": {
+   "has_text": true,
+   "text_guess": "COMMANDO-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ05": {
+   "has_text": true,
+   "text_guess": "COUGAR-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ06": {
+   "has_text": true,
+   "text_guess": "FIRESTARTER-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ07": {
+   "has_text": true,
+   "text_guess": "HOLLANDER II-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ08": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ09": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK IIC-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ10": {
+   "has_text": true,
+   "text_guess": "JAGERMECH-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ11": {
+   "has_text": true,
+   "text_guess": "LOKI-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ12": {
+   "has_text": true,
+   "text_guess": "MAD CAT-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ13": {
+   "has_text": true,
+   "text_guess": "MASAKARI-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ14": {
+   "has_text": true,
+   "text_guess": "RAVEN-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ15": {
+   "has_text": true,
+   "text_guess": "THOR-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ16": {
+   "has_text": true,
+   "text_guess": "ULLER-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ17": {
+   "has_text": true,
+   "text_guess": "VULTURE-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ18": {
+   "has_text": true,
+   "text_guess": "STILETTO-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ19": {
+   "has_text": true,
+   "text_guess": "BUSHWACKER-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ20": {
+   "has_text": true,
+   "text_guess": "MAULER-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ21": {
+   "has_text": true,
+   "text_guess": "SHADOW CAT-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ22": {
+   "has_text": true,
+   "text_guess": "NOVA CAT-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFLMJ23": {
+   "has_text": true,
+   "text_guess": "TURKINA-J",
+   "note": "BattleMech purchase name plate; baked-in mech name, 100x12"
+  },
+  "LSPFDMA00": {
+   "has_text": true,
+   "text_guess": "ATLAS-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA01": {
+   "has_text": true,
+   "text_guess": "AWESOME-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA02": {
+   "has_text": true,
+   "text_guess": "CATAPULT-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA03": {
+   "has_text": true,
+   "text_guess": "CENTURION-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA04": {
+   "has_text": true,
+   "text_guess": "COMMANDO-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA05": {
+   "has_text": true,
+   "text_guess": "COUGAR-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA06": {
+   "has_text": true,
+   "text_guess": "FIRESTARTER-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA07": {
+   "has_text": true,
+   "text_guess": "HOLLANDER II-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA08": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA09": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK IIC-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA10": {
+   "has_text": true,
+   "text_guess": "JAGERMECH-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA11": {
+   "has_text": true,
+   "text_guess": "LOKI-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA12": {
+   "has_text": true,
+   "text_guess": "MAD CAT-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA13": {
+   "has_text": true,
+   "text_guess": "MASAKARI-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA14": {
+   "has_text": true,
+   "text_guess": "RAVEN-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA15": {
+   "has_text": true,
+   "text_guess": "THOR-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA16": {
+   "has_text": true,
+   "text_guess": "ULLER-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA17": {
+   "has_text": true,
+   "text_guess": "VULTURE-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA18": {
+   "has_text": true,
+   "text_guess": "STILETTO-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA19": {
+   "has_text": true,
+   "text_guess": "BUSHWACKER-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA20": {
+   "has_text": true,
+   "text_guess": "MAULER-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA21": {
+   "has_text": true,
+   "text_guess": "SHADOW CAT-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA22": {
+   "has_text": true,
+   "text_guess": "NOVA CAT-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMA23": {
+   "has_text": true,
+   "text_guess": "TURKINA-A",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW00": {
+   "has_text": true,
+   "text_guess": "ATLAS-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW01": {
+   "has_text": true,
+   "text_guess": "AWESOME-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW02": {
+   "has_text": true,
+   "text_guess": "CATAPULT-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW03": {
+   "has_text": true,
+   "text_guess": "CENTURION-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW04": {
+   "has_text": true,
+   "text_guess": "COMMANDO-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW05": {
+   "has_text": true,
+   "text_guess": "COUGAR-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW06": {
+   "has_text": true,
+   "text_guess": "FIRESTARTER-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW07": {
+   "has_text": true,
+   "text_guess": "HOLLANDER II-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW08": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW09": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK IIC-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW10": {
+   "has_text": true,
+   "text_guess": "JAGERMECH-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW11": {
+   "has_text": true,
+   "text_guess": "LOKI-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW12": {
+   "has_text": true,
+   "text_guess": "MAD CAT-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW13": {
+   "has_text": true,
+   "text_guess": "MASAKARI-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW14": {
+   "has_text": true,
+   "text_guess": "RAVEN-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW15": {
+   "has_text": true,
+   "text_guess": "THOR-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW16": {
+   "has_text": true,
+   "text_guess": "ULLER-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW17": {
+   "has_text": true,
+   "text_guess": "VULTURE-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW18": {
+   "has_text": true,
+   "text_guess": "STILETTO-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW19": {
+   "has_text": true,
+   "text_guess": "BUSHWACKER-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW20": {
+   "has_text": true,
+   "text_guess": "MAULER-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW21": {
+   "has_text": true,
+   "text_guess": "SHADOW CAT-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW22": {
+   "has_text": true,
+   "text_guess": "NOVA CAT-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMW23": {
+   "has_text": true,
+   "text_guess": "TURKINA-W",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ00": {
+   "has_text": true,
+   "text_guess": "ATLAS-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ01": {
+   "has_text": true,
+   "text_guess": "AWESOME-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ02": {
+   "has_text": true,
+   "text_guess": "CATAPULT-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ03": {
+   "has_text": true,
+   "text_guess": "CENTURION-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ04": {
+   "has_text": true,
+   "text_guess": "COMMANDO-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ05": {
+   "has_text": true,
+   "text_guess": "COUGAR-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ06": {
+   "has_text": true,
+   "text_guess": "FIRESTARTER-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ07": {
+   "has_text": true,
+   "text_guess": "HOLLANDER II-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ08": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ09": {
+   "has_text": true,
+   "text_guess": "HUNCHBACK IIC-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ10": {
+   "has_text": true,
+   "text_guess": "JAGERMECH-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ11": {
+   "has_text": true,
+   "text_guess": "LOKI-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ12": {
+   "has_text": true,
+   "text_guess": "MAD CAT-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ13": {
+   "has_text": true,
+   "text_guess": "MASAKARI-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ14": {
+   "has_text": true,
+   "text_guess": "RAVEN-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ15": {
+   "has_text": true,
+   "text_guess": "THOR-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ16": {
+   "has_text": true,
+   "text_guess": "ULLER-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ17": {
+   "has_text": true,
+   "text_guess": "VULTURE-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ18": {
+   "has_text": true,
+   "text_guess": "STILETTO-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ19": {
+   "has_text": true,
+   "text_guess": "BUSHWACKER-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ20": {
+   "has_text": true,
+   "text_guess": "MAULER-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ21": {
+   "has_text": true,
+   "text_guess": "SHADOW CAT-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ22": {
+   "has_text": true,
+   "text_guess": "NOVA CAT-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSPFDMJ23": {
+   "has_text": true,
+   "text_guess": "TURKINA-J",
+   "note": "BattleMech purchase name plate, dimmed (cannot afford / unavailable); baked-in mech name, 100x12"
+  },
+  "LSCFLV00": {
+   "has_text": true,
+   "text_guess": "APC",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV01": {
+   "has_text": true,
+   "text_guess": "BULLDOG",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV02": {
+   "has_text": true,
+   "text_guess": "CONDOR",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV03": {
+   "has_text": true,
+   "text_guess": "ELEMENTAL CARRIER",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV04": {
+   "has_text": true,
+   "text_guess": "HARASSER",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV05": {
+   "has_text": true,
+   "text_guess": "J. EDGAR",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV06": {
+   "has_text": true,
+   "text_guess": "LIGHT TRANSPORT",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV07": {
+   "has_text": true,
+   "text_guess": "LRM CARRIER",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV08": {
+   "has_text": true,
+   "text_guess": "MINELAYER",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV09": {
+   "has_text": true,
+   "text_guess": "MINESWEEPER",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV10": {
+   "has_text": true,
+   "text_guess": "MOBILE HQ",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV11": {
+   "has_text": true,
+   "text_guess": "PEGASUS",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV12": {
+   "has_text": true,
+   "text_guess": "AEROSPACE SPOTTER",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV13": {
+   "has_text": true,
+   "text_guess": "REFIT TRUCK",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV14": {
+   "has_text": true,
+   "text_guess": "ROMMEL",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV15": {
+   "has_text": true,
+   "text_guess": "SARACEN",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV16": {
+   "has_text": true,
+   "text_guess": "SAVANNAH MASTER",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV17": {
+   "has_text": true,
+   "text_guess": "SCHREK PPC CARRIER",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV18": {
+   "has_text": true,
+   "text_guess": "SRM CARRIER",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV19": {
+   "has_text": true,
+   "text_guess": "STRIKER",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV20": {
+   "has_text": true,
+   "text_guess": "SWIFTWIND",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV21": {
+   "has_text": true,
+   "text_guess": "VON LUCKNER",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV22": {
+   "has_text": true,
+   "text_guess": "ELEMENTAL (TYPE I)",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV23": {
+   "has_text": true,
+   "text_guess": "ELEMENTAL (TYPE II)",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV24": {
+   "has_text": true,
+   "text_guess": "ELEMENTAL (TYPE III)",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV25": {
+   "has_text": true,
+   "text_guess": "ARTILLERY LOADER",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV26": {
+   "has_text": true,
+   "text_guess": "FUEL TRUCK",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV27": {
+   "has_text": true,
+   "text_guess": "MOBILE ARTILLERY",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV28": {
+   "has_text": true,
+   "text_guess": "SALVAGE TRUCK",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV29": {
+   "has_text": true,
+   "text_guess": "CENTIPEDE",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV30": {
+   "has_text": true,
+   "text_guess": "REGULATOR",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV31": {
+   "has_text": true,
+   "text_guess": "MANTICORE",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV32": {
+   "has_text": true,
+   "text_guess": "ALACORN",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV33": {
+   "has_text": true,
+   "text_guess": "PILUM",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSCFLV34": {
+   "has_text": true,
+   "text_guess": "AMMO TRUCK",
+   "note": "vehicle name plate (inventory/repair), 120x12"
+  },
+  "LSPFLV00": {
+   "has_text": true,
+   "text_guess": "APC",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV00": {
+   "has_text": true,
+   "text_guess": "APC",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV01": {
+   "has_text": true,
+   "text_guess": "BULLDOG MEDIUM TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV01": {
+   "has_text": true,
+   "text_guess": "BULLDOG MEDIUM TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV02": {
+   "has_text": true,
+   "text_guess": "CONDOR HEAVY HOVER TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV02": {
+   "has_text": true,
+   "text_guess": "CONDOR HEAVY HOVER TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV03": {
+   "has_text": true,
+   "text_guess": "ELEMENTAL CARRIER",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV03": {
+   "has_text": true,
+   "text_guess": "ELEMENTAL CARRIER",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV04": {
+   "has_text": true,
+   "text_guess": "HARASSER LIGHT MISSILE TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV04": {
+   "has_text": true,
+   "text_guess": "HARASSER LIGHT MISSILE TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV05": {
+   "has_text": true,
+   "text_guess": "J. EDGAR LIGHT HOVER TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV05": {
+   "has_text": true,
+   "text_guess": "J. EDGAR LIGHT HOVER TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV06": {
+   "has_text": true,
+   "text_guess": "LIGHT TRANSPORT",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV06": {
+   "has_text": true,
+   "text_guess": "LIGHT TRANSPORT",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV07": {
+   "has_text": true,
+   "text_guess": "LRM CARRIER",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV07": {
+   "has_text": true,
+   "text_guess": "LRM CARRIER",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV08": {
+   "has_text": true,
+   "text_guess": "MINELAYER",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV08": {
+   "has_text": true,
+   "text_guess": "MINELAYER",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV09": {
+   "has_text": true,
+   "text_guess": "MINESWEEPER",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV09": {
+   "has_text": true,
+   "text_guess": "MINESWEEPER",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV10": {
+   "has_text": true,
+   "text_guess": "MOBILE HQ",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV10": {
+   "has_text": true,
+   "text_guess": "MOBILE HQ",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV11": {
+   "has_text": true,
+   "text_guess": "PEGASUS LIGHT SCOUT TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV11": {
+   "has_text": true,
+   "text_guess": "PEGASUS LIGHT SCOUT TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV12": {
+   "has_text": true,
+   "text_guess": "AEROSPACE SPOTTER",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV12": {
+   "has_text": true,
+   "text_guess": "AEROSPACE SPOTTER",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV13": {
+   "has_text": true,
+   "text_guess": "REFIT TRUCK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV13": {
+   "has_text": true,
+   "text_guess": "REFIT TRUCK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV14": {
+   "has_text": true,
+   "text_guess": "ROMMEL MEDIUM TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV14": {
+   "has_text": true,
+   "text_guess": "ROMMEL MEDIUM TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV15": {
+   "has_text": true,
+   "text_guess": "SARACEN HOVER TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV15": {
+   "has_text": true,
+   "text_guess": "SARACEN HOVER TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV16": {
+   "has_text": true,
+   "text_guess": "SAVANNAH MASTER",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV16": {
+   "has_text": true,
+   "text_guess": "SAVANNAH MASTER",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV17": {
+   "has_text": true,
+   "text_guess": "SCHREK PPC CARRIER",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV17": {
+   "has_text": true,
+   "text_guess": "SCHREK PPC CARRIER",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV18": {
+   "has_text": true,
+   "text_guess": "SRM CARRIER",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV18": {
+   "has_text": true,
+   "text_guess": "SRM CARRIER",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV19": {
+   "has_text": true,
+   "text_guess": "STRIKER LIGHT TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV19": {
+   "has_text": true,
+   "text_guess": "STRIKER LIGHT TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV20": {
+   "has_text": true,
+   "text_guess": "SWIFTWIND SCOUT CAR",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV20": {
+   "has_text": true,
+   "text_guess": "SWIFTWIND SCOUT CAR",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV21": {
+   "has_text": true,
+   "text_guess": "VON LUCKNER HEAVY TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV21": {
+   "has_text": true,
+   "text_guess": "VON LUCKNER HEAVY TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV22": {
+   "has_text": true,
+   "text_guess": "ELEMENTAL (TYPE I)",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV22": {
+   "has_text": true,
+   "text_guess": "ELEMENTAL (TYPE I)",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV23": {
+   "has_text": true,
+   "text_guess": "ELEMENTAL (TYPE II)",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV23": {
+   "has_text": true,
+   "text_guess": "ELEMENTAL (TYPE II)",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV24": {
+   "has_text": true,
+   "text_guess": "ELEMENTAL (TYPE III)",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV24": {
+   "has_text": true,
+   "text_guess": "ELEMENTAL (TYPE III)",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV25": {
+   "has_text": true,
+   "text_guess": "ARTILLERY LOADER",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV25": {
+   "has_text": true,
+   "text_guess": "ARTILLERY LOADER",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV26": {
+   "has_text": true,
+   "text_guess": "FUEL TRUCK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV26": {
+   "has_text": true,
+   "text_guess": "FUEL TRUCK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV27": {
+   "has_text": true,
+   "text_guess": "MOBILE ARTILLERY",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV27": {
+   "has_text": true,
+   "text_guess": "MOBILE ARTILLERY",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV28": {
+   "has_text": true,
+   "text_guess": "SALVAGE TRUCK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV28": {
+   "has_text": true,
+   "text_guess": "SALVAGE TRUCK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV29": {
+   "has_text": true,
+   "text_guess": "CENTIPEDE SCOUT CAR",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV29": {
+   "has_text": true,
+   "text_guess": "CENTIPEDE SCOUT CAR",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV30": {
+   "has_text": true,
+   "text_guess": "REGULATOR HOVER TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV30": {
+   "has_text": true,
+   "text_guess": "REGULATOR HOVER TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV31": {
+   "has_text": true,
+   "text_guess": "MANTICORE HEAVY TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV31": {
+   "has_text": true,
+   "text_guess": "MANTICORE HEAVY TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV32": {
+   "has_text": true,
+   "text_guess": "ALACORN MK VII HEAVY TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV32": {
+   "has_text": true,
+   "text_guess": "ALACORN MK VII HEAVY TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV33": {
+   "has_text": true,
+   "text_guess": "PILUM HEAVY TANK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV33": {
+   "has_text": true,
+   "text_guess": "PILUM HEAVY TANK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLV34": {
+   "has_text": true,
+   "text_guess": "AMMO TRUCK",
+   "note": "vehicle name plate (purchase), 200x12"
+  },
+  "LSPFDV34": {
+   "has_text": true,
+   "text_guess": "AMMO TRUCK",
+   "note": "vehicle name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC00": {
+   "has_text": true,
+   "text_guess": "CLAN ACTIVE PROBE",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC00": {
+   "has_text": true,
+   "text_guess": "CLAN ACTIVE PROBE",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC01": {
+   "has_text": true,
+   "text_guess": "ANTI-MISSILE SYSTEM",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC01": {
+   "has_text": true,
+   "text_guess": "ANTI-MISSILE SYSTEM",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC02": {
+   "has_text": true,
+   "text_guess": "LIGHT AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC02": {
+   "has_text": true,
+   "text_guess": "LIGHT AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC03": {
+   "has_text": true,
+   "text_guess": "LIGHT ULTRA AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC03": {
+   "has_text": true,
+   "text_guess": "LIGHT ULTRA AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC04": {
+   "has_text": true,
+   "text_guess": "AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC04": {
+   "has_text": true,
+   "text_guess": "AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC05": {
+   "has_text": true,
+   "text_guess": "CLAN ULTRA AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC05": {
+   "has_text": true,
+   "text_guess": "CLAN ULTRA AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC06": {
+   "has_text": true,
+   "text_guess": "HEAVY AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC06": {
+   "has_text": true,
+   "text_guess": "HEAVY AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC07": {
+   "has_text": true,
+   "text_guess": "CLAN HEAVY ULTRA AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC07": {
+   "has_text": true,
+   "text_guess": "CLAN HEAVY ULTRA AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC08": {
+   "has_text": true,
+   "text_guess": "BEAGLE PROBE",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC08": {
+   "has_text": true,
+   "text_guess": "BEAGLE PROBE",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC09": {
+   "has_text": true,
+   "text_guess": "CLAN ECM SUITE",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC09": {
+   "has_text": true,
+   "text_guess": "CLAN ECM SUITE",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC10": {
+   "has_text": true,
+   "text_guess": "HEAVY FLAMER",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC10": {
+   "has_text": true,
+   "text_guess": "HEAVY FLAMER",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC11": {
+   "has_text": true,
+   "text_guess": "GAUSS RIFLE",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC11": {
+   "has_text": true,
+   "text_guess": "GAUSS RIFLE",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC12": {
+   "has_text": true,
+   "text_guess": "GUARDIAN ECM",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC12": {
+   "has_text": true,
+   "text_guess": "GUARDIAN ECM",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC13": {
+   "has_text": true,
+   "text_guess": "LASER",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC13": {
+   "has_text": true,
+   "text_guess": "LASER",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC14": {
+   "has_text": true,
+   "text_guess": "CLAN ER LASER",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC14": {
+   "has_text": true,
+   "text_guess": "CLAN ER LASER",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC15": {
+   "has_text": true,
+   "text_guess": "PULSE LASER",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC15": {
+   "has_text": true,
+   "text_guess": "PULSE LASER",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC16": {
+   "has_text": true,
+   "text_guess": "LARGE LASER",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC16": {
+   "has_text": true,
+   "text_guess": "LARGE LASER",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC17": {
+   "has_text": true,
+   "text_guess": "LARGE ER LASER",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC17": {
+   "has_text": true,
+   "text_guess": "LARGE ER LASER",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC18": {
+   "has_text": true,
+   "text_guess": "LARGE PULSE LASER",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC18": {
+   "has_text": true,
+   "text_guess": "LARGE PULSE LASER",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC19": {
+   "has_text": true,
+   "text_guess": "SHORT RANGE MISSILE PACK",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC19": {
+   "has_text": true,
+   "text_guess": "SHORT RANGE MISSILE PACK",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC20": {
+   "has_text": true,
+   "text_guess": "STREAK SRM PACK",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC20": {
+   "has_text": true,
+   "text_guess": "STREAK SRM PACK",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC21": {
+   "has_text": true,
+   "text_guess": "SHORT RANGE MISSILE/6",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC21": {
+   "has_text": true,
+   "text_guess": "SHORT RANGE MISSILE/6",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC22": {
+   "has_text": true,
+   "text_guess": "STREAK SHORT RANGE MISSILE/6",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC22": {
+   "has_text": true,
+   "text_guess": "STREAK SHORT RANGE MISSILE/6",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC23": {
+   "has_text": true,
+   "text_guess": "LONG RANGE MISSILE RACK",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC23": {
+   "has_text": true,
+   "text_guess": "LONG RANGE MISSILE RACK",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC24": {
+   "has_text": true,
+   "text_guess": "LONG RANGE MISSILE/15",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC24": {
+   "has_text": true,
+   "text_guess": "LONG RANGE MISSILE/15",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC25": {
+   "has_text": true,
+   "text_guess": "LONG RANGE MISSILE/20",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC25": {
+   "has_text": true,
+   "text_guess": "LONG RANGE MISSILE/20",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC26": {
+   "has_text": true,
+   "text_guess": "MACHINE GUN",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC26": {
+   "has_text": true,
+   "text_guess": "MACHINE GUN",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC27": {
+   "has_text": true,
+   "text_guess": "PARTICLE PROJECTOR CANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC27": {
+   "has_text": true,
+   "text_guess": "PARTICLE PROJECTOR CANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC28": {
+   "has_text": true,
+   "text_guess": "ER PARTICLE PROJECTOR CANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC28": {
+   "has_text": true,
+   "text_guess": "ER PARTICLE PROJECTOR CANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC29": {
+   "has_text": true,
+   "text_guess": "SENSOR (BASIC)",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC29": {
+   "has_text": true,
+   "text_guess": "SENSOR (BASIC)",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC30": {
+   "has_text": true,
+   "text_guess": "SENSOR (INTERMEDIATE)",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC30": {
+   "has_text": true,
+   "text_guess": "SENSOR (INTERMEDIATE)",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC31": {
+   "has_text": true,
+   "text_guess": "SENSOR (ADVANCED)",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC31": {
+   "has_text": true,
+   "text_guess": "SENSOR (ADVANCED)",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC32": {
+   "has_text": true,
+   "text_guess": "CLAN SENSOR (STANDARD)",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC32": {
+   "has_text": true,
+   "text_guess": "CLAN SENSOR (STANDARD)",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC33": {
+   "has_text": true,
+   "text_guess": "CLAN SENSOR (EXTENDED)",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC33": {
+   "has_text": true,
+   "text_guess": "CLAN SENSOR (EXTENDED)",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC34": {
+   "has_text": true,
+   "text_guess": "CLAN GAUSS RIFLE",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC34": {
+   "has_text": true,
+   "text_guess": "CLAN GAUSS RIFLE",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC35": {
+   "has_text": true,
+   "text_guess": "CLAN LONG RANGE MISSILE RACK",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC35": {
+   "has_text": true,
+   "text_guess": "CLAN LONG RANGE MISSILE RACK",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC36": {
+   "has_text": true,
+   "text_guess": "CLAN LRM-15",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC36": {
+   "has_text": true,
+   "text_guess": "CLAN LRM-15",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC37": {
+   "has_text": true,
+   "text_guess": "CLAN LRM-20",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC37": {
+   "has_text": true,
+   "text_guess": "CLAN LRM-20",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC38": {
+   "has_text": true,
+   "text_guess": "CLAN SHORT RANGE MISSILE PACK",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC38": {
+   "has_text": true,
+   "text_guess": "CLAN SHORT RANGE MISSILE PACK",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC39": {
+   "has_text": true,
+   "text_guess": "CLAN SRM-6",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC39": {
+   "has_text": true,
+   "text_guess": "CLAN SRM-6",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC40": {
+   "has_text": true,
+   "text_guess": "CLAN STREAK SRM PACK",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC40": {
+   "has_text": true,
+   "text_guess": "CLAN STREAK SRM PACK",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC41": {
+   "has_text": true,
+   "text_guess": "CLAN LARGE ER LASER",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC41": {
+   "has_text": true,
+   "text_guess": "CLAN LARGE ER LASER",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC42": {
+   "has_text": true,
+   "text_guess": "CLAN LARGE PULSE LASER",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC42": {
+   "has_text": true,
+   "text_guess": "CLAN LARGE PULSE LASER",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC43": {
+   "has_text": true,
+   "text_guess": "CLAN PULSE LASER",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC43": {
+   "has_text": true,
+   "text_guess": "CLAN PULSE LASER",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC44": {
+   "has_text": true,
+   "text_guess": "CLAN HEAVY FLAMER",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC44": {
+   "has_text": true,
+   "text_guess": "CLAN HEAVY FLAMER",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC45": {
+   "has_text": true,
+   "text_guess": "CLAN LIGHT ULTRA AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC45": {
+   "has_text": true,
+   "text_guess": "CLAN LIGHT ULTRA AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC46": {
+   "has_text": true,
+   "text_guess": "CLAN ER PPC",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC46": {
+   "has_text": true,
+   "text_guess": "CLAN ER PPC",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC47": {
+   "has_text": true,
+   "text_guess": "LIGHT GAUSS RIFLE",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC47": {
+   "has_text": true,
+   "text_guess": "LIGHT GAUSS RIFLE",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC48": {
+   "has_text": true,
+   "text_guess": "LIGHT LB-X AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC48": {
+   "has_text": true,
+   "text_guess": "LIGHT LB-X AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC49": {
+   "has_text": true,
+   "text_guess": "LB-X AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC49": {
+   "has_text": true,
+   "text_guess": "LB-X AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC50": {
+   "has_text": true,
+   "text_guess": "HEAVY LB-X AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC50": {
+   "has_text": true,
+   "text_guess": "HEAVY LB-X AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC51": {
+   "has_text": true,
+   "text_guess": "CLAN LIGHT LB-X AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC51": {
+   "has_text": true,
+   "text_guess": "CLAN LIGHT LB-X AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC52": {
+   "has_text": true,
+   "text_guess": "CLAN LB-X AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC52": {
+   "has_text": true,
+   "text_guess": "CLAN LB-X AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC53": {
+   "has_text": true,
+   "text_guess": "CLAN HEAVY LB-X AUTOCANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC53": {
+   "has_text": true,
+   "text_guess": "CLAN HEAVY LB-X AUTOCANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC54": {
+   "has_text": true,
+   "text_guess": "HEAVY THUNDERBOLT",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC54": {
+   "has_text": true,
+   "text_guess": "HEAVY THUNDERBOLT",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC55": {
+   "has_text": true,
+   "text_guess": "LARGE X-PULSE LASER",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC55": {
+   "has_text": true,
+   "text_guess": "LARGE X-PULSE LASER",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC56": {
+   "has_text": true,
+   "text_guess": "SNIPER CANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC56": {
+   "has_text": true,
+   "text_guess": "SNIPER CANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC57": {
+   "has_text": true,
+   "text_guess": "LONG TOM CANNON",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC57": {
+   "has_text": true,
+   "text_guess": "LONG TOM CANNON",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLC58": {
+   "has_text": true,
+   "text_guess": "RAIL GUN",
+   "note": "component name plate (purchase), 200x12"
+  },
+  "LSPFDC58": {
+   "has_text": true,
+   "text_guess": "RAIL GUN",
+   "note": "component name plate (purchase), dimmed, 200x12"
+  },
+  "LSPFLP00": {
+   "has_text": true,
+   "text_guess": "BEAST",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP01": {
+   "has_text": true,
+   "text_guess": "HAWK",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP02": {
+   "has_text": true,
+   "text_guess": "SIREN",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP03": {
+   "has_text": true,
+   "text_guess": "ROOSTER",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP04": {
+   "has_text": true,
+   "text_guess": "ISIS",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP05": {
+   "has_text": true,
+   "text_guess": "GUNMAN",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP06": {
+   "has_text": true,
+   "text_guess": "MYSTIQUE",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP07": {
+   "has_text": true,
+   "text_guess": "SKATER",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP08": {
+   "has_text": true,
+   "text_guess": "SPICE",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP09": {
+   "has_text": true,
+   "text_guess": "BARON",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP10": {
+   "has_text": true,
+   "text_guess": "FIEND",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP11": {
+   "has_text": true,
+   "text_guess": "RONIN",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP12": {
+   "has_text": true,
+   "text_guess": "GATOR",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP13": {
+   "has_text": true,
+   "text_guess": "REBEL",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP14": {
+   "has_text": true,
+   "text_guess": "HUNTER",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP15": {
+   "has_text": true,
+   "text_guess": "LYNX",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP16": {
+   "has_text": true,
+   "text_guess": "HITMAN",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP17": {
+   "has_text": true,
+   "text_guess": "COUNTESS",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP18": {
+   "has_text": true,
+   "text_guess": "SCARAB",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP19": {
+   "has_text": true,
+   "text_guess": "OUTLAW",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP20": {
+   "has_text": true,
+   "text_guess": "FALCON",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP21": {
+   "has_text": true,
+   "text_guess": "BURNOUT",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP22": {
+   "has_text": true,
+   "text_guess": "GOBLIN",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP23": {
+   "has_text": true,
+   "text_guess": "MANTIS",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP24": {
+   "has_text": true,
+   "text_guess": "DRAGON",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP25": {
+   "has_text": true,
+   "text_guess": "BLAZE",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP26": {
+   "has_text": true,
+   "text_guess": "THUNDER",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP27": {
+   "has_text": true,
+   "text_guess": "PAINGOD",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP28": {
+   "has_text": true,
+   "text_guess": "FIRESTORM",
+   "note": "pilot callsign plate (purchase), 200x12"
+  },
+  "LSPFLP29": {
+   "has_text": true,
+   "text_guess": "VIXEN",
+   "note": "pilot callsign plate (purchase), 200x12"
+  }
+ }
+}

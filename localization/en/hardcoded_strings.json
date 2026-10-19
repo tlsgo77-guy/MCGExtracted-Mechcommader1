@@ -1,0 +1,172 @@
+[
+ {
+  "text": "%.0f Ton %s 'Mech",
+  "address": "0x796610",
+  "kind": "player-facing message",
+  "callers": [
+   "MechInventoryBlock::handleEvent",
+   "MechPurchaseBlock::handleEvent"
+  ],
+  "screens": [
+   "Inventory (mech bay / pilots / vehicles / components)",
+   "Purchase"
+  ],
+  "scope": "pre-mission"
+ },
+ {
+  "text": "(AddMech) could not fine NameVariant",
+  "address": "0x7989c4",
+  "kind": "developer assert",
+  "callers": [
+   "LogMechList::addMech"
+  ],
+  "screens": [
+   "Logistics"
+  ],
+  "scope": "pre-mission"
+ },
+ {
+  "text": "(AddMech) could not open file 8",
+  "address": "0x79894c",
+  "kind": "developer assert",
+  "callers": [
+   "LogMechList::addMech"
+  ],
+  "screens": [
+   "Logistics"
+  ],
+  "scope": "pre-mission"
+ },
+ {
+  "text": "An instance of this application is already running.",
+  "address": "0x78a3a0",
+  "kind": "player-facing message",
+  "callers": [
+   "RealWinMain"
+  ],
+  "screens": [
+   "System"
+  ],
+  "scope": "system"
+ },
+ {
+  "text": "File is not a mech file",
+  "address": "0x7a0b24",
+  "kind": "developer assert",
+  "callers": [
+   "PurMechList::addMech"
+  ],
+  "screens": [
+   "Purchase"
+  ],
+  "scope": "pre-mission"
+ },
+ {
+  "text": "File is not a vehicle file",
+  "address": "0x7a1184",
+  "kind": "developer assert",
+  "callers": [
+   "PurVehicleList::addVehicle"
+  ],
+  "screens": [
+   "Purchase"
+  ],
+  "scope": "pre-mission"
+ },
+ {
+  "text": "Hey, how'd we drop in rank???",
+  "address": "0x7a1bc8",
+  "kind": "player-facing message",
+  "callers": [
+   "MissionResultsScreen::activate"
+  ],
+  "screens": [
+   "MissionResults"
+  ],
+  "scope": "pre-mission"
+ },
+ {
+  "text": "Initialization Failure!",
+  "address": "0x78a2e8",
+  "kind": "player-facing message",
+  "callers": [
+   "RealWinMain"
+  ],
+  "screens": [
+   "System"
+  ],
+  "scope": "system"
+ },
+ {
+  "text": "MechCommander Expansion",
+  "address": "0x78a6dc",
+  "kind": "player-facing message",
+  "callers": [
+   "aSystem::start"
+  ],
+  "screens": [
+   "System"
+  ],
+  "scope": "system"
+ },
+ {
+  "text": "No mission file in save game file!",
+  "address": "0x79a58c",
+  "kind": "developer assert",
+  "callers": [
+   "Logistics::loadCampaign"
+  ],
+  "screens": [
+   "Logistics"
+  ],
+  "scope": "pre-mission"
+ },
+ {
+  "text": "Not currently connected to a modem",
+  "address": "0x79f1b4",
+  "kind": "player-facing message",
+  "callers": [
+   "Dial"
+  ],
+  "screens": [
+   "Multiplayer"
+  ],
+  "scope": "multiplayer"
+ },
+ {
+  "text": "Pentium or better CPU required",
+  "address": "0x78a6b8",
+  "kind": "player-facing message",
+  "callers": [
+   "aSystem::start"
+  ],
+  "screens": [
+   "System"
+  ],
+  "scope": "system"
+ },
+ {
+  "text": "Release Version: %s",
+  "address": "0x78a3e0",
+  "kind": "player-facing message",
+  "callers": [
+   "handleEvent"
+  ],
+  "screens": [
+   "System"
+  ],
+  "scope": "system"
+ },
+ {
+  "text": "This is not a multiplayer file!",
+  "address": "0x79a5bc",
+  "kind": "developer assert",
+  "callers": [
+   "Logistics::loadCampaign"
+  ],
+  "screens": [
+   "Logistics"
+  ],
+  "scope": "pre-mission"
+ }
+]

@@ -1,0 +1,5126 @@
+[
+ {
+  "file": "MISSION.FST/AceHunt.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Ace Madcat",
+  "ko": "에이스 매드캣 파괴"
+ },
+ {
+  "file": "MISSION.FST/AceHunt.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Take Out three Ace Ullers",
+  "ko": "에이스 울러 3기 제거"
+ },
+ {
+  "file": "MISSION.FST/AceHunt.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Eliminate Ace Masakari",
+  "ko": "에이스 마사카리 제거"
+ },
+ {
+  "file": "MISSION.FST/AceHunt.FIT",
+  "section": "Objective3",
+  "key": "Name",
+  "en": "Kill Ace Cougar",
+  "ko": "에이스 쿠거 격파"
+ },
+ {
+  "file": "MISSION.FST/AceHunt.FIT",
+  "section": "Objective4",
+  "key": "Name",
+  "en": "Destroy two Ace Shadowcats",
+  "ko": "에이스 섀도캣 2기 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0101.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture HQ Vehicle",
+  "ko": "HQ 차량 노획"
+ },
+ {
+  "file": "MISSION.FST/MCX0101.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Capture Component Warehouses (2)",
+  "ko": "부품 창고 (2) 점령"
+ },
+ {
+  "file": "MISSION.FST/MCX0101.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Move All Units to Extraction Point",
+  "ko": "모든 유닛을 철수 지점으로 이동"
+ },
+ {
+  "file": "MISSION.FST/MCX0102.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Defend Base HQ",
+  "ko": "기지 HQ 방어"
+ },
+ {
+  "file": "MISSION.FST/MCX0102.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Defend Local Turret Power",
+  "ko": "현지 포탑 전원 시설 방어"
+ },
+ {
+  "file": "MISSION.FST/MCX0102.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Defend Sensor Control",
+  "ko": "센서 통제소 방어"
+ },
+ {
+  "file": "MISSION.FST/MCX0103.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture/Destroy 2 HQ's and Destroy Defenders",
+  "ko": "HQ 2곳 점령/파괴 및 수비대 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0103.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Move All Units to Extraction Point",
+  "ko": "모든 유닛을 철수 지점으로 이동"
+ },
+ {
+  "file": "MISSION.FST/MCX0103.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Capture/Destroy 3 HQ's and Destroy Defenders",
+  "ko": "HQ 3곳 점령/파괴 및 수비대 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0103.FIT",
+  "section": "Objective3",
+  "key": "Name",
+  "en": "Capture Component Vaults (2)",
+  "ko": "부품 보관고 (2) 점령"
+ },
+ {
+  "file": "MISSION.FST/MCX0104.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture Mobile HQ",
+  "ko": "이동 HQ 노획"
+ },
+ {
+  "file": "MISSION.FST/MCX0104.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy Command Building",
+  "ko": "지휘 건물 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0104.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Destroy All Enemy 'Mechs",
+  "ko": "모든 적 메크 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0201.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Move All Units to Extraction Point",
+  "ko": "모든 유닛을 철수 지점으로 이동"
+ },
+ {
+  "file": "MISSION.FST/MCX0201.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy OmniMech Star",
+  "ko": "옴니메크 스타 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0201.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Destroy Bridge",
+  "ko": "다리 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0201.FIT",
+  "section": "Objective3",
+  "key": "Name",
+  "en": "Destroy Research Complexes (2)",
+  "ko": "연구 단지 (2) 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0201.FIT",
+  "section": "Objective4",
+  "key": "Name",
+  "en": "Capture Component Vaults (2)",
+  "ko": "부품 보관고 (2) 점령"
+ },
+ {
+  "file": "MISSION.FST/MCX0201.FIT",
+  "section": "Objective5",
+  "key": "Name",
+  "en": "Complete all Secondary Objectives",
+  "ko": "모든 부 목표 완수"
+ },
+ {
+  "file": "MISSION.FST/MCX0202.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture 4 of 7 Salvage Rigs",
+  "ko": "회수 차량 7대 중 4대 노획"
+ },
+ {
+  "file": "MISSION.FST/MCX0202.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Capture 6 of 7 Salvage Rigs",
+  "ko": "회수 차량 7대 중 6대 노획"
+ },
+ {
+  "file": "MISSION.FST/MCX0202.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Capture 7 of 7 Salvage Rigs",
+  "ko": "회수 차량 7대 중 7대 노획"
+ },
+ {
+  "file": "MISSION.FST/MCX0203.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture Base HQ",
+  "ko": "기지 HQ 점령"
+ },
+ {
+  "file": "MISSION.FST/MCX0203.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy MOG & Targeting Computer 1",
+  "ko": "MOG 및 표적 컴퓨터 1 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0203.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Destroy MOG & Targeting Computer 2",
+  "ko": "MOG 및 표적 컴퓨터 2 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0203.FIT",
+  "section": "Objective3",
+  "key": "Name",
+  "en": "Destroy MOG & Targeting Computer 3",
+  "ko": "MOG 및 표적 컴퓨터 3 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0203.FIT",
+  "section": "Objective4",
+  "key": "Name",
+  "en": "Destroy MOG & Targeting Computer 4",
+  "ko": "MOG 및 표적 컴퓨터 4 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0203.FIT",
+  "section": "Objective5",
+  "key": "Name",
+  "en": "Destroy MOG & Targeting Computer 5",
+  "ko": "MOG 및 표적 컴퓨터 5 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0204.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture Clan HQ Building",
+  "ko": "클랜 HQ 건물 점령"
+ },
+ {
+  "file": "MISSION.FST/MCX0204.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Return Forces to Extraction Point",
+  "ko": "부대를 철수 지점으로 귀환"
+ },
+ {
+  "file": "MISSION.FST/MCX0204.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Capture Clan Command Center",
+  "ko": "클랜 지휘 본부 점령"
+ },
+ {
+  "file": "MISSION.FST/MCX0204.FIT",
+  "section": "Objective3",
+  "key": "Name",
+  "en": "Capture APC",
+  "ko": "APC 노획"
+ },
+ {
+  "file": "MISSION.FST/MCX0301.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture Sensor Control",
+  "ko": "센서 통제소 점령"
+ },
+ {
+  "file": "MISSION.FST/MCX0301.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Capture HPG Stations",
+  "ko": "HPG 기지국 점령"
+ },
+ {
+  "file": "MISSION.FST/MCX0301.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Defend HPG Base",
+  "ko": "HPG 기지 방어"
+ },
+ {
+  "file": "MISSION.FST/MCX0302.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Take Out Defenders at Bridge",
+  "ko": "다리의 수비대 제거"
+ },
+ {
+  "file": "MISSION.FST/MCX0302.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy Elemental Training Cadre",
+  "ko": "엘리멘탈 훈련대 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0302.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Capture Repair Bay",
+  "ko": "수리 시설 점령"
+ },
+ {
+  "file": "MISSION.FST/MCX0302.FIT",
+  "section": "Objective3",
+  "key": "Name",
+  "en": "Eliminate Three 'Mech Patrol",
+  "ko": "메크 3기 순찰대 제거"
+ },
+ {
+  "file": "MISSION.FST/MCX0302.FIT",
+  "section": "Objective4",
+  "key": "Name",
+  "en": "Destroy Vehicles at Vehicle Depot",
+  "ko": "차량 정비창의 차량 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0302.FIT",
+  "section": "Objective5",
+  "key": "Name",
+  "en": "Take Out All Enemies at Land Bridge",
+  "ko": "지협의 모든 적 제거"
+ },
+ {
+  "file": "MISSION.FST/MCX0303.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy All Buildings in Complex",
+  "ko": "단지 내 모든 건물 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0304.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Hidden Vault Drill Alpha",
+  "ko": "숨겨진 보관고 드릴 알파 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0304.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy Drill Group Beta",
+  "ko": "드릴 그룹 베타 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0304.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Destroy Drill Group Gamma",
+  "ko": "드릴 그룹 감마 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCX0304.FIT",
+  "section": "Objective3",
+  "key": "Name",
+  "en": "Destroy Drill Group Delta",
+  "ko": "드릴 그룹 델타 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCXS0401.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Ace Madcat",
+  "ko": "에이스 매드캣 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCXS0401.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Take Out three Ace Ullers",
+  "ko": "에이스 울러 3기 제거"
+ },
+ {
+  "file": "MISSION.FST/MCXS0401.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Eliminate Ace Masakari",
+  "ko": "에이스 마사카리 제거"
+ },
+ {
+  "file": "MISSION.FST/MCXS0401.FIT",
+  "section": "Objective3",
+  "key": "Name",
+  "en": "Kill Ace Cougar",
+  "ko": "에이스 쿠거 격파"
+ },
+ {
+  "file": "MISSION.FST/MCXS0401.FIT",
+  "section": "Objective4",
+  "key": "Name",
+  "en": "Destroy two Ace Shadowcats",
+  "ko": "에이스 섀도캣 2기 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCXS0402.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Vehicles at Base",
+  "ko": "기지의 차량 파괴"
+ },
+ {
+  "file": "MISSION.FST/MCXS0402.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "One Mobile Artillery Must Survive",
+  "ko": "자주포 1대 이상 생존"
+ },
+ {
+  "file": "MISSION.FST/MIS0101.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Camp Alpha HQ and Natural Gas Tower",
+  "ko": "알파 수용소 HQ 및 천연가스탑 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0101.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy All Three Garrison Buildings",
+  "ko": "주둔지 건물 3채 모두 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0101.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Destroy Camp Beta HQ and Guard",
+  "ko": "베타 수용소 HQ 및 경비대 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0101c.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy North Natural Gas Towers",
+  "ko": "북쪽 천연가스탑 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0101c.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy East Natural Gas Towers",
+  "ko": "동쪽 천연가스탑 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0101n.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy North Natural Gas Towers",
+  "ko": "북쪽 천연가스탑 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0101n.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy East Natural Gas Towers",
+  "ko": "동쪽 천연가스탑 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0101s.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy North Natural Gas Towers",
+  "ko": "북쪽 천연가스탑 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0101s.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy East Natural Gas Towers",
+  "ko": "동쪽 천연가스탑 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0102.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture Supplies",
+  "ko": "보급품 노획"
+ },
+ {
+  "file": "MISSION.FST/MIS0102.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Capture Prison Barn with APC",
+  "ko": "APC로 감옥 헛간 점령"
+ },
+ {
+  "file": "MISSION.FST/MIS0102.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Escort APC to Extraction Point",
+  "ko": "APC를 철수 지점까지 호위"
+ },
+ {
+  "file": "MISSION.FST/MIS0103.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Link up with Raven",
+  "ko": "레이븐과 합류"
+ },
+ {
+  "file": "MISSION.FST/MIS0103.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Escort Raven to Extraction point",
+  "ko": "레이븐을 철수 지점까지 호위"
+ },
+ {
+  "file": "MISSION.FST/MIS0104.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Base Headquarters",
+  "ko": "기지 본부 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0104.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Withdraw to extraction point",
+  "ko": "철수 지점으로 후퇴"
+ },
+ {
+  "file": "MISSION.FST/MIS0104.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Protect Support Building",
+  "ko": "지원 건물 보호"
+ },
+ {
+  "file": "MISSION.FST/MIS0105.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Defend both farms",
+  "ko": "농장 2곳 모두 방어"
+ },
+ {
+  "file": "MISSION.FST/MIS0106.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destory All Mechs Defending Industrial Zone",
+  "ko": "산업 지구를 지키는 모든 메크 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0201.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Escort Hunchback IIC To Extraction Point",
+  "ko": "헌치백 IIC를 철수 지점까지 호위"
+ },
+ {
+  "file": "MISSION.FST/MIS0202.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy All Power Generators",
+  "ko": "모든 발전기 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0202.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Get All Units to Extraction Point",
+  "ko": "모든 유닛을 철수 지점으로 이동"
+ },
+ {
+  "file": "MISSION.FST/MIS0203.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy the Convoy",
+  "ko": "수송대 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0204.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Hyperpulse Generator Dishes",
+  "ko": "하이퍼펄스 발생기 안테나 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0205.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Entire Supply Train",
+  "ko": "보급 열차 전체 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0206.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture Enemy Base HQ",
+  "ko": "적 기지 HQ 점령"
+ },
+ {
+  "file": "MISSION.FST/MIS0206.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Defend Captured Base HQ",
+  "ko": "점령한 기지 HQ 방어"
+ },
+ {
+  "file": "MISSION.FST/MIS0301.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy the 2 Industrial Complexes",
+  "ko": "산업 단지 2곳 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0301.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy Major's Star",
+  "ko": "소령의 스타 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0301.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Destroy Primary Turret Power",
+  "ko": "주 포탑 전원 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0302.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Get 2 Ambulances to Extraction Point",
+  "ko": "구급차 2대를 철수 지점으로 이동"
+ },
+ {
+  "file": "MISSION.FST/MIS0302.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Get 5 Ambulances to Extraction Point",
+  "ko": "구급차 5대를 철수 지점으로 이동"
+ },
+ {
+  "file": "MISSION.FST/MIS0303.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture 4 Supply Trucks",
+  "ko": "보급 트럭 4대 노획"
+ },
+ {
+  "file": "MISSION.FST/MIS0303.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Capture All Supply Trucks",
+  "ko": "모든 보급 트럭 노획"
+ },
+ {
+  "file": "MISSION.FST/MIS0304.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture ReEducation Camp HQ",
+  "ko": "재교육 수용소 HQ 점령"
+ },
+ {
+  "file": "MISSION.FST/MIS0304.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Escort Freed Prisoners to Base",
+  "ko": "석방된 포로를 기지까지 호위"
+ },
+ {
+  "file": "MISSION.FST/MIS0304.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Defense Allied Field Base HQ",
+  "ko": "아군 야전 기지 HQ 방어"
+ },
+ {
+  "file": "MISSION.FST/MIS0305.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Protect Base HQ",
+  "ko": "기지 HQ 보호"
+ },
+ {
+  "file": "MISSION.FST/MIS0305.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Protect Sensor Control",
+  "ko": "센서 통제소 보호"
+ },
+ {
+  "file": "MISSION.FST/MIS0305.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Protect Northern Turret Power",
+  "ko": "북쪽 포탑 전원 보호"
+ },
+ {
+  "file": "MISSION.FST/MIS0305.FIT",
+  "section": "Objective3",
+  "key": "Name",
+  "en": "Protect Southern Turret Power",
+  "ko": "남쪽 포탑 전원 보호"
+ },
+ {
+  "file": "MISSION.FST/MIS0306.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Administration Building",
+  "ko": "행정 건물 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0306.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Get forces to extraction point",
+  "ko": "부대를 철수 지점으로 이동"
+ },
+ {
+  "file": "MISSION.FST/MIS0306.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Capture Sensor Control",
+  "ko": "센서 통제소 점령"
+ },
+ {
+  "file": "MISSION.FST/MIS0401.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Link APC with Masakari",
+  "ko": "APC와 마사카리 합류"
+ },
+ {
+  "file": "MISSION.FST/MIS0401.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy Orbital Guns",
+  "ko": "궤도포 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0402.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy 7 of 12 Ordnance Trucks",
+  "ko": "군수품 트럭 12대 중 7대 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0402.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy 12 of 12 Ordnance Trucks",
+  "ko": "군수품 트럭 12대 중 12대 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture Base HQ Building",
+  "ko": "기지 HQ 건물 점령"
+ },
+ {
+  "file": "MISSION.FST/MIS0403.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy All Enemy Mechs in the Area",
+  "ko": "지역 내 모든 적 메크 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403.fit",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Protect All Base Turret Controls (3)",
+  "ko": "기지 포탑 통제탑 3곳 보호"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c1_3p.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c1_3p.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c1_5p.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c1_5p.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c2_3p.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c2_3p.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c2_5p.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c2_5p.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c3_5p.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c3_5p.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c4_5p.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c4_5p.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c_2p.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403c_2p.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403mp.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403mp.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403s.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403s.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403s_2p.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403s_2p.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403s_3p.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403s_3p.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0403s_5p.fit",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Activate abandoned Base",
+  "ko": "버려진 기지 활성화"
+ },
+ {
+  "file": "MISSION.FST/MIS0403s_5p.fit",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy all Enemy units in the area",
+  "ko": "지역 내 모든 적 유닛 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0404.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture Industrial Complexes",
+  "ko": "산업 단지 점령"
+ },
+ {
+  "file": "MISSION.FST/MIS0404.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Defend Industrial Complexes",
+  "ko": "산업 단지 방어"
+ },
+ {
+  "file": "MISSION.FST/MIS0404.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Destroy All Enemy Forces",
+  "ko": "모든 적 병력 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0405.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy All Enemy Mechs",
+  "ko": "모든 적 메크 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0406.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Mobile Orbital Gun Alpha",
+  "ko": "이동식 궤도포 알파 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0406.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy Mobile Orbital Guns Beta",
+  "ko": "이동식 궤도포 베타 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0406.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Destroy Mobile Orbital Guns Gamma",
+  "ko": "이동식 궤도포 감마 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0501.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Escort Allied Cpt. to Extraction Point",
+  "ko": "아군 대위를 철수 지점까지 호위"
+ },
+ {
+  "file": "MISSION.FST/MIS0502.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Seek & Destroy All Clan Mechs",
+  "ko": "모든 클랜 메크 수색 섬멸"
+ },
+ {
+  "file": "MISSION.FST/MIS0503.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Power Complex Alpha",
+  "ko": "발전 단지 알파 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0503.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy Power Complex Beta",
+  "ko": "발전 단지 베타 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0503.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Destroy Power Complex Gamma",
+  "ko": "발전 단지 감마 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0504.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy all enemy forces",
+  "ko": "모든 적 병력 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0504.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Capture and Defend all 4 Oil Derricks",
+  "ko": "유정탑 4곳 모두 점령 및 방어"
+ },
+ {
+  "file": "MISSION.FST/MIS0504.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Capture Clan HQ",
+  "ko": "클랜 HQ 점령"
+ },
+ {
+  "file": "MISSION.FST/MIS0505.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy 3 Air Control Towers",
+  "ko": "항공 관제탑 3곳 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0505.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Move Artillery and all units into Position",
+  "ko": "야포와 모든 유닛을 지정 위치로 이동"
+ },
+ {
+  "file": "MISSION.FST/MIS0506.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Placeholder",
+  "ko": "임시 목표"
+ },
+ {
+  "file": "MISSION.FST/MIS0507.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Capture or Neutralize Perimeter Turrets",
+  "ko": "외곽 포탑 점령 또는 무력화"
+ },
+ {
+  "file": "MISSION.FST/MIS0507.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy Center Mobile Orbital Guns",
+  "ko": "중앙 이동식 궤도포 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0507.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Destroy NW Mobile Orbital Guns",
+  "ko": "북서쪽 이동식 궤도포 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0507.FIT",
+  "section": "Objective3",
+  "key": "Name",
+  "en": "Destroy NE Mobile Orbital Guns",
+  "ko": "북동쪽 이동식 궤도포 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0801.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Power Complex Alpha",
+  "ko": "발전 단지 알파 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0801.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy Power Complex Bravo",
+  "ko": "발전 단지 브라보 파괴"
+ },
+ {
+  "file": "MISSION.FST/MIS0801.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Destroy Power Complex Charlie",
+  "ko": "발전 단지 찰리 파괴"
+ },
+ {
+  "file": "MISSION.FST/PARedux.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Take out all four Ambulances",
+  "ko": "구급차 4대 모두 제거"
+ },
+ {
+  "file": "MISSION.FST/PARedux.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "Destroy the eight Farm Buildings",
+  "ko": "농장 건물 8채 파괴"
+ },
+ {
+  "file": "MISSION.FST/PARedux.FIT",
+  "section": "Objective2",
+  "key": "Name",
+  "en": "Destroy all three Oil Derricks",
+  "ko": "유정탑 3곳 모두 파괴"
+ },
+ {
+  "file": "MISSION.FST/PARedux.FIT",
+  "section": "Objective3",
+  "key": "Name",
+  "en": "Destroy Cpt. Nairn's Atlas",
+  "ko": "네언 대위의 아틀라스 파괴"
+ },
+ {
+  "file": "MISSION.FST/TheGuns.FIT",
+  "section": "Objective0",
+  "key": "Name",
+  "en": "Destroy Vehicles at Base",
+  "ko": "기지의 차량 파괴"
+ },
+ {
+  "file": "MISSION.FST/TheGuns.FIT",
+  "section": "Objective1",
+  "key": "Name",
+  "en": "One Mobile Artillery Must Survive",
+  "ko": "자주포 1대 이상 생존"
+ },
+ {
+  "file": "MISSION.FST/war001.fit",
+  "section": "General",
+  "key": "Name",
+  "en": "Amy Bios",
+  "ko": "에이미 바이오스"
+ },
+ {
+  "file": "MISSION.FST/war002.fit",
+  "section": "General",
+  "key": "Name",
+  "en": "Glenn Doren",
+  "ko": "글렌 도런"
+ },
+ {
+  "file": "MISSION.FST/war002a.fit",
+  "section": "General",
+  "key": "Name",
+  "en": "Glenn Doren",
+  "ko": "글렌 도런"
+ },
+ {
+  "file": "MISSION.FST/WAR003.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Frank Savage",
+  "ko": "프랭크 새비지"
+ },
+ {
+  "file": "MISSION.FST/WAR003a.fit",
+  "section": "General",
+  "key": "Name",
+  "en": "Frank Savage",
+  "ko": "프랭크 새비지"
+ },
+ {
+  "file": "MISSION.FST/WAR004.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Jon Marcus",
+  "ko": "존 마커스"
+ },
+ {
+  "file": "MISSION.FST/WAR005.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Scott Janssens",
+  "ko": "스콧 잰슨스"
+ },
+ {
+  "file": "MISSION.FST/War006.fit",
+  "section": "General",
+  "key": "Name",
+  "en": "Kermit",
+  "ko": "커밋"
+ },
+ {
+  "file": "MISSION.FST/War007.fit",
+  "section": "General",
+  "key": "Name",
+  "en": "Fozzie",
+  "ko": "포지"
+ },
+ {
+  "file": "MISSION.FST/War008.fit",
+  "section": "General",
+  "key": "Name",
+  "en": "Piggy",
+  "ko": "피기"
+ },
+ {
+  "file": "MISSION.FST/war009.fit",
+  "section": "General",
+  "key": "Name",
+  "en": "Todd Labonte",
+  "ko": "토드 라본테"
+ },
+ {
+  "file": "MISSION.FST/war010.fit",
+  "section": "General",
+  "key": "Name",
+  "en": "Jamie Marshall",
+  "ko": "제이미 마셜"
+ },
+ {
+  "file": "MISSION.FST/war011.fit",
+  "section": "General",
+  "key": "Name",
+  "en": "Charles Oines",
+  "ko": "찰스 오인스"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading0",
+  "en": "Name",
+  "ko": "이름"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading1",
+  "en": "Tonnage",
+  "ko": "톤수"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading2",
+  "en": "Top Speed",
+  "ko": "최고 속도"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading3",
+  "en": "Normal Speed",
+  "ko": "일반 속도"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading4",
+  "en": "Jump Range",
+  "ko": "점프 거리"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading5",
+  "en": "Armor",
+  "ko": "장갑"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading6",
+  "en": "Heat Sinks",
+  "ko": "방열기"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading7",
+  "en": "Location",
+  "ko": "부위"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading8",
+  "en": "Internal",
+  "ko": "내부"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading9",
+  "en": "Structure",
+  "ko": "구조"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading10",
+  "en": "Rear",
+  "ko": "후면"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading11",
+  "en": "Weapon",
+  "ko": "무기"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading12",
+  "en": "Recycle",
+  "ko": "재장전"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading13",
+  "en": "Status",
+  "ko": "상태"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading14",
+  "en": "Ammo",
+  "ko": "탄약"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading15",
+  "en": "Fatigue",
+  "ko": "피로"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading16",
+  "en": "Morale",
+  "ko": "사기"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading17",
+  "en": "Wounds",
+  "ko": "부상"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading18",
+  "en": "Effectiveness",
+  "ko": "전투 효율"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading19",
+  "en": "Current Orders",
+  "ko": "현재 명령"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "Headings",
+  "key": "Heading20",
+  "en": "Time",
+  "ko": "시간"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "ArmorLocations",
+  "key": "Location0",
+  "en": "Head",
+  "ko": "머리"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "ArmorLocations",
+  "key": "Location1",
+  "en": "Center Torso",
+  "ko": "중앙 몸통"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "ArmorLocations",
+  "key": "Location2",
+  "en": "Left Torso",
+  "ko": "왼쪽 몸통"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "ArmorLocations",
+  "key": "Location3",
+  "en": "Right Torso",
+  "ko": "오른쪽 몸통"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "ArmorLocations",
+  "key": "Location4",
+  "en": "Left Arm",
+  "ko": "왼팔"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "ArmorLocations",
+  "key": "Location5",
+  "en": "Right Arm",
+  "ko": "오른팔"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "ArmorLocations",
+  "key": "Location6",
+  "en": "Left Leg",
+  "ko": "왼다리"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "ArmorLocations",
+  "key": "Location7",
+  "en": "Right Leg",
+  "ko": "오른다리"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyLocations",
+  "key": "Location0",
+  "en": "HEAD",
+  "ko": "머리"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyLocations",
+  "key": "Location1",
+  "en": "CTORSO",
+  "ko": "중앙 몸통"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyLocations",
+  "key": "Location2",
+  "en": "LTORSO",
+  "ko": "왼쪽 몸통"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyLocations",
+  "key": "Location3",
+  "en": "RTORSO",
+  "ko": "오른쪽 몸통"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyLocations",
+  "key": "Location4",
+  "en": "LARM",
+  "ko": "왼팔"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyLocations",
+  "key": "Location5",
+  "en": "RARM",
+  "ko": "오른팔"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyLocations",
+  "key": "Location6",
+  "en": "LLEG",
+  "ko": "왼다리"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyLocations",
+  "key": "Location7",
+  "en": "RLEG",
+  "ko": "오른다리"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyAbbreviations",
+  "key": "Location0",
+  "en": "HD",
+  "ko": "HD"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyAbbreviations",
+  "key": "Location1",
+  "en": "CT",
+  "ko": "CT"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyAbbreviations",
+  "key": "Location2",
+  "en": "LT",
+  "ko": "LT"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyAbbreviations",
+  "key": "Location3",
+  "en": "RT",
+  "ko": "RT"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyAbbreviations",
+  "key": "Location4",
+  "en": "LA",
+  "ko": "LA"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyAbbreviations",
+  "key": "Location5",
+  "en": "RA",
+  "ko": "RA"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyAbbreviations",
+  "key": "Location6",
+  "en": "LL",
+  "ko": "LL"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "BodyAbbreviations",
+  "key": "Location7",
+  "en": "RL",
+  "ko": "RL"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "DamageStates",
+  "key": "State0",
+  "en": "No Damage",
+  "ko": "손상 없음"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "DamageStates",
+  "key": "State1",
+  "en": "Partial Damage",
+  "ko": "부분 손상"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "DamageStates",
+  "key": "State2",
+  "en": "Destroyed",
+  "ko": "파괴됨"
+ },
+ {
+  "file": "MISC.FST/MECHTEXT.FIT",
+  "section": "DamageStates",
+  "key": "State3",
+  "en": "Disabled",
+  "ko": "작동 불능"
+ },
+ {
+  "file": "MISC.FST/MECHREP.FIT",
+  "section": "Box0",
+  "key": "name",
+  "en": "Head",
+  "ko": "머리"
+ },
+ {
+  "file": "MISC.FST/MECHREP.FIT",
+  "section": "Box1",
+  "key": "name",
+  "en": "Center Torso",
+  "ko": "중앙 몸통"
+ },
+ {
+  "file": "MISC.FST/MECHREP.FIT",
+  "section": "Box2",
+  "key": "name",
+  "en": "Left Torso",
+  "ko": "왼쪽 몸통"
+ },
+ {
+  "file": "MISC.FST/MECHREP.FIT",
+  "section": "Box3",
+  "key": "name",
+  "en": "Right Torso",
+  "ko": "오른쪽 몸통"
+ },
+ {
+  "file": "MISC.FST/MECHREP.FIT",
+  "section": "Box4",
+  "key": "name",
+  "en": "Left Arm",
+  "ko": "왼팔"
+ },
+ {
+  "file": "MISC.FST/MECHREP.FIT",
+  "section": "Box5",
+  "key": "name",
+  "en": "Right Arm",
+  "ko": "오른팔"
+ },
+ {
+  "file": "MISC.FST/MECHREP.FIT",
+  "section": "Box6",
+  "key": "name",
+  "en": "Left Leg",
+  "ko": "왼다리"
+ },
+ {
+  "file": "MISC.FST/MECHREP.FIT",
+  "section": "Box7",
+  "key": "name",
+  "en": "Right Leg",
+  "ko": "오른다리"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 1",
+  "key": "name",
+  "en": "Fusion Engine",
+  "ko": "핵융합 엔진"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 1",
+  "key": "abbr",
+  "en": "Engine",
+  "ko": "엔진"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 2",
+  "key": "name",
+  "en": "XL Fusion Engine",
+  "ko": "XL 핵융합 엔진"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 2",
+  "key": "abbr",
+  "en": "XLEngine",
+  "ko": "XL엔진"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 3",
+  "key": "name",
+  "en": "C XL Fusion Engine",
+  "ko": "클랜 XL 핵융합 엔진"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 3",
+  "key": "abbr",
+  "en": "XLEngine",
+  "ko": "XL엔진"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 4",
+  "key": "name",
+  "en": "Arm Actuator",
+  "ko": "팔 구동기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 4",
+  "key": "abbr",
+  "en": "ArmAct",
+  "ko": "팔구동"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 5",
+  "key": "name",
+  "en": "Leg Actuator",
+  "ko": "다리 구동기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 5",
+  "key": "abbr",
+  "en": "LegAct",
+  "ko": "다리구동"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 6",
+  "key": "name",
+  "en": "Cockpit",
+  "ko": "조종석"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 7",
+  "key": "name",
+  "en": "Heat Sink",
+  "ko": "방열기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 7",
+  "key": "abbr",
+  "en": "HtSnk",
+  "ko": "방열기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 8",
+  "key": "name",
+  "en": "Double Heat Sink",
+  "ko": "이중 방열기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 8",
+  "key": "abbr",
+  "en": "D-HtSnk",
+  "ko": "D-방열기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 9",
+  "key": "name",
+  "en": "C Double Heat Sink",
+  "ko": "클랜 이중 방열기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 9",
+  "key": "abbr",
+  "en": "D-HtSnk",
+  "ko": "D-방열기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 10",
+  "key": "name",
+  "en": "Large Jump Jet",
+  "ko": "대형 점프젯"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 10",
+  "key": "abbr",
+  "en": "LrgJump",
+  "ko": "대형점프"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 11",
+  "key": "name",
+  "en": "Medium Jump Jet",
+  "ko": "중형 점프젯"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 11",
+  "key": "abbr",
+  "en": "MedJump",
+  "ko": "중형점프"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 12",
+  "key": "name",
+  "en": "Small Jump Jet",
+  "ko": "소형 점프젯"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 12",
+  "key": "abbr",
+  "en": "SmlJump",
+  "ko": "소형점프"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 13",
+  "key": "name",
+  "en": "Sensor - Basic",
+  "ko": "센서 - 기본형"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 13",
+  "key": "abbr",
+  "en": "Snsr (Bsc.)",
+  "ko": "센서(기본)"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 14",
+  "key": "name",
+  "en": "Sensor - Intermed",
+  "ko": "센서 - 중급형"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 14",
+  "key": "abbr",
+  "en": "Snsr (Inter.)",
+  "ko": "센서(중급)"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 15",
+  "key": "name",
+  "en": "Sensor - Advanced",
+  "ko": "센서 - 고급형"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 15",
+  "key": "abbr",
+  "en": "Snsr (Adv.)",
+  "ko": "센서(고급)"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 16",
+  "key": "name",
+  "en": "C Sensor - Basic",
+  "ko": "클랜 센서 - 기본형"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 16",
+  "key": "abbr",
+  "en": "Snsr (C-Bsc.)",
+  "ko": "센서(C-기본)"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 17",
+  "key": "name",
+  "en": "C Sensor - Adv",
+  "ko": "클랜 센서 - 고급형"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 17",
+  "key": "abbr",
+  "en": "Snsr (C-Adv)",
+  "ko": "센서(C-고급)"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 18",
+  "key": "name",
+  "en": "Vehicle Sensor",
+  "ko": "차량 센서"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 18",
+  "key": "abbr",
+  "en": "Sensor-V",
+  "ko": "센서-V"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 19",
+  "key": "name",
+  "en": "Adv Vehicle Sensor",
+  "ko": "고급 차량 센서"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 19",
+  "key": "abbr",
+  "en": "Sensor-AV",
+  "ko": "센서-AV"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 20",
+  "key": "name",
+  "en": "Gyroscope IV",
+  "ko": "자이로스코프 IV"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 20",
+  "key": "abbr",
+  "en": "Gyro-IV",
+  "ko": "자이로-IV"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 21",
+  "key": "name",
+  "en": "Gyroscope III",
+  "ko": "자이로스코프 III"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 21",
+  "key": "abbr",
+  "en": "Gyro-III",
+  "ko": "자이로-III"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 22",
+  "key": "name",
+  "en": "Gyroscope II",
+  "ko": "자이로스코프 II"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 22",
+  "key": "abbr",
+  "en": "Gyro-III",
+  "ko": "자이로-III"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 23",
+  "key": "name",
+  "en": "Gyroscope I",
+  "ko": "자이로스코프 I"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 23",
+  "key": "abbr",
+  "en": "Gyro-I",
+  "ko": "자이로-I"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 24",
+  "key": "name",
+  "en": "Power Amplifier",
+  "ko": "전력 증폭기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 24",
+  "key": "abbr",
+  "en": "PwrAmp",
+  "ko": "증폭기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 25",
+  "key": "name",
+  "en": "Ferro-Fibrous Armor",
+  "ko": "철섬유 장갑"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 25",
+  "key": "abbr",
+  "en": "FrroFbr",
+  "ko": "철섬유"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 26",
+  "key": "name",
+  "en": "Vehicle Ferro-Fibrous Armor",
+  "ko": "차량용 철섬유 장갑"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 26",
+  "key": "abbr",
+  "en": "FrroFbr-V",
+  "ko": "철섬유-V"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 27",
+  "key": "name",
+  "en": "C Ferro-Fibrous Armor",
+  "ko": "클랜 철섬유 장갑"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 27",
+  "key": "abbr",
+  "en": "FrroFbr",
+  "ko": "철섬유"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 28",
+  "key": "name",
+  "en": "C Vehicle Ferro-Fibrous",
+  "ko": "클랜 차량용 철섬유"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 28",
+  "key": "abbr",
+  "en": "FrroFbr-V",
+  "ko": "철섬유-V"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 29",
+  "key": "name",
+  "en": "Endosteal Int Str",
+  "ko": "엔도강 내부 구조"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 29",
+  "key": "abbr",
+  "en": "EndoStl",
+  "ko": "엔도강"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 30",
+  "key": "name",
+  "en": "C Endosteal Int Str",
+  "ko": "클랜 엔도강 내부 구조"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 30",
+  "key": "abbr",
+  "en": "EndoStl",
+  "ko": "엔도강"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 31",
+  "key": "name",
+  "en": "Case",
+  "ko": "CASE"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 32",
+  "key": "name",
+  "en": "C Case",
+  "ko": "클랜 CASE"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 32",
+  "key": "abbr",
+  "en": "Case",
+  "ko": "CASE"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 33",
+  "key": "name",
+  "en": "Shoulder",
+  "ko": "어깨 구동기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 33",
+  "key": "abbr",
+  "en": "ShldAct",
+  "ko": "어깨구동"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 34",
+  "key": "name",
+  "en": "Hip",
+  "ko": "고관절 구동기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 34",
+  "key": "abbr",
+  "en": "HipAct",
+  "ko": "고관절"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 35",
+  "key": "name",
+  "en": "LifeSupport",
+  "ko": "생명 유지 장치"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 35",
+  "key": "abbr",
+  "en": "LifeSuprt",
+  "ko": "생명유지"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 37",
+  "key": "name",
+  "en": "Beagle Probe",
+  "ko": "비글 프로브"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 37",
+  "key": "abbr",
+  "en": "Beagle",
+  "ko": "비글"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 38",
+  "key": "name",
+  "en": "Guardian ECM",
+  "ko": "가디언 ECM"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 38",
+  "key": "abbr",
+  "en": "GrdECM",
+  "ko": "가디언"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 42",
+  "key": "name",
+  "en": "C ECM Suite",
+  "ko": "클랜 ECM 장비"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 42",
+  "key": "abbr",
+  "en": "ECM",
+  "ko": "ECM"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 43",
+  "key": "name",
+  "en": "C Active Probe",
+  "ko": "클랜 액티브 프로브"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 43",
+  "key": "abbr",
+  "en": "Probe",
+  "ko": "프로브"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 98",
+  "key": "name",
+  "en": "Rail Gun",
+  "ko": "레일건"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 99",
+  "key": "name",
+  "en": "Light Gauss Rifle",
+  "ko": "경가우스 라이플"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 99",
+  "key": "abbr",
+  "en": "Light Gauss",
+  "ko": "경가우스"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 100",
+  "key": "name",
+  "en": "Light Autocannon",
+  "ko": "경오토캐논"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 100",
+  "key": "abbr",
+  "en": "Light AC",
+  "ko": "경AC"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 101",
+  "key": "name",
+  "en": "Autocannon",
+  "ko": "오토캐논"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 102",
+  "key": "name",
+  "en": "Hvy Autocannon",
+  "ko": "중오토캐논"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 102",
+  "key": "abbr",
+  "en": "Hvy. AC",
+  "ko": "중AC"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 103",
+  "key": "name",
+  "en": "Lt. Ultra Autocannon",
+  "ko": "경울트라 오토캐논"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 103",
+  "key": "abbr",
+  "en": "Lt. Ult. AC",
+  "ko": "경울트라AC"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 104",
+  "key": "name",
+  "en": "Gauss Rifle",
+  "ko": "가우스 라이플"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 104",
+  "key": "abbr",
+  "en": "Gauss",
+  "ko": "가우스"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 105",
+  "key": "name",
+  "en": "Machine Gun",
+  "ko": "기관총"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 105",
+  "key": "abbr",
+  "en": "MG",
+  "ko": "MG"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 106",
+  "key": "name",
+  "en": "Anti-Missile System",
+  "ko": "대미사일 시스템"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 106",
+  "key": "abbr",
+  "en": "AMS",
+  "ko": "AMS"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 107",
+  "key": "name",
+  "en": "Light LBX Autocannon",
+  "ko": "경 LB-X 오토캐논"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 107",
+  "key": "abbr",
+  "en": "Light LBX",
+  "ko": "경LBX"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 108",
+  "key": "name",
+  "en": "LBX Autocannon",
+  "ko": "LB-X 오토캐논"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 108",
+  "key": "abbr",
+  "en": "LBX",
+  "ko": "LBX"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 109",
+  "key": "name",
+  "en": "Heavy LBX Autocannon",
+  "ko": "중 LB-X 오토캐논"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 109",
+  "key": "abbr",
+  "en": "Heavy LBX",
+  "ko": "중LBX"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 110",
+  "key": "name",
+  "en": "C Lt. Ultra Autocannon",
+  "ko": "클랜 경울트라 오토캐논"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 110",
+  "key": "abbr",
+  "en": "C Lt. Ult. AC",
+  "ko": "C 경울트라AC"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 111",
+  "key": "name",
+  "en": "C  Ultra Autocannon",
+  "ko": "클랜 울트라 오토캐논"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 111",
+  "key": "abbr",
+  "en": "C Med. Ult. AC",
+  "ko": "C 울트라AC"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 112",
+  "key": "name",
+  "en": "C Hvy Ultra Autocannon",
+  "ko": "클랜 중울트라 오토캐논"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 112",
+  "key": "abbr",
+  "en": "C Hvy. Ult. AC",
+  "ko": "C 중울트라AC"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 113",
+  "key": "name",
+  "en": "C Gauss Rifle",
+  "ko": "클랜 가우스 라이플"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 113",
+  "key": "abbr",
+  "en": "C Gauss",
+  "ko": "C 가우스"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 114",
+  "key": "name",
+  "en": "C Machine Gun",
+  "ko": "클랜 기관총"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 114",
+  "key": "abbr",
+  "en": "MG",
+  "ko": "MG"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 115",
+  "key": "name",
+  "en": "C Anti-Missile System",
+  "ko": "클랜 대미사일 시스템"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 115",
+  "key": "abbr",
+  "en": "AMS",
+  "ko": "AMS"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 116",
+  "key": "name",
+  "en": "C Light LBX",
+  "ko": "클랜 경 LB-X"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 116",
+  "key": "abbr",
+  "en": "C Lt. LBX",
+  "ko": "C 경LBX"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 117",
+  "key": "name",
+  "en": "C LBX Autocannon",
+  "ko": "클랜 LB-X 오토캐논"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 117",
+  "key": "abbr",
+  "en": "C LBX",
+  "ko": "C LBX"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 118",
+  "key": "name",
+  "en": "C Heavy LBX Autocannon",
+  "ko": "클랜 중 LB-X 오토캐논"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 118",
+  "key": "abbr",
+  "en": "C Heavy LBX",
+  "ko": "C 중LBX"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 120",
+  "key": "name",
+  "en": "LRM Rack",
+  "ko": "LRM 랙"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 121",
+  "key": "name",
+  "en": "LR Missile/15",
+  "ko": "LRM/15"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 121",
+  "key": "abbr",
+  "en": "LRM/15",
+  "ko": "LRM/15"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 122",
+  "key": "name",
+  "en": "LR Missile/20",
+  "ko": "LRM/20"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 122",
+  "key": "abbr",
+  "en": "LRM/20",
+  "ko": "LRM/20"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 123",
+  "key": "name",
+  "en": "SR Missile Pack",
+  "ko": "SRM 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 123",
+  "key": "abbr",
+  "en": "SRM Pack",
+  "ko": "SRM 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 124",
+  "key": "name",
+  "en": "SR Missile/6",
+  "ko": "SRM/6"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 124",
+  "key": "abbr",
+  "en": "SRM/6",
+  "ko": "SRM/6"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 125",
+  "key": "name",
+  "en": "ST SR Missile Pack",
+  "ko": "스트릭 SRM 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 125",
+  "key": "abbr",
+  "en": "ST-SRM Pack",
+  "ko": "ST-SRM 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 126",
+  "key": "name",
+  "en": "Heavy Thunderbolt",
+  "ko": "헤비 선더볼트"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 126",
+  "key": "abbr",
+  "en": "Tbolt",
+  "ko": "선더볼트"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 130",
+  "key": "name",
+  "en": "C LR Missile Rack",
+  "ko": "클랜 LRM 랙"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 130",
+  "key": "abbr",
+  "en": "C LRM Rack",
+  "ko": "C LRM 랙"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 131",
+  "key": "name",
+  "en": "C LR Missile/15",
+  "ko": "클랜 LRM/15"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 131",
+  "key": "abbr",
+  "en": "LRM/15",
+  "ko": "LRM/15"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 132",
+  "key": "name",
+  "en": "C LR Missile/20",
+  "ko": "클랜 LRM/20"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 132",
+  "key": "abbr",
+  "en": "LRM/20",
+  "ko": "LRM/20"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 133",
+  "key": "name",
+  "en": "C SR Missile Pack",
+  "ko": "클랜 SRM 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 133",
+  "key": "abbr",
+  "en": "C SRM Pack",
+  "ko": "C SRM 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 134",
+  "key": "name",
+  "en": "C SR Missile/6",
+  "ko": "클랜 SRM/6"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 134",
+  "key": "abbr",
+  "en": "SRM/6",
+  "ko": "SRM/6"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 135",
+  "key": "name",
+  "en": "C ST-SR Missile Pack",
+  "ko": "클랜 스트릭 SRM 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 135",
+  "key": "abbr",
+  "en": "C ST-SRM Pack",
+  "ko": "C ST-SRM 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 136",
+  "key": "name",
+  "en": "C ST-SR Missile/6",
+  "ko": "클랜 스트릭 SRM/6"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 136",
+  "key": "abbr",
+  "en": "S-SRM/6",
+  "ko": "S-SRM/6"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 139",
+  "key": "name",
+  "en": "Large X Pulse Laser",
+  "ko": "대형 X-펄스 레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 139",
+  "key": "abbr",
+  "en": "LrgXPlsLas",
+  "ko": "대형X펄스"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 140",
+  "key": "name",
+  "en": "Large Laser",
+  "ko": "대형 레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 141",
+  "key": "name",
+  "en": "Large ER Laser",
+  "ko": "대형 ER 레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 141",
+  "key": "abbr",
+  "en": "Lrg. ER Laser",
+  "ko": "대형ER레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 142",
+  "key": "name",
+  "en": "Large PS Laser",
+  "ko": "대형 펄스 레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 142",
+  "key": "abbr",
+  "en": "Lrg.Pls.Laser",
+  "ko": "대형펄스레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 143",
+  "key": "name",
+  "en": "Laser",
+  "ko": "레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 144",
+  "key": "name",
+  "en": "Pulse Laser",
+  "ko": "펄스 레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 145",
+  "key": "name",
+  "en": "PPC",
+  "ko": "PPC"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 146",
+  "key": "name",
+  "en": "ER PPC",
+  "ko": "ER PPC"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 146",
+  "key": "abbr",
+  "en": "ER-PPC",
+  "ko": "ER-PPC"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 147",
+  "key": "name",
+  "en": "Heavy Flamer",
+  "ko": "중화염방사기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 147",
+  "key": "abbr",
+  "en": "Hvy Flamer",
+  "ko": "중화염방사기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 150",
+  "key": "name",
+  "en": "C Large ER Laser",
+  "ko": "클랜 대형 ER 레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 150",
+  "key": "abbr",
+  "en": "C Lrg. ER Laser",
+  "ko": "C 대형ER레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 151",
+  "key": "name",
+  "en": "C Large PS Laser",
+  "ko": "클랜 대형 펄스 레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 151",
+  "key": "abbr",
+  "en": "C Lrg.Pls.Laser",
+  "ko": "C 대형펄스레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 152",
+  "key": "name",
+  "en": "C ER Laser",
+  "ko": "클랜 ER 레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 153",
+  "key": "name",
+  "en": "C Pulse  Laser",
+  "ko": "클랜 펄스 레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 153",
+  "key": "abbr",
+  "en": "C .Pls.Laser",
+  "ko": "C 펄스레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 154",
+  "key": "name",
+  "en": "C ER PPC",
+  "ko": "클랜 ER PPC"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 154",
+  "key": "abbr",
+  "en": "C ER-PPC",
+  "ko": "C ER-PPC"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 155",
+  "key": "name",
+  "en": "C Heavy Flamer",
+  "ko": "클랜 중화염방사기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 155",
+  "key": "abbr",
+  "en": "Heavy Flamer",
+  "ko": "중화염방사기"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 156",
+  "key": "name",
+  "en": "Small Laser",
+  "ko": "소형 레이저"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 160",
+  "key": "name",
+  "en": "Long Tom",
+  "ko": "롱 톰"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 161",
+  "key": "name",
+  "en": "Sniper Cannon",
+  "ko": "스나이퍼 포"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 161",
+  "key": "abbr",
+  "en": "Sniper",
+  "ko": "스나이퍼"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 198",
+  "key": "name",
+  "en": "Rail Gun Ammo",
+  "ko": "레일건 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 199",
+  "key": "name",
+  "en": "Lt. Gauss Ammo",
+  "ko": "경가우스 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 200",
+  "key": "name",
+  "en": "Lt. AC Ammo",
+  "ko": "경AC 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 201",
+  "key": "name",
+  "en": "AC Ammo",
+  "ko": "AC 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 202",
+  "key": "name",
+  "en": "Hvy AC Ammo",
+  "ko": "중AC 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 203",
+  "key": "name",
+  "en": "Ultra Lt.AC Ammo",
+  "ko": "경울트라AC 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 203",
+  "key": "abbr",
+  "en": "U-Lt.AC Ammo",
+  "ko": "경울트라AC 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 204",
+  "key": "name",
+  "en": "Gauss Ammo",
+  "ko": "가우스 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 204",
+  "key": "abbr",
+  "en": "Gauss",
+  "ko": "가우스"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 205",
+  "key": "name",
+  "en": "M Gun Ammo",
+  "ko": "기관총 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 205",
+  "key": "abbr",
+  "en": "MG",
+  "ko": "MG"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 206",
+  "key": "name",
+  "en": "Anti-Missile Ammo",
+  "ko": "AMS 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 206",
+  "key": "abbr",
+  "en": "AMS",
+  "ko": "AMS"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 207",
+  "key": "name",
+  "en": "Lt. LBX Ammo",
+  "ko": "경LBX 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 208",
+  "key": "name",
+  "en": "LBX Ammo",
+  "ko": "LBX 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 209",
+  "key": "name",
+  "en": "Hvy. LBX Ammo",
+  "ko": "중LBX 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 210",
+  "key": "name",
+  "en": "C Ultra Lt. AC Ammo",
+  "ko": "클랜 경울트라AC 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 210",
+  "key": "abbr",
+  "en": "C Ult Lt.AC Ammo",
+  "ko": "C 경울트라AC 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 211",
+  "key": "name",
+  "en": "C Ultra AC Ammo",
+  "ko": "클랜 울트라AC 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 211",
+  "key": "abbr",
+  "en": "C Ult.AC Ammo",
+  "ko": "C 울트라AC 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 212",
+  "key": "name",
+  "en": "C Ultra AC Hvy Ammo",
+  "ko": "클랜 중울트라AC 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 212",
+  "key": "abbr",
+  "en": "C Ult Hvy.AC Ammo",
+  "ko": "C 중울트라AC 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 213",
+  "key": "name",
+  "en": "C Gauss Ammo",
+  "ko": "클랜 가우스 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 213",
+  "key": "abbr",
+  "en": "C Gauss",
+  "ko": "C 가우스"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 214",
+  "key": "name",
+  "en": "C M Gun Ammo",
+  "ko": "클랜 기관총 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 214",
+  "key": "abbr",
+  "en": "MG",
+  "ko": "MG"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 215",
+  "key": "name",
+  "en": "C Anti-Missile Ammo",
+  "ko": "클랜 AMS 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 215",
+  "key": "abbr",
+  "en": "AMS",
+  "ko": "AMS"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 216",
+  "key": "name",
+  "en": "C Lt. LBX Ammo",
+  "ko": "클랜 경LBX 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 217",
+  "key": "name",
+  "en": "C LBX Ammo",
+  "ko": "클랜 LBX 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 218",
+  "key": "name",
+  "en": "C Hvy. LBX Ammo",
+  "ko": "클랜 중LBX 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 220",
+  "key": "name",
+  "en": "LRM Ammo",
+  "ko": "LRM 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 221",
+  "key": "name",
+  "en": "LRM/15 Pack",
+  "ko": "LRM/15 탄약 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 221",
+  "key": "abbr",
+  "en": "LRM/15",
+  "ko": "LRM/15"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 222",
+  "key": "name",
+  "en": "LRM/20 Pack",
+  "ko": "LRM/20 탄약 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 222",
+  "key": "abbr",
+  "en": "LRM/20",
+  "ko": "LRM/20"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 223",
+  "key": "name",
+  "en": "SRM Ammo",
+  "ko": "SRM 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 224",
+  "key": "name",
+  "en": "SRM/6 Pack",
+  "ko": "SRM/6 탄약 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 224",
+  "key": "abbr",
+  "en": "SRM/6",
+  "ko": "SRM/6"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 225",
+  "key": "name",
+  "en": "ST SRM Ammo",
+  "ko": "스트릭 SRM 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 226",
+  "key": "name",
+  "en": "Heavy Thunderbolt Ammo",
+  "ko": "헤비 선더볼트 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 226",
+  "key": "abbr",
+  "en": "Tbolt Ammo",
+  "ko": "선더볼트 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 227",
+  "key": "name",
+  "en": "Long Tom Ammo",
+  "ko": "롱 톰 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 228",
+  "key": "name",
+  "en": "Sniper Cannon Ammo",
+  "ko": "스나이퍼 포 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 228",
+  "key": "abbr",
+  "en": "Sniper Ammo",
+  "ko": "스나이퍼 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 230",
+  "key": "name",
+  "en": "C LRM Ammo",
+  "ko": "클랜 LRM 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 231",
+  "key": "name",
+  "en": "C LRM/15 Pack",
+  "ko": "클랜 LRM/15 탄약 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 231",
+  "key": "abbr",
+  "en": "LRM/15",
+  "ko": "LRM/15"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 232",
+  "key": "name",
+  "en": "C LRM/20 Pack",
+  "ko": "클랜 LRM/20 탄약 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 232",
+  "key": "abbr",
+  "en": "LRM/20",
+  "ko": "LRM/20"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 233",
+  "key": "name",
+  "en": "C SRM Ammo",
+  "ko": "클랜 SRM 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 234",
+  "key": "name",
+  "en": "C SRM/6 Pack",
+  "ko": "클랜 SRM/6 탄약 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 234",
+  "key": "abbr",
+  "en": "SRM/6",
+  "ko": "SRM/6"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 235",
+  "key": "name",
+  "en": "C ST SRM Ammo",
+  "ko": "클랜 스트릭 SRM 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 235",
+  "key": "abbr",
+  "en": "C ST-SRM Ammo",
+  "ko": "C ST-SRM 탄약"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 236",
+  "key": "name",
+  "en": "C ST-SRM/2 Pack",
+  "ko": "클랜 스트릭 SRM/2 탄약 팩"
+ },
+ {
+  "file": "MISC.FST/compbas.csv",
+  "section": "component 236",
+  "key": "abbr",
+  "en": "S-SRM/6",
+  "ko": "S-SRM/6"
+ },
+ {
+  "file": "MISSION.FST/PMW00051.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Beast",
+  "ko": "비스트"
+ },
+ {
+  "file": "MISSION.FST/PMW00052.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Hawk",
+  "ko": "호크"
+ },
+ {
+  "file": "MISSION.FST/PMW00053.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Siren",
+  "ko": "사이렌"
+ },
+ {
+  "file": "MISSION.FST/PMW00054.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Rooster",
+  "ko": "루스터"
+ },
+ {
+  "file": "MISSION.FST/PMW00055.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Isis",
+  "ko": "아이시스"
+ },
+ {
+  "file": "MISSION.FST/PMW00056.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Gunman",
+  "ko": "건맨"
+ },
+ {
+  "file": "MISSION.FST/PMW00057.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Mystique",
+  "ko": "미스틱"
+ },
+ {
+  "file": "MISSION.FST/PMW00058.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Skater",
+  "ko": "스케이터"
+ },
+ {
+  "file": "MISSION.FST/PMW00059.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Spice",
+  "ko": "스파이스"
+ },
+ {
+  "file": "MISSION.FST/PMW00060.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Baron",
+  "ko": "배런"
+ },
+ {
+  "file": "MISSION.FST/PMW00061.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Fiend",
+  "ko": "핀드"
+ },
+ {
+  "file": "MISSION.FST/PMW00062.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Ronin",
+  "ko": "로닌"
+ },
+ {
+  "file": "MISSION.FST/PMW00063.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Gator",
+  "ko": "게이터"
+ },
+ {
+  "file": "MISSION.FST/PMW00064.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Rebel",
+  "ko": "레블"
+ },
+ {
+  "file": "MISSION.FST/PMW00065.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Hunter",
+  "ko": "헌터"
+ },
+ {
+  "file": "MISSION.FST/PMW00066.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Lynx",
+  "ko": "링크스"
+ },
+ {
+  "file": "MISSION.FST/PMW00067.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Hitman",
+  "ko": "히트맨"
+ },
+ {
+  "file": "MISSION.FST/PMW00068.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Countess",
+  "ko": "카운티스"
+ },
+ {
+  "file": "MISSION.FST/PMW00069.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Scarab",
+  "ko": "스캐럽"
+ },
+ {
+  "file": "MISSION.FST/PMW00070.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Outlaw",
+  "ko": "아웃로"
+ },
+ {
+  "file": "MISSION.FST/PMW00071.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Falcon",
+  "ko": "팰컨"
+ },
+ {
+  "file": "MISSION.FST/PMW00072.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Burnout",
+  "ko": "번아웃"
+ },
+ {
+  "file": "MISSION.FST/PMW00073.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Goblin",
+  "ko": "고블린"
+ },
+ {
+  "file": "MISSION.FST/PMW00074.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Mantis",
+  "ko": "맨티스"
+ },
+ {
+  "file": "MISSION.FST/PMW00075.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Dragon",
+  "ko": "드래곤"
+ },
+ {
+  "file": "MISSION.FST/PMW00076.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Blaze",
+  "ko": "블레이즈"
+ },
+ {
+  "file": "MISSION.FST/PMW00077.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Thunder",
+  "ko": "선더"
+ },
+ {
+  "file": "MISSION.FST/PMW00078.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Paingod",
+  "ko": "페인갓"
+ },
+ {
+  "file": "MISSION.FST/PMW00079.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Firestorm",
+  "ko": "파이어스톰"
+ },
+ {
+  "file": "MISSION.FST/PMW00080.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Vixen",
+  "ko": "빅슨"
+ },
+ {
+  "file": "MISSION.FST/PMW00086.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Siren",
+  "ko": "사이렌"
+ },
+ {
+  "file": "MISSION.FST/PMW00087.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Rooster",
+  "ko": "루스터"
+ },
+ {
+  "file": "MISSION.FST/PMW00088.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Isis",
+  "ko": "아이시스"
+ },
+ {
+  "file": "MISSION.FST/PMW00089.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Gunman",
+  "ko": "건맨"
+ },
+ {
+  "file": "MISSION.FST/PMW00090.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Skater",
+  "ko": "스케이터"
+ },
+ {
+  "file": "MISSION.FST/PMW00091.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Countess",
+  "ko": "카운티스"
+ },
+ {
+  "file": "MISSION.FST/PMW00092.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Scarab",
+  "ko": "스캐럽"
+ },
+ {
+  "file": "MISSION.FST/PMW00093.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Mantis",
+  "ko": "맨티스"
+ },
+ {
+  "file": "MISSION.FST/PMW00094.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Dragon",
+  "ko": "드래곤"
+ },
+ {
+  "file": "MISSION.FST/PMW00095.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Blaze",
+  "ko": "블레이즈"
+ },
+ {
+  "file": "MISSION.FST/PMW00096.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Thunder",
+  "ko": "선더"
+ },
+ {
+  "file": "MISSION.FST/PMW00097.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Goblin",
+  "ko": "고블린"
+ },
+ {
+  "file": "MISSION.FST/PMW00102.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Spice",
+  "ko": "스파이스"
+ },
+ {
+  "file": "MISSION.FST/PMW00103.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Baron",
+  "ko": "배런"
+ },
+ {
+  "file": "MISSION.FST/PMW00104.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Fiend",
+  "ko": "핀드"
+ },
+ {
+  "file": "MISSION.FST/PMW00105.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Ronin",
+  "ko": "로닌"
+ },
+ {
+  "file": "MISSION.FST/PMW00106.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Gator",
+  "ko": "게이터"
+ },
+ {
+  "file": "MISSION.FST/PMW00107.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Rebel",
+  "ko": "레블"
+ },
+ {
+  "file": "MISSION.FST/PMW00108.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Hitman",
+  "ko": "히트맨"
+ },
+ {
+  "file": "MISSION.FST/PMW00109.FIT",
+  "section": "General",
+  "key": "Name",
+  "en": "Burnout",
+  "ko": "번아웃"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc13",
+  "key": "DescString",
+  "en": "IS Sensors detect active enemy units within about 350 meters. It cannot detect Elementals or powered down 'Mechs.%nLOAD VAL:%fc8  0.0",
+  "ko": "IS 센서는 약 350미터 이내에서 가동 중인 적 유닛을 탐지한다. 엘리멘탈이나 전원이 차단된 메크는 탐지하지 못한다.%n적재값:%fc8  0.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc14",
+  "key": "DescString",
+  "en": "Intermediate IS sensors detect active enemy units within about 440 meters. It cannot detect Elementals or powered down 'Mechs. %nLOAD VAL:%fc8  0.5",
+  "ko": "IS 중급형 센서는 약 440미터 이내에서 가동 중인 적 유닛을 탐지한다. 엘리멘탈이나 전원이 차단된 메크는 탐지하지 못한다. %n적재값:%fc8  0.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc15",
+  "key": "DescString",
+  "en": "Advanced IS sensors detect active enemy units within about 525 meters. It cannot detect Elementals or powered-down 'Mechs. *Raven or Light Clan `Mechs Only.*  LOAD VAL:%fc8  1.0",
+  "ko": "IS 고급형 센서는 약 525미터 이내에서 가동 중인 적 유닛을 탐지한다. 엘리멘탈이나 전원이 차단된 메크는 탐지하지 못한다. *레이븐 또는 클랜 경량급 메크 전용.*  적재값:%fc8  1.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc37",
+  "key": "DescString",
+  "en": "The IS Beagle Active Probe allows all friendly units to detect powered-down 'Mechs within their sensor ranges. *Raven or Light Clan `Mechs Only.*%nLOAD VAL:%fc8  1.5",
+  "ko": "IS 비글 액티브 프로브를 달면 모든 아군 유닛이 각자의 센서 범위 안에서 전원이 차단된 메크를 탐지할 수 있다. *레이븐 또는 클랜 경량급 메크 전용.*%n적재값:%fc8  1.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc38",
+  "key": "DescString",
+  "en": "The IS Guardian ECM suite halves the range of any enemy sensor it contacts. *Raven or Light Clan `Mechs Only.*  %nLOAD VAL:%fc8  1.5",
+  "ko": "IS 가디언 ECM 장비는 접촉한 적 센서의 탐지 거리를 절반으로 줄인다. *레이븐 또는 클랜 경량급 메크 전용.*  %n적재값:%fc8  1.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc98",
+  "key": "DescString",
+  "en": "A Star League era relic using lost technology, the Rail Gun electromagnetically hurls massive metal projectiles. It carries limited ammo. (15 shots) LOAD VAL:%fc8  30.0",
+  "ko": "잃어버린 기술을 쓰는 스타 리그 시대의 유물인 레일건은 거대한 금속 탄체를 전자기력으로 쏘아 보낸다. 탄약이 제한적이다. (15발) 적재값:%fc8  30.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc99",
+  "key": "DescString",
+  "en": "This new Inner Sphere design fires a smaller slug out to long range. It carries limited ammo. (50 shots)%nLOAD VAL:%fc8  13.5",
+  "ko": "이너 스피어의 새로운 설계로, 더 작은 탄체를 장거리까지 쏘아 보낸다. 탄약이 제한적이다. (50발)%n적재값:%fc8  13.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc100",
+  "key": "DescString",
+  "en": "Sometimes referred to as an AC/5, the IS light autocannon fires rapidly at long range, but at the expense of damage. It carries limited ammo. (100 shots)  LOAD VAL:%fc8  9.5",
+  "ko": "AC/5라고도 불리는 IS 경오토캐논은 장거리에서 빠르게 연사하지만 그 대가로 피해가 적다. 탄약이 제한적이다. (100발)  적재값:%fc8  9.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc101",
+  "key": "DescString",
+  "en": "The IS autocannon is a rapid-firing weapon that fires streams of high-explosive shells at medium range. It carries limited ammo. (40 shots)%nLOAD VAL:%fc8 15.5",
+  "ko": "IS 오토캐논은 중거리에서 고폭탄을 연달아 퍼붓는 속사 무기이다. 탄약이 제한적이다. (40발)%n적재값:%fc8 15.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc102",
+  "key": "DescString",
+  "en": "Also known as the AC/20, this IS autocannon is a short-range weapon capable of dealing enormous damage with one salvo. It carries very limited ammo. (13 shots)  LOAD VAL:%fc8 19.5",
+  "ko": "일명 AC/20인 이 IS 오토캐논은 한 번의 일제 사격으로 막대한 피해를 입히는 단거리 무기이다. 탄약이 매우 제한적이다. (13발)  적재값:%fc8 19.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc103",
+  "key": "DescString",
+  "en": "The IS light ultra autocannon fires at a faster rate than the standard light autocannon. It carries limited ammo. (112 shots)%nLOAD VAL:%fc8 11.0",
+  "ko": "IS 경울트라 오토캐논은 일반 경오토캐논보다 연사 속도가 빠르다. 탄약이 제한적이다. (112발)%n적재값:%fc8 11.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc104",
+  "key": "DescString",
+  "en": "The IS gauss rifle fires a solid slug at supersonic speeds that does significant damage at long range. It carries extremely limited ammo. (16 shots)  LOAD VAL:%fc8 16.5",
+  "ko": "IS 가우스 라이플은 단단한 탄체를 초음속으로 쏘아 장거리에서 큰 피해를 입힌다. 탄약이 극히 제한적이다. (16발)  적재값:%fc8 16.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc105",
+  "key": "DescString",
+  "en": "IF YOU SEE THIS DESCRIPTION PLEASE REPORT IT AS A BUG--- MACHINE GUN",
+  "ko": "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc106",
+  "key": "DescString",
+  "en": "IF YOU SEE THIS DESCRIPTION PLEASE REPORT IT AS A BUG--- ANTI-MISSILE SYSTEM.",
+  "ko": "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc107",
+  "key": "DescString",
+  "en": "This lighter version of the LBX Autocannon fires a smaller shotgun-like round into long range. It carries extended ammo. (260 shots) %nLOAD VAL:%fc8  9.5",
+  "ko": "LB-X 오토캐논의 경량형으로, 산탄총처럼 퍼지는 더 작은 탄을 장거리까지 쏜다. 탄약이 넉넉하다. (260발) %n적재값:%fc8  9.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc108",
+  "key": "DescString",
+  "en": "The shotgun-like LBX Autocannon fires a fragmenting round capable of striking multiple armor sections simultaneously. It carries limited ammo. (90 shots)  LOAD VAL:%fc8  14.5",
+  "ko": "산탄총 같은 LB-X 오토캐논은 분열탄을 쏘아 여러 장갑 부위를 동시에 타격할 수 있다. 탄약이 제한적이다. (90발)  적재값:%fc8  14.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc109",
+  "key": "DescString",
+  "en": "This cannon fires a massive, short range, shotgun-like round capable of striking multiple armor sections simultaneously. It carries limited ammo. (35 shots) LOAD VAL:%fc8  19.5",
+  "ko": "이 오토캐논은 여러 장갑 부위를 동시에 타격할 수 있는 거대한 단거리 산탄을 쏜다. 탄약이 제한적이다. (35발) 적재값:%fc8  19.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc120",
+  "key": "DescString",
+  "en": "The IS LRM Rack fires missiles that can fire over walls, buildings, or other terrain features at long range. It carries limited ammo. (24 shots)%nLOAD VAL:%fc8  4.0",
+  "ko": "IS LRM 랙은 벽, 건물 등 지형지물 너머로 미사일을 날려 장거리 목표를 공격할 수 있다. 탄약이 제한적이다. (24발)%n적재값:%fc8  4.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc121",
+  "key": "DescString",
+  "en": "IF YOU SEE THIS DESCRIPTION PLEASE REPORT IT AS A BUG--- LRM/15",
+  "ko": "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc122",
+  "key": "DescString",
+  "en": "IF YOU SEE THIS DESCRIPTION PLEASE REPORT IT AS A BUG--- LRM/20",
+  "ko": "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc123",
+  "key": "DescString",
+  "en": "The IS SRM Pack fires short-range missiles that like LRMs also fire over obstacles. It carries limited ammo. (62 shots)%nLOAD VAL:%fc8  3.0",
+  "ko": "IS SRM 팩은 단거리 미사일을 쏘며, LRM처럼 장애물 너머로도 공격할 수 있다. 탄약이 제한적이다. (62발)%n적재값:%fc8  3.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc124",
+  "key": "DescString",
+  "en": "IF YOU SEE THIS DESCRIPTION PLEASE REPORT IT AS A BUG--- SRM/6",
+  "ko": "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc125",
+  "key": "DescString",
+  "en": "An IS Streak SRM launcher does not fire its missiles unless guaranteed to hit. These missiles also fire over obstacles. It carries limited ammo. (62 shots)  LOAD VAL:%fc8  5.0",
+  "ko": "IS 스트릭 SRM 발사기는 명중이 확실할 때만 미사일을 쏜다. 이 미사일도 장애물 너머로 공격할 수 있다. 탄약이 제한적이다. (62발)  적재값:%fc8  5.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc139",
+  "key": "DescString",
+  "en": "This rapid firing energy weapon has the fastest recycle rate of any component available and is capable of striking targets at long range.%nLOAD VAL:%fc8  13.0",
+  "ko": "이 속사형 에너지 무기는 구할 수 있는 부품 중 재장전 속도가 가장 빠르며, 장거리 목표도 타격할 수 있다.%n적재값:%fc8  13.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc140",
+  "key": "DescString",
+  "en": "Heftier than the standard IS laser, the large laser packs a heavier medium-range punch with the same recycle time.%nLOAD VAL:%fc8  9.5",
+  "ko": "일반 IS 레이저보다 묵직한 대형 레이저는 재장전 시간은 같으면서 중거리에서 더 강력한 타격을 가한다.%n적재값:%fc8  9.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc141",
+  "key": "DescString",
+  "en": "The IS extended-range variant of the large laser projects its destructive power out to long range. It weighs more than the standard IS large laser.  LOAD VAL:%fc8 11.0",
+  "ko": "대형 레이저의 IS 확장 사거리형으로, 파괴력을 장거리까지 투사한다. 일반 IS 대형 레이저보다 무겁다.  적재값:%fc8 11.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc142",
+  "key": "DescString",
+  "en": "The pulse variant fires twice as often as the standard IS large laser but weighs more.%nLOAD VAL:%fc8 12.0",
+  "ko": "펄스형은 일반 IS 대형 레이저보다 두 배 자주 발사하지만 더 무겁다.%n적재값:%fc8 12.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc143",
+  "key": "DescString",
+  "en": "The IS laser is a light, short-range weapon. Because it is an energy weapon, there is no chance of running out of ammo.%nLOAD VAL:%fc8  4.0",
+  "ko": "IS 레이저는 가벼운 단거리 무기이다. 에너지 무기이므로 탄약이 떨어질 일이 없다.%n적재값:%fc8  4.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc144",
+  "key": "DescString",
+  "en": "The pulse laser fires multiple high-energy beams at over twice the fire rate of the standard IS laser, though it weighs more.  %nLOAD VAL:%fc8  6.0",
+  "ko": "펄스 레이저는 일반 IS 레이저의 두 배가 넘는 발사 속도로 고에너지 빔을 여러 줄기 쏘지만, 더 무겁다.  %n적재값:%fc8  6.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc145",
+  "key": "DescString",
+  "en": "Firing high-energy particle bolts, these medium-range IS particle projector cannons are among the most effective weapons available for BattleMechs.  LOAD VAL:%fc8 12.0",
+  "ko": "고에너지 입자탄을 쏘는 중거리 IS 입자 투사포는 배틀메크가 쓸 수 있는 가장 효과적인 무기 중 하나이다.  적재값:%fc8 12.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc146",
+  "key": "DescString",
+  "en": "A worthwhile upgrade to the PPC, the extended-range IS PPC fires the lethal energy bolt out to long-range.%nLOAD VAL:%fc8 15.5",
+  "ko": "PPC의 값진 개량형인 확장 사거리 IS PPC는 치명적인 에너지탄을 장거리까지 쏜다.%n적재값:%fc8 15.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc147",
+  "key": "DescString",
+  "en": "The IS heavy flamer vents a stream of super-heated plasma making it an effective short-range weapon.%nLOAD VAL:%fc8  8.0",
+  "ko": "IS 중화염방사기는 초고온 플라스마를 내뿜는 효과적인 단거리 무기이다.%n적재값:%fc8  8.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc160",
+  "key": "DescString",
+  "en": "Long Tom shells deliver 8 points of damage to the target and an additional 8 points of damage to everything in its explosion radius. It carries limited ammo. (25 shots)  LOAD VAL:%fc8  34.0",
+  "ko": "롱 톰 포탄은 목표에 8포인트의 피해를 주고, 폭발 반경 안의 모든 대상에게 8포인트의 피해를 더 준다. 탄약이 제한적이다. (25발)  적재값:%fc8  34.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc161",
+  "key": "DescString",
+  "en": "This snub-nosed, medium-range 'Mech mounted artillery piece fires an explosive, area-effect warhead and carries limited ammo. (64 shots)  LOAD VAL:%fc8  17.0",
+  "ko": "포신이 짧은 이 메크 탑재형 중거리 야포는 범위 효과를 내는 폭발 탄두를 쏘며, 탄약이 제한적이다. (64발)  적재값:%fc8  17.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc16",
+  "key": "DescString",
+  "en": "Clan standard sensors detect active enemy units at a slightly longer range than IS Basic Sensors. It cannot detect Elementals or powered-down 'Mechs.  LOAD VAL:%fc8  0.0",
+  "ko": "클랜 표준형 센서는 IS 기본형 센서보다 조금 더 먼 거리에서 가동 중인 적 유닛을 탐지한다. 엘리멘탈이나 전원이 차단된 메크는 탐지하지 못한다.  적재값:%fc8  0.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc17",
+  "key": "DescString",
+  "en": "Clan extended sensors detect active enemy units at a slightly shorter range than IS Advanced Sensors. It cannot detect Elementals or powered-down 'Mechs.  LOAD VAL:%fc8  0.5",
+  "ko": "클랜 확장형 센서는 가동 중인 적 유닛을 탐지하며, 탐지 거리는 IS 고급형 센서보다 조금 짧다. 엘리멘탈이나 전원이 차단된 메크는 탐지하지 못한다.  적재값:%fc8  0.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc42",
+  "key": "DescString",
+  "en": "The Clan ECM suite reduces the effectiveness by more than half of any enemy sensors it contacts. *Raven or Light Clan 'Mechs Only.*%nLOAD VAL:%fc8  1.0",
+  "ko": "클랜 ECM 장비는 접촉한 적 센서의 효율을 절반 넘게 떨어뜨린다. *레이븐 또는 클랜 경량급 메크 전용.*%n적재값:%fc8  1.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc43",
+  "key": "DescString",
+  "en": "The Clan Active Probe allows all friendly units to detect powered-down 'Mechs within their sensor ranges. *Raven or Light Clan 'Mechs Only.*%nLOAD VAL:%fc8  1.0",
+  "ko": "클랜 액티브 프로브를 달면 모든 아군 유닛이 각자의 센서 범위 안에서 전원이 차단된 메크를 탐지할 수 있다. *레이븐 또는 클랜 경량급 메크 전용.*%n적재값:%fc8  1.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc110",
+  "key": "DescString",
+  "en": "The Clan light ultra autocannon packs the same faster fire rate as the Inner Sphere version but weighs less. It carries limited ammo. (112 shots)  LOAD VAL:%fc8  8.5",
+  "ko": "클랜 경울트라 오토캐논은 이너 스피어판과 같은 빠른 연사 속도를 갖추었지만 더 가볍다. 탄약이 제한적이다. (112발)  적재값:%fc8  8.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc111",
+  "key": "DescString",
+  "en": "The Clan ultra autocannon fires at a faster rate than the Inner Sphere autocannon and weighs less. It carries limited ammo. (30 shots)%nLOAD VAL:%fc8 13.5",
+  "ko": "클랜 울트라 오토캐논은 이너 스피어 오토캐논보다 연사 속도가 빠르고 더 가볍다. 탄약이 제한적이다. (30발)%n적재값:%fc8 13.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc112",
+  "key": "DescString",
+  "en": "The Clan heavy ultra autocannon fires at a faster rate than the Inner Sphere heavy autocannon and weighs less. It carries very limited ammo. (10 shots)  LOAD VAL:%fc8 17.5",
+  "ko": "클랜 중울트라 오토캐논은 이너 스피어 중오토캐논보다 연사 속도가 빠르고 더 가볍다. 탄약이 매우 제한적이다. (10발)  적재값:%fc8 17.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc113",
+  "key": "DescString",
+  "en": "The Clan gauss rifle does the same damage at long range as the Inner Sphere version, but weighs less. It carries very limited ammo. (16 shots)  LOAD VAL:%fc8 13.5",
+  "ko": "클랜 가우스 라이플은 장거리에서 이너 스피어판과 같은 피해를 주지만 더 가볍다. 탄약이 매우 제한적이다. (16발)  적재값:%fc8 13.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc114",
+  "key": "DescString",
+  "en": "IF YOU SEE THIS DESCRIPTION PLEASE REPORT IT AS A BUG--- CLAN MACHINE GUN",
+  "ko": "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc115",
+  "key": "DescString",
+  "en": "IF YOU SEE THIS DESCRIPTION PLEASE REPORT IT AS A BUG--- CLAN ANTI-MISSILE SYSTEM.",
+  "ko": "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc116",
+  "key": "DescString",
+  "en": "The Clan version of the Light LBX Autocannon fires at the same distance and does the same damage, but it weighs less. It carries limited ammo. (260 shots)  LOAD VAL:%fc8  8.5",
+  "ko": "경 LB-X 오토캐논의 클랜판으로, 사거리와 피해는 같지만 더 가볍다. 탄약이 제한적이다. (260발)  적재값:%fc8  8.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc117",
+  "key": "DescString",
+  "en": "The shotgun-like Clan LBX Autocannon fires a round capable of striking multiple armor sections but weighs less than the IS version. It carries limited ammo. (90 shots)  LOAD VAL:%fc8  13.5",
+  "ko": "산탄총 같은 클랜 LB-X 오토캐논은 여러 장갑 부위를 타격할 수 있는 탄을 쏘며, IS판보다 가볍다. 탄약이 제한적이다. (90발)  적재값:%fc8  13.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc118",
+  "key": "DescString",
+  "en": "The Clan Heavy LBX Autocannon fires the same shotgun-like, short range, slug as the IS version, but weighs less. It carries limited ammo. (35 shots)  LOAD VAL:%fc8  17.5",
+  "ko": "클랜 중 LB-X 오토캐논은 IS판과 같은 단거리 산탄을 쏘지만 더 가볍다. 탄약이 제한적이다. (35발)  적재값:%fc8  17.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc126",
+  "key": "DescString",
+  "en": "This launcher fires one medium-range, 'Mech crippling missile over obstacles.  It cannot arm itself at targets within 50m. It carries limited ammo. (32 shots)  LOAD VAL:%fc8  21.0",
+  "ko": "이 발사기는 메크를 무력화하는 중거리 미사일 한 발을 장애물 너머로 쏜다.  50m 이내의 목표에는 신관이 작동하지 않는다. 탄약이 제한적이다. (32발)  적재값:%fc8  21.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc130",
+  "key": "DescString",
+  "en": "The Clan LRM Rack fires the same number of long-range missiles at the same rate as the Inner Sphere version, but weighs less. It carries limited ammo. (24 shots)  LOAD VAL:%fc8  3.0",
+  "ko": "클랜 LRM 랙은 이너 스피어판과 같은 수의 장거리 미사일을 같은 속도로 쏘지만 더 가볍다. 탄약이 제한적이다. (24발)  적재값:%fc8  3.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc131",
+  "key": "DescString",
+  "en": "IF YOU SEE THIS DESCRIPTION PLEASE REPORT IT AS A BUG--- CLAN LRM/15",
+  "ko": "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc132",
+  "key": "DescString",
+  "en": "IF YOU SEE THIS DESCRIPTION PLEASE REPORT IT AS A BUG--- CLAN LRM/20",
+  "ko": "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc133",
+  "key": "DescString",
+  "en": "The Clan SRM fires missiles at a slightly faster rate than the Inner Sphere version and weighs less. It carries limited ammo. (83 shots)%nLOAD VAL:%fc8  3.0",
+  "ko": "클랜 SRM은 이너 스피어판보다 조금 더 빠른 속도로 미사일을 쏘며 더 가볍다. 탄약이 제한적이다. (83발)%n적재값:%fc8  3.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc134",
+  "key": "DescString",
+  "en": "IF YOU SEE THIS DESCRIPTION PLEASE REPORT IT AS A BUG--- CLAN SRM/6",
+  "ko": "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc135",
+  "key": "DescString",
+  "en": "A Clan Streak SRM Pack launcher does not fire its short-range missiles unless guaranteed to hit. It weighs less than the IS version and carries limited ammo. (83 shots)  LOAD VAL:%fc8  4.75",
+  "ko": "클랜 스트릭 SRM 팩 발사기는 명중이 확실할 때만 단거리 미사일을 쏜다. IS판보다 가볍고 탄약이 제한적이다. (83발)  적재값:%fc8  4.75"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc136",
+  "key": "DescString",
+  "en": "IF YOU SEE THIS DESCRIPTION PLEASE REPORT IT AS A BUG---CLAN STREAK SRM/6",
+  "ko": "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc150",
+  "key": "DescString",
+  "en": "The Clan extended-range large laser does damage out to long range. It weighs slightly less, but hits harder, than the Inner Sphere version.%nLOAD VAL:%fc8 10.0",
+  "ko": "클랜 확장 사거리 대형 레이저는 장거리까지 피해를 준다. 이너 스피어판보다 조금 가볍지만 위력은 더 세다.%n적재값:%fc8 10.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc151",
+  "key": "DescString",
+  "en": "The Clan pulse variant fires at the same faster rate as the IS large pulse laser but weighs less.%nLOAD VAL:%fc8 11.0",
+  "ko": "클랜 펄스형은 IS 대형 펄스 레이저와 같은 빠른 속도로 발사하지만 더 가볍다.%n적재값:%fc8 11.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc152",
+  "key": "DescString",
+  "en": "The Clan extended-range laser is a duplicate of the standard laser, but is effective out to medium range and weighs less.%nLOAD VAL:%fc8  3.5",
+  "ko": "클랜 확장 사거리 레이저는 일반 레이저와 같지만, 중거리까지 효과적이며 더 가볍다.%n적재값:%fc8  3.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc153",
+  "key": "DescString",
+  "en": "The Clan pulse laser fires at the same rate as the IS version but weighs less.%nLOAD VAL:%fc8  4.0",
+  "ko": "클랜 펄스 레이저는 IS판과 같은 속도로 발사하지만 더 가볍다.%n적재값:%fc8  4.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc154",
+  "key": "DescString",
+  "en": "This Clan version of the ER PPC weighs less and does more damage than the Inner Sphere version.%nLOAD VAL:%fc8 13.5",
+  "ko": "ER PPC의 클랜판으로, 이너 스피어판보다 가볍고 피해가 더 크다.%n적재값:%fc8 13.5"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc155",
+  "key": "DescString",
+  "en": "The Clan heavy flamer fires slightly more often than the Inner Sphere version, and weighs less.%nLOAD VAL:%fc8  7.0",
+  "ko": "클랜 중화염방사기는 이너 스피어판보다 조금 더 자주 발사하며 더 가볍다.%n적재값:%fc8  7.0"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc301",
+  "key": "DescString",
+  "en": "Beast, orphan and refugee from one of the Bandit Kingdoms, was one of the best gunners at boot camp, but the worst at poker.",
+  "ko": "밴딧 킹덤 출신의 고아이자 난민인 비스트는 신병 훈련소에서 손꼽히는 사수였지만, 포커 실력은 최악이었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc302",
+  "key": "DescString",
+  "en": "Hawk prides himself on his ability to swoop in for the kill and in the fact that he can make any minor skirmish sound like an epic battle.",
+  "ko": "호크는 먹잇감을 덮치듯 날아들어 숨통을 끊는 실력과, 사소한 접전도 대서사시 같은 전투로 들리게 만드는 입담을 자랑으로 여긴다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc303",
+  "key": "DescString",
+  "en": "Self-named and a crack shot, it is Siren who most often walks away from the poker table with Beast's paycheck.",
+  "ko": "스스로 이름을 지은 명사수 사이렌은 포커 판에서 비스트의 급료를 가장 자주 챙겨 가는 사람이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc304",
+  "key": "DescString",
+  "en": "Born and raised on a backwater world of the Lyran Commonwealth, Rooster can steer a `Mech through the tightest terrain.",
+  "ko": "라이란 연방의 외진 행성에서 나고 자란 루스터는 아무리 좁은 지형에서도 메크를 몰고 빠져나갈 수 있다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc305",
+  "key": "DescString",
+  "en": "Cool under fire, Isis earned high marks in training for battlefield awareness.",
+  "ko": "포화 속에서도 침착한 아이시스는 훈련 중 전장 인식 능력에서 높은 점수를 받았다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc306",
+  "key": "DescString",
+  "en": "Gunman enjoys living up to his name. He's happiest with an Alpha Strike.",
+  "ko": "건맨은 이름값 하기를 즐긴다. 알파 스트라이크를 할 때 가장 행복해한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc307",
+  "key": "DescString",
+  "en": "Mystique won't talk about her history, but no one questions her ability to make a `Mech all but fly.",
+  "ko": "미스틱은 자신의 과거를 말하지 않지만, 메크를 거의 날게 만드는 그녀의 실력은 누구도 의심하지 않는다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc308",
+  "key": "DescString",
+  "en": "Few in training could match Skater's ability to pilot a `Mech, but far fewer appreciated his sense of humor.",
+  "ko": "훈련생 중 스케이터의 메크 조종 실력을 따라올 사람은 거의 없었지만, 그의 유머 감각을 알아주는 사람은 그보다 훨씬 적었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc309",
+  "key": "DescString",
+  "en": "Spice's all-around athleticism helps her muscle even the toughest of `Mechs (and MechWarriors) into place.",
+  "ko": "스파이스는 뛰어난 운동 능력으로 가장 다루기 힘든 메크(와 메크워리어)도 힘으로 휘어잡는다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc310",
+  "key": "DescString",
+  "en": "Distantly related by blood to the ruling Davion family, Baron and his sister Countess consider it their duty, honor, and right to fight the Jaguars.",
+  "ko": "다비온 통치 가문과 먼 혈연 관계인 배런과 그의 누나 카운티스는 재규어와 싸우는 것을 자신들의 의무이자 명예이며 권리라고 여긴다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc311",
+  "key": "DescString",
+  "en": "Don't let the name fool you, Fiend is anything but. He'll even lend you money, at a reasonable rate, if you need it.",
+  "ko": "이름에 속지 마라. 핀드는 전혀 악마 같은 사람이 아니다. 필요하다면 적당한 이자로 돈도 빌려준다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc312",
+  "key": "DescString",
+  "en": "Of distant Kurita descent, Ronin fought hard to get transferred to the Davion Guards when the first rumors of a counter-attack surfaced.",
+  "ko": "쿠리타 가문의 먼 후손인 로닌은 반격 소문이 처음 돌았을 때 다비온 근위대로 전속되려고 무던히 애썼다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc313",
+  "key": "DescString",
+  "en": "Prone to midday naps, Gator is none-the-less the man you need when that last, desperate shot has to count.",
+  "ko": "한낮에 곧잘 낮잠을 자는 게이터지만, 마지막 필사의 한 발을 반드시 맞혀야 할 때는 그가 꼭 필요하다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc314",
+  "key": "DescString",
+  "en": "A Steiner-loyalist, Rebel wears that badge and her Maneuver Training citation with pride.",
+  "ko": "스타이너 충성파인 레블은 그 칭호와 기동 훈련 표창을 자랑스럽게 내세운다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc315",
+  "key": "DescString",
+  "en": "With a well chosen call-sign, Hunter knows how to move and shoot like few others.",
+  "ko": "잘 지은 호출부호답게 헌터는 누구보다 능숙하게 움직이며 사격한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc316",
+  "key": "DescString",
+  "en": "Sly and wily, Lynx welcomes the chance to jump his `Mech into places he shouldn't be. Fortunately he has the gunnery skills to save his own skin.",
+  "ko": "교활하고 약삭빠른 링크스는 가서는 안 될 곳으로 메크를 점프시킬 기회를 반긴다. 다행히 그에게는 스스로 목숨을 건질 만한 사격 실력이 있다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc317",
+  "key": "DescString",
+  "en": "A crack-shot and decent with sensors, Hitman welcomes the chance to pay back the Smoke Jaguars for their crimes.",
+  "ko": "명사수이며 센서도 꽤 잘 다루는 히트맨은 스모크 재규어에게 그들의 죄를 갚아 줄 기회를 반긴다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc318",
+  "key": "DescString",
+  "en": "Like her younger brother Baron, Countess views herself as one of the noble elite who believe themselves destined to regain the lost Davion glory.",
+  "ko": "남동생 배런처럼 카운티스도 자신을 잃어버린 다비온의 영광을 되찾을 운명을 타고난 고귀한 엘리트 중 하나로 여긴다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc319",
+  "key": "DescString",
+  "en": "A techno-fiend, Scarab has his 'Mech's sensors and target-assistance electronics hot-wired to the frying point.",
+  "ko": "기계광인 스캐럽은 자기 메크의 센서와 조준 보조 전자 장비를 타 버리기 직전까지 개조해 두었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc320",
+  "key": "DescString",
+  "en": "Outlaw entered the Davion military as an infantry grunt, but through luck and no little talent has earned himself a ride with the best of the best.",
+  "ko": "아웃로는 다비온군에 말단 보병으로 입대했지만, 운과 적지 않은 재능 덕분에 최정예와 나란히 메크를 몰 자격을 얻었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc321",
+  "key": "DescString",
+  "en": "Though her family name carries great weight in the Davion military, Falcon fights continuously to insure that she's treated no differently than anyone else.",
+  "ko": "팰컨의 가문은 다비온군에서 큰 영향력을 지니지만, 그녀는 다른 누구와도 똑같이 대우받기 위해 끊임없이 싸운다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc322",
+  "key": "DescString",
+  "en": "Tired of getting shot down, Burnout transferred from the aerospace corps to where the real action is. So far he hasn't been disappointed.",
+  "ko": "격추당하는 데 지친 번아웃은 항공우주군에서 진짜 전투가 벌어지는 곳으로 전속했다. 지금까지는 실망한 적이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc323",
+  "key": "DescString",
+  "en": "Goblin is prepared to make any Smoke Jaguar he meets pay for the collective crimes of all the Clans. Fortunately, he has the ability to back that up.",
+  "ko": "고블린은 마주치는 스모크 재규어마다 모든 클랜이 저지른 죄의 대가를 치르게 할 각오가 되어 있다. 다행히 그에게는 그럴 만한 실력이 있다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc324",
+  "key": "DescString",
+  "en": "Mantis fought the Clans in the original invasion and has vowed not to let them get the better of her again.",
+  "ko": "맨티스는 첫 침공 때 클랜과 싸웠으며, 다시는 그들에게 지지 않겠다고 맹세했다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc325",
+  "key": "DescString",
+  "en": "An avowed Kurita-phile, Dragon has been reviewing Clan tactics and is more than ready to take the battle to them.",
+  "ko": "공공연한 쿠리타 애호가인 드래곤은 클랜의 전술을 연구해 왔으며, 그들에게 싸움을 걸 준비가 충분히 되어 있다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc326",
+  "key": "DescString",
+  "en": "Though she's mellowed of late, Blaze is infamous for demanding the best of everything. The truth is, however, she's earned it.",
+  "ko": "요즘은 많이 누그러졌지만, 블레이즈는 무엇이든 최고만 요구하기로 악명이 높다. 하지만 사실 그녀는 그럴 자격이 있다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc327",
+  "key": "DescString",
+  "en": "A Davion veteran, Thunder transferred from a command position in his old unit to get a crack at the Jaguars.",
+  "ko": "다비온의 베테랑인 선더는 재규어와 싸울 기회를 얻으려고 원래 부대의 지휘관 자리를 떠나 전속했다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc328",
+  "key": "DescString",
+  "en": "A near legend among Inner Sphere forces, Paingod's goal is to pilot a captured Clan OmniMech into battle against them.",
+  "ko": "이너 스피어군 사이에서 전설에 가까운 페인갓의 목표는 노획한 클랜 옴니메크를 몰고 클랜과 싸우는 것이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc329",
+  "key": "DescString",
+  "en": "Put him at the controls of an assault-class BattleMech and you will understand the reason for his call-sign, Firestorm.",
+  "ko": "그에게 강습급 배틀메크의 조종간을 맡겨 보면 그의 호출부호가 왜 파이어스톰인지 알게 될 것이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc330",
+  "key": "DescString",
+  "en": "Vixen's fought more battles than nearly anyone in the Davion Guard, and she's never seen the white of a cockpit parachute.",
+  "ko": "빅슨은 다비온 근위대의 거의 누구보다도 많은 전투를 치렀지만, 단 한 번도 조종석 낙하산을 펼쳐 본 적이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc332",
+  "key": "DescString",
+  "en": "Raised on an isolated Periphery world, Boomer's dialect is more than difficult to understand. Fortunately, he lets his `Mech do most of the talking.",
+  "ko": "고립된 페리페리 행성에서 자란 부머의 사투리는 알아듣기 어렵다는 말로도 부족하다. 다행히 그는 할 말의 대부분을 메크에게 맡긴다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc333",
+  "key": "DescString",
+  "en": "You won't find this MechWarrior in the barracks- Detox's `Mech is his home. Unfortunately, that means the cleaning crews get hazard pay...",
+  "ko": "이 메크워리어는 막사에서 찾을 수 없다- 디톡스에게는 메크가 집이다. 안타깝게도 그 때문에 청소반은 위험 수당을 받는다..."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc334",
+  "key": "DescString",
+  "en": "Quiet and aloof without tons of hardened metal around her, Ghost comes alive on the battlefield. Even then, however, she's one of the more reserved in the unit.",
+  "ko": "수십 톤의 강철에 둘러싸여 있지 않을 때는 조용하고 냉담한 고스트도 전장에서는 생기가 넘친다. 하지만 그때조차 부대에서 손꼽히게 말수가 적다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc335",
+  "key": "DescString",
+  "en": "Her nickname comes not from the effect she has on teammates, but on the bad luck that seems to fall on the enemy when she's around.",
+  "ko": "그녀의 별명은 동료들에게 미치는 영향이 아니라, 그녀가 있을 때마다 적에게 닥치는 듯한 불운에서 나왔다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc336",
+  "key": "DescString",
+  "en": "A military brat, Needle knows nothing but military life. But, unlike her siblings, she has no intention or pursuing promotion. She prefers the trenches.",
+  "ko": "군인 가정에서 자란 니들은 군대 생활밖에 모른다. 하지만 형제들과 달리 진급할 생각은 전혀 없다. 그녀는 최전선을 더 좋아한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc337",
+  "key": "DescString",
+  "en": "Pyro earned his name for reasons you can well imagine. His obsession, however, aptly conceals a sharp military mind and professional warrior.",
+  "ko": "파이로가 그런 이름을 얻은 이유는 쉽게 짐작할 수 있을 것이다. 하지만 그 집착 뒤에는 예리한 군사적 두뇌와 노련한 전사의 면모가 숨어 있다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc338",
+  "key": "DescString",
+  "en": "Sponge owns nothing that he did not beg, borrow, or steal from someone. Even his callsign, believe it or not, is lifted from someone in the Wolf Dragoons.",
+  "ko": "스펀지가 가진 것은 모두 누군가에게 얻거나 빌리거나 훔친 것이다. 믿기 어렵겠지만 그의 호출부호조차 울프 용기병대의 누군가에게서 슬쩍한 것이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc339",
+  "key": "DescString",
+  "en": "Squid's callsign is a holdover from his days as a green MechWarrior. A rookie no longer, Squid is looking forward to testing his mettle against the Clans.",
+  "ko": "스퀴드의 호출부호는 신참 메크워리어 시절의 잔재이다. 이제 더는 풋내기가 아닌 스퀴드는 클랜을 상대로 자신의 기량을 시험해 보기를 고대한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc340",
+  "key": "DescString",
+  "en": "The veteran Toad is even grumpier out of the cockpit than in. To that end, his superiors try and assign him to picket duty whenever practical.",
+  "ko": "베테랑 토드는 조종석 안보다 밖에서 더 심술궂다. 그래서 상관들은 가능할 때마다 그에게 초계 임무를 맡기려 한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc341",
+  "key": "DescString",
+  "en": "To many, it seems amazing that Vandal has lived as long as he has. If there is a risk to be taken on the battlefield, he charges to it.",
+  "ko": "많은 이들이 밴덜이 지금껏 살아 있는 것을 놀라워한다. 전장에 감수할 위험이 있다면 그는 그곳으로 돌진한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc342",
+  "key": "DescString",
+  "en": "Wasp loves recon work, the lighter and faster the `Mech the better. Fortunately, few can pilot a speeding 25-ton piece of metal as she can.",
+  "ko": "와스프는 정찰 임무를 좋아하며, 메크는 가볍고 빠를수록 좋아한다. 다행히 질주하는 25톤짜리 쇳덩이를 그녀만큼 잘 모는 사람은 드물다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc343",
+  "key": "DescString",
+  "en": "With many combats under her belt, Spice has learned that brute force isn't always the answer and a careful, precise touch sometimes wins the day.",
+  "ko": "숱한 전투를 겪은 스파이스는 힘만이 늘 답은 아니며, 때로는 신중하고 정밀한 손길이 승리를 가져온다는 것을 배웠다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc344",
+  "key": "DescString",
+  "en": "With his exploits against the Smoke Jaguars broadcast on his homeplanet's newsvids, Baron has become even more insufferable than ever.",
+  "ko": "스모크 재규어를 상대로 세운 공적이 고향 행성의 뉴스 영상에 방송되면서, 배런은 그 어느 때보다도 더 봐주기 힘든 사람이 되었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc345",
+  "key": "DescString",
+  "en": "Fiend has discovered the spare parts market and has been taking personal interest in the inventory of equipment recovered from enemy `Mechs he's destroyed.",
+  "ko": "예비 부품 시장에 눈을 뜬 핀드는 자신이 격파한 적 메크에서 회수한 장비 목록에 개인적인 관심을 쏟고 있다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc346",
+  "key": "DescString",
+  "en": "Despite the victories against the Smoke Jaguars, Ronin has found himself missing the life and culture of the Draonic Combine more and more.",
+  "ko": "스모크 재규어를 상대로 승리를 거두고 있음에도, 로닌은 드라코니스 연맹의 삶과 문화를 점점 더 그리워하고 있다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc347",
+  "key": "DescString",
+  "en": "Some in the unit want Gator to change his name to Trickshot in recognition of his ability to make the tough shot when it's needed most.",
+  "ko": "부대원 일부는 가장 필요한 순간에 어려운 사격을 성공시키는 게이터의 실력을 인정해 그의 이름을 트릭샷으로 바꾸자고 한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc348",
+  "key": "DescString",
+  "en": "Time with a hard-core Davion unit has dulled Rebel's Steiner patriotism somewhat, but it's still strong enough to provoke the occasional fist fight...  ",
+  "ko": "골수 다비온 부대에서 지내면서 레블의 스타이너 애국심은 다소 무뎌졌지만, 아직도 이따금 주먹다짐을 일으킬 만큼은 강하다...  "
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc349",
+  "key": "DescString",
+  "en": "Hitman has been very happy helping to grind the Smoke Jaguars into the ground. Unfortunately, some of his unit-mates fear it's becoming an obsession.",
+  "ko": "히트맨은 스모크 재규어를 짓밟는 데 힘을 보태며 무척 즐거워하고 있다. 안타깝게도 일부 동료들은 그것이 집착이 되어 가는 것은 아닌지 걱정한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc350",
+  "key": "DescString",
+  "en": "Burnout enjoys `Mech piloting more than he ever did aeropspace jockeying, but now understands the value of being high and above the fray.",
+  "ko": "번아웃은 항공우주기를 몰던 때보다 메크 조종을 더 즐기지만, 이제는 높은 곳에서 싸움을 내려다보는 것의 가치도 알게 되었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc400",
+  "key": "DescString",
+  "en": "The Atlas is the premiere IS assault-class `Mech. Fear it. This variant has extra armor and no jump-jets.",
+  "ko": "아틀라스는 IS 최고의 강습급 메크이다. 두려워하라. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc401",
+  "key": "DescString",
+  "en": "The Atlas is the premiere IS assault-class `Mech. Fear it. This variant has extra weapons and no jump-jets.",
+  "ko": "아틀라스는 IS 최고의 강습급 메크이다. 두려워하라. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc402",
+  "key": "DescString",
+  "en": "The Atlas is the premiere IS assault-class `Mech. Fear it. This rare variant has jump-jets at the expense of armor and weapons.",
+  "ko": "아틀라스는 IS 최고의 강습급 메크이다. 두려워하라. 이 희귀한 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc403",
+  "key": "DescString",
+  "en": "The Awesome assault-class `Mech was designed to spearhead assaults and absorb huge amounts of damage. This variant has extra armor and no jump-jets.",
+  "ko": "오섬 강습급 메크는 공격의 선봉에 서서 막대한 피해를 받아 내도록 설계되었다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc404",
+  "key": "DescString",
+  "en": "The Awesome assault-class `Mech was designed to spearhead assaults and absorb huge amounts of damage. This variant has extra weapons and no jump-jets.",
+  "ko": "오섬 강습급 메크는 공격의 선봉에 서서 막대한 피해를 받아 내도록 설계되었다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc405",
+  "key": "DescString",
+  "en": "The Awesome assault-class `Mech was designed to spearhead assaults. This rare variant has jump-jets at the expense of armor and weapons.",
+  "ko": "오섬 강습급 메크는 공격의 선봉에 서도록 설계되었다. 이 희귀한 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc406",
+  "key": "DescString",
+  "en": "The Catapult is a second-line, fire support 'Mech with a solid layer of armor. This variant has extra armor and no jump-jets.",
+  "ko": "캐터펄트는 견고한 장갑을 두른 후방 화력 지원 메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc407",
+  "key": "DescString",
+  "en": "The Catapult is a second-line, fire support 'Mech with a solid layer of armor. This variant has extra weapons and no jump-jets.",
+  "ko": "캐터펄트는 견고한 장갑을 두른 후방 화력 지원 메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc408",
+  "key": "DescString",
+  "en": "The Catapult is a second-line, fire support 'Mech with a solid layer of armor. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "캐터펄트는 견고한 장갑을 두른 후방 화력 지원 메크이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc409",
+  "key": "DescString",
+  "en": "Commandos are often dispatched singly or in pairs to scout ahead or to monitor enemy movement. This variant has extra armor and no jump-jets.",
+  "ko": "코만도는 흔히 한 기나 두 기씩 파견되어 전방을 정찰하거나 적의 움직임을 감시한다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc410",
+  "key": "DescString",
+  "en": "Commandos are often dispatched singly or in pairs to scout ahead or to monitor enemy movement. This variant has extra weapons and no jump-jets.",
+  "ko": "코만도는 흔히 한 기나 두 기씩 파견되어 전방을 정찰하거나 적의 움직임을 감시한다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc411",
+  "key": "DescString",
+  "en": "Commandos are often dispatched singly or in pairs to scout ahead or to monitor enemy movement. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "코만도는 흔히 한 기나 두 기씩 파견되어 전방을 정찰하거나 적의 움직임을 감시한다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc412",
+  "key": "DescString",
+  "en": "This Clan light `Mech is an effective heavy scout or fast-attack front-line combat unit. This variant has extra armor and no jump-jets.",
+  "ko": "이 클랜 경량급 메크는 효과적인 중무장 정찰기 또는 고속 공격용 최전선 전투 유닛이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc413",
+  "key": "DescString",
+  "en": "This Clan light `Mech is an effective heavy scout or fast-attack front-line combat unit. This variant has extra weapons and no jump-jets.",
+  "ko": "이 클랜 경량급 메크는 효과적인 중무장 정찰기 또는 고속 공격용 최전선 전투 유닛이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc414",
+  "key": "DescString",
+  "en": "This Clan light `Mech is an effective heavy scout or fast-attack front-line combat unit. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "이 클랜 경량급 메크는 효과적인 중무장 정찰기 또는 고속 공격용 최전선 전투 유닛이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc415",
+  "key": "DescString",
+  "en": "This `Mech is built for urban combat and carries effective short-range weaponry. This variant has extra armor and no jump-jets.",
+  "ko": "이 메크는 시가전용으로 제작되었으며 효과적인 단거리 무장을 갖추었다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc416",
+  "key": "DescString",
+  "en": "This `Mech is built for urban combat and carries mixed medium and short-range weaponry. This variant has extra weapons and no jump-jets.",
+  "ko": "이 메크는 시가전용으로 제작되었으며 중거리와 단거리 무장을 섞어 갖추었다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc417",
+  "key": "DescString",
+  "en": "This `Mech is built for urban combat and carries effective short-range weaponry. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "이 메크는 시가전용으로 제작되었으며 효과적인 단거리 무장을 갖추었다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc418",
+  "key": "DescString",
+  "en": "The Hollander II's gauss rifle makes it an effective short-term light fire-support `Mech. This variant has extra armor and no jump-jets.",
+  "ko": "홀랜더 II는 가우스 라이플 덕분에 단기전에 효과적인 경량급 화력 지원 메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc419",
+  "key": "DescString",
+  "en": "The Hollander II's gauss rifle makes it an effective short-term light fire-support `Mech. This variant has extra weapons and no jump-jets.",
+  "ko": "홀랜더 II는 가우스 라이플 덕분에 단기전에 효과적인 경량급 화력 지원 메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc420",
+  "key": "DescString",
+  "en": "The Hollander II's gauss rifle makes it an effective short-term light fire-support `Mech. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "홀랜더 II는 가우스 라이플 덕분에 단기전에 효과적인 경량급 화력 지원 메크이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc421",
+  "key": "DescString",
+  "en": "The Hunchback is renowned for its devastating short-range, street-fighting punch. This variant has extra armor and no jump-jets.",
+  "ko": "헌치백은 시가전에서 발휘하는 파괴적인 단거리 타격력으로 유명하다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc422",
+  "key": "DescString",
+  "en": "The Hunchback is renowned for its devastating short-range, street-fighting punch. This variant has extra weapons and no jump-jets.",
+  "ko": "헌치백은 시가전에서 발휘하는 파괴적인 단거리 타격력으로 유명하다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc423",
+  "key": "DescString",
+  "en": "The Hunchback is renowned for its devastating short-range, street-fighting punch. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "헌치백은 시가전에서 발휘하는 파괴적인 단거리 타격력으로 유명하다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc424",
+  "key": "DescString",
+  "en": "The Clan version of the Hunchback is a devastating close-attack `Mech. This variant has extra armor and no jump-jets.",
+  "ko": "헌치백의 클랜판은 파괴적인 근접 공격 메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc425",
+  "key": "DescString",
+  "en": "The Clan version of the Hunchback is a devastating close-attack `Mech. This variant has extra weapons and no jump-jets.",
+  "ko": "헌치백의 클랜판은 파괴적인 근접 공격 메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc426",
+  "key": "DescString",
+  "en": "The Clan version of the Hunchback is a devastating close-attack `Mech. This rare variant has jump-jets at the expense of armor and weapons.",
+  "ko": "헌치백의 클랜판은 파괴적인 근접 공격 메크이다. 이 희귀한 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc427",
+  "key": "DescString",
+  "en": "The Jagermech is a long-range fire support `Mech capable of holding its own against most in its class. This variant has extra armor and no jump-jets.",
+  "ko": "예거메크는 같은 체급의 메크 대부분과 대등하게 맞설 수 있는 장거리 화력 지원 메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc428",
+  "key": "DescString",
+  "en": "The Jagermech is a long-range fire support `Mech capable of holding its own against most in its class. This variant has extra weapons and no jump-jets.",
+  "ko": "예거메크는 같은 체급의 메크 대부분과 대등하게 맞설 수 있는 장거리 화력 지원 메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc429",
+  "key": "DescString",
+  "en": "The Jagermech is a long-range fire support `Mech capable of holding its own against most in its class. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "예거메크는 같은 체급의 메크 대부분과 대등하게 맞설 수 있는 장거리 화력 지원 메크이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc430",
+  "key": "DescString",
+  "en": "A true multi-role design, the Loki is one of the most effective Clan OmniMechs. This variant has extra armor and no jump-jets.",
+  "ko": "진정한 다목적 설계인 로키는 가장 효과적인 클랜 옴니메크 중 하나이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc431",
+  "key": "DescString",
+  "en": "A true multi-role design, the Loki is one of the most effective Clan OmniMechs. This variant has extra weapons and no jump-jets.",
+  "ko": "진정한 다목적 설계인 로키는 가장 효과적인 클랜 옴니메크 중 하나이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc432",
+  "key": "DescString",
+  "en": "A true multi-role design, the Loki is one of the most effective Clan OmniMechs. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "진정한 다목적 설계인 로키는 가장 효과적인 클랜 옴니메크 중 하나이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc433",
+  "key": "DescString",
+  "en": "Perhaps the best-known Clan `Mech configuration, the Mad Cat is a powerful all-around fighter. This variant has extra armor and no jump-jets.",
+  "ko": "아마도 가장 잘 알려진 클랜 메크 구성인 매드캣은 강력한 만능 전투 메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc434",
+  "key": "DescString",
+  "en": "Perhaps the best-known Clan `Mech configuration, the Mad Cat is a powerful all-around fighter. This variant has extra weapons and no jump-jets.",
+  "ko": "아마도 가장 잘 알려진 클랜 메크 구성인 매드캣은 강력한 만능 전투 메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc435",
+  "key": "DescString",
+  "en": "Perhaps the best-known Clan `Mech configuration, the Mad Cat is a powerful all-around fighter. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "아마도 가장 잘 알려진 클랜 메크 구성인 매드캣은 강력한 만능 전투 메크이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc436",
+  "key": "DescString",
+  "en": "The Masakari is an assault-class OmniMech normally piloted by Elite warriors. This variant has extra armor and no jump-jets.",
+  "ko": "마사카리는 보통 정예 전사가 조종하는 강습급 옴니메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc437",
+  "key": "DescString",
+  "en": "The Masakari is an assault-class OmniMech normally piloted by Elite warriors. This variant has extra weapons and no jump-jets.",
+  "ko": "마사카리는 보통 정예 전사가 조종하는 강습급 옴니메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc438",
+  "key": "DescString",
+  "en": "The Masakari is an assault-class OmniMech normally piloted by Elite warriors. This rare variant has jump-jets at the expense of armor and weapons.",
+  "ko": "마사카리는 보통 정예 전사가 조종하는 강습급 옴니메크이다. 이 희귀한 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc439",
+  "key": "DescString",
+  "en": "The Raven scout `Mech is designed to mount sophisticated electronic warfare components. This variant has extra armor and no jump-jets.",
+  "ko": "레이븐 정찰 메크는 정교한 전자전 장비를 탑재하도록 설계되었다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc440",
+  "key": "DescString",
+  "en": "The Raven scout `Mech is designed to mount sophisticated electronic warfare components. This variant has extra weapons and no jump-jets.",
+  "ko": "레이븐 정찰 메크는 정교한 전자전 장비를 탑재하도록 설계되었다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc441",
+  "key": "DescString",
+  "en": "The Raven scout `Mech is designed to mount sophisticated electronic warfare components. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "레이븐 정찰 메크는 정교한 전자전 장비를 탑재하도록 설계되었다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc442",
+  "key": "DescString",
+  "en": "This heavy OmniMech is know and feared for its fierce medium and short range punch. This variant has extra armor and no jump-jets.",
+  "ko": "이 중량급 옴니메크는 맹렬한 중거리 및 단거리 타격력으로 악명이 높다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc443",
+  "key": "DescString",
+  "en": "This heavy OmniMech is know and feared for its fierce medium and short range punch. This variant has extra weapons and no jump-jets.",
+  "ko": "이 중량급 옴니메크는 맹렬한 중거리 및 단거리 타격력으로 악명이 높다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc444",
+  "key": "DescString",
+  "en": "This heavy OmniMech is know and feared for its fierce medium and short range punch. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "이 중량급 옴니메크는 맹렬한 중거리 및 단거리 타격력으로 악명이 높다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc445",
+  "key": "DescString",
+  "en": "Though used mostly as a Clan scout `Mech, the Uller can handle itself against any foe in its weight class. This variant has extra armor and no jump-jets.",
+  "ko": "울러는 주로 클랜의 정찰 메크로 쓰이지만, 같은 체급의 어떤 적과도 맞서 싸울 수 있다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc446",
+  "key": "DescString",
+  "en": "Though used mostly as a Clan scout `Mech, the Uller can handle itself against any foe in its weight class. This variant has extra weapons and no jump-jets.",
+  "ko": "울러는 주로 클랜의 정찰 메크로 쓰이지만, 같은 체급의 어떤 적과도 맞서 싸울 수 있다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc447",
+  "key": "DescString",
+  "en": "Though used mostly as a scout `Mech, the Uller can handle itself against any foe in its weight class. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "울러는 주로 정찰 메크로 쓰이지만, 같은 체급의 어떤 적과도 맞서 싸울 수 있다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc448",
+  "key": "DescString",
+  "en": "The Vulture serves mostly as a fire-support 'Mech, and its appearance often means LRMs are not far behind. This variant has extra armor and no jump-jets.",
+  "ko": "벌처는 주로 화력 지원 메크로 쓰이며, 벌처가 나타나면 곧 LRM이 날아오는 경우가 많다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc449",
+  "key": "DescString",
+  "en": "The Vulture serves mostly as a fire-support 'Mech, and its appearance often means LRMs are not far behind. This variant has extra weapons and no jump-jets.",
+  "ko": "벌처는 주로 화력 지원 메크로 쓰이며, 벌처가 나타나면 곧 LRM이 날아오는 경우가 많다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc450",
+  "key": "DescString",
+  "en": "The Vulture serves as a fire-support 'Mech, and its appearance often means LRMs are not far behind. This rare variant has jump-jets at the expense of armor and weapons.",
+  "ko": "벌처는 화력 지원 메크로 쓰이며, 벌처가 나타나면 곧 LRM이 날아오는 경우가 많다. 이 희귀한 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc451",
+  "key": "DescString",
+  "en": "One of the more common Inner Sphere designs, the Centurion is a workhorse design suited for many roles. This variant has extra armor and no jump-jets.",
+  "ko": "이너 스피어에서 비교적 흔한 설계 중 하나인 센추리온은 여러 역할에 두루 쓰이는 든든한 기체이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc452",
+  "key": "DescString",
+  "en": "One of the more common Inner Sphere designs, the Centurion is a workhorse design suited for many roles. This variant has extra weapons and no jump-jets.",
+  "ko": "이너 스피어에서 비교적 흔한 설계 중 하나인 센추리온은 여러 역할에 두루 쓰이는 든든한 기체이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc453",
+  "key": "DescString",
+  "en": "One of the more common Inner Sphere designs, the Centurion is a workhorse design suited for many roles. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "이너 스피어에서 비교적 흔한 설계 중 하나인 센추리온은 여러 역할에 두루 쓰이는 든든한 기체이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc454",
+  "key": "DescString",
+  "en": "The Stiletto, the fastest 'Mech in the IS arsenal, carries Intermediate Sensors. Its speed gives it unparalleled ability to evade combat. This variant has extra armor and no jump-jets.",
+  "ko": "IS 메크 중 가장 빠른 스틸레토는 중급형 센서를 탑재한다. 속도 덕분에 전투를 피하는 능력이 비할 데 없이 뛰어나다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc455",
+  "key": "DescString",
+  "en": "The Stiletto, the fastest 'Mech in the IS arsenal, carries Intermediate Sensors. Its speed gives it unparalleled ability to evade combat. This variant has extra weapons and no jump-jets.",
+  "ko": "IS 메크 중 가장 빠른 스틸레토는 중급형 센서를 탑재한다. 속도 덕분에 전투를 피하는 능력이 비할 데 없이 뛰어나다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc456",
+  "key": "DescString",
+  "en": "The Stiletto, the fastest 'Mech in the IS arsenal, carries Intermediate Sensors. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "IS 메크 중 가장 빠른 스틸레토는 중급형 센서를 탑재한다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc457",
+  "key": "DescString",
+  "en": "The IS Bushwacker is a fast, medium 'Mech with a versatile design that is well-armed and armored. This variant has extra armor and no jump-jets.",
+  "ko": "IS 부시왜커는 무장과 장갑이 충실하고 다재다능하게 설계된 빠른 중형급 메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc458",
+  "key": "DescString",
+  "en": "The IS Bushwacker is a fast, medium 'Mech with a versatile design that is well-armed and armored. This variant has extra weapons and no jump-jets.",
+  "ko": "IS 부시왜커는 무장과 장갑이 충실하고 다재다능하게 설계된 빠른 중형급 메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc459",
+  "key": "DescString",
+  "en": "The IS Bushwacker is a fast, medium 'Mech with a versatile design that is well-armed and armored. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "IS 부시왜커는 무장과 장갑이 충실하고 다재다능하게 설계된 빠른 중형급 메크이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc460",
+  "key": "DescString",
+  "en": "This venerable IS assault 'Mech design delivers a high-volume of armor-shredding firepower at long-range. This variant has extra armor and no jump-jets.",
+  "ko": "유서 깊은 이 IS 강습급 메크는 장거리에서 장갑을 찢어발기는 막대한 화력을 퍼붓는다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc461",
+  "key": "DescString",
+  "en": "This venerable IS assault 'Mech design delivers a high-volume of armor-shredding firepower at long-range. This variant has extra weapons and no jump-jets.",
+  "ko": "유서 깊은 이 IS 강습급 메크는 장거리에서 장갑을 찢어발기는 막대한 화력을 퍼붓는다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc462",
+  "key": "DescString",
+  "en": "This venerable IS assault 'Mech design delivers a high-volume of armor-shredding firepower at long-range. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "유서 깊은 이 IS 강습급 메크는 장거리에서 장갑을 찢어발기는 막대한 화력을 퍼붓는다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc463",
+  "key": "DescString",
+  "en": "Technically a heavy scout, the Clan Shadow Cat is well armed and armored, and ideal for hazardous recon missions. This variant has extra armor and no jump-jets.",
+  "ko": "엄밀히는 중무장 정찰기인 클랜 섀도캣은 무장과 장갑이 충실하여 위험한 정찰 임무에 알맞다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc464",
+  "key": "DescString",
+  "en": "Technically a heavy scout, the Clan Shadow Cat is well armed and armored, and ideal for hazardous recon missions. This variant has extra weapons and no jump-jets.",
+  "ko": "엄밀히는 중무장 정찰기인 클랜 섀도캣은 무장과 장갑이 충실하여 위험한 정찰 임무에 알맞다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc465",
+  "key": "DescString",
+  "en": " Technically a heavy scout, the Clan Shadow Cat is well armed and armored, and ideal for hazardous recon missions. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": " 엄밀히는 중무장 정찰기인 클랜 섀도캣은 무장과 장갑이 충실하여 위험한 정찰 임무에 알맞다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc466",
+  "key": "DescString",
+  "en": "A short-range killing machine, the Clan Nova Cat was designed to butcher anything that gets too close. This variant has extra armor and no jump-jets.",
+  "ko": "단거리 살육 기계인 클랜 노바캣은 너무 가까이 다가오는 것은 무엇이든 도륙하도록 설계되었다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc467",
+  "key": "DescString",
+  "en": "A short-range killing machine, the Clan Nova Cat was designed to butcher anything that gets too close. This variant has extra weapons and no jump-jets.",
+  "ko": "단거리 살육 기계인 클랜 노바캣은 너무 가까이 다가오는 것은 무엇이든 도륙하도록 설계되었다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc468",
+  "key": "DescString",
+  "en": "A short-range killing machine, the Clan Nova Cat was designed to butcher anything that gets too close. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "단거리 살육 기계인 클랜 노바캣은 너무 가까이 다가오는 것은 무엇이든 도륙하도록 설계되었다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc469",
+  "key": "DescString",
+  "en": "The Clan Turkina assault 'Mech carries crippling long-range firepower, and can smash anything that gets too close. This variant has extra armor and no jump-jets.",
+  "ko": "클랜 터키나 강습급 메크는 치명적인 장거리 화력을 갖추었고, 너무 가까이 다가오는 것은 무엇이든 박살 낼 수 있다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc470",
+  "key": "DescString",
+  "en": "The Clan Turkina assault 'Mech carries crippling long-range firepower, and can smash anything that gets too close. This variant has extra weapons and no jump-jets.",
+  "ko": "클랜 터키나 강습급 메크는 치명적인 장거리 화력을 갖추었고, 너무 가까이 다가오는 것은 무엇이든 박살 낼 수 있다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc471",
+  "key": "DescString",
+  "en": "The Clan Turkina assault 'Mech carries crippling long-range firepower, and can smash anything that gets too close. This variant has jump-jets at the expense of armor and weapons.",
+  "ko": "클랜 터키나 강습급 메크는 치명적인 장거리 화력을 갖추었고, 너무 가까이 다가오는 것은 무엇이든 박살 낼 수 있다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc472",
+  "key": "DescString",
+  "en": "Star Captain Katherine Furey has fitted her Vulture class heavy OmniMech with additional armor and a Star League relic weapon, the Rail Gun.",
+  "ko": "스타 캡틴 캐서린 퓨리는 자신의 중량급 옴니메크 벌처에 추가 장갑과 스타 리그 시대의 유물 무기인 레일건을 장착했다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc473",
+  "key": "DescString",
+  "en": "Star Captain Marcus Osis pilots a heavily armored Masakari class assault OmniMech armed with experimental X-Pulse Lasers.",
+  "ko": "스타 캡틴 마커스 오시스는 실험용 X-펄스 레이저로 무장하고 장갑을 대폭 강화한 강습급 옴니메크 마사카리를 조종한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc474",
+  "key": "DescString",
+  "en": "Star Captain Burnell Wirth's customized Turkina class assault OmniMech is outfitted exclusively with Thunderbolt missile launchers.",
+  "ko": "스타 캡틴 버넬 워스가 개조한 강습급 옴니메크 터키나는 선더볼트 미사일 발사기만으로 무장했다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc476",
+  "key": "DescString",
+  "en": "Star Captain Kim Ward pilots a custom Madcat class heavy OmniMech loaded with Long Range Missile Racks.",
+  "ko": "스타 캡틴 킴 워드는 장거리 미사일 랙을 가득 실은 개조형 중량급 옴니메크 매드캣을 조종한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc477",
+  "key": "DescString",
+  "en": "Star Captain Jefferson Stiles commands an Uller class light OmniMech equipped with 2 Large ER Lasers.",
+  "ko": "스타 캡틴 제퍼슨 스타일스는 대형 ER 레이저 2문을 장착한 경량급 옴니메크 울러를 운용한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc478",
+  "key": "DescString",
+  "en": "Star Captain Garrison Bowen uses an Uller class light OmniMech customized with a Rail Gun and LRM racks.",
+  "ko": "스타 캡틴 개리슨 보웬은 레일건과 LRM 랙을 달도록 개조한 경량급 옴니메크 울러를 사용한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc479",
+  "key": "DescString",
+  "en": "Star Captain Felicia Lopez pilots an Uller class light OmniMech equipped with an ER PPC.",
+  "ko": "스타 캡틴 펠리시아 로페즈는 ER PPC를 장착한 경량급 옴니메크 울러를 조종한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc481",
+  "key": "DescString",
+  "en": "ACE",
+  "ko": "에이스"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc482",
+  "key": "DescString",
+  "en": "ACE",
+  "ko": "에이스"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc483",
+  "key": "DescString",
+  "en": "ACE",
+  "ko": "에이스"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc500",
+  "key": "DescString",
+  "en": "CUT FROM MULTIPLAYER. IF YOU SEE THIS, REPORT IT AS A BUG!",
+  "ko": "(멀티플레이 전용 - 사용되지 않음)"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc501",
+  "key": "DescString",
+  "en": "CUT FROM MULTIPLAYER. IF YOU SEE THIS, REPORT IT AS A BUG!.",
+  "ko": "(멀티플레이 전용 - 사용되지 않음)"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc502",
+  "key": "DescString",
+  "en": "The Bulldog is a slow, tough short-range damage machine packing a heavy autocannon.",
+  "ko": "불독은 중오토캐논을 탑재한, 느리지만 튼튼한 단거리 파괴 기계이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc503",
+  "key": "DescString",
+  "en": "The Condor is a well-balanced medium-range tank firing a large pulse laser.",
+  "ko": "콘도르는 대형 펄스 레이저를 쏘는, 균형 잡힌 중거리 전차이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc504",
+  "key": "DescString",
+  "en": "The Harasser is a durable short-range combat mounting SRM packs. Its drivers use its speed to advantage by making quick, strafing runs and then moving to safety.",
+  "ko": "해러서는 SRM 팩을 탑재한 튼튼한 단거리 전투 차량이다. 운전병들은 속도를 살려 재빠르게 훑고 지나가며 공격한 뒤 안전한 곳으로 빠진다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc505",
+  "key": "DescString",
+  "en": "The J. Edgar is a lightly armored quick-strike tank firing pulse lasers. When operating in a group, its drivers favor a circling tactic that distracts the enemy.",
+  "ko": "J. 에드거는 펄스 레이저를 쏘는, 장갑이 얇은 신속 타격 전차이다. 무리 지어 작전할 때 운전병들은 적의 주의를 흩뜨리는 선회 전술을 즐겨 쓴다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc506",
+  "key": "DescString",
+  "en": " The LRM carrier is a dangerous, lightly armored missile boat firing LRM racks.",
+  "ko": " LRM 캐리어는 LRM 랙을 쏘는 위험한 경장갑 미사일 차량이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc507",
+  "key": "DescString",
+  "en": "The Minelayer is a defensive unit designed to delay and funnel enemy movement.",
+  "ko": "지뢰 부설차는 적의 이동을 지연시키고 한곳으로 몰기 위한 방어용 유닛이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc508",
+  "key": "DescString",
+  "en": "The Minesweeper clears a path through a minefield by safely detonating enemy mines. Each mine it safely detonates, however, reduces the vehicle's capability.",
+  "ko": "지뢰 제거차는 적의 지뢰를 안전하게 터뜨려 지뢰밭 사이로 길을 낸다. 하지만 지뢰를 하나 터뜨릴 때마다 차량의 성능이 떨어진다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc509",
+  "key": "DescString",
+  "en": "The Pegasus is an armed scout vehicle equipped with sensors.",
+  "ko": "페가수스는 센서를 갖춘 무장 정찰 차량이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc510",
+  "key": "DescString",
+  "en": "The Refit Truck makes field repairs to BattleMech armor and replenishes expended ammunition.",
+  "ko": "정비 트럭은 배틀메크의 장갑을 현장에서 수리하고 소모된 탄약을 보충한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc511",
+  "key": "DescString",
+  "en": "The Rommel is a thickly armored, medium-range heavy-strike tank firing twin autocannons.",
+  "ko": "롬멜은 쌍열 오토캐논을 쏘는, 장갑이 두꺼운 중거리 강타 전차이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc512",
+  "key": "DescString",
+  "en": "The Saracen is a fast long-range strike vehicle firing light autocannons. When operating in groups, their pilots tend to concentrate fire and then move on to the next victim.",
+  "ko": "사라센은 경오토캐논을 쏘는 빠른 장거리 타격 차량이다. 무리 지어 작전할 때 조종수들은 한 목표에 화력을 집중한 뒤 다음 희생양으로 넘어가는 경향이 있다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc513",
+  "key": "DescString",
+  "en": "The Savannah Master is an exceedingly high speed short-range fighter with poor armor. This vehicle moves in packs that swarm a target, impeding its ability to escape.",
+  "ko": "사바나 마스터는 장갑은 빈약하지만 속도가 매우 빠른 단거리 전투 차량이다. 무리 지어 다니며 목표를 에워싸 달아나지 못하게 한다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc514",
+  "key": "DescString",
+  "en": "Though it moves slowly, beware the Shrek's multiple ER-PPCs. Beware! When this vehicle stops, it's about to fire!",
+  "ko": "느리게 움직이지만 슈렉에 실린 여러 문의 ER-PPC를 조심하라. 주의하라! 이 차량이 멈추면 곧 발사한다!"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc515",
+  "key": "DescString",
+  "en": "The SRM carrier is a quick, lightly armored missile boat firing multiple SRM packs. It tends to move in for a close-range volley and then back off while the SRMs reload.",
+  "ko": "SRM 캐리어는 여러 개의 SRM 팩을 쏘는 빠른 경장갑 미사일 차량이다. 바짝 다가와 일제 사격을 퍼부은 뒤 SRM을 재장전하는 동안 물러나는 경향이 있다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc516",
+  "key": "DescString",
+  "en": "The Striker is a long-range missile tank capable of taking and inflicting serious damage.",
+  "ko": "스트라이커는 큰 피해를 견디는 동시에 큰 피해를 입힐 수도 있는 장거리 미사일 전차이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc517",
+  "key": "DescString",
+  "en": "The Swiftwind is an unarmed, lightly armored scout vehicle equipped with sensors.",
+  "ko": "스위프트윈드는 센서를 갖춘 비무장 경장갑 정찰 차량이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc518",
+  "key": "DescString",
+  "en": "The Von Luckner is a heavily armored, long-range assault vehicle firing a light autocannon and a gauss rifle. Beware! When this vehicle stops, it's about to fire!",
+  "ko": "폰 루크너는 경오토캐논과 가우스 라이플을 쏘는, 장갑이 두꺼운 장거리 강습 차량이다. 주의하라! 이 차량이 멈추면 곧 발사한다!"
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc550",
+  "key": "DescString",
+  "en": "This fast, heavily armed scout car is equipped with Guardian Electronic Countermeasures and advanced vehicle sensors.",
+  "ko": "빠르고 중무장한 이 정찰차는 가디언 전자전 방해 장비와 고급 차량 센서를 갖추었다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc551",
+  "key": "DescString",
+  "en": "This swift and agile tank carries a massive gauss rifle capable of devastating most targets with one shot. It can use its speed to bring that weapon to bear on weak rear `Mech armor.",
+  "ko": "빠르고 날렵한 이 전차는 대부분의 목표를 한 발에 박살 낼 수 있는 거대한 가우스 라이플을 탑재했다. 속도를 살려 메크의 약한 후면 장갑을 이 무기로 노릴 수 있다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc552",
+  "key": "DescString",
+  "en": "The Manticore is a heavy tank carrying excellent armor protection and effective long and medium-range firepower.",
+  "ko": "맨티코어는 뛰어난 장갑 방호력과 효과적인 장거리 및 중거리 화력을 갖춘 중전차이다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc553",
+  "key": "DescString",
+  "en": "This version of the Pilum Heavy Tank trades some of its firepower for a larger powerplant, making it faster than any vehicle in its weight class.",
+  "ko": "이 형식의 필룸 중전차는 화력 일부를 포기하는 대신 더 큰 동력원을 달아, 같은 체급의 어떤 차량보다도 빠르다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc554",
+  "key": "DescString",
+  "en": "A Star League era design, the Alacorn MKIV packs reasonable speed, superior armor, and a terrifying punch into one sleek package.",
+  "ko": "스타 리그 시대의 설계인 알라콘 MKIV는 적당한 속도, 뛰어난 장갑, 무시무시한 타격력을 날렵한 차체 하나에 담았다."
+ },
+ {
+  "file": "MISC.FST/desc.fit",
+  "section": "Desc555",
+  "key": "DescString",
+  "en": "The Ammo Truck is an inexpensive, reasonably fast, explosive vehicle capable of replacing a 'Mech's ammunition but not armor. Command it like the Refit Truck.",
+  "ko": "탄약 트럭은 값싸고 꽤 빠르지만 폭발 위험이 있는 차량으로, 메크의 탄약은 보충할 수 있으나 장갑은 수리하지 못한다. 조작법은 정비 트럭과 같다."
+ }
+]

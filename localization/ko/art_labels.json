@@ -1,0 +1,2283 @@
+{
+ "_provisional": false,
+ "_comment": "Korean art labels (PROVISIONAL translations: edit the text fields, then run tools/relabel_tga.py). Keys are case-insensitive globs on the internal ART.FST path; later keys override earlier ones for the same file. bbox = [x0,y0,x1,y1] (x1,y1 exclusive) = old text + room for the label. See the header of tools/relabel_tga.py for every field.",
+ "_generic_dialog_buttons": "data/art/B[GHN]_*.tga (63x14 / 86x14 / 94x19 / 207x18 plates; G = pressed, H = highlighted, N = disabled)",
+ "data/art/B[GHN]_ACCEPT.tga": {
+  "text": "확인",
+  "bbox": [
+   5,
+   2,
+   58,
+   12
+  ],
+  "font": 10
+ },
+ "data/art/B[GHN]_CANCL.tga": {
+  "text": "취소",
+  "bbox": [
+   5,
+   2,
+   58,
+   12
+  ],
+  "font": 10
+ },
+ "data/art/B[GHN]_OKAY.tga": {
+  "text": "확인",
+  "bbox": [
+   5,
+   2,
+   58,
+   12
+  ],
+  "font": 10
+ },
+ "data/art/B[GHN]_YES.tga": {
+  "text": "예",
+  "bbox": [
+   5,
+   2,
+   58,
+   12
+  ],
+  "font": 10
+ },
+ "data/art/B[GHN]_NO.tga": {
+  "text": "아니요",
+  "bbox": [
+   5,
+   2,
+   58,
+   12
+  ],
+  "font": 10
+ },
+ "data/art/B[GHN]_LEAVE.tga": {
+  "text": "나가기",
+  "bbox": [
+   5,
+   2,
+   58,
+   12
+  ],
+  "font": 10
+ },
+ "data/art/B[GHN]_HOST.tga": {
+  "text": "호스트",
+  "bbox": [
+   5,
+   2,
+   81,
+   12
+  ],
+  "font": 10
+ },
+ "data/art/B[GHN]_JOIN.tga": {
+  "text": "참가",
+  "bbox": [
+   5,
+   2,
+   81,
+   12
+  ],
+  "font": 10
+ },
+ "data/art/B[GHN]_BEGIN.tga": {
+  "text": "계획 시작",
+  "bbox": [
+   5,
+   3,
+   89,
+   16
+  ],
+  "font": 12
+ },
+ "data/art/B[GHN]_EXIT.tga": {
+  "text": "멀티플레이 종료",
+  "bbox": [
+   20,
+   2,
+   205,
+   16
+  ]
+ },
+ "data/art/MM_B[GHN]00.tga": {
+  "text": "취소",
+  "bbox": [
+   5,
+   2,
+   58,
+   12
+  ],
+  "font": 10
+ },
+ "data/art/MM_B[GHN]01.tga": {
+  "text": "삭제",
+  "bbox": [
+   5,
+   2,
+   58,
+   12
+  ],
+  "font": 10
+ },
+ "data/art/MM_B[GHN]02.tga": {
+  "text": "불러오기",
+  "bbox": [
+   5,
+   2,
+   58,
+   12
+  ],
+  "font": 10
+ },
+ "data/art/MM_B[GHN]03.tga": {
+  "text": "저장",
+  "bbox": [
+   5,
+   2,
+   58,
+   12
+  ],
+  "font": 10
+ },
+ "data/art/MM_SS[GHN]00.tga": {
+  "text": "새 캠페인",
+  "bbox": [
+   6,
+   3,
+   167,
+   23
+  ]
+ },
+ "data/art/MM_SS[GHN]01.tga": {
+  "text": "임무 저장",
+  "bbox": [
+   6,
+   3,
+   167,
+   23
+  ]
+ },
+ "data/art/MM_SS[GHN]02.tga": {
+  "text": "임무 불러오기",
+  "bbox": [
+   6,
+   3,
+   167,
+   23
+  ]
+ },
+ "data/art/MM_SS[GHN]03.tga": {
+  "text": "환경 설정",
+  "bbox": [
+   6,
+   3,
+   167,
+   23
+  ]
+ },
+ "data/art/MM_SS[GHN]04.tga": {
+  "text": "멀티플레이",
+  "bbox": [
+   6,
+   3,
+   167,
+   23
+  ]
+ },
+ "data/art/MM_SS[GHN]05.tga": {
+  "text": "오프닝 영상",
+  "bbox": [
+   6,
+   3,
+   167,
+   23
+  ]
+ },
+ "data/art/MM_SS[GHN]06.tga": {
+  "text": "게임으로 돌아가기",
+  "bbox": [
+   6,
+   3,
+   167,
+   23
+  ]
+ },
+ "data/art/MM_SS[GHN]07.tga": {
+  "text": "종료",
+  "bbox": [
+   6,
+   3,
+   167,
+   23
+  ]
+ },
+ "data/art/MM_XB[GHN]00.tga": {
+  "text": "확장팩 캠페인",
+  "bbox": [
+   6,
+   3,
+   211,
+   23
+  ]
+ },
+ "data/art/MM_XB[GHN]01.tga": {
+  "text": "오리지널 캠페인",
+  "bbox": [
+   6,
+   3,
+   211,
+   23
+  ]
+ },
+ "data/art/MM_XB[GHN]02.tga": {
+  "text": "단독 임무",
+  "bbox": [
+   6,
+   3,
+   211,
+   23
+  ]
+ },
+ "data/art/MM_XB[GHN]03.tga": {
+  "text": "멀티플레이",
+  "bbox": [
+   6,
+   3,
+   211,
+   23
+  ]
+ },
+ "data/art/MM_XB[GHN]04.tga": {
+  "text": "임무 불러오기",
+  "bbox": [
+   6,
+   3,
+   211,
+   23
+  ]
+ },
+ "data/art/MM_XB[GHN]05.tga": {
+  "text": "임무 저장",
+  "bbox": [
+   6,
+   3,
+   211,
+   23
+  ]
+ },
+ "data/art/MM_XB[GHN]06.tga": {
+  "text": "환경 설정",
+  "bbox": [
+   6,
+   3,
+   211,
+   23
+  ]
+ },
+ "data/art/MM_XB[GHN]07.tga": {
+  "text": "게임으로 돌아가기",
+  "bbox": [
+   6,
+   3,
+   211,
+   23
+  ]
+ },
+ "data/art/MM_XB[GHN]08.tga": {
+  "text": "오리지널 영상",
+  "bbox": [
+   6,
+   3,
+   211,
+   23
+  ]
+ },
+ "data/art/MM_XB[GHN]09.tga": {
+  "text": "종료",
+  "bbox": [
+   6,
+   3,
+   211,
+   23
+  ]
+ },
+ "data/art/MM_WN01.tga": {
+  "regions": [
+   {
+    "bbox": [
+     8,
+     8,
+     200,
+     36
+    ],
+    "text": "임무 불러오기",
+    "luma_min": 100,
+    "luma_soft": 56,
+    "grow": 2,
+    "fill": "row",
+    "font": 12,
+    "align": "left"
+   },
+   {
+    "bbox": [
+     20,
+     66,
+     120,
+     78
+    ],
+    "text": "게임 목록",
+    "mode": "rowbg",
+    "font": 8,
+    "align": "left"
+   },
+   {
+    "bbox": [
+     20,
+     230,
+     90,
+     246
+    ],
+    "text": "작전 번호",
+    "mode": "rowbg",
+    "font": 8,
+    "align": "left"
+   },
+   {
+    "bbox": [
+     94,
+     230,
+     160,
+     246
+    ],
+    "text": "임무 번호",
+    "mode": "rowbg",
+    "font": 8,
+    "align": "left"
+   },
+   {
+    "bbox": [
+     164,
+     230,
+     270,
+     246
+    ],
+    "text": "자원 포인트",
+    "mode": "rowbg",
+    "font": 8,
+    "align": "left"
+   }
+  ]
+ },
+ "data/art/MM_WN02.tga": {
+  "regions": [
+   {
+    "bbox": [
+     8,
+     8,
+     200,
+     36
+    ],
+    "text": "임무 저장",
+    "luma_min": 100,
+    "luma_soft": 56,
+    "grow": 2,
+    "fill": "row",
+    "font": 12,
+    "align": "left"
+   },
+   {
+    "bbox": [
+     20,
+     66,
+     120,
+     78
+    ],
+    "text": "게임 목록",
+    "mode": "rowbg",
+    "font": 8,
+    "align": "left"
+   },
+   {
+    "bbox": [
+     20,
+     230,
+     90,
+     246
+    ],
+    "text": "작전 번호",
+    "mode": "rowbg",
+    "font": 8,
+    "align": "left"
+   },
+   {
+    "bbox": [
+     94,
+     230,
+     160,
+     246
+    ],
+    "text": "임무 번호",
+    "mode": "rowbg",
+    "font": 8,
+    "align": "left"
+   },
+   {
+    "bbox": [
+     164,
+     230,
+     270,
+     246
+    ],
+    "text": "자원 포인트",
+    "mode": "rowbg",
+    "font": 8,
+    "align": "left"
+   }
+  ]
+ },
+ "_logistics_main_buttons": "LSCBG/BH/BN 00-03",
+ "data/art/logart/LSCB[GHN]00.tga": {
+  "text": "메인 메뉴",
+  "bbox": [
+   20,
+   2,
+   205,
+   16
+  ]
+ },
+ "data/art/logart/LSCB[GHN]01.tga": {
+  "text": "브리핑/출격",
+  "bbox": [
+   20,
+   2,
+   205,
+   16
+  ]
+ },
+ "data/art/logart/LSCB[GHN]02.tga": {
+  "text": "구매",
+  "bbox": [
+   20,
+   2,
+   205,
+   16
+  ]
+ },
+ "data/art/logart/LSCB[GHN]03.tga": {
+  "text": "메크 격납고",
+  "bbox": [
+   20,
+   2,
+   205,
+   16
+  ]
+ },
+ "_vertical_tabs": "rotate 90 = the old text runs top to bottom. Selected tab (stone background): text = everything that is not stone (bg list). Other tabs (flat dark background): rowbg.",
+ "data/art/logart/LSCDWM.tga": {
+  "rotate": 90,
+  "font": 10,
+  "align": "center",
+  "regions": [
+   {
+    "bbox": [
+     0,
+     2,
+     11,
+     49
+    ],
+    "text": "메크",
+    "bg": [
+     20,
+     53,
+     34,
+     19,
+     21,
+     22,
+     23,
+     51,
+     201
+    ]
+   },
+   {
+    "bbox": [
+     2,
+     52,
+     12,
+     136
+    ],
+    "text": "메크워리어",
+    "mode": "rowbg",
+    "margin": 1
+   },
+   {
+    "bbox": [
+     2,
+     143,
+     12,
+     219
+    ],
+    "text": "부품",
+    "mode": "rowbg",
+    "margin": 1
+   },
+   {
+    "bbox": [
+     2,
+     224,
+     12,
+     279
+    ],
+    "text": "차량",
+    "mode": "rowbg",
+    "margin": 1
+   }
+  ]
+ },
+ "data/art/logart/LSCDWP.tga": {
+  "rotate": 90,
+  "font": 10,
+  "align": "center",
+  "regions": [
+   {
+    "bbox": [
+     2,
+     2,
+     12,
+     49
+    ],
+    "text": "메크",
+    "mode": "rowbg",
+    "margin": 1
+   },
+   {
+    "bbox": [
+     0,
+     52,
+     11,
+     136
+    ],
+    "text": "메크워리어",
+    "bg": [
+     20,
+     53,
+     34,
+     19,
+     21,
+     22,
+     23,
+     51,
+     201
+    ]
+   },
+   {
+    "bbox": [
+     2,
+     143,
+     12,
+     219
+    ],
+    "text": "부품",
+    "mode": "rowbg",
+    "margin": 1
+   },
+   {
+    "bbox": [
+     2,
+     224,
+     12,
+     279
+    ],
+    "text": "차량",
+    "mode": "rowbg",
+    "margin": 1
+   }
+  ]
+ },
+ "data/art/logart/LSCDWC.tga": {
+  "rotate": 90,
+  "font": 10,
+  "align": "center",
+  "regions": [
+   {
+    "bbox": [
+     2,
+     2,
+     12,
+     49
+    ],
+    "text": "메크",
+    "mode": "rowbg",
+    "margin": 1
+   },
+   {
+    "bbox": [
+     2,
+     52,
+     12,
+     136
+    ],
+    "text": "메크워리어",
+    "mode": "rowbg",
+    "margin": 1
+   },
+   {
+    "bbox": [
+     0,
+     143,
+     11,
+     219
+    ],
+    "text": "부품",
+    "bg": [
+     20,
+     53,
+     34,
+     19,
+     21,
+     22,
+     23,
+     51,
+     201
+    ]
+   },
+   {
+    "bbox": [
+     2,
+     224,
+     12,
+     279
+    ],
+    "text": "차량",
+    "mode": "rowbg",
+    "margin": 1
+   }
+  ]
+ },
+ "data/art/logart/LSCDWV.tga": {
+  "rotate": 90,
+  "font": 10,
+  "align": "center",
+  "regions": [
+   {
+    "bbox": [
+     2,
+     2,
+     12,
+     49
+    ],
+    "text": "메크",
+    "mode": "rowbg",
+    "margin": 1
+   },
+   {
+    "bbox": [
+     2,
+     52,
+     12,
+     136
+    ],
+    "text": "메크워리어",
+    "mode": "rowbg",
+    "margin": 1
+   },
+   {
+    "bbox": [
+     2,
+     143,
+     12,
+     219
+    ],
+    "text": "부품",
+    "mode": "rowbg",
+    "margin": 1
+   },
+   {
+    "bbox": [
+     0,
+     224,
+     11,
+     279
+    ],
+    "text": "차량",
+    "bg": [
+     20,
+     53,
+     34,
+     19,
+     21,
+     22,
+     23,
+     51,
+     201
+    ]
+   }
+  ]
+ },
+ "_info_panels": "small cyan labels with a black drop shadow at (+1,+1) on the stone panels",
+ "data/art/logart/LSCII[CMPV].tga": {
+  "colors": [
+   227,
+   16
+  ],
+  "shadow": 16,
+  "font": 8
+ },
+ "data/art/logart/LSCIIC.tga": {
+  "regions": [
+   {
+    "bbox": [
+     40,
+     6,
+     92,
+     38
+    ],
+    "lines": [
+     "재장전:",
+     "피해:",
+     "사거리:"
+    ],
+    "align": "right"
+   }
+  ]
+ },
+ "data/art/logart/LSCIIM.tga": {
+  "regions": [
+   {
+    "bbox": [
+     40,
+     6,
+     90,
+     40
+    ],
+    "lines": [
+     "중량:",
+     "체급:",
+     "속도:"
+    ],
+    "align": "right"
+   },
+   {
+    "bbox": [
+     120,
+     6,
+     180,
+     40
+    ],
+    "lines": [
+     "장갑:",
+     "구조:",
+     "점프:"
+    ],
+    "align": "right"
+   }
+  ]
+ },
+ "data/art/logart/LSCIIP.tga": {
+  "regions": [
+   {
+    "bbox": [
+     40,
+     6,
+     83,
+     44
+    ],
+    "lines": [
+     "사격",
+     "조종",
+     "점프",
+     "센서"
+    ],
+    "align": "left"
+   },
+   {
+    "bbox": [
+     148,
+     6,
+     190,
+     22
+    ],
+    "text": "등급:",
+    "align": "left"
+   }
+  ]
+ },
+ "data/art/logart/LSCIIV.tga": {
+  "regions": [
+   {
+    "bbox": [
+     40,
+     6,
+     90,
+     40
+    ],
+    "lines": [
+     "중량:",
+     "종류:",
+     "속도:"
+    ],
+    "align": "right"
+   },
+   {
+    "bbox": [
+     120,
+     6,
+     180,
+     22
+    ],
+    "text": "장갑:",
+    "align": "right"
+   }
+  ]
+ },
+ "_briefing_cards": "white text with a black 8-neighbour outline on the dark blue card; the ENCRYPT:... line is left as is (outside the bbox)",
+ "data/art/logart/LSB_OP[1-5].tga": {
+  "bbox": [
+   0,
+   18,
+   176,
+   100
+  ],
+  "colors": [
+   31,
+   16
+  ],
+  "shadow": {
+   "color": 16,
+   "outline": true
+  },
+  "font": 10,
+  "align": "left",
+  "fill": "vlerp"
+ },
+ "data/art/logart/LSB_OP1.tga": {
+  "lines": [
+   "작전명: 비치헤드",
+   "전 부대 통신",
+   "제1 다비온 근위대",
+   "접근: 제한"
+  ]
+ },
+ "data/art/logart/LSB_OP2.tga": {
+  "lines": [
+   "작전명: 스카이훅",
+   "전 부대 통신",
+   "제1 다비온 근위대",
+   "접근: 제한"
+  ]
+ },
+ "data/art/logart/LSB_OP3.tga": {
+  "lines": [
+   "작전명: 뱅가드",
+   "전 부대 통신",
+   "제1 다비온 근위대",
+   "접근: 제한"
+  ]
+ },
+ "data/art/logart/LSB_OP4.tga": {
+  "lines": [
+   "작전명: 린치핀",
+   "전 부대 통신",
+   "제1 다비온 근위대",
+   "접근: 제한"
+  ]
+ },
+ "data/art/logart/LSB_OP5.tga": {
+  "lines": [
+   "작전명: 컷스로트",
+   "전 부대 통신",
+   "제1 다비온 근위대",
+   "접근: 제한"
+  ]
+ },
+ "data/art/logart/LSB_OP6.tga": {
+  "bbox": [
+   20,
+   60,
+   160,
+   82
+  ],
+  "colors": [
+   31,
+   16
+  ],
+  "shadow": {
+   "color": 16,
+   "outline": true
+  },
+  "font": 10,
+  "fill": "vlerp",
+  "text": "통신 종료"
+ },
+ "data/art/logart/Lsbdf00.tga": {
+  "text": "임무 개시",
+  "bbox": [
+   4,
+   3,
+   90,
+   14
+  ],
+  "mode": "rowbg",
+  "margin": 2,
+  "font": 12
+ },
+ "data/art/logart/Lsbdf00A.tga": {
+  "text": "임무 개시",
+  "bbox": [
+   4,
+   3,
+   90,
+   14
+  ],
+  "mode": "rowbg",
+  "margin": 2,
+  "font": 12
+ },
+ "data/art/logart/Lsbdf01.tga": {
+  "text": "임무 개시",
+  "bbox": [
+   4,
+   3,
+   90,
+   14
+  ],
+  "mode": "rowbg",
+  "margin": 2,
+  "font": 12
+ },
+ "data/art/logart/LSBDF02.tga": {
+  "text": "전투조 1",
+  "bbox": [
+   3,
+   3,
+   105,
+   12
+  ],
+  "mode": "rowbg",
+  "font": 10
+ },
+ "data/art/logart/LSBDF03.tga": {
+  "text": "전투조 2",
+  "bbox": [
+   3,
+   3,
+   105,
+   12
+  ],
+  "mode": "rowbg",
+  "font": 10
+ },
+ "data/art/logart/LSBDF04.tga": {
+  "text": "전투조 3",
+  "bbox": [
+   3,
+   3,
+   105,
+   12
+  ],
+  "mode": "rowbg",
+  "font": 10
+ },
+ "data/art/logart/lsbdf07.tga": {
+  "regions": [
+   {
+    "bbox": [
+     0,
+     0,
+     110,
+     19
+    ],
+    "lines": [
+     "투입 중량 제한",
+     "현재 투입 중량"
+    ],
+    "colors": [
+     227,
+     16
+    ],
+    "shadow": 16,
+    "font": 8,
+    "align": "left"
+   },
+   {
+    "bbox": [
+     118,
+     0,
+     157,
+     19
+    ],
+    "lines": [
+     "톤",
+     "톤"
+    ],
+    "colors": [
+     161,
+     16
+    ],
+    "shadow": 16,
+    "font": 8,
+    "align": "right"
+   }
+  ]
+ },
+ "data/art/logart/LSBBK00.tga": {
+  "regions": [
+   {
+    "bbox": [
+     219,
+     26,
+     300,
+     36
+    ],
+    "text": "전투조 1",
+    "font": 10,
+    "luma_max": 150,
+    "luma_soft": 172,
+    "fill": "htexture",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     219,
+     138,
+     300,
+     148
+    ],
+    "text": "전투조 2",
+    "font": 10,
+    "luma_max": 150,
+    "luma_soft": 172,
+    "fill": "htexture",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     219,
+     250,
+     300,
+     260
+    ],
+    "text": "전투조 3",
+    "font": 10,
+    "luma_max": 150,
+    "luma_soft": 172,
+    "fill": "htexture",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     6,
+     89,
+     90,
+     100
+    ],
+    "text": "캠페인 데이터",
+    "font": 10,
+    "luma_max": 150,
+    "luma_soft": 172,
+    "fill": "htexture",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     8,
+     332,
+     90,
+     343
+    ],
+    "text": "출격 대기 구역",
+    "font": 10,
+    "luma_max": 150,
+    "luma_soft": 172,
+    "fill": "htexture",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     339,
+     313,
+     470,
+     338
+    ],
+    "lines": [
+     "투입 중량 제한",
+     "현재 투입 중량"
+    ],
+    "colors": [
+     227,
+     16
+    ],
+    "shadow": 16,
+    "font": 8,
+    "align": "left"
+   },
+   {
+    "bbox": [
+     476,
+     313,
+     514,
+     338
+    ],
+    "lines": [
+     "톤",
+     "톤"
+    ],
+    "colors": [
+     161,
+     16
+    ],
+    "shadow": 16,
+    "font": 8,
+    "align": "right"
+   }
+  ]
+ },
+ "_pilot_and_unit_panels": "LSBBKM00 (mech), LSBBKV00 (vehicle), LSRUPM00/LSRUPV00 (repair screen copies)",
+ "data/art/logart/LSBBKM00.tga": {
+  "colors": [
+   227,
+   16
+  ],
+  "shadow": 16,
+  "font": 8,
+  "regions": [
+   {
+    "bbox": [
+     40,
+     28,
+     92,
+     44
+    ],
+    "text": "호출부호:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     40,
+     46,
+     92,
+     62
+    ],
+    "text": "등급:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     3,
+     68,
+     44,
+     110
+    ],
+    "lines": [
+     "사격",
+     "조종",
+     "점프",
+     "센서"
+    ],
+    "align": "left"
+   },
+   {
+    "bbox": [
+     246,
+     43,
+     292,
+     54
+    ],
+    "fill": "row",
+    "text": "장갑",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     246,
+     64,
+     292,
+     76
+    ],
+    "fill": "row",
+    "text": "내부 구조",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     246,
+     85,
+     292,
+     96
+    ],
+    "fill": "row",
+    "text": "엔진",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     324,
+     6,
+     362,
+     16
+    ],
+    "fill": "row",
+    "text": "적재량",
+    "align": "left"
+   }
+  ]
+ },
+ "data/art/logart/LSRUPM00.tga": {
+  "colors": [
+   227,
+   16
+  ],
+  "shadow": 16,
+  "font": 8,
+  "regions": [
+   {
+    "bbox": [
+     40,
+     28,
+     92,
+     44
+    ],
+    "text": "호출부호:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     40,
+     46,
+     92,
+     62
+    ],
+    "text": "등급:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     3,
+     68,
+     44,
+     110
+    ],
+    "lines": [
+     "사격",
+     "조종",
+     "점프",
+     "센서"
+    ],
+    "align": "left"
+   },
+   {
+    "bbox": [
+     232,
+     43,
+     278,
+     54
+    ],
+    "fill": "row",
+    "text": "장갑",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     232,
+     64,
+     278,
+     76
+    ],
+    "fill": "row",
+    "text": "내부 구조",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     232,
+     85,
+     278,
+     96
+    ],
+    "fill": "row",
+    "text": "엔진",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     310,
+     6,
+     350,
+     16
+    ],
+    "fill": "row",
+    "text": "적재량",
+    "align": "left"
+   }
+  ]
+ },
+ "data/art/logart/LSBBKV00.tga": {
+  "colors": [
+   227,
+   16
+  ],
+  "shadow": 16,
+  "font": 8,
+  "regions": [
+   {
+    "bbox": [
+     3,
+     28,
+     90,
+     44
+    ],
+    "text": "최고 속도:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     3,
+     46,
+     90,
+     62
+    ],
+    "text": "차량 종류:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     136,
+     6,
+     224,
+     16
+    ],
+    "fill": "row",
+    "text": "차량 적재량",
+    "align": "center"
+   }
+  ]
+ },
+ "data/art/logart/LSRUPV00.tga": {
+  "colors": [
+   227,
+   16
+  ],
+  "shadow": 16,
+  "font": 8,
+  "regions": [
+   {
+    "bbox": [
+     3,
+     28,
+     90,
+     44
+    ],
+    "text": "최고 속도:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     3,
+     46,
+     90,
+     62
+    ],
+    "text": "차량 종류:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     136,
+     6,
+     224,
+     16
+    ],
+    "fill": "row",
+    "text": "차량 적재량",
+    "align": "center"
+   }
+  ]
+ },
+ "data/art/logart/Lsrupm10.tga": {
+  "colors": [
+   227,
+   16
+  ],
+  "shadow": 16,
+  "font": 8,
+  "regions": [
+   {
+    "bbox": [
+     37,
+     0,
+     96,
+     9
+    ],
+    "text": "호출부호:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     37,
+     16,
+     96,
+     28
+    ],
+    "text": "등급:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     0,
+     38,
+     37,
+     73
+    ],
+    "lines": [
+     "사격",
+     "조종",
+     "점프",
+     "센서"
+    ],
+    "align": "left"
+   }
+  ]
+ },
+ "data/art/logart/LSBDW0[0123].tga": {
+  "rotate": 90,
+  "font": 10,
+  "align": "center"
+ },
+ "data/art/logart/LSBDW00.tga": {
+  "regions": [
+   {
+    "bbox": [
+     0,
+     2,
+     11,
+     117
+    ],
+    "text": "작전 브리핑",
+    "bg": [
+     20,
+     53,
+     34,
+     19,
+     21,
+     22,
+     23,
+     51,
+     201
+    ]
+   },
+   {
+    "bbox": [
+     2,
+     124,
+     11,
+     226
+    ],
+    "text": "임무 브리핑",
+    "mode": "rowbg",
+    "margin": 1
+   }
+  ]
+ },
+ "data/art/logart/LSBDW01.tga": {
+  "regions": [
+   {
+    "bbox": [
+     2,
+     2,
+     11,
+     117
+    ],
+    "text": "작전 브리핑",
+    "mode": "rowbg",
+    "margin": 1
+   },
+   {
+    "bbox": [
+     0,
+     122,
+     11,
+     226
+    ],
+    "text": "임무 브리핑",
+    "bg": [
+     20,
+     53,
+     34,
+     19,
+     21,
+     22,
+     23,
+     51,
+     201
+    ]
+   }
+  ]
+ },
+ "data/art/logart/LSBDW02.tga": {
+  "regions": [
+   {
+    "bbox": [
+     0,
+     2,
+     11,
+     117
+    ],
+    "text": "멀티플레이 채팅",
+    "bg": [
+     20,
+     53,
+     34,
+     19,
+     21,
+     22,
+     23,
+     51,
+     201
+    ]
+   },
+   {
+    "bbox": [
+     2,
+     124,
+     11,
+     226
+    ],
+    "text": "임무 브리핑",
+    "mode": "rowbg",
+    "margin": 1
+   }
+  ]
+ },
+ "data/art/logart/LSBDW03.tga": {
+  "regions": [
+   {
+    "bbox": [
+     2,
+     2,
+     11,
+     117
+    ],
+    "text": "멀티플레이 채팅",
+    "mode": "rowbg",
+    "margin": 1
+   },
+   {
+    "bbox": [
+     0,
+     122,
+     11,
+     226
+    ],
+    "text": "임무 브리핑",
+    "bg": [
+     20,
+     53,
+     34,
+     19,
+     21,
+     22,
+     23,
+     51,
+     201
+    ]
+   }
+  ]
+ },
+ "data/art/logart/lsbdw08.tga": {
+  "rotate": 90,
+  "font": 10,
+  "align": "center",
+  "bbox": [
+   1,
+   1,
+   11,
+   114
+  ],
+  "text": "멀티플레이 채팅",
+  "mode": "rowbg",
+  "margin": 1
+ },
+ "_purchase_screen": "LSPBI* info panels (cyan + black shadow), LSPBK00 banners (dark italic on light stone), LSPCB* buttons and dialog headers",
+ "data/art/logart/LSPBI[CMPV]00.tga": {
+  "colors": [
+   227,
+   16
+  ],
+  "shadow": 16,
+  "font": 8
+ },
+ "data/art/logart/LSPBIC00.tga": {
+  "regions": [
+   {
+    "bbox": [
+     4,
+     16,
+     45,
+     27
+    ],
+    "text": "보유:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     52,
+     16,
+     95,
+     27
+    ],
+    "text": "비용:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     39,
+     32,
+     90,
+     64
+    ],
+    "lines": [
+     "재장전:",
+     "피해:",
+     "사거리:"
+    ],
+    "align": "right"
+   }
+  ]
+ },
+ "data/art/logart/LSPBIM00.tga": {
+  "regions": [
+   {
+    "bbox": [
+     4,
+     16,
+     45,
+     27
+    ],
+    "text": "보유:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     52,
+     16,
+     95,
+     27
+    ],
+    "text": "비용:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     44,
+     32,
+     90,
+     64
+    ],
+    "lines": [
+     "중량:",
+     "체급:",
+     "속도:"
+    ],
+    "align": "right"
+   },
+   {
+    "bbox": [
+     124,
+     32,
+     172,
+     64
+    ],
+    "lines": [
+     "장갑:",
+     "구조:",
+     "점프:"
+    ],
+    "align": "right"
+   }
+  ]
+ },
+ "data/art/logart/LSPBIP00.tga": {
+  "regions": [
+   {
+    "bbox": [
+     4,
+     16,
+     45,
+     27
+    ],
+    "text": "비용:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     40,
+     30,
+     82,
+     70
+    ],
+    "lines": [
+     "사격",
+     "조종",
+     "점프",
+     "센서"
+    ],
+    "align": "left"
+   },
+   {
+    "bbox": [
+     148,
+     30,
+     190,
+     44
+    ],
+    "text": "등급:",
+    "align": "left"
+   }
+  ]
+ },
+ "data/art/logart/LSPBIV00.tga": {
+  "regions": [
+   {
+    "bbox": [
+     4,
+     16,
+     45,
+     27
+    ],
+    "text": "보유:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     52,
+     16,
+     95,
+     27
+    ],
+    "text": "비용:",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     44,
+     32,
+     90,
+     64
+    ],
+    "lines": [
+     "중량:",
+     "종류:",
+     "속도:"
+    ],
+    "align": "right"
+   },
+   {
+    "bbox": [
+     124,
+     32,
+     172,
+     44
+    ],
+    "text": "장갑:",
+    "align": "right"
+   }
+  ]
+ },
+ "data/art/logart/LSPBK00.tga": {
+  "regions": [
+   {
+    "bbox": [
+     212,
+     2,
+     345,
+     14
+    ],
+    "text": "대대 보급고",
+    "font": 10,
+    "luma_max": 150,
+    "luma_soft": 172,
+    "fill": "htexture",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     6,
+     89,
+     150,
+     100
+    ],
+    "text": "현재 보유 목록",
+    "font": 10,
+    "luma_max": 150,
+    "luma_soft": 172,
+    "fill": "htexture",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     6,
+     383,
+     140,
+     393
+    ],
+    "text": "보유 정보",
+    "font": 10,
+    "luma_max": 150,
+    "luma_soft": 172,
+    "fill": "htexture",
+    "align": "left"
+   }
+  ]
+ },
+ "data/art/logart/LSPCB0[13].tga": {
+  "text": "확인",
+  "bbox": [
+   4,
+   2,
+   45,
+   12
+  ],
+  "mode": "rowbg",
+  "margin": 2,
+  "font": 10
+ },
+ "data/art/logart/LSPCB0[24].tga": {
+  "text": "취소",
+  "bbox": [
+   4,
+   2,
+   45,
+   12
+  ],
+  "mode": "rowbg",
+  "margin": 2,
+  "font": 10
+ },
+ "data/art/logart/LSPCB1[01].tga": {
+  "text": "계속",
+  "bbox": [
+   3,
+   2,
+   54,
+   12
+  ],
+  "mode": "rowbg",
+  "margin": 2,
+  "font": 10
+ },
+ "data/art/logart/LSPCB[CMPV]0[01].tga": {
+  "bbox": [
+   4,
+   1,
+   168,
+   12
+  ],
+  "luma_max": 150,
+  "luma_soft": 172,
+  "fill": "htexture",
+  "align": "left",
+  "font": 12
+ },
+ "data/art/logart/LSPCBC00.tga": {
+  "text": "부품 구매"
+ },
+ "data/art/logart/LSPCBC01.tga": {
+  "text": "부품 판매"
+ },
+ "data/art/logart/LSPCBM00.tga": {
+  "text": "배틀메크 구매"
+ },
+ "data/art/logart/LSPCBM01.tga": {
+  "text": "배틀메크 판매"
+ },
+ "data/art/logart/LSPCBP00.tga": {
+  "text": "메크워리어 고용"
+ },
+ "data/art/logart/LSPCBP01.tga": {
+  "text": "메크워리어 재배치"
+ },
+ "data/art/logart/LSPCBV00.tga": {
+  "text": "차량 구매"
+ },
+ "data/art/logart/LSPCBV01.tga": {
+  "text": "차량 판매"
+ },
+ "_repair_screen": "LSRBK00 banners, LSRUPM00/V00 + Lsrupm10 panels (see above), REFIT ALL / REPAIR ALL buttons",
+ "data/art/logart/LSRBK00.tga": {
+  "regions": [
+   {
+    "bbox": [
+     212,
+     2,
+     300,
+     14
+    ],
+    "text": "출격 대기 구역",
+    "font": 10,
+    "luma_max": 150,
+    "luma_soft": 172,
+    "fill": "htexture",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     6,
+     89,
+     150,
+     100
+    ],
+    "text": "현재 보유 목록",
+    "font": 10,
+    "luma_max": 150,
+    "luma_soft": 172,
+    "fill": "htexture",
+    "align": "left"
+   },
+   {
+    "bbox": [
+     6,
+     383,
+     140,
+     393
+    ],
+    "text": "보유 정보",
+    "font": 10,
+    "luma_max": 150,
+    "luma_soft": 172,
+    "fill": "htexture",
+    "align": "left"
+   }
+  ]
+ },
+ "data/art/logart/lsrupm0[136].tga": {
+  "text": "전체 재장비",
+  "bbox": [
+   4,
+   2,
+   62,
+   14
+  ],
+  "mode": "rowbg",
+  "margin": 2,
+  "font": 10
+ },
+ "data/art/logart/lsrupm0[247].tga": {
+  "text": "전체 수리",
+  "bbox": [
+   4,
+   2,
+   62,
+   14
+  ],
+  "mode": "rowbg",
+  "margin": 2,
+  "font": 10
+ },
+ "_name_plates": "Name plates, 12 px high, text from names_map.json (built from glossary art_plates by tools/build_names_map.py; key = text_guess of localization/en/art.json). LSCFL* = blue live plates (background index 128), LSPFL* = teal live plates (145), LSPFD* = disabled plates (dark ink on 145, no shadow). Live plates: 8 px font, ink gradient + shadow copied from the old lettering. anchor_box = fixed left margin / vertical centring so every plate has the same baseline.",
+ "data/art/logart/MCXCard?.tga": {
+  "bbox": [
+   0,
+   18,
+   176,
+   100
+  ],
+  "colors": [
+   31,
+   16
+  ],
+  "shadow": {
+   "color": 16,
+   "outline": true
+  },
+  "font": 10,
+  "align": "left",
+  "fill": "vlerp"
+ },
+ "data/art/logart/MCXCard1.tga": {
+  "lines": [
+   "작전명: 하이드라",
+   "전 부대 통신",
+   "제1 다비온 근위대",
+   "접근: 제한"
+  ]
+ },
+ "data/art/logart/MCXCard2.tga": {
+  "lines": [
+   "작전명: 고르곤",
+   "전 부대 통신",
+   "제1 다비온 근위대",
+   "접근: 제한"
+  ]
+ },
+ "data/art/logart/MCXCard3.tga": {
+  "lines": [
+   "작전명: 미노타우로스",
+   "전 부대 통신",
+   "제1 다비온 근위대",
+   "접근: 제한"
+  ]
+ },
+ "rules": [
+  {
+   "glob": "data/art/logart/LSCFLM*.tga",
+   "names": "mechs",
+   "group": "15_plates_mech",
+   "bbox": [
+    0,
+    0,
+    100,
+    12
+   ],
+   "anchor_box": [
+    1,
+    0,
+    100,
+    12
+   ],
+   "bg": [
+    128
+   ],
+   "fill": "row",
+   "font": 10,
+   "align": "left",
+   "gradient": true,
+   "shadow": {
+    "color": "auto",
+    "offsets": [
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "glob": "data/art/logart/LSPFLM*.tga",
+   "names": "mechs",
+   "group": "15_plates_mech",
+   "bbox": [
+    0,
+    0,
+    100,
+    12
+   ],
+   "anchor_box": [
+    1,
+    0,
+    100,
+    12
+   ],
+   "bg": [
+    145
+   ],
+   "fill": "row",
+   "font": 10,
+   "align": "left",
+   "gradient": true,
+   "shadow": {
+    "color": "auto",
+    "offsets": [
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "glob": "data/art/logart/LSPFDM*.tga",
+   "names": "mechs",
+   "group": "15_plates_mech",
+   "bbox": [
+    0,
+    0,
+    100,
+    12
+   ],
+   "anchor_box": [
+    1,
+    0,
+    100,
+    12
+   ],
+   "bg": [
+    145
+   ],
+   "fill": "row",
+   "font": 10,
+   "align": "left",
+   "gradient": true,
+   "ink": "dark"
+  },
+  {
+   "glob": "data/art/logart/LSCFLV*.tga",
+   "names": "vehicles",
+   "group": "16_plates_vehicle",
+   "bbox": [
+    0,
+    0,
+    120,
+    12
+   ],
+   "anchor_box": [
+    1,
+    0,
+    120,
+    12
+   ],
+   "bg": [
+    128
+   ],
+   "fill": "row",
+   "font": 10,
+   "align": "left",
+   "gradient": true,
+   "shadow": {
+    "color": "auto",
+    "offsets": [
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "glob": "data/art/logart/LSPFLV*.tga",
+   "names": "vehicles",
+   "group": "16_plates_vehicle",
+   "bbox": [
+    0,
+    0,
+    200,
+    12
+   ],
+   "anchor_box": [
+    1,
+    0,
+    200,
+    12
+   ],
+   "bg": [
+    145
+   ],
+   "fill": "row",
+   "font": 10,
+   "align": "left",
+   "gradient": true,
+   "shadow": {
+    "color": "auto",
+    "offsets": [
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "glob": "data/art/logart/LSPFDV*.tga",
+   "names": "vehicles",
+   "group": "16_plates_vehicle",
+   "bbox": [
+    0,
+    0,
+    200,
+    12
+   ],
+   "anchor_box": [
+    1,
+    0,
+    200,
+    12
+   ],
+   "bg": [
+    145
+   ],
+   "fill": "row",
+   "font": 10,
+   "align": "left",
+   "gradient": true,
+   "ink": "dark"
+  },
+  {
+   "glob": "data/art/logart/LSPFLC*.tga",
+   "names": "components",
+   "group": "17_plates_component",
+   "bbox": [
+    0,
+    0,
+    200,
+    12
+   ],
+   "anchor_box": [
+    1,
+    0,
+    200,
+    12
+   ],
+   "bg": [
+    145
+   ],
+   "fill": "row",
+   "font": 10,
+   "align": "left",
+   "gradient": true,
+   "shadow": {
+    "color": "auto",
+    "offsets": [
+     [
+      1,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "glob": "data/art/logart/LSPFDC*.tga",
+   "names": "components",
+   "group": "17_plates_component",
+   "bbox": [
+    0,
+    0,
+    200,
+    12
+   ],
+   "anchor_box": [
+    1,
+    0,
+    200,
+    12
+   ],
+   "bg": [
+    145
+   ],
+   "fill": "row",
+   "font": 10,
+   "align": "left",
+   "gradient": true,
+   "ink": "dark"
+  }
+ ]
+}
