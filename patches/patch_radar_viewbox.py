@@ -160,15 +160,17 @@ def main(src, dst):
     vsize, rva, rsize = struct.unpack_from("<III", data, hdr + 8)
     hook_off, cave_off = HOOK_VA - BASE, CAVE_VA - BASE
     hook, cave = bytes(data[hook_off:hook_off + len(ORIG_HOOK)]), bytes(data[cave_off:cave_off + len(CAVE)])
-    if hook == NEW_HOOK and cave == CAVE and vsize == TEXT_VSIZE_NEW:
+    if hook == NEW_HOOK and cave == CAVE and vsize >= TEXT_VSIZE_NEW:
         print("already patched"); return 0
     if hook != ORIG_HOOK:
         print("refusing: bytes at the hook site do not match the original TacticalMap::display code"); return 2
-    if vsize != TEXT_VSIZE_ORIG or rva != 0x1000 or rsize < TEXT_VSIZE_NEW or cave.strip(b"\0"):
+    # other patches (patch_korean_*.py) may already have grown .text past our cave;
+    # only our own cave bytes must still be the unused zero padding
+    if vsize < TEXT_VSIZE_ORIG or rva != 0x1000 or rsize < TEXT_VSIZE_NEW or cave.strip(b"\0"):
         print("refusing: .text tail is not the expected unused zero padding"); return 2
     data[hook_off:hook_off + len(NEW_HOOK)] = NEW_HOOK
     data[cave_off:cave_off + len(CAVE)] = CAVE
-    struct.pack_into("<I", data, hdr + 8, TEXT_VSIZE_NEW)
+    struct.pack_into("<I", data, hdr + 8, max(vsize, TEXT_VSIZE_NEW))
     open(dst, "wb").write(data)
     print(f"patched {dst}: radar view box now derived from the screen centre (code at 0x{CAVE_VA:x})")
     print("sha256:", hashlib.sha256(data).hexdigest())
