@@ -834,5 +834,54 @@ class GuiTests(TempDirTestCase):
             root.destroy()
 
 
+class WheelZoomTests(unittest.TestCase):
+    def test_direction_and_scancode(self):
+        up, down = 120 << 16, (-120 & 0xFFFF) << 16
+        self.assertEqual(ml.wheel_direction(up), 1)
+        self.assertEqual(ml.wheel_direction(down), -1)
+        self.assertEqual(ml.wheel_direction(0), 0)
+        self.assertEqual(ml.wheel_direction(up | 0x0001), 1)      # low word (buttons) ignored
+        self.assertEqual(ml.wheel_scancode(1), ml.WHEEL_SCAN_ZOOM_IN)
+        self.assertEqual(ml.wheel_scancode(-1), ml.WHEEL_SCAN_ZOOM_OUT)
+
+    def test_input_struct_layout(self):
+        import ctypes
+        self.assertEqual(ctypes.sizeof(ml._INPUT), 40 if ctypes.sizeof(ctypes.c_void_p) == 8 else 28)
+        self.assertEqual(ctypes.sizeof(ml._MSLLHOOKSTRUCT), 32 if ctypes.sizeof(ctypes.c_void_p) == 8 else 24)
+
+    def test_wheel_presses_zoom_keys_only_over_game(self):
+        sent = []
+        fg = {"pid": 4242}
+        hook = ml.WheelZoomHook(4242, send=lambda scan, up: sent.append((scan, up)),
+                                foreground_pid=lambda: fg["pid"])
+        hook.HOLD_SECONDS = 0.01
+        if not hook.start():
+            hook.stop()
+            self.skipTest(f"hook could not be installed: {hook.failed}")
+        try:
+            self.assertTrue(hook.active)
+            self.assertTrue(hook.on_wheel(120 << 16))
+            self.assertTrue(hook.on_wheel((-120 & 0xFFFF) << 16))
+            fg["pid"] = 1                                       # another window in front
+            self.assertFalse(hook.on_wheel(120 << 16))
+            self.assertFalse(hook.on_wheel(0))
+            deadline = __import__("time").time() + 2
+            while len(sent) < 4 and __import__("time").time() < deadline:
+                __import__("time").sleep(0.02)
+        finally:
+            hook.stop()
+            hook.stop()                                         # idempotent
+        self.assertEqual(sent, [(ml.WHEEL_SCAN_ZOOM_IN, False), (ml.WHEEL_SCAN_ZOOM_IN, True),
+                                (ml.WHEEL_SCAN_ZOOM_OUT, False), (ml.WHEEL_SCAN_ZOOM_OUT, True)])
+        self.assertFalse(hook.active)
+
+    def test_setting_default_and_roundtrip(self):
+        self.assertTrue(ml.SETTINGS_DEFAULTS["wheel_zoom"])
+        old = {k: v for k, v in ml.SETTINGS_DEFAULTS.items() if k != "wheel_zoom"}
+        self.assertTrue(ml.normalize_settings(old)["wheel_zoom"])
+        self.assertFalse(ml.normalize_settings(dict(old, wheel_zoom=False))["wheel_zoom"])
+        self.assertTrue(ml.normalize_settings(dict(old, wheel_zoom="no"))["wheel_zoom"])  # bad type -> default
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

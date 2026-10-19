@@ -12,14 +12,18 @@ from __future__ import annotations
 
 import argparse
 import ctypes
+import ctypes.wintypes as wt
 import json
 import os
+import queue
 import re
 import shutil
 import stat
 import subprocess
 import sys
 import tempfile
+import threading
+import time
 import traceback
 import winreg
 from dataclasses import dataclass
@@ -239,6 +243,7 @@ SETTINGS_DEFAULTS = {
     "use_wrapper": True,
     "dpi_fix": True,
     "advanced": False,
+    "wheel_zoom": True,
 }
 _INT_RANGES = {
     "resolution": (0, 3), "difficulty": (0, 2), "brightness": (0, 100),
@@ -766,6 +771,182 @@ def read_head(path, max_lines: int = CRASH_LOG_LINES) -> str:
     return "\n".join(lines).rstrip("\n")
 
 
+# --------------------------------------------------------------------------
+# Mouse-wheel zoom: WH_MOUSE_LL hook -> keypad + / - (the game's zoom keys)
+# --------------------------------------------------------------------------
+# The game reads the mouse through DirectInput and never looks at the wheel,
+# but "+" / "-" (keypad included) toggle the battlefield between its two zoom
+# levels.  While the game runs, a low-level mouse hook turns wheel moves over
+# the game window into those key presses (SendInput with scan codes, which
+# DirectInput sees like real keys).
+WHEEL_SCAN_ZOOM_IN = 0x4E       # keypad +
+WHEEL_SCAN_ZOOM_OUT = 0x4A      # keypad -
+_WH_MOUSE_LL = 14
+_WM_MOUSEWHEEL = 0x020A
+_WM_QUIT = 0x0012
+_INPUT_KEYBOARD = 1
+_KEYEVENTF_KEYUP = 0x0002
+_KEYEVENTF_SCANCODE = 0x0008
+
+
+def wheel_direction(mouse_data: int) -> int:
+    """+1 for wheel up, -1 for wheel down, 0 otherwise (MSLLHOOKSTRUCT.mouseData)."""
+    delta = (mouse_data >> 16) & 0xFFFF
+    if delta >= 0x8000:
+        delta -= 0x10000
+    return (delta > 0) - (delta < 0)
+
+
+def wheel_scancode(direction: int) -> int:
+    return WHEEL_SCAN_ZOOM_IN if direction > 0 else WHEEL_SCAN_ZOOM_OUT
+
+
+class _MOUSEINPUT(ctypes.Structure):
+    _fields_ = [("dx", wt.LONG), ("dy", wt.LONG), ("mouseData", wt.DWORD), ("dwFlags", wt.DWORD),
+                ("time", wt.DWORD), ("dwExtraInfo", ctypes.c_size_t)]
+
+
+class _KEYBDINPUT(ctypes.Structure):
+    _fields_ = [("wVk", wt.WORD), ("wScan", wt.WORD), ("dwFlags", wt.DWORD), ("time", wt.DWORD),
+                ("dwExtraInfo", ctypes.c_size_t)]
+
+
+class _INPUTUNION(ctypes.Union):
+    _fields_ = [("mi", _MOUSEINPUT), ("ki", _KEYBDINPUT)]
+
+
+class _INPUT(ctypes.Structure):
+    _fields_ = [("type", wt.DWORD), ("u", _INPUTUNION)]
+
+
+class _MSLLHOOKSTRUCT(ctypes.Structure):
+    _fields_ = [("pt", wt.POINT), ("mouseData", wt.DWORD), ("flags", wt.DWORD), ("time", wt.DWORD),
+                ("dwExtraInfo", ctypes.c_size_t)]
+
+
+def send_scancode(scan: int, keyup: bool = False) -> None:
+    """Inject one key event by DirectInput scan code (SendInput)."""
+    inp = _INPUT(type=_INPUT_KEYBOARD)
+    inp.u.ki = _KEYBDINPUT(0, scan, _KEYEVENTF_SCANCODE | (_KEYEVENTF_KEYUP if keyup else 0), 0, 0)
+    ctypes.windll.user32.SendInput(1, ctypes.byref(inp), ctypes.sizeof(inp))
+
+
+class WheelZoomHook:
+    """Low-level mouse hook that presses keypad +/- when the wheel moves over the game.
+
+    ``start()`` installs the hook on its own thread (hooks need a message loop)
+    and a second thread that performs the key presses, so the hook callback
+    itself never blocks.  ``stop()`` tears both down; it is safe to call twice.
+    """
+
+    HOLD_SECONDS = 0.05
+    _HOOKPROC = ctypes.WINFUNCTYPE(ctypes.c_ssize_t, ctypes.c_int, wt.WPARAM, wt.LPARAM)
+
+    def __init__(self, pid: int, send=send_scancode, foreground_pid=None):
+        self.pid = pid
+        self._send = send
+        self._foreground_pid = foreground_pid or self._default_foreground_pid
+        self._queue: queue.Queue[int] = queue.Queue()
+        self._started = threading.Event()
+        self._thread_id = 0
+        self._proc_ref = None
+        self._hook_thread: threading.Thread | None = None
+        self._key_thread: threading.Thread | None = None
+        self.failed = ""
+
+    @staticmethod
+    def _default_foreground_pid() -> int:
+        user32 = ctypes.windll.user32
+        hwnd = user32.GetForegroundWindow()
+        pid = wt.DWORD(0)
+        user32.GetWindowThreadProcessId(hwnd, ctypes.byref(pid))
+        return pid.value
+
+    @property
+    def active(self) -> bool:
+        return bool(self._hook_thread and self._hook_thread.is_alive() and not self.failed)
+
+    def start(self) -> bool:
+        self._key_thread = threading.Thread(target=self._press_keys, name="wheel-zoom-keys", daemon=True)
+        self._key_thread.start()
+        self._hook_thread = threading.Thread(target=self._run_hook, name="wheel-zoom-hook", daemon=True)
+        self._hook_thread.start()
+        self._started.wait(3.0)
+        return self.active
+
+    def stop(self) -> None:
+        if self._hook_thread is not None:
+            self._started.wait(3.0)
+            if self._thread_id:
+                ctypes.windll.user32.PostThreadMessageW(self._thread_id, _WM_QUIT, 0, 0)
+            self._hook_thread.join(2.0)
+            self._hook_thread = None
+        if self._key_thread is not None:
+            self._queue.put(0)
+            self._key_thread.join(2.0)
+            self._key_thread = None
+
+    def on_wheel(self, mouse_data: int) -> bool:
+        """Called from the hook for every wheel message; True when a key press was queued."""
+        if self._foreground_pid() != self.pid:
+            return False
+        direction = wheel_direction(mouse_data)
+        if direction:
+            self._queue.put(direction)
+        return bool(direction)
+
+    # -- threads -----------------------------------------------------------
+    def _run_hook(self) -> None:
+        user32, kernel32 = ctypes.windll.user32, ctypes.windll.kernel32
+        user32.SetWindowsHookExW.restype = wt.HHOOK
+        user32.SetWindowsHookExW.argtypes = (ctypes.c_int, self._HOOKPROC, wt.HINSTANCE, wt.DWORD)
+        user32.CallNextHookEx.restype = ctypes.c_ssize_t
+        user32.CallNextHookEx.argtypes = (wt.HHOOK, ctypes.c_int, wt.WPARAM, wt.LPARAM)
+        user32.UnhookWindowsHookEx.argtypes = (wt.HHOOK,)
+        user32.GetMessageW.argtypes = (ctypes.POINTER(wt.MSG), wt.HWND, wt.UINT, wt.UINT)
+        # without an explicit restype the 64-bit module handle is truncated to int
+        kernel32.GetModuleHandleW.restype = wt.HMODULE
+        kernel32.GetModuleHandleW.argtypes = (wt.LPCWSTR,)
+
+        def proc(code, wparam, lparam):
+            if code >= 0 and wparam == _WM_MOUSEWHEEL:
+                try:
+                    data = ctypes.cast(lparam, ctypes.POINTER(_MSLLHOOKSTRUCT)).contents.mouseData
+                    self.on_wheel(data)
+                except Exception:  # noqa: BLE001 - never let the hook raise
+                    pass
+            return user32.CallNextHookEx(None, code, wparam, lparam)
+
+        self._proc_ref = self._HOOKPROC(proc)
+        self._thread_id = kernel32.GetCurrentThreadId()
+        hook = user32.SetWindowsHookExW(_WH_MOUSE_LL, self._proc_ref, kernel32.GetModuleHandleW(None), 0)
+        if not hook:
+            self.failed = f"SetWindowsHookEx failed (error {ctypes.get_last_error() or ctypes.GetLastError()})"
+            self._started.set()
+            return
+        self._started.set()
+        msg = wt.MSG()
+        try:
+            while user32.GetMessageW(ctypes.byref(msg), None, 0, 0) > 0:
+                user32.TranslateMessage(ctypes.byref(msg))
+                user32.DispatchMessageW(ctypes.byref(msg))
+        finally:
+            user32.UnhookWindowsHookEx(hook)
+
+    def _press_keys(self) -> None:
+        while True:
+            direction = self._queue.get()
+            if direction == 0:
+                return
+            scan = wheel_scancode(direction)
+            try:
+                self._send(scan, False)
+                time.sleep(self.HOLD_SECONDS)
+                self._send(scan, True)
+            except Exception:  # noqa: BLE001
+                pass
+
+
 @dataclass
 class LaunchHandle:
     process: subprocess.Popen
@@ -958,6 +1139,8 @@ class LauncherApp:
         self.v_use_wrapper = tk.BooleanVar(value=s["use_wrapper"])
         self.v_dpi_fix = tk.BooleanVar(value=s["dpi_fix"])
         self.v_advanced = tk.BooleanVar(value=s["advanced"])
+        self.v_wheel_zoom = tk.BooleanVar(value=s["wheel_zoom"])
+        self.wheel_hook: WheelZoomHook | None = None
         self.v_status = tk.StringVar(value="준비됨 (Ready)")
         self.scales: dict[str, ttk.Scale] = {}
 
@@ -1109,6 +1292,8 @@ class LauncherApp:
                         variable=self.v_dpi_fix).grid(row=1, column=0, sticky="w")
         ttk.Checkbutton(cf, text="고급 cnc-ddraw 옵션 (singlecpu=true, hook=4)",
                         variable=self.v_advanced).grid(row=2, column=0, sticky="w")
+        ttk.Checkbutton(cf, text="마우스 휠로 전장 줌 (휠 위 = 키패드 +, 아래 = −)",
+                        variable=self.v_wheel_zoom).grid(row=3, column=0, sticky="w")
 
         # Buttons
         bf = ttk.Frame(outer)
@@ -1177,6 +1362,7 @@ class LauncherApp:
             "use_wrapper": self.v_use_wrapper.get(),
             "dpi_fix": self.v_dpi_fix.get(),
             "advanced": self.v_advanced.get(),
+            "wheel_zoom": self.v_wheel_zoom.get(),
         })
 
     def refresh(self) -> None:
@@ -1272,8 +1458,23 @@ class LauncherApp:
             return
         self.set_crash_log("")
         self.refresh()
-        self.set_status(f"게임 실행 중... (PID {self.handle.process.pid})")
+        note = ""
+        if s["wheel_zoom"]:
+            self._stop_wheel_hook()
+            hook = WheelZoomHook(self.handle.process.pid)
+            if hook.start():
+                self.wheel_hook = hook
+                note = " · 휠 줌 켬"
+            else:
+                hook.stop()
+                note = f" · 휠 줌 실패: {hook.failed}"
+        self.set_status(f"게임 실행 중... (PID {self.handle.process.pid}){note}")
         self.root.after(self.POLL_MS, self._poll)
+
+    def _stop_wheel_hook(self) -> None:
+        hook, self.wheel_hook = self.wheel_hook, None
+        if hook is not None:
+            hook.stop()
 
     def _poll(self) -> None:
         handle = self.handle
@@ -1284,6 +1485,7 @@ class LauncherApp:
             self.root.after(self.POLL_MS, self._poll)
             return
         self.handle = None
+        self._stop_wheel_hook()
         self.refresh()
         log = crash_log_if_changed(handle)
         if log is not None:
@@ -1341,6 +1543,7 @@ class LauncherApp:
 
     def on_close(self) -> None:
         self._save_launcher_settings(self.collect_settings())
+        self._stop_wheel_hook()
         self.root.destroy()
 
 
