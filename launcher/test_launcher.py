@@ -5,6 +5,7 @@ Run from this folder:  python -m unittest -v test_launcher
 """
 from __future__ import annotations
 
+import json
 import os
 import shutil
 import stat
@@ -378,6 +379,200 @@ class DdrawTests(TempDirTestCase):
         self.assertEqual(before[start:], after[start:])  # game sections untouched
 
 
+AREA_1080P = (1920, 1040)   # 1920x1080 monitor minus a 40 px taskbar
+AREA_4K = (3840, 2088)      # 3840x2160 monitor minus a 72 px taskbar
+ALL_SCALES = [key for key, _ in ml.WINDOW_SCALES]
+
+
+class WindowScaleTests(TempDirTestCase):
+    """ddraw.ini width/height for the 창 배율 (window scale) option."""
+
+    def setUp(self):
+        super().setUp()
+        self.ini = self.tmp / "ddraw.ini"
+
+    def size_written(self, mode="windowed", resolution=3, scale="1", area=AREA_1080P):
+        """(width, height) as written to a fresh ddraw.ini; None for a missing key."""
+        if self.ini.exists():
+            self.ini.unlink()
+        with mock.patch.object(ml, "work_area", return_value=area):
+            ml.update_ddraw_ini(self.ini, mode, False, resolution, scale)
+        kv = dict(ln.split("=", 1) for ln in _lines(self.ini.read_bytes()) if "=" in ln)
+        return kv.get("width"), kv.get("height")
+
+    def test_choices_and_defaults(self):
+        self.assertEqual(ALL_SCALES, ["1", "1.25", "1.5", "2", "fit"])
+        self.assertEqual(ml.SETTINGS_DEFAULTS["window_scale"], "1")
+        self.assertEqual(ml.GAME_RESOLUTIONS, {0: (640, 480), 1: (800, 600),
+                                               2: (1024, 768), 3: (1280, 1024)})
+        self.assertEqual(sorted(ml.GAME_RESOLUTIONS), [v for v, _ in ml.RESOLUTIONS])
+
+    def test_scale_one_keeps_zero_and_skips_work_area(self):
+        with mock.patch.object(ml, "work_area", side_effect=AssertionError("queried")):
+            for res in ml.GAME_RESOLUTIONS:
+                self.assertEqual(ml.ddraw_settings("windowed", False, res, "1"),
+                                 ml.ddraw_settings("windowed", False))
+        self.assertEqual(self.size_written(scale="1"), ("0", "0"))
+
+    def test_fixed_scales_on_a_big_screen(self):
+        expected = {   # resolution -> scale -> (width, height), big enough that nothing is clamped
+            0: {"1.25": (800, 600), "1.5": (960, 720), "2": (1280, 960)},
+            1: {"1.25": (1000, 750), "1.5": (1200, 900), "2": (1600, 1200)},
+            2: {"1.25": (1280, 960), "1.5": (1536, 1152), "2": (2048, 1536)},
+            3: {"1.25": (1600, 1280), "1.5": (1920, 1536), "2": (2560, 2048)},
+        }
+        for res, scales in expected.items():
+            for scale, (w, h) in scales.items():
+                with self.subTest(resolution=res, scale=scale):
+                    self.assertEqual(self.size_written(resolution=res, scale=scale, area=AREA_4K),
+                                     (str(w), str(h)))
+
+    def test_fit_keeps_aspect_ratio(self):
+        cases = [   # (area, resolution) -> size: largest of the game's aspect ratio in area-40
+            (AREA_1080P, 2, (1333, 1000)), (AREA_1080P, 1, (1333, 1000)),
+            (AREA_1080P, 0, (1333, 1000)), ((2560, 1400), 3, (1700, 1360)),
+            (AREA_4K, 3, (2560, 2048)), (AREA_4K, 1, (2730, 2048)),
+            ((3440, 1400), 3, (1700, 1360)),        # ultrawide: height-limited
+            ((1400, 3000), 3, (1360, 1088)),        # portrait: width-limited
+        ]
+        for area, res, size in cases:
+            with self.subTest(area=area, resolution=res):
+                self.assertEqual(ml.window_size(res, "fit", area), size)
+                self.assertEqual(self.size_written(resolution=res, scale="fit", area=area),
+                                 tuple(map(str, size)))
+
+    def test_fit_is_the_largest_size_inside_the_area(self):
+        for res, (bw, bh) in ml.GAME_RESOLUTIONS.items():
+            for aw, ah in ((1366, 768), (1600, 900), (1920, 1040), (2560, 1400), (3840, 2088),
+                           (3440, 1400), (1400, 3000), (1320, 1064)):
+                w, h = ml.window_size(res, "fit", (aw, ah)) or (0, 0)
+                with self.subTest(resolution=res, area=(aw, ah)):
+                    availw, availh = aw - ml.WINDOW_FRAME_MARGIN, ah - ml.WINDOW_FRAME_MARGIN
+                    if availw < bw or availh < bh:
+                        self.assertEqual((w, h), (0, 0))   # not even 1:1 fits
+                        continue
+                    self.assertLessEqual(w, availw)
+                    self.assertLessEqual(h, availh)
+                    self.assertTrue(w == availw or h == availh)
+                    self.assertLess(abs(w * bh - h * bw), max(bw, bh))   # same aspect ratio
+                    self.assertGreaterEqual(w, bw)
+                    self.assertGreaterEqual(h, bh)
+
+    def test_every_size_is_clamped_to_the_work_area(self):
+        # 1280x1024 on a 1440p work area: 1.25x fits, 1.5x/2x are clamped to the fit size
+        area = (2560, 1400)
+        self.assertEqual(self.size_written(resolution=3, scale="1.25", area=area), ("1600", "1280"))
+        for scale in ("1.5", "2", "fit"):
+            self.assertEqual(self.size_written(resolution=3, scale=scale, area=area),
+                             ("1700", "1360"), scale)
+        # 800x600 on a 1080p work area: 1.25x and 1.5x stay exact, 2x is clamped to the fit size
+        self.assertEqual(self.size_written(resolution=1, scale="1.25"), ("1000", "750"))
+        self.assertEqual(self.size_written(resolution=1, scale="1.5"), ("1200", "900"))
+        self.assertEqual(self.size_written(resolution=1, scale="2"), ("1333", "1000"))
+        # never wider/taller than the work area minus the frame margin
+        for area in ((1366, 768), (1920, 1040), (2560, 1400), AREA_4K):
+            for res, scale in ((r, s) for r in ml.GAME_RESOLUTIONS for s in ALL_SCALES):
+                size = ml.window_size(res, scale, area)
+                if size is not None:
+                    self.assertLessEqual(size[0], area[0] - ml.WINDOW_FRAME_MARGIN, (area, res, scale))
+                    self.assertLessEqual(size[1], area[1] - ml.WINDOW_FRAME_MARGIN, (area, res, scale))
+
+    def test_falls_back_to_one_to_one_when_even_that_does_not_fit(self):
+        # (a 1080p work area is 1040 px high: 1024 + the 40 px margin does not fit)
+        for area in ((1280, 1024), (1319, 1064), (1320, 1063), (1024, 768), AREA_1080P):
+            for scale in ("1.25", "1.5", "2", "fit"):
+                with self.subTest(area=area, scale=scale):
+                    self.assertEqual(self.size_written(resolution=3, scale=scale, area=area),
+                                     ("0", "0"))
+        # exactly 1280x1024 + the 40 px margin: 1:1 fits, so everything collapses to it
+        for scale in ("1.25", "2", "fit"):
+            self.assertEqual(self.size_written(resolution=3, scale=scale, area=(1320, 1064)),
+                             ("1280", "1024"))
+
+    def test_unknown_work_area(self):
+        self.assertIsNone(ml.window_size(3, "fit", None))              # -> width=0/height=0
+        self.assertEqual(ml.window_size(3, "1.5", None), (1920, 1536))  # cannot clamp
+        self.assertEqual(self.size_written(scale="fit", area=None), ("0", "0"))
+        self.assertEqual(self.size_written(scale="1.5", area=None), ("1920", "1536"))
+
+    def test_non_windowed_modes_ignore_the_scale(self):
+        for mode in ("borderless", "fullscreen"):
+            self.size_written(mode=mode, scale="1")
+            baseline = self.ini.read_bytes()
+            for scale in ALL_SCALES:
+                with mock.patch.object(ml, "work_area", side_effect=AssertionError("queried")):
+                    self.assertEqual(ml.ddraw_settings(mode, False, 3, scale),
+                                     ml.ddraw_settings(mode, False))
+                self.assertEqual(self.size_written(mode=mode, scale=scale), (None, None))
+                self.assertEqual(self.ini.read_bytes(), baseline, (mode, scale))
+                self.assertIsNone(ml.ddraw_window_size(mode, 3, scale))
+
+    def test_switching_scale_replaces_in_place(self):
+        self.ini.write_bytes(DDRAW_FIXTURE.encode("ascii"))
+        with mock.patch.object(ml, "work_area", return_value=AREA_1080P):
+            ml.update_ddraw_ini(self.ini, "windowed", False, 2, "fit")
+            first = self.ini.read_bytes()
+            self.assertFalse(ml.update_ddraw_ini(self.ini, "windowed", False, 2, "fit"))
+            ml.update_ddraw_ini(self.ini, "windowed", False, 2, "1")
+        after = _lines(self.ini.read_bytes())
+        self.assertIn(b"width=1333\r\nheight=1000\r\n", first)
+        self.assertEqual([ln for ln in after if ln.startswith(("width", "height"))],
+                         ["width=0", "height=0"])                # no duplicate lines
+        # the [ddraw] width/height lines keep their place from the fixture
+        self.assertEqual(after.index("width=0"), _lines(DDRAW_FIXTURE.encode("ascii")).index("width=640"))
+
+    def test_bad_values_rejected_without_writing(self):
+        with self.assertRaises(ValueError):
+            ml.update_ddraw_ini(self.ini, "windowed", False, 3, "3")
+        with self.assertRaises(ValueError):
+            ml.update_ddraw_ini(self.ini, "windowed", False, 9, "fit")
+        self.assertFalse(self.ini.exists())
+
+    def test_work_area_query(self):
+        calls = []
+
+        def fake(action, ui_param, rect_ref, win_ini):
+            calls.append((action, ui_param, win_ini))
+            rect = rect_ref._obj
+            rect.left, rect.top, rect.right, rect.bottom = 0, 0, 1920, 1040
+            return 1
+
+        with mock.patch.object(ml.ctypes, "windll") as windll:
+            windll.user32.SystemParametersInfoW.side_effect = fake
+            self.assertEqual(ml.work_area(), (1920, 1040))
+            self.assertEqual(calls, [(0x0030, 0, 0)])          # SPI_GETWORKAREA
+            windll.user32.SystemParametersInfoW.side_effect = None
+            windll.user32.SystemParametersInfoW.return_value = 0
+            self.assertIsNone(ml.work_area())                   # API failure
+            windll.user32.SystemParametersInfoW.side_effect = OSError
+            self.assertIsNone(ml.work_area())
+        size = ml.work_area()                                    # the real call: never raises
+        self.assertTrue(size is None or (size[0] > 0 and size[1] > 0))
+
+    def test_apply_settings_writes_scaled_window(self):
+        game, src = _make_game(self.tmp), _make_wrapper(self.tmp)
+        s = dict(ml.SETTINGS_DEFAULTS, game_dir=str(game), wrapper_dir=str(src), window_scale="1.5")
+
+        def sizes():
+            return [ln for ln in _lines((game / "ddraw.ini").read_bytes())
+                    if ln.startswith(("width", "height"))]
+
+        with mock.patch.object(ml, "set_compat_layer"), \
+                mock.patch.object(ml, "work_area", return_value=AREA_4K):
+            notes = ml.apply_settings(s)
+            self.assertEqual(sizes(), ["width=1920", "height=1536"])
+            self.assertTrue(any("(창 1920×1536)" in n for n in notes), notes)
+            notes = ml.apply_settings(dict(s, window_scale="1"))
+            self.assertEqual(sizes(), ["width=0", "height=0"])
+            self.assertFalse(any("(창" in n for n in notes), notes)
+            notes = ml.apply_settings(dict(s, window_scale="fit", display_mode="borderless"))
+            self.assertEqual(sizes(), ["width=0", "height=0"])       # borderless: not written
+            self.assertFalse(any("(창" in n for n in notes), notes)
+            notes = ml.apply_settings(dict(s, window_scale="fit"))
+            self.assertEqual(sizes(), ["width=2560", "height=2048"])
+            self.assertTrue(any("(창 2560×2048)" in n for n in notes), notes)
+
+
 class CompatLayerTests(unittest.TestCase):
     def tearDown(self):
         for key in (TEST_COMPAT_KEY, r"Software\MCGLauncherUnitTest"):
@@ -463,18 +658,47 @@ class WrapperAndApplyTests(TempDirTestCase):
     def test_korean_ready_file(self):
         game = _make_game(self.tmp)
         self.assertIsNone(ml.read_ko_language(game))
-        (game / "lang").mkdir()
-        (game / "lang" / "ko.ready").write_text("")
-        self.assertEqual(ml.read_ko_language(game), 1000)
-        (game / "lang" / "ko.ready").write_text("2000\r\nignored\r\n")
-        self.assertEqual(ml.read_ko_language(game), 2000)
-        (game / "lang" / "ko.ready").write_text("garbage")
-        self.assertEqual(ml.read_ko_language(game), 1000)
+        self.assertIsNone(ml.read_ko_language(""))
+        (game / "lang" / "kor").mkdir(parents=True)
+        self.assertIsNone(ml.read_ko_language(game))          # directory alone is not enough
+        (game / "lang" / "kor" / "strings.bin").write_bytes(b"KSTR")
+        self.assertEqual(ml.read_ko_language(game), 1)
         s = dict(ml.SETTINGS_DEFAULTS, game_dir=str(game), language="ko", use_wrapper=False)
-        (game / "lang" / "ko.ready").write_text("2000")
         with mock.patch.object(ml, "set_compat_layer"):
             ml.apply_settings(s)
-        self.assertIn("l Language=2000", _lines((game / "PREFS.CFG").read_bytes()))
+        self.assertIn("l Language=1", _lines((game / "PREFS.CFG").read_bytes()))
+        (game / "lang" / "kor" / "strings.bin").unlink()
+        with mock.patch.object(ml, "set_compat_layer"):
+            ml.apply_settings(s)                               # overlay gone -> English again
+        self.assertIn("l Language=0", _lines((game / "PREFS.CFG").read_bytes()))
+
+    def test_gui_heap_raised_for_korean(self):
+        game = _make_game(self.tmp)
+        cfg = game / "SYSTEM.CFG"
+        shipped = (b"FITini\r\n\r\n[systemHeap]\r\nul systemHeapSize=4095999\r\n"
+                   b"ul guiHeapSize=4095999\r\nul soundHeapSize=1023999   \r\n\r\nFITend\r\n")
+        cfg.write_bytes(shipped)
+        self.assertTrue(ml.ensure_gui_heap(cfg))
+        raised = cfg.read_bytes()
+        self.assertEqual(raised, shipped.replace(b"ul guiHeapSize=4095999", b"ul guiHeapSize=16777215"))
+        self.assertFalse(ml.ensure_gui_heap(cfg))              # idempotent
+        cfg.write_bytes(shipped.replace(b"=4095999\r\nul sound", b"=99999999\r\nul sound"))
+        self.assertFalse(ml.ensure_gui_heap(cfg))              # larger value is kept
+        self.assertFalse(ml.ensure_gui_heap(game / "missing.cfg"))
+        cfg.write_bytes(b"FITini\r\n[systemHeap]\r\nul systemHeapSize=1\r\nFITend\r\n")
+        self.assertFalse(ml.ensure_gui_heap(cfg))              # no key -> untouched
+        # apply_settings only touches SYSTEM.CFG when Korean is active
+        cfg.write_bytes(shipped)
+        (game / "lang" / "kor").mkdir(parents=True)
+        (game / "lang" / "kor" / "strings.bin").write_bytes(b"KSTR")
+        with mock.patch.object(ml, "set_compat_layer"):
+            notes_en = ml.apply_settings(dict(ml.SETTINGS_DEFAULTS, game_dir=str(game), use_wrapper=False))
+            self.assertEqual(cfg.read_bytes(), shipped)
+            notes_ko = ml.apply_settings(dict(ml.SETTINGS_DEFAULTS, game_dir=str(game), use_wrapper=False,
+                                              language="ko"))
+        self.assertIn(b"ul guiHeapSize=16777215", cfg.read_bytes())
+        self.assertFalse(any("guiHeapSize" in n for n in notes_en))
+        self.assertTrue(any("guiHeapSize" in n for n in notes_ko))
 
 
 class LaunchTests(TempDirTestCase):
@@ -521,6 +745,26 @@ class SettingsTests(TempDirTestCase):
         self.assertFalse(existed)
         self.assertEqual(missing["resolution"], 3)
 
+    def test_window_scale_persisted_and_migrated(self):
+        path = self.tmp / "MCGLauncher" / "settings.json"
+        for scale in ALL_SCALES:
+            ml.save_settings(dict(ml.SETTINGS_DEFAULTS, window_scale=scale), path)
+            self.assertEqual(json.loads(path.read_text(encoding="utf-8"))["window_scale"], scale)
+            loaded, existed = ml.load_settings(path)
+            self.assertTrue(existed)
+            self.assertEqual(loaded["window_scale"], scale)
+        # a settings.json written before the option existed -> 1:1
+        old = {k: v for k, v in ml.SETTINGS_DEFAULTS.items() if k != "window_scale"}
+        old.update(resolution=2, display_mode="borderless")
+        path.write_text(json.dumps(old), encoding="utf-8")
+        loaded, existed = ml.load_settings(path)
+        self.assertTrue(existed)
+        self.assertEqual((loaded["window_scale"], loaded["resolution"], loaded["display_mode"]),
+                         ("1", 2, "borderless"))
+        self.assertEqual(ml.normalize_settings({})["window_scale"], "1")
+        for bad in ("3", "FIT", "", None, 5, ["fit"]):
+            self.assertEqual(ml.normalize_settings({"window_scale": bad})["window_scale"], "1", bad)
+
     def test_settings_path_under_appdata(self):
         with mock.patch.dict(os.environ, {"APPDATA": str(self.tmp)}):
             self.assertEqual(ml.settings_path(), self.tmp / "MCGLauncher" / "settings.json")
@@ -538,21 +782,54 @@ class GuiTests(TempDirTestCase):
             game = _make_game(self.tmp)
             s = dict(ml.SETTINGS_DEFAULTS, game_dir=str(game), resolution=1,
                      display_mode="fullscreen", sprite="45", difficulty=2, music=33,
-                     advanced=True, dpi_fix=False, language="ko")
+                     advanced=True, dpi_fix=False, language="ko", window_scale="1.5")
             app = ml.LauncherApp(root, s, persist=False, interactive=False)
             root.update_idletasks()
             self.assertEqual(root.title(), "MechCommander Gold 런처")
             got = app.collect_settings()
-            self.assertEqual(got["language"], "en")  # ko.ready missing -> disabled
+            self.assertEqual(got["language"], "en")  # strings.bin missing -> disabled
+            self.assertEqual(got["window_scale"], "1.5")
             self.assertEqual(got, ml.normalize_settings(dict(s, language="en")))
             self.assertIn("disabled", app.ko_radio.state())
-            (game / "lang").mkdir()
-            (game / "lang" / "ko.ready").write_text("1000")
+            (game / "lang" / "kor").mkdir(parents=True)
+            (game / "lang" / "kor" / "strings.bin").write_bytes(b"KSTR")
             app.refresh()
             self.assertNotIn("disabled", app.ko_radio.state())
             app.v_game_dir.set(str(self.tmp / "nope"))
             self.assertIn("disabled", app.btn_launch.state())
             self.assertIn("MCX.EXE", app.game_hint.cget("text"))
+        finally:
+            root.destroy()
+
+    def test_window_scale_widget(self):
+        import tkinter as tk
+        try:
+            root = tk.Tk()
+        except tk.TclError as exc:  # pragma: no cover - no display
+            self.skipTest(f"Tk unavailable: {exc}")
+        root.withdraw()
+        try:
+            game = _make_game(self.tmp)
+            labels = [label for _, label in ml.WINDOW_SCALES]
+            for key, label in ml.WINDOW_SCALES:
+                app = ml.LauncherApp(root, dict(ml.SETTINGS_DEFAULTS, game_dir=str(game),
+                                                window_scale=key),
+                                     persist=False, interactive=False)
+                self.assertEqual(app.v_window_scale.get(), label)
+                self.assertEqual(app.collect_settings()["window_scale"], key)
+                self.assertEqual(list(app.window_scale_box.cget("values")), labels)
+                self.assertEqual(str(app.window_scale_box.cget("state")), "readonly")
+                for other_key, other_label in ml.WINDOW_SCALES:
+                    app.window_scale_box.set(other_label)
+                    self.assertEqual(app.collect_settings()["window_scale"], other_key)
+                app.v_window_scale.set("not a choice")
+                self.assertEqual(app.collect_settings()["window_scale"], "1")
+                app.notebook.destroy()
+            # a settings dict from before the option existed opens as 1:1
+            old = {k: v for k, v in ml.SETTINGS_DEFAULTS.items() if k != "window_scale"}
+            app = ml.LauncherApp(root, dict(old, game_dir=str(game)), persist=False, interactive=False)
+            self.assertEqual(app.v_window_scale.get(), "원본 1:1 (Original)")
+            self.assertEqual(app.collect_settings()["window_scale"], "1")
         finally:
             root.destroy()
 

@@ -23,6 +23,7 @@ import tempfile
 import traceback
 import winreg
 from dataclasses import dataclass
+from fractions import Fraction
 from pathlib import Path
 
 import tkinter as tk
@@ -42,8 +43,15 @@ DDRAW_INI = "ddraw.ini"
 SHADERS_DIR = "Shaders"
 CNC_CONFIG_EXE = "cnc-ddraw config.exe"
 ERR_FILE = "DEFAULT.ERR"
-KO_READY_FILE = os.path.join("lang", "ko.ready")
-KO_DEFAULT_LANGUAGE = 1000
+# Korean overlay: the patched MCX.EXE reads lang\kor\strings.bin and tries
+# lang\kor\<path> before every data file whenever prefs `l Language` is non-zero.
+KO_READY_FILE = os.path.join("lang", "kor", "strings.bin")
+KO_DEFAULT_LANGUAGE = 1
+# The 26 fonts loaded at startup grow from ~0.5 MB to ~6.3 MB with Hangul
+# glyphs, so the GUI heap (SYSTEM.CFG [systemHeap] guiHeapSize, 4 MB as
+# shipped) must be raised before the Korean fonts can load.
+SYSTEM_CFG = "SYSTEM.CFG"
+KO_GUI_HEAP_SIZE = 16777215
 CRASH_LOG_LINES = 40
 
 DEFAULT_GAME_DIR = r"D:\DEV\MCGExtracted-Mechcommader1\game-source\extracted\MCX"
@@ -114,8 +122,26 @@ DDRAW_MODE_SETTINGS = {
 }
 DDRAW_ADVANCED_SETTINGS = (("singlecpu", "true"), ("hook", "4"))
 
+# Window scale (windowed mode only).  cnc-ddraw's ``width``/``height`` force the
+# window size and it stretches the game picture to it (``maintas`` keeps the
+# 5:4 / 4:3 aspect).  "1" keeps width=0/height=0 (window = game resolution);
+# "fit" is the largest size that fits the primary monitor's work area.
+GAME_RESOLUTIONS = {0: (640, 480), 1: (800, 600), 2: (1024, 768), 3: (1280, 1024)}
+WINDOW_SCALE_FIT = "fit"
+WINDOW_FRAME_MARGIN = 40        # px kept free for the window frame / title bar
+SPI_GETWORKAREA = 0x0030
+
 # GUI choices ---------------------------------------------------------------
 RESOLUTIONS = ((0, "640×480"), (1, "800×600"), (2, "1024×768"), (3, "1280×1024"))
+WINDOW_SCALES = (
+    ("1", "원본 1:1 (Original)"),
+    ("1.25", "1.25배 (1.25x)"),
+    ("1.5", "1.5배 (1.5x)"),
+    ("2", "2배 (2x)"),
+    (WINDOW_SCALE_FIT, "화면에 맞춤 (Fit)"),
+)
+WINDOW_SCALE_HINT = ("창 모드에서만 적용됩니다. 테두리 없는 전체화면/전체화면(독점)은 "
+                     "이미 화면에 맞춰 확대됩니다. (Windowed mode only.)")
 DISPLAY_MODES = (
     ("windowed", "창 모드 (Windowed)"),
     ("borderless", "테두리 없는 전체화면 (Borderless)"),
@@ -202,6 +228,7 @@ SETTINGS_DEFAULTS = {
     "wrapper_dir": DEFAULT_WRAPPER_DIR,
     "resolution": 3,
     "display_mode": "windowed",
+    "window_scale": "1",
     "language": "en",
     "sprite": "90",
     "difficulty": 1,
@@ -219,6 +246,7 @@ _INT_RANGES = {
 }
 _CHOICES = {
     "display_mode": tuple(m for m, _ in DISPLAY_MODES),
+    "window_scale": tuple(k for k, _ in WINDOW_SCALES),
     "language": ("en", "ko"),
     "sprite": tuple(s for s, _ in SPRITE_SETS),
 }
@@ -460,12 +488,88 @@ def settings_from_prefs(lines: list[str], settings: dict) -> dict:
 # --------------------------------------------------------------------------
 # ddraw.ini (cnc-ddraw)
 # --------------------------------------------------------------------------
-def ddraw_settings(mode: str, advanced: bool = False) -> list[tuple[str, str]]:
+class _RECT(ctypes.Structure):
+    _fields_ = [("left", ctypes.c_long), ("top", ctypes.c_long),
+                ("right", ctypes.c_long), ("bottom", ctypes.c_long)]
+
+
+def work_area() -> tuple[int, int] | None:
+    """Width/height of the primary monitor's work area (screen minus taskbar).
+
+    Physical pixels, because the launcher is DPI-aware.  ``None`` when the
+    query fails.  Tests patch this function.
+    """
+    try:
+        rect = _RECT()
+        if not ctypes.windll.user32.SystemParametersInfoW(SPI_GETWORKAREA, 0, ctypes.byref(rect), 0):
+            return None
+    except (AttributeError, OSError):
+        return None
+    width, height = rect.right - rect.left, rect.bottom - rect.top
+    return (width, height) if width > 0 and height > 0 else None
+
+
+def window_size(resolution: int, scale: str,
+                area: tuple[int, int] | None) -> tuple[int, int] | None:
+    """Window size for cnc-ddraw ``width``/``height``, or ``None`` to keep 0/0 (1:1).
+
+    The game resolution times *scale*, rounded.  ``"fit"`` is the largest size
+    of the game's aspect ratio that fits *area* (work area minus
+    ``WINDOW_FRAME_MARGIN``); every other scale is clamped to that size, and
+    when even 1:1 does not fit the result is ``None``.  Without a work area
+    ``"fit"`` gives ``None`` and the other scales are not clamped.
+    """
+    try:
+        base_w, base_h = GAME_RESOLUTIONS[resolution]
+    except KeyError:
+        raise ValueError(f"unknown resolution: {resolution!r}") from None
+    if scale not in _CHOICES["window_scale"]:
+        raise ValueError(f"unknown window scale: {scale!r}")
+    if scale == "1":
+        return None
+    want = None
+    if scale != WINDOW_SCALE_FIT:
+        factor = Fraction(scale)
+        want = (round(base_w * factor), round(base_h * factor))
+    if area is None:
+        return want
+    avail_w, avail_h = area[0] - WINDOW_FRAME_MARGIN, area[1] - WINDOW_FRAME_MARGIN
+    if avail_w < base_w or avail_h < base_h:
+        return None
+    if avail_w * base_h <= avail_h * base_w:           # width-limited
+        fit = (avail_w, avail_w * base_h // base_w)
+    else:                                              # height-limited
+        fit = (avail_h * base_w // base_h, avail_h)
+    if want is None or want[0] > fit[0] or want[1] > fit[1]:
+        return fit
+    return want
+
+
+def ddraw_window_size(mode: str, resolution: int = SETTINGS_DEFAULTS["resolution"],
+                      window_scale: str = SETTINGS_DEFAULTS["window_scale"]
+                      ) -> tuple[int, int] | None:
+    """``(width, height)`` written to ddraw.ini, ``None`` when both stay 0.
+
+    Only the windowed mode uses the scale; the other modes always fill the screen.
+    """
+    if mode != "windowed" or window_scale == "1":
+        return None
+    return window_size(resolution, window_scale, work_area())
+
+
+def ddraw_settings(mode: str, advanced: bool = False,
+                   resolution: int = SETTINGS_DEFAULTS["resolution"],
+                   window_scale: str = SETTINGS_DEFAULTS["window_scale"]
+                   ) -> list[tuple[str, str]]:
     """Return the ``[ddraw]`` key/value pairs for a display mode."""
     try:
         pairs = list(DDRAW_MODE_SETTINGS[mode])
     except KeyError:
         raise ValueError(f"unknown display mode: {mode!r}") from None
+    size = ddraw_window_size(mode, resolution, window_scale)
+    if size:
+        override = {"width": str(size[0]), "height": str(size[1])}
+        pairs = [(k, override.get(k, v)) for k, v in pairs]
     if advanced:
         pairs.extend(DDRAW_ADVANCED_SETTINGS)
     return pairs
@@ -517,17 +621,21 @@ def _apply_ddraw(entries: list[tuple[str, str]], pairs, eol: str) -> list[list[s
     return out
 
 
-def update_ddraw_ini(path, mode: str, advanced: bool = False) -> bool:
+def update_ddraw_ini(path, mode: str, advanced: bool = False,
+                     resolution: int = SETTINGS_DEFAULTS["resolution"],
+                     window_scale: str = SETTINGS_DEFAULTS["window_scale"]) -> bool:
     """Write the display-mode keys into the ``[ddraw]`` section of ddraw.ini.
 
     Other sections, comments and unrelated keys are kept, existing key lines
     are replaced in place and missing keys are appended at the end of the
     section.  ``singlecpu``/``hook`` are only written when *advanced*.
-    A missing file is created with just a ``[ddraw]`` section.
-    Returns True when the content changed.
+    In windowed mode ``width``/``height`` follow *window_scale* (see
+    ``window_size``); the other modes do not write them (``fullscreen=true``
+    makes cnc-ddraw ignore them).  A missing file is created with just a
+    ``[ddraw]`` section.  Returns True when the content changed.
     """
     p = Path(path)
-    pairs = ddraw_settings(mode, advanced)
+    pairs = ddraw_settings(mode, advanced, resolution, window_scale)
     bom = b""
     entries: list[tuple[str, str]] = []
     if p.is_file():
@@ -598,17 +706,37 @@ def get_compat_layer(exe, key_path: str = COMPAT_KEY) -> str | None:
 # Language, crash log, launch
 # --------------------------------------------------------------------------
 def read_ko_language(game_dir) -> int | None:
-    """Language value for Korean, or None when ``lang\\ko.ready`` is absent."""
+    """Language value for Korean, or None when ``lang\\kor\\strings.bin`` is absent."""
     if not game_dir:
         return None
-    p = Path(game_dir) / KO_READY_FILE
+    return KO_DEFAULT_LANGUAGE if (Path(game_dir) / KO_READY_FILE).is_file() else None
+
+
+_GUI_HEAP_RE = re.compile(rb"^(\s*ul\s+guiHeapSize\s*=\s*)(\d+)(\s*)$", re.IGNORECASE)
+
+
+def ensure_gui_heap(path, minimum: int = KO_GUI_HEAP_SIZE) -> bool:
+    """Raise ``ul guiHeapSize`` in SYSTEM.CFG to at least *minimum*.
+
+    Only that one value is touched; every other byte (CRLF, comments, the
+    file's attributes) is kept.  Returns True when the file was changed.
+    A missing file or key is left alone (the game then uses its own default).
+    """
+    p = Path(path)
     if not p.is_file():
-        return None
-    try:
-        first = p.read_text(encoding="utf-8-sig", errors="replace").splitlines()
-        return int(first[0].strip()) if first and first[0].strip() else KO_DEFAULT_LANGUAGE
-    except (OSError, ValueError):
-        return KO_DEFAULT_LANGUAGE
+        return False
+    raw = p.read_bytes()
+    nl = b"\r\n" if b"\r\n" in raw else b"\n"
+    out, hit = [], False
+    for line in raw.split(nl):
+        m = _GUI_HEAP_RE.match(line)
+        if m and not hit:
+            hit = True
+            if int(m.group(2)) < minimum:
+                line = m.group(1) + str(minimum).encode("ascii") + m.group(3)
+        out.append(line)
+    data = nl.join(out)
+    return _write_bytes(p, data, readonly=None) if hit else False
 
 
 @dataclass(frozen=True)
@@ -757,8 +885,10 @@ def apply_settings(settings: dict) -> list[str]:
             notes.append("cnc-ddraw 설치: " + ", ".join(copied))
     wrapper_active = (game / DDRAW_DLL).is_file()
     if wrapper_active:
-        update_ddraw_ini(game / DDRAW_INI, s["display_mode"], s["advanced"])
-        notes.append(f"{DDRAW_INI} 갱신")
+        update_ddraw_ini(game / DDRAW_INI, s["display_mode"], s["advanced"],
+                         s["resolution"], s["window_scale"])
+        size = ddraw_window_size(s["display_mode"], s["resolution"], s["window_scale"])
+        notes.append(f"{DDRAW_INI} 갱신" + (f" (창 {size[0]}×{size[1]})" if size else ""))
         if not s["use_wrapper"]:
             notes.append(f"주의: 게임 폴더에 {DDRAW_DLL}이 있어 래퍼가 계속 적용됩니다")
     elif s["display_mode"] != "windowed":
@@ -766,6 +896,8 @@ def apply_settings(settings: dict) -> list[str]:
     ko = read_ko_language(game) if s["language"] == "ko" else None
     write_prefs(game / PREFS_FILE, build_prefs_values(s, wrapper_active, ko))
     notes.append(f"{PREFS_FILE} 저장(읽기 전용)")
+    if ko is not None and ensure_gui_heap(game / SYSTEM_CFG):
+        notes.append(f"{SYSTEM_CFG} guiHeapSize를 {KO_GUI_HEAP_SIZE}로 올림 (한글 글꼴용)")
     set_compat_layer(exe, s["dpi_fix"])
     notes.append("DPI 보정 " + ("켬" if s["dpi_fix"] else "끔"))
     return notes
@@ -815,6 +947,7 @@ class LauncherApp:
         self.v_wrapper_dir = tk.StringVar(value=s["wrapper_dir"])
         self.v_resolution = tk.IntVar(value=s["resolution"])
         self.v_mode = tk.StringVar(value=s["display_mode"])
+        self.v_window_scale = tk.StringVar(value=dict(WINDOW_SCALES)[s["window_scale"]])
         self.v_language = tk.StringVar(value=s["language"])
         self.v_sprite = tk.StringVar(value=s["sprite"])
         self.v_difficulty = tk.StringVar(value=DIFFICULTY_LABELS[s["difficulty"]])
@@ -923,7 +1056,15 @@ class LauncherApp:
         rf.grid(row=2, column=0, sticky="nsew", pady=gap, padx=(0, P(3)))
         for i, (value, label) in enumerate(RESOLUTIONS):
             ttk.Radiobutton(rf, text=label, value=value, variable=self.v_resolution).grid(
-                row=i, column=0, sticky="w")
+                row=i, column=0, columnspan=2, sticky="w")
+        ttk.Label(rf, text="창 배율 (Window scale)").grid(
+            row=len(RESOLUTIONS), column=0, sticky="w", padx=(0, P(8)), pady=(P(6), 0))
+        self.window_scale_box = ttk.Combobox(rf, textvariable=self.v_window_scale, state="readonly",
+                                             values=[label for _, label in WINDOW_SCALES], width=20)
+        self.window_scale_box.grid(row=len(RESOLUTIONS), column=1, sticky="w", pady=(P(6), 0))
+        ttk.Label(rf, text=WINDOW_SCALE_HINT, justify="left", wraplength=P(300),
+                  foreground="#555555").grid(row=len(RESOLUTIONS) + 1, column=0, columnspan=2,
+                                             sticky="w", pady=(P(3), 0))
         mf = ttk.LabelFrame(outer, text="화면 모드 (Display mode)", padding=P(6))
         mf.grid(row=2, column=1, sticky="nsew", pady=gap, padx=(P(3), 0))
         for i, (value, label) in enumerate(DISPLAY_MODES):
@@ -1017,11 +1158,15 @@ class LauncherApp:
             difficulty = DIFFICULTY_LABELS.index(self.v_difficulty.get())
         except ValueError:
             difficulty = SETTINGS_DEFAULTS["difficulty"]
+        window_scale = next((key for key, label in WINDOW_SCALES
+                             if label == self.v_window_scale.get()),
+                            SETTINGS_DEFAULTS["window_scale"])
         return normalize_settings({
             "game_dir": self.v_game_dir.get(),
             "wrapper_dir": self.v_wrapper_dir.get(),
             "resolution": self.v_resolution.get(),
             "display_mode": self.v_mode.get(),
+            "window_scale": window_scale,
             "language": self.v_language.get(),
             "sprite": self.v_sprite.get(),
             "difficulty": difficulty,
@@ -1243,12 +1388,17 @@ def run_selftest() -> int:
                 prefs = Path(td, PREFS_FILE)
                 write_prefs(prefs, build_prefs_values(collected, True, None))
                 write_prefs(prefs, build_prefs_values(collected, True, None))
-                update_ddraw_ini(Path(td, DDRAW_INI), collected["display_mode"], collected["advanced"])
+                update_ddraw_ini(Path(td, DDRAW_INI), collected["display_mode"], collected["advanced"],
+                                 collected["resolution"], collected["window_scale"])
+                # real work-area query + a "fit" size (the frozen exe must be able to call it)
+                area = work_area()
+                fit = window_size(collected["resolution"], WINDOW_SCALE_FIT, area)
                 if not is_readonly(prefs):
                     raise AssertionError("prefs.cfg not read-only after write")
                 set_readonly(prefs, False)
             report.append(f"settings.json exists={existed} path={settings_path()}")
             report.append(f"game_dir={collected['game_dir']} valid={(Path(collected['game_dir']) / GAME_EXE).is_file()}")
+            report.append(f"window_scale={collected['window_scale']} work_area={area} fit_size={fit}")
             report.append(f"widgets={_count_widgets(root)} reqsize={root.winfo_reqwidth()}x{root.winfo_reqheight()} "
                           f"tk_scaling={float(root.tk.call('tk', 'scaling')):.3f}")
         finally:
