@@ -124,7 +124,11 @@ DDRAW_MODE_SETTINGS = {
         ("boxing", "false"),
     ) + DDRAW_COMMON_SETTINGS,
 }
-DDRAW_ADVANCED_SETTINGS = (("singlecpu", "true"), ("hook", "4"))
+# singlecpu pins the game to one core (cnc-ddraw's default is true): 1999 timing
+# code can stutter or freeze on multi-core CPUs.  The launcher writes it
+# explicitly so the user can switch it off when the game runs choppy or the
+# sound breaks up, as cnc-ddraw's own ddraw.ini suggests.
+DDRAW_SINGLE_CPU_KEY = "singlecpu"
 
 # Window scale (windowed mode only).  cnc-ddraw's ``width``/``height`` force the
 # window size and it stretches the game picture to it (``maintas`` keeps the
@@ -242,7 +246,7 @@ SETTINGS_DEFAULTS = {
     "sfx": 96,
     "use_wrapper": True,
     "dpi_fix": True,
-    "advanced": False,
+    "single_cpu": True,
     "wheel_zoom": True,
 }
 _INT_RANGES = {
@@ -562,7 +566,7 @@ def ddraw_window_size(mode: str, resolution: int = SETTINGS_DEFAULTS["resolution
     return window_size(resolution, window_scale, work_area())
 
 
-def ddraw_settings(mode: str, advanced: bool = False,
+def ddraw_settings(mode: str, single_cpu: bool = True,
                    resolution: int = SETTINGS_DEFAULTS["resolution"],
                    window_scale: str = SETTINGS_DEFAULTS["window_scale"]
                    ) -> list[tuple[str, str]]:
@@ -575,8 +579,7 @@ def ddraw_settings(mode: str, advanced: bool = False,
     if size:
         override = {"width": str(size[0]), "height": str(size[1])}
         pairs = [(k, override.get(k, v)) for k, v in pairs]
-    if advanced:
-        pairs.extend(DDRAW_ADVANCED_SETTINGS)
+    pairs.append((DDRAW_SINGLE_CPU_KEY, "true" if single_cpu else "false"))
     return pairs
 
 
@@ -626,21 +629,21 @@ def _apply_ddraw(entries: list[tuple[str, str]], pairs, eol: str) -> list[list[s
     return out
 
 
-def update_ddraw_ini(path, mode: str, advanced: bool = False,
+def update_ddraw_ini(path, mode: str, single_cpu: bool = True,
                      resolution: int = SETTINGS_DEFAULTS["resolution"],
                      window_scale: str = SETTINGS_DEFAULTS["window_scale"]) -> bool:
     """Write the display-mode keys into the ``[ddraw]`` section of ddraw.ini.
 
     Other sections, comments and unrelated keys are kept, existing key lines
     are replaced in place and missing keys are appended at the end of the
-    section.  ``singlecpu``/``hook`` are only written when *advanced*.
+    section.  ``singlecpu`` is always written (true/false from *single_cpu*).
     In windowed mode ``width``/``height`` follow *window_scale* (see
     ``window_size``); the other modes do not write them (``fullscreen=true``
     makes cnc-ddraw ignore them).  A missing file is created with just a
     ``[ddraw]`` section.  Returns True when the content changed.
     """
     p = Path(path)
-    pairs = ddraw_settings(mode, advanced, resolution, window_scale)
+    pairs = ddraw_settings(mode, single_cpu, resolution, window_scale)
     bom = b""
     entries: list[tuple[str, str]] = []
     if p.is_file():
@@ -1066,7 +1069,7 @@ def apply_settings(settings: dict) -> list[str]:
             notes.append("cnc-ddraw 설치: " + ", ".join(copied))
     wrapper_active = (game / DDRAW_DLL).is_file()
     if wrapper_active:
-        update_ddraw_ini(game / DDRAW_INI, s["display_mode"], s["advanced"],
+        update_ddraw_ini(game / DDRAW_INI, s["display_mode"], s["single_cpu"],
                          s["resolution"], s["window_scale"])
         size = ddraw_window_size(s["display_mode"], s["resolution"], s["window_scale"])
         notes.append(f"{DDRAW_INI} 갱신" + (f" (창 {size[0]}×{size[1]})" if size else ""))
@@ -1138,7 +1141,7 @@ class LauncherApp:
         self.v_sfx = tk.IntVar(value=s["sfx"])
         self.v_use_wrapper = tk.BooleanVar(value=s["use_wrapper"])
         self.v_dpi_fix = tk.BooleanVar(value=s["dpi_fix"])
-        self.v_advanced = tk.BooleanVar(value=s["advanced"])
+        self.v_single_cpu = tk.BooleanVar(value=s["single_cpu"])
         self.v_wheel_zoom = tk.BooleanVar(value=s["wheel_zoom"])
         self.wheel_hook: WheelZoomHook | None = None
         self.v_status = tk.StringVar(value="준비됨 (Ready)")
@@ -1290,8 +1293,8 @@ class LauncherApp:
                         variable=self.v_use_wrapper, command=self.refresh).grid(row=0, column=0, sticky="w")
         ttk.Checkbutton(cf, text="DPI 보정(HIGHDPIAWARE)",
                         variable=self.v_dpi_fix).grid(row=1, column=0, sticky="w")
-        ttk.Checkbutton(cf, text="고급 cnc-ddraw 옵션 (singlecpu=true, hook=4)",
-                        variable=self.v_advanced).grid(row=2, column=0, sticky="w")
+        ttk.Checkbutton(cf, text="단일 CPU 고정 (singlecpu) — 속도 튐·멈춤 방지, 게임이 끊기거나 소리가 깨지면 끄기",
+                        variable=self.v_single_cpu).grid(row=2, column=0, sticky="w")
         ttk.Checkbutton(cf, text="마우스 휠로 전장 줌 (휠 위 = 키패드 +, 아래 = −)",
                         variable=self.v_wheel_zoom).grid(row=3, column=0, sticky="w")
 
@@ -1361,7 +1364,7 @@ class LauncherApp:
             "sfx": self.v_sfx.get(),
             "use_wrapper": self.v_use_wrapper.get(),
             "dpi_fix": self.v_dpi_fix.get(),
-            "advanced": self.v_advanced.get(),
+            "single_cpu": self.v_single_cpu.get(),
             "wheel_zoom": self.v_wheel_zoom.get(),
         })
 
@@ -1591,7 +1594,7 @@ def run_selftest() -> int:
                 prefs = Path(td, PREFS_FILE)
                 write_prefs(prefs, build_prefs_values(collected, True, None))
                 write_prefs(prefs, build_prefs_values(collected, True, None))
-                update_ddraw_ini(Path(td, DDRAW_INI), collected["display_mode"], collected["advanced"],
+                update_ddraw_ini(Path(td, DDRAW_INI), collected["display_mode"], collected["single_cpu"],
                                  collected["resolution"], collected["window_scale"])
                 # real work-area query + a "fit" size (the frozen exe must be able to call it)
                 area = work_area()

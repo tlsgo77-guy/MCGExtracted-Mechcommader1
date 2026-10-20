@@ -261,30 +261,33 @@ class DdrawTests(TempDirTestCase):
         return lines[start + 1:end]
 
     def test_create_from_nothing_windowed(self):
-        self.assertTrue(ml.update_ddraw_ini(self.ini, "windowed", False))
+        self.assertTrue(ml.update_ddraw_ini(self.ini, "windowed", True))
         self.assertEqual(self.ini.read_bytes().decode("ascii"), CRLF.join([
             "[ddraw]", "windowed=true", "fullscreen=false", "maintas=true", "boxing=false",
-            "width=0", "height=0"] + COMMON_DDRAW) + CRLF)
+            "width=0", "height=0"] + COMMON_DDRAW + ["singlecpu=true"]) + CRLF)
 
     def test_create_from_nothing_other_modes(self):
-        ml.update_ddraw_ini(self.ini, "borderless", False)
+        ml.update_ddraw_ini(self.ini, "borderless", True)
         self.assertEqual(_lines(self.ini.read_bytes()), [
             "[ddraw]", "windowed=true", "fullscreen=true", "maintas=true", "boxing=true"]
-            + COMMON_DDRAW)
+            + COMMON_DDRAW + ["singlecpu=true"])
         self.ini.unlink()
-        ml.update_ddraw_ini(self.ini, "fullscreen", True)
+        ml.update_ddraw_ini(self.ini, "fullscreen", False)
         self.assertEqual(_lines(self.ini.read_bytes()), [
             "[ddraw]", "windowed=false", "fullscreen=true", "maintas=true", "boxing=false"]
-            + COMMON_DDRAW + ["singlecpu=true", "hook=4"])
+            + COMMON_DDRAW + ["singlecpu=false"])
 
-    def test_advanced_keys_only_when_ticked(self):
-        ml.update_ddraw_ini(self.ini, "windowed", False)
-        text = self.ini.read_text()
-        self.assertNotIn("singlecpu", text)
-        self.assertNotIn("hook", text)
+    def test_singlecpu_follows_the_option_and_hook_is_left_alone(self):
         ml.update_ddraw_ini(self.ini, "windowed", True)
+        text = self.ini.read_text()
+        self.assertIn("singlecpu=true", text)
+        self.assertNotIn("hook", text)
+        ml.update_ddraw_ini(self.ini, "windowed", False)
         lines = _lines(self.ini.read_bytes())
-        self.assertEqual(lines[-2:], ["singlecpu=true", "hook=4"])
+        self.assertEqual(lines[-1], "singlecpu=false")
+        self.assertEqual(sum(1 for ln in lines if ln.startswith("singlecpu")), 1)
+        self.assertNotIn("hook", self.ini.read_text())
+        self.assertEqual(ml.ddraw_settings("windowed")[-1], ("singlecpu", "true"))  # default on
 
     def test_update_existing_keeps_comments_and_other_sections(self):
         self.ini.write_bytes(DDRAW_FIXTURE.encode("ascii"))
@@ -304,7 +307,7 @@ class DdrawTests(TempDirTestCase):
         self.assertEqual(after[before.index("width=640")], "width=0")
         self.assertEqual(after[before.index("windowed=false")], "windowed=true")
         self.assertEqual(after[before.index("maintas = false")], "maintas=true")
-        # untouched [ddraw] lines (advanced off -> singlecpu kept as is)
+        # singlecpu (option off) replaced in place, other [ddraw] lines untouched
         self.assertIn("singlecpu=false", ddraw)
         self.assertIn("shader=Shaders\\interpolation\\catmull-rom-bilinear.glsl", ddraw)
         self.assertIn("; windowed=commented-out-must-stay", ddraw)
@@ -312,20 +315,20 @@ class DdrawTests(TempDirTestCase):
         last = ddraw.index("singlecpu=false")
         appended = ["boxing=false"] + COMMON_DDRAW
         self.assertEqual(ddraw[last + 1:last + 1 + len(appended)], appended)
-        for key in ("windowed", "fullscreen", "maintas", "boxing", "width", "height",
+        for key in ("windowed", "fullscreen", "maintas", "boxing", "width", "height", "singlecpu",
                     *[k for k, _ in ml.DDRAW_COMMON_SETTINGS]):
             self.assertEqual(sum(1 for ln in ddraw if ln.split("=")[0].strip() == key), 1, key)
         # the comment introducing [legion] stays right above it
         self.assertEqual(after[after.index("[legion]") - 1], "; 7th Legion")
 
-    def test_advanced_replaces_existing_singlecpu(self):
+    def test_singlecpu_on_replaces_existing_false_only_in_ddraw_section(self):
         self.ini.write_bytes(DDRAW_FIXTURE.encode("ascii"))
         ml.update_ddraw_ini(self.ini, "borderless", True)
         after = _lines(self.ini.read_bytes())
         ddraw = self.section(after, "ddraw")
         self.assertIn("singlecpu=true", ddraw)
         self.assertNotIn("singlecpu=false", ddraw)
-        self.assertIn("hook=4", ddraw)
+        self.assertNotIn("hook=4", ddraw)
         self.assertEqual(self.section(after, "legion"),
                          ["maxgameticks=25", "singlecpu=false", "windowed=false", ""])
 
@@ -353,7 +356,7 @@ class DdrawTests(TempDirTestCase):
         ml.update_ddraw_ini(self.ini, "borderless", False)
         self.assertEqual(_lines(self.ini.read_bytes()), [
             "[ddraw]", "windowed=true", "fullscreen=true", "maintas=true", "boxing=true"]
-            + COMMON_DDRAW + ["", "[legion]", "windowed=false"])
+            + COMMON_DDRAW + ["singlecpu=false", "", "[legion]", "windowed=false"])
 
     def test_bad_mode_rejected(self):
         with self.assertRaises(ValueError):
@@ -368,7 +371,7 @@ class DdrawTests(TempDirTestCase):
         after = _lines(self.ini.read_bytes())
         self.assertEqual(len(before), len(after))  # all keys already present -> no appends
         changed = {before[i]: after[i] for i in range(len(before)) if before[i] != after[i]}
-        # width/height/fullscreen/boxing/renderer/nonexclusive/singlecpu/hook already match
+        # width/height/fullscreen/boxing/renderer/nonexclusive/singlecpu already match
         expected_changes = {
             "windowed=false": "windowed=true", "maintas=false": "maintas=true",
             "maxfps=-1": "maxfps=60", "vsync=false": "vsync=true",
@@ -782,7 +785,7 @@ class GuiTests(TempDirTestCase):
             game = _make_game(self.tmp)
             s = dict(ml.SETTINGS_DEFAULTS, game_dir=str(game), resolution=1,
                      display_mode="fullscreen", sprite="45", difficulty=2, music=33,
-                     advanced=True, dpi_fix=False, language="ko", window_scale="1.5")
+                     single_cpu=False, dpi_fix=False, language="ko", window_scale="1.5")
             app = ml.LauncherApp(root, s, persist=False, interactive=False)
             root.update_idletasks()
             self.assertEqual(root.title(), "MechCommander Gold 런처")

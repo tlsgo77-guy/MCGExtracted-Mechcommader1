@@ -44,7 +44,7 @@
 | 밝기·음악·무전·효과음 슬라이더 (UI 0~100) | `l Brightness` / `MusicVolume` / `RadioVolume` / `SFXVolume` (정수 그대로 기록) |
 | DirectDraw 래퍼 사용(cnc-ddraw) (기본 켬) | 게임 폴더에 `ddraw.dll`(+`Shaders\`)이 없으면 복사 |
 | DPI 보정(HIGHDPIAWARE) (기본 켬) | 레지스트리 호환성 레이어 |
-| 고급 cnc-ddraw 옵션 (기본 끔) | `ddraw.ini`에 `singlecpu=true`, `hook=4` 추가 |
+| 단일 CPU 고정 (기본 켬) | `ddraw.ini` `[ddraw]` `singlecpu=true` / `false` (게임을 CPU 코어 하나에 묶어 1999년식 타이밍 코드의 속도 튐·멈춤을 막음. cnc-ddraw 기본값과 같으며, 게임이 끊기거나 소리가 깨지면 꺼서 비교) |
 | 마우스 휠로 전장 줌 (기본 켬) | 파일을 바꾸지 않음. 게임이 떠 있는 동안 런처가 마우스 훅을 걸어 휠을 키패드 `+`/`−`로 바꿔 줌 (아래 "마우스 휠 줌" 참고) |
 
 버튼:
@@ -111,7 +111,7 @@ FITend
 | 테두리 없는 전체화면 | `windowed=true` `fullscreen=true` `maintas=true` `boxing=true` + 공통 키 |
 | 전체화면(독점) | `windowed=false` `fullscreen=true` `maintas=true` `boxing=false` + 공통 키 |
 | 공통 키(모든 모드) | `renderer=auto` `resolutions=2` `d3d9_filter=1` `nonexclusive=true` `vsync=true` `maxfps=60` |
-| + 고급 옵션 체크 시 | `singlecpu=true` `hook=4` (체크 해제 시에는 이 두 키를 건드리지 않음) |
+| + 단일 CPU 고정 | `singlecpu=true`(켬) / `singlecpu=false`(끔), 항상 기록 |
 
 공통 키는 2026-10-17에 Windows 11에서 MCX.EXE를 1280×1024로 실제 구동해 확인한 값입니다.
 `resolutions=2`는 전체 모드 목록을 노출해 1280×1024가 거부되지 않게 하고, `d3d9_filter=1`은
