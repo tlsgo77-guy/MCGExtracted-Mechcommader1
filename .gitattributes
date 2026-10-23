@@ -1,0 +1,2 @@
+# Game data must stay byte-identical on every clone: no line-ending conversion.
+game-source/** -text

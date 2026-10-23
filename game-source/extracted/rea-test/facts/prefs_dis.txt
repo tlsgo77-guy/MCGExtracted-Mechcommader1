@@ -1,0 +1,809 @@
+1590d0  push     ebp
+1590d1  mov      ebp, esp
+1590d3  sub      esp, 0x120
+1590d9  push     ebx
+1590da  push     esi
+1590db  push     edi
+1590dc  push     0x7a5d84  ; "QueryCancelAutoPlay"
+1590e1  call     dword ptr [0x77a2b8]
+1590e7  push     0x7a5d78  ; "system.cfg"
+1590ec  mov      dword ptr [0x80a878], eax
+1590f1  call     0x645360
+1590f6  mov      edi, dword ptr [0x77a250]
+1590fc  mov      ebx, dword ptr [0x77a29c]
+159102  add      esp, 4
+159105  test     eax, eax
+159107  je       0x75912c
+159109  push     1
+15910b  call     edi
+15910d  mov      ecx, dword ptr [0x7aae80]
+159113  push     0x30
+159115  push     0x7a5d60  ; "MechCommander Closing"
+15911a  push     0x7a5d2c  ; "MechCommander Expansion or Editor already running."
+15911f  call     0x6147c0
+159124  push     eax
+159125  call     ebx
+159127  call     0x758d50
+15912c  push     0x60
+15912e  call     0x6453a0
+159133  add      esp, 4
+159136  test     eax, eax
+159138  je       0x759145
+15913a  mov      ecx, eax
+15913c  call     0x649090
+159141  mov      esi, eax
+159143  jmp      0x759147
+159145  xor      esi, esi
+159147  mov      eax, dword ptr [esi]
+159149  push     0x32
+15914b  push     1
+15914d  push     0x7a5d78  ; "system.cfg"
+159152  mov      ecx, esi
+159154  call     dword ptr [eax + 4]
+159157  test     eax, eax
+159159  je       0x759185
+15915b  push     1
+15915d  call     edi
+15915f  mov      ecx, dword ptr [0x7aae80]
+159165  push     0x30
+159167  push     0x7a5d60  ; "MechCommander Closing"
+15916c  push     0x7a5d2c  ; "MechCommander Expansion or Editor already running."
+159171  call     0x6147c0
+159176  push     eax
+159177  call     ebx
+159179  call     0x758d50
+15917e  xor      ebx, ebx
+159180  jmp      0x75982e
+159185  push     0x7a5d20  ; "systemHeap"
+15918a  mov      ecx, esi
+15918c  call     0x649f70
+159191  xor      ebx, ebx
+159193  cmp      eax, ebx
+159195  je       0x75919f
+159197  push     ebx
+159198  push     0x7a5cf4  ; "Could not find systemHeap.  Using Defaults."
+15919d  jmp      0x759202
+15919f  push     0x789f84
+1591a4  push     0x7a5ce4  ; "systemHeapSize"
+1591a9  mov      ecx, esi
+1591ab  call     0x64a640
+1591b0  cmp      eax, ebx
+1591b2  je       0x7591c3
+1591b4  push     ebx
+1591b5  push     0x7a5cb4  ; "Could not find systemHeapSize.  Using Default."
+1591ba  push     eax
+1591bb  call     0x644180
+1591c0  add      esp, 0xc
+1591c3  push     0x789f88
+1591c8  push     0x7a5ca8  ; "guiHeapSize"
+1591cd  mov      ecx, esi
+1591cf  call     0x64a640
+1591d4  cmp      eax, ebx
+1591d6  je       0x7591e7
+1591d8  push     ebx
+1591d9  push     0x7a5c7c  ; "Could not find guiHeapSize.  Using Default."
+1591de  push     eax
+1591df  call     0x644180
+1591e4  add      esp, 0xc
+1591e7  push     0x797854
+1591ec  push     0x7a5c68  ; "logisticsHeapSize"
+1591f1  mov      ecx, esi
+1591f3  call     0x64a640
+1591f8  cmp      eax, ebx
+1591fa  je       0x75920b
+1591fc  push     ebx
+1591fd  push     0x7a5c34  ; "Could not find logisticsHeapSize.  Using Default."
+159202  push     eax
+159203  call     0x644180
+159208  add      esp, 0xc
+15920b  push     0x7a5c28  ; "UseSound"
+159210  mov      ecx, esi
+159212  call     0x649f70
+159217  neg      eax
+159219  sbb      eax, eax
+15921b  push     0x7a5c1c  ; "UseMusic"
+159220  inc      eax
+159221  mov      ecx, esi
+159223  mov      dword ptr [0x7a5460], eax
+159228  call     0x649f70
+15922d  test     eax, eax
+15922f  jne      0x75942e
+159235  mov      eax, dword ptr [0x7a5460]
+15923a  mov      dword ptr [0x7a2f10], 1
+159244  cmp      eax, ebx
+159246  jne      0x75924e
+159248  mov      dword ptr [0x7a2f10], ebx
+15924e  push     0x7a5c0c  ; "DebugGameSystem"
+159253  mov      ecx, esi
+159255  call     0x649f70
+15925a  test     eax, eax
+15925c  jne      0x759268
+15925e  mov      dword ptr [0x80a834], 1
+159268  push     0x7a5c08
+15926d  mov      ecx, esi
+15926f  call     0x649f70
+159274  test     eax, eax
+159276  je       0x759287
+159278  push     ebx
+159279  push     0x7a5be8  ; " Unable to find ABL settings. "
+15927e  push     ebx
+15927f  call     0x644180
+159284  add      esp, 0xc
+159287  push     0x7a5464
+15928c  push     0x7a5bd4  ; "SymbolTableHeapSize"
+159291  mov      ecx, esi
+159293  call     0x64a640
+159298  cmp      eax, ebx
+15929a  je       0x7592ab
+15929c  push     ebx
+15929d  push     0x7a5ba8  ; "Could not find ABL SymbolTableHeapSize. "
+1592a2  push     eax
+1592a3  call     0x644180
+1592a8  add      esp, 0xc
+1592ab  push     0x7a5468
+1592b0  push     0x7a5b98  ; "StackHeapSize"
+1592b5  mov      ecx, esi
+1592b7  call     0x64a640
+1592bc  cmp      eax, ebx
+1592be  je       0x7592cf
+1592c0  push     ebx
+1592c1  push     0x7a5b74  ; "Could not find ABL StackHeapSize. "
+1592c6  push     eax
+1592c7  call     0x644180
+1592cc  add      esp, 0xc
+1592cf  push     0x7a546c
+1592d4  push     0x7a5b64  ; "CodeHeapSize"
+1592d9  mov      ecx, esi
+1592db  call     0x64a640
+1592e0  cmp      eax, ebx
+1592e2  je       0x7592f3
+1592e4  push     ebx
+1592e5  push     0x7a5b40  ; "Could not find ABL CodeHeapSize. "
+1592ea  push     eax
+1592eb  call     0x644180
+1592f0  add      esp, 0xc
+1592f3  push     0x7a5470
+1592f8  push     0x7a5b2c  ; "RunTimeStackSize"
+1592fd  mov      ecx, esi
+1592ff  call     0x64a640
+159304  cmp      eax, ebx
+159306  je       0x759317
+159308  push     ebx
+159309  push     0x7a5b04  ; "Could not find ABL RunTimeStackSize. "
+15930e  push     eax
+15930f  call     0x644180
+159314  add      esp, 0xc
+159317  push     0x7a5474
+15931c  push     0x7a5af0  ; "MaxCodeBlockSize"
+159321  mov      ecx, esi
+159323  call     0x64a640
+159328  cmp      eax, ebx
+15932a  je       0x75933b
+15932c  push     ebx
+15932d  push     0x7a5ac8  ; "Could not find ABL MaxCodeBlockSize. "
+159332  push     eax
+159333  call     0x644180
+159338  add      esp, 0xc
+15933b  push     0x7a5478
+159340  push     0x7a5ab0  ; "MaxRegisteredModules"
+159345  mov      ecx, esi
+159347  call     0x64a640
+15934c  cmp      eax, ebx
+15934e  je       0x75935f
+159350  push     ebx
+159351  push     0x7a5a84  ; "Could not find ABL MaxRegisteredModules. "
+159356  push     eax
+159357  call     0x644180
+15935c  add      esp, 0xc
+15935f  push     0x7a547c
+159364  push     0x7a5a70  ; "MaxStaticVariables"
+159369  mov      ecx, esi
+15936b  call     0x64a640
+159370  cmp      eax, ebx
+159372  je       0x759383
+159374  push     ebx
+159375  push     0x7a5a48  ; "Could not find ABL MaxStaticVariables. "
+15937a  push     eax
+15937b  call     0x644180
+159380  add      esp, 0xc
+159383  push     0x80a844
+159388  push     0x7a5a34  ; "IncludeDebugInfo"
+15938d  mov      ecx, esi
+15938f  call     0x64a640
+159394  cmp      eax, ebx
+159396  je       0x7593a7
+159398  push     ebx
+159399  push     0x7a5a0c  ; "Could not find ABL IncludeDebugInfo. "
+15939e  push     eax
+15939f  call     0x644180
+1593a4  add      esp, 0xc
+1593a7  push     0x80a848
+1593ac  push     0x7a59fc  ; "DebuggerEnabled"
+1593b1  mov      ecx, esi
+1593b3  call     0x64a640
+1593b8  cmp      eax, ebx
+1593ba  je       0x7593cb
+1593bc  push     ebx
+1593bd  push     0x7a59d4  ; "Could not find ABL DebuggerEnabled. "
+1593c2  push     eax
+1593c3  call     0x644180
+1593c8  add      esp, 0xc
+1593cb  push     0x78b1a0
+1593d0  push     0x7a59c0  ; "MaxWatchesPerModule"
+1593d5  mov      ecx, esi
+1593d7  call     0x64a190
+1593dc  cmp      eax, ebx
+1593de  je       0x7593ef
+1593e0  push     ebx
+1593e1  push     0x7a5994  ; "Could not find ABL MaxWatchesPerModule. "
+1593e6  push     eax
+1593e7  call     0x644180
+1593ec  add      esp, 0xc
+1593ef  push     0x78b1a4
+1593f4  push     0x7a597c  ; "MaxBreakPointsPerModule"
+1593f9  mov      ecx, esi
+1593fb  call     0x64a190
+159400  cmp      eax, ebx
+159402  je       0x759413
+159404  push     ebx
+159405  push     0x7a594c  ; "Could not find ABL MaxBreakPointsPerModule. "
+15940a  push     eax
+15940b  call     0x644180
+159410  add      esp, 0xc
+159413  push     0x7a5940  ; "systemPaths"
+159418  mov      ecx, esi
+15941a  call     0x649f70
+15941f  cmp      eax, ebx
+159421  je       0x759439
+159423  push     ebx
+159424  push     0x7a5910  ; "Could not find systemPaths.  Using Defaults."
+159429  jmp      0x75976f
+15942e  mov      dword ptr [0x7a5460], ebx
+159434  jmp      0x759248
+159439  push     0x4f
+15943b  push     0x7aa828
+159440  push     0x7a5904  ; "savePath"
+159445  mov      ecx, esi
+159447  call     0x64aa30
+15944c  cmp      eax, ebx
+15944e  je       0x75945f
+159450  push     ebx
+159451  push     0x7a58e8  ; " Could not find save path "
+159456  push     eax
+159457  call     0x644180
+15945c  add      esp, 0xc
+15945f  push     0x7aa828
+159464  push     0x799084  ; "%stemp\"
+159469  push     0x79451c  ; "data\save\temp\"
+15946e  call     0x75f973
+159473  push     0x79451c  ; "data\save\temp\"
+159478  call     0x762764
+15947d  add      esp, 0x10
+159480  mov      ecx, esi
+159482  push     0x4f
+159484  push     0x7aa8d0
+159489  push     0x7a58dc  ; "terrainPath"
+15948e  call     0x64aa30
+159493  cmp      eax, ebx
+159495  je       0x7594a6
+159497  push     ebx
+159498  push     0x7a58bc  ; " Could not find terrain path "
+15949d  push     eax
+15949e  call     0x644180
+1594a3  add      esp, 0xc
+1594a6  push     0x4f
+1594a8  push     0x7aaf3c
+1594ad  push     0x7a58b0  ; "palettePath"
+1594b2  mov      ecx, esi
+1594b4  call     0x64aa30
+1594b9  cmp      eax, ebx
+1594bb  je       0x7594cc
+1594bd  push     ebx
+1594be  push     0x7a5890  ; " Could not find palette path "
+1594c3  push     eax
+1594c4  call     0x644180
+1594c9  add      esp, 0xc
+1594cc  push     0x4f
+1594ce  push     0x7ab080
+1594d3  push     0x7a5888  ; "artPath"
+1594d8  mov      ecx, esi
+1594da  call     0x64aa30
+1594df  cmp      eax, ebx
+1594e1  je       0x7594f2
+1594e3  push     ebx
+1594e4  push     0x7a586c  ; " Could not find art path "
+1594e9  push     eax
+1594ea  call     0x644180
+1594ef  add      esp, 0xc
+1594f2  push     0x4f
+1594f4  push     0x7aaeec
+1594f9  push     0x7a5860  ; "fontPath"
+1594fe  mov      ecx, esi
+159500  call     0x64aa30
+159505  cmp      eax, ebx
+159507  je       0x759518
+159509  push     ebx
+15950a  push     0x7a5844  ; " Could not find font path "
+15950f  push     eax
+159510  call     0x644180
+159515  add      esp, 0xc
+159518  push     0x4f
+15951a  push     0x7aafe0
+15951f  push     0x7a5838  ; "soundPath"
+159524  mov      ecx, esi
+159526  call     0x64aa30
+15952b  cmp      eax, ebx
+15952d  je       0x75953e
+15952f  push     ebx
+159530  push     0x7a581c  ; " Could not find sound path "
+159535  push     eax
+159536  call     0x644180
+15953b  add      esp, 0xc
+15953e  push     0x4f
+159540  push     0x7aada0
+159545  push     0x7a5810  ; "spritePath"
+15954a  mov      ecx, esi
+15954c  call     0x64aa30
+159551  cmp      eax, ebx
+159553  je       0x759564
+159555  push     ebx
+159556  push     0x7a57f0  ; " Could not find sprite path "
+15955b  push     eax
+15955c  call     0x644180
+159561  add      esp, 0xc
+159564  push     0x4f
+159566  push     0x7944cc  ; "data\sprites\"
+15956b  push     0x7a57e4  ; "shapesPath"
+159570  mov      ecx, esi
+159572  call     0x64aa30
+159577  cmp      eax, ebx
+159579  je       0x75958a
+15957b  push     ebx
+15957c  push     0x7a57c4  ; " Could not find shapes path "
+159581  push     eax
+159582  call     0x644180
+159587  add      esp, 0xc
+15958a  push     0x4f
+15958c  push     0x7942ec  ; "data\objects\"
+159591  push     0x7a57b8  ; "objectPath"
+159596  mov      ecx, esi
+159598  call     0x64aa30
+15959d  cmp      eax, ebx
+15959f  je       0x7595b0  ; "jOh<Cy"
+1595a1  push     ebx
+1595a2  push     0x7a5798  ; " Could not find object path "
+1595a7  push     eax
+1595a8  call     0x644180
+1595ad  add      esp, 0xc
+1595b0  push     0x4f
+1595b2  push     0x79433c  ; "data\missions\"
+1595b7  push     0x7a578c  ; "missionPath"
+1595bc  mov      ecx, esi
+1595be  call     0x64aa30
+1595c3  cmp      eax, ebx
+1595c5  je       0x7595d6
+1595c7  push     ebx
+1595c8  push     0x7a576c  ; " Could not find mission path "
+1595cd  push     eax
+1595ce  call     0x644180
+1595d3  add      esp, 0xc
+1595d6  push     0x4f
+1595d8  push     0x7aa924
+1595dd  push     0x7a5760  ; "warriorPath"
+1595e2  mov      ecx, esi
+1595e4  call     0x64aa30
+1595e9  cmp      eax, ebx
+1595eb  je       0x7595fc
+1595ed  push     ebx
+1595ee  push     0x7a5740  ; " Could not find warrior path "
+1595f3  push     eax
+1595f4  call     0x644180
+1595f9  add      esp, 0xc
+1595fc  push     0x4f
+1595fe  push     0x7aae88
+159603  push     0x7a5734  ; "profilePath"
+159608  mov      ecx, esi
+15960a  call     0x64aa30
+15960f  cmp      eax, ebx
+159611  je       0x759622
+159613  push     ebx
+159614  push     0x7a5714  ; " Could not find profile path "
+159619  push     eax
+15961a  call     0x644180
+15961f  add      esp, 0xc
+159622  push     0x4f
+159624  push     0x79438c  ; "data\cameras\"
+159629  push     0x7a5708  ; "cameraPath"
+15962e  mov      ecx, esi
+159630  call     0x64aa30
+159635  cmp      eax, ebx
+159637  je       0x759648
+159639  push     ebx
+15963a  push     0x7a56e8  ; " Could not find camera path "
+15963f  push     eax
+159640  call     0x644180
+159645  add      esp, 0xc
+159648  push     0x4f
+15964a  push     0x7943dc  ; "data\tiles\"
+15964f  push     0x7a56dc  ; "tilePath"
+159654  mov      ecx, esi
+159656  call     0x64aa30
+15965b  cmp      eax, ebx
+15965d  je       0x75966e  ; "jOh,Dy"
+15965f  push     ebx
+159660  push     0x7a56c0  ; " Could not find tile path "
+159665  push     eax
+159666  call     0x644180
+15966b  add      esp, 0xc
+15966e  push     0x4f
+159670  push     0x79442c  ; "data\tiles\"
+159675  push     0x7a56b4  ; "tile90Path"
+15967a  mov      ecx, esi
+15967c  call     0x64aa30
+159681  cmp      eax, ebx
+159683  je       0x759694
+159685  push     ebx
+159686  push     0x7a5694  ; " Could not find tile90 path "
+15968b  push     eax
+15968c  call     0x644180
+159691  add      esp, 0xc
+159694  push     0x4f
+159696  push     0x7aa7d4
+15969b  push     0x7a5684  ; "interfacePath"
+1596a0  mov      ecx, esi
+1596a2  call     0x64aa30
+1596a7  cmp      eax, ebx
+1596a9  je       0x7596ba  ; "jOh|Dy"
+1596ab  push     ebx
+1596ac  push     0x7a5664  ; " Could not find interface path "
+1596b1  push     eax
+1596b2  call     0x644180
+1596b7  add      esp, 0xc
+1596ba  push     0x4f
+1596bc  push     0x79447c  ; "data\movies\"
+1596c1  push     0x7a5658  ; "moviePath"
+1596c6  mov      ecx, esi
+1596c8  call     0x64aa30
+1596cd  cmp      eax, ebx
+1596cf  je       0x7596e0
+1596d1  push     ebx
+1596d2  push     0x7a563c  ; " Could not find movie path "
+1596d7  push     eax
+1596d8  call     0x644180
+1596dd  add      esp, 0xc
+1596e0  push     0x4f
+1596e2  push     0x7a54ac  ; "MechCmdr1.fit"
+1596e7  push     0x7a5630  ; "missionName"
+1596ec  mov      ecx, esi
+1596ee  call     0x64aa30
+1596f3  cmp      eax, ebx
+1596f5  je       0x759706
+1596f7  push     ebx
+1596f8  push     0x7a560c  ; " Could not find Mission File Name "
+1596fd  push     eax
+1596fe  call     0x644180
+159703  add      esp, 0xc
+159706  push     0x4f
+159708  push     0x7a9e80
+15970d  push     0x7a5600  ; "CDsoundPath"
+159712  mov      ecx, esi
+159714  call     0x64aa30
+159719  cmp      eax, ebx
+15971b  je       0x75972c
+15971d  push     ebx
+15971e  push     0x7a55e0  ; " Could not find CD sound path "
+159723  push     eax
+159724  call     0x644180
+159729  add      esp, 0xc
+15972c  push     0x4f
+15972e  push     0x7aa878
+159733  push     0x7a55d0  ; "CDspritePath"
+159738  mov      ecx, esi
+15973a  call     0x64aa30
+15973f  cmp      eax, ebx
+159741  je       0x759752
+159743  push     ebx
+159744  push     0x7a55b0  ; " Could not find CD sprite path "
+159749  push     eax
+15974a  call     0x644180
+15974f  add      esp, 0xc
+159752  push     0x4f
+159754  push     0x7946ac  ; "data\movies\"
+159759  push     0x7a55a4  ; "CDmoviePath"
+15975e  mov      ecx, esi
+159760  call     0x64aa30
+159765  cmp      eax, ebx
+159767  je       0x759778
+159769  push     ebx
+15976a  push     0x7a5584  ; " Could not find CD movie path "
+15976f  push     eax
+159770  call     0x644180
+159775  add      esp, 0xc
+159778  lea      ecx, [ebp - 0x120]
+15977e  push     ecx
+15977f  push     0x7a557c  ; "*.fst"
+159784  call     0x761d90
+159789  mov      edi, eax
+15978b  add      esp, 8
+15978e  cmp      edi, -1
+159791  je       0x7597b5
+159793  mov      edx, dword ptr [0x80a85c]
+159799  inc      edx
+15979a  mov      dword ptr [0x80a85c], edx
+1597a0  lea      edx, [ebp - 0x120]
+1597a6  push     edx
+1597a7  push     edi
+1597a8  call     0x761e5a
+1597ad  add      esp, 8
+1597b0  cmp      eax, -1
+1597b3  jne      0x759793
+1597b5  push     edi
+1597b6  call     0x761f1f
+1597bb  mov      eax, dword ptr [0x80a85c]
+1597c0  add      esp, 4
+1597c3  cmp      eax, ebx
+1597c5  je       0x759827
+1597c7  shl      eax, 2
+1597ca  push     eax
+1597cb  call     0x75f870
+1597d0  mov      ecx, dword ptr [0x80a85c]
+1597d6  mov      edi, eax
+1597d8  xor      eax, eax
+1597da  mov      dword ptr [0x80a854], edi
+1597e0  rep stosd dword ptr es:[edi], eax
+1597e2  lea      ecx, [ebp - 0x120]
+1597e8  push     ecx
+1597e9  push     0x7a557c  ; "*.fst"
+1597ee  call     0x761d90
+1597f3  mov      edi, eax
+1597f5  add      esp, 0xc
+1597f8  cmp      edi, -1
+1597fb  je       0x75981e
+1597fd  lea      edx, [ebp - 0x10c]
+159803  push     edx
+159804  call     0x644bd0
+159809  lea      eax, [ebp - 0x120]
+15980f  push     eax
+159810  push     edi
+159811  call     0x761e5a
+159816  add      esp, 0xc
+159819  cmp      eax, -1
+15981c  jne      0x7597fd
+15981e  push     edi
+15981f  call     0x761f1f
+159824  add      esp, 4
+159827  mov      edx, dword ptr [esi]
+159829  mov      ecx, esi
+15982b  call     dword ptr [edx + 0xc]
+15982e  cmp      esi, ebx
+159830  je       0x759842
+159832  mov      ecx, esi
+159834  call     0x6490d0
+159839  push     esi
+15983a  call     0x6453d0
+15983f  add      esp, 4
+159842  push     0x60
+159844  call     0x6453a0
+159849  add      esp, 4
+15984c  cmp      eax, ebx
+15984e  je       0x75985b
+159850  mov      ecx, eax
+159852  call     0x649090
+159857  mov      esi, eax
+159859  jmp      0x75985d
+15985b  xor      esi, esi
+15985d  mov      eax, dword ptr [esi]
+15985f  mov      edi, 1
+159864  push     0x32
+159866  push     edi
+159867  push     0x789638  ; "prefs.cfg"
+15986c  mov      ecx, esi
+15986e  call     dword ptr [eax + 4]
+159871  cmp      eax, ebx
+159873  je       0x759889
+159875  push     ebx
+159876  push     0x7a5560  ; "Could not open prefs.cfg."
+15987b  push     eax
+15987c  call     0x644180
+159881  add      esp, 0xc
+159884  jmp      0x759b00
+159889  push     0x79f080  ; "MechCommander"
+15988e  mov      ecx, esi
+159890  call     0x649f70
+159895  cmp      eax, ebx
+159897  je       0x7598ad
+159899  push     ebx
+15989a  push     0x7a553c  ; "Could not find MechCommander Prefs."
+15989f  push     eax
+1598a0  call     0x644180
+1598a5  add      esp, 0xc
+1598a8  jmp      0x759b00
+1598ad  mov      ecx, dword ptr [0x7aae80]
+1598b3  add      ecx, 0x4c8
+1598b9  push     ecx
+1598ba  push     0x79f070  ; "PaletteCycle"
+1598bf  mov      ecx, esi
+1598c1  call     0x64a2c0
+1598c6  test     eax, eax
+1598c8  mov      eax, dword ptr [0x7aae80]
+1598cd  je       0x7598d5
+1598cf  mov      dword ptr [eax + 0x4c8], ebx
+1598d5  add      eax, 0x7d0
+1598da  mov      ecx, esi
+1598dc  push     eax
+1598dd  push     0x7a5534  ; "Gamma"
+1598e2  call     0x64a190
+1598e7  test     eax, eax
+1598e9  je       0x7598f7
+1598eb  mov      edx, dword ptr [0x7aae80]
+1598f1  mov      dword ptr [edx + 0x7d0], ebx
+1598f7  push     0x7d8708
+1598fc  push     0x79bea8  ; "Use90Pixel"
+159901  mov      ecx, esi
+159903  call     0x64a2c0
+159908  test     eax, eax
+15990a  je       0x759912
+15990c  mov      dword ptr [0x7d8708], ebx
+159912  push     0x7d870c
+159917  push     0x79f054  ; "Force45Pixel"
+15991c  mov      ecx, esi
+15991e  call     0x64a2c0
+159923  test     eax, eax
+159925  je       0x759930
+159927  xor      eax, eax
+159929  mov      dword ptr [0x7d870c], eax
+15992e  jmp      0x759935
+159930  mov      eax, dword ptr [0x7d870c]
+159935  cmp      dword ptr [0x7d8708], ebx
+15993b  je       0x759947
+15993d  cmp      eax, ebx
+15993f  je       0x759951
+159941  mov      dword ptr [0x7d8708], ebx
+159947  cmp      eax, ebx
+159949  jne      0x759951
+15994b  mov      dword ptr [0x7d870c], edi
+159951  push     0x80a870
+159956  push     0x79f03c  ; "Force32Mb"
+15995b  mov      ecx, esi
+15995d  call     0x64a2c0
+159962  test     eax, eax
+159964  je       0x75996c
+159966  mov      dword ptr [0x80a870], ebx
+15996c  push     0x80a874
+159971  push     0x79f048  ; "Force16Mb"
+159976  mov      ecx, esi
+159978  call     0x64a2c0
+15997d  test     eax, eax
+15997f  je       0x759989
+159981  mov      dword ptr [0x80a874], ebx
+159987  jmp      0x75999f
+159989  cmp      dword ptr [0x80a874], ebx
+15998f  je       0x75999f
+159991  cmp      dword ptr [0x80a870], ebx
+159997  je       0x75999f
+159999  mov      dword ptr [0x80a870], ebx
+15999f  lea      eax, [ebp - 4]
+1599a2  mov      ecx, esi
+1599a4  push     eax
+1599a5  push     0x79f064  ; "DirectDraw"
+1599aa  mov      dword ptr [ebp - 4], ebx
+1599ad  call     0x64a2c0
+1599b2  test     eax, eax
+1599b4  je       0x7599bb
+1599b6  mov      dword ptr [ebp - 4], ebx
+1599b9  jmp      0x7599c8
+1599bb  mov      eax, dword ptr [ebp - 4]
+1599be  mov      dword ptr [0x7ab0e4], edi
+1599c4  cmp      eax, ebx
+1599c6  jne      0x7599ce
+1599c8  mov      dword ptr [0x7ab0e4], ebx
+1599ce  lea      ecx, [ebp - 8]
+1599d1  push     ecx
+1599d2  push     0x7a5528  ; "Resolution"
+1599d7  mov      ecx, esi
+1599d9  call     0x64a190
+1599de  test     eax, eax
+1599e0  jne      0x759a48
+1599e2  mov      eax, dword ptr [ebp - 8]
+1599e5  dec      eax
+1599e6  je       0x759a2e
+1599e8  dec      eax
+1599e9  je       0x759a0e
+1599eb  dec      eax
+1599ec  jne      0x759a48
+1599ee  mov      dword ptr [0x7ab1d8], 3
+1599f8  mov      dword ptr [0x7a9e70], 0x500
+159a02  mov      dword ptr [0x7aa920], 0x400
+159a0c  jmp      0x759a48
+159a0e  mov      dword ptr [0x7ab1d8], 2
+159a18  mov      dword ptr [0x7a9e70], 0x400
+159a22  mov      dword ptr [0x7aa920], 0x300
+159a2c  jmp      0x759a48
+159a2e  mov      dword ptr [0x7ab1d8], edi
+159a34  mov      dword ptr [0x7a9e70], 0x320
+159a3e  mov      dword ptr [0x7aa920], 0x258
+159a48  push     0x80a86c
+159a4d  push     0x79efa8  ; "Language"
+159a52  mov      ecx, esi
+159a54  call     0x64a190
+159a59  test     eax, eax
+159a5b  je       0x759a63
+159a5d  mov      dword ptr [0x80a86c], ebx
+159a63  push     0x7a5510
+159a68  push     0x79f030  ; "Difficulty"
+159a6d  mov      ecx, esi
+159a6f  call     0x64a190
+159a74  test     eax, eax
+159a76  je       0x759a7e
+159a78  mov      dword ptr [0x7a5510], edi
+159a7e  mov      edx, dword ptr [0x7aae80]
+159a84  mov      ecx, esi
+159a86  add      edx, 0x7d0
+159a8c  push     edx
+159a8d  push     0x79f024  ; "Brightness"
+159a92  call     0x64a190
+159a97  test     eax, eax
+159a99  je       0x759aa6
+159a9b  mov      eax, dword ptr [0x7aae80]
+159aa0  mov      dword ptr [eax + 0x7d0], ebx
+159aa6  push     0x7a548c
+159aab  push     0x79f018  ; "MusicVolume"
+159ab0  mov      ecx, esi
+159ab2  call     0x64a190
+159ab7  test     eax, eax
+159ab9  mov      edi, 0x40
+159abe  je       0x759ac6
+159ac0  mov      dword ptr [0x7a548c], edi
+159ac6  push     0x7a5490
+159acb  push     0x79f00c  ; "RadioVolume"
+159ad0  mov      ecx, esi
+159ad2  call     0x64a190
+159ad7  test     eax, eax
+159ad9  je       0x759ae1
+159adb  mov      dword ptr [0x7a5490], edi
+159ae1  push     0x7a5494
+159ae6  push     0x79f000  ; "SFXVolume"
+159aeb  mov      ecx, esi
+159aed  call     0x64a190
+159af2  test     eax, eax
+159af4  je       0x759b00
+159af6  mov      dword ptr [0x7a5494], 0x60
+159b00  mov      edx, dword ptr [esi]
+159b02  mov      ecx, esi
+159b04  call     dword ptr [edx + 0xc]
+159b07  cmp      esi, ebx
+159b09  je       0x759b1b
+159b0b  mov      ecx, esi
+159b0d  call     0x6490d0
+159b12  push     esi
+159b13  call     0x6453d0
+159b18  add      esp, 4
+159b1b  push     ebx
+159b1c  push     1
+159b1e  call     0x758da0
+159b23  add      esp, 8
+159b26  pop      edi
+159b27  pop      esi
+159b28  pop      ebx
+159b29  mov      esp, ebp
+159b2b  pop      ebp
+159b2c  ret      
+159b2d  nop      
+159b2e  nop      
+159b2f  nop      
+159b30  ret      
+159b31  nop      
+159b32  nop      
+159b33  nop      
+159b34  nop      
+159b35  nop      
+159b36  nop      
+159b37  nop      
+159b38  nop      
+159b39  nop      
+159b3a  nop      
+159b3b  nop      
+159b3c  nop      
+159b3d  nop      
+159b3e  nop      
+159b3f  nop      

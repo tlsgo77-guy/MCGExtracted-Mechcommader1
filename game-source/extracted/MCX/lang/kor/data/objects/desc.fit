@@ -1,0 +1,670 @@
+FITini
+//IS COMPONENTS
+
+[Desc13]		//SENSOR (BASIC)
+st DescString = "IS 센서는 약 350미터 이내에서 가동 중인 적 유닛을 탐지한다. 엘리멘탈이나 전원이 차단된 메크는 탐지하지 못한다.%n적재값:%fc8  0.0" 
+
+[Desc14]		//SENSOR (INTERMEDIATE)
+st DescString = "IS 중급형 센서는 약 440미터 이내에서 가동 중인 적 유닛을 탐지한다. 엘리멘탈이나 전원이 차단된 메크는 탐지하지 못한다. %n적재값:%fc8  0.5"
+
+[Desc15]		//SENSOR (ADVANCED)
+st DescString = "IS 고급형 센서는 약 525미터 이내에서 가동 중인 적 유닛을 탐지한다. 엘리멘탈이나 전원이 차단된 메크는 탐지하지 못한다. *레이븐 또는 클랜 경량급 메크 전용.*  적재값:%fc8  1.0"
+
+[Desc37]		//BEAGLE ACTIVE PROBE
+st DescString = "IS 비글 액티브 프로브를 달면 모든 아군 유닛이 각자의 센서 범위 안에서 전원이 차단된 메크를 탐지할 수 있다. *레이븐 또는 클랜 경량급 메크 전용.*%n적재값:%fc8  1.5"
+
+[Desc38]		//GUARDIAN ECM SUITE
+st DescString = "IS 가디언 ECM 장비는 접촉한 적 센서의 탐지 거리를 절반으로 줄인다. *레이븐 또는 클랜 경량급 메크 전용.*  %n적재값:%fc8  1.5"
+
+[Desc98]		//RAIL GUN (SL)
+st DescString = "잃어버린 기술을 쓰는 스타 리그 시대의 유물인 레일건은 거대한 금속 탄체를 전자기력으로 쏘아 보낸다. 탄약이 제한적이다. (15발) 적재값:%fc8  30.0"
+
+[Desc99]		//LIGHT GAUSS RIFLE (IS)
+st DescString = "이너 스피어의 새로운 설계로, 더 작은 탄체를 장거리까지 쏘아 보낸다. 탄약이 제한적이다. (50발)%n적재값:%fc8  13.5"
+
+[Desc100]		//LIGHT AUTOCANNON
+st DescString = "AC/5라고도 불리는 IS 경오토캐논은 장거리에서 빠르게 연사하지만 그 대가로 피해가 적다. 탄약이 제한적이다. (100발)  적재값:%fc8  9.5"
+
+[Desc101]		//AUTOCANNON
+st DescString = "IS 오토캐논은 중거리에서 고폭탄을 연달아 퍼붓는 속사 무기이다. 탄약이 제한적이다. (40발)%n적재값:%fc8 15.5"
+
+[Desc102]		//HEAVY AUTOCANNON
+st DescString = "일명 AC/20인 이 IS 오토캐논은 한 번의 일제 사격으로 막대한 피해를 입히는 단거리 무기이다. 탄약이 매우 제한적이다. (13발)  적재값:%fc8 19.5"
+
+[Desc103]		//LIGHT ULTRA AUTOCANNON
+st DescString = "IS 경울트라 오토캐논은 일반 경오토캐논보다 연사 속도가 빠르다. 탄약이 제한적이다. (112발)%n적재값:%fc8 11.0"
+
+[Desc104]		//GAUSS RIFLE
+st DescString = "IS 가우스 라이플은 단단한 탄체를 초음속으로 쏘아 장거리에서 큰 피해를 입힌다. 탄약이 극히 제한적이다. (16발)  적재값:%fc8 16.5" 
+
+[Desc105]		//MACHINE GUN
+st DescString = "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+
+[Desc106]		//ANTI MISSILE SYSTEM
+st DescString = "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+
+[Desc107]		//LIGHT LBX AUTOCANNON (IS)
+st DescString = "LB-X 오토캐논의 경량형으로, 산탄총처럼 퍼지는 더 작은 탄을 장거리까지 쏜다. 탄약이 넉넉하다. (260발) %n적재값:%fc8  9.5"
+
+[Desc108]		//LBX AUTOCANNON (IS)
+st DescString = "산탄총 같은 LB-X 오토캐논은 분열탄을 쏘아 여러 장갑 부위를 동시에 타격할 수 있다. 탄약이 제한적이다. (90발)  적재값:%fc8  14.5"
+
+[Desc109]		//HEAVY LBX AUTOCANNON (IS)
+st DescString = "이 오토캐논은 여러 장갑 부위를 동시에 타격할 수 있는 거대한 단거리 산탄을 쏜다. 탄약이 제한적이다. (35발) 적재값:%fc8  19.5"
+
+[Desc120]		//LONG-RANGE MISSILES RACK
+st DescString = "IS LRM 랙은 벽, 건물 등 지형지물 너머로 미사일을 날려 장거리 목표를 공격할 수 있다. 탄약이 제한적이다. (24발)%n적재값:%fc8  4.0"
+
+[Desc121]		//LONG-RANGE MISSILES/15
+st DescString = "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+
+[Desc122]		//LONG-RANGE MISSILES/20
+st DescString = "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+
+[Desc123]		//SHORT-RANGE MISSILES PACK
+st DescString = "IS SRM 팩은 단거리 미사일을 쏘며, LRM처럼 장애물 너머로도 공격할 수 있다. 탄약이 제한적이다. (62발)%n적재값:%fc8  3.0" 
+
+[Desc124]		//SHORT-RANGE MISSILES/6
+st DescString = "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+
+[Desc125]		//STREAK SHORT-RANGE MISSILES Pack
+st DescString = "IS 스트릭 SRM 발사기는 명중이 확실할 때만 미사일을 쏜다. 이 미사일도 장애물 너머로 공격할 수 있다. 탄약이 제한적이다. (62발)  적재값:%fc8  5.0" 
+
+[Desc139]		//LARGE X PULSE LASER (IS)
+st DescString = "이 속사형 에너지 무기는 구할 수 있는 부품 중 재장전 속도가 가장 빠르며, 장거리 목표도 타격할 수 있다.%n적재값:%fc8  13.0"
+
+[Desc140]		//LARGE LASER
+st DescString = "일반 IS 레이저보다 묵직한 대형 레이저는 재장전 시간은 같으면서 중거리에서 더 강력한 타격을 가한다.%n적재값:%fc8  9.5"
+
+[Desc141]		//LARGE ER LASER
+st DescString = "대형 레이저의 IS 확장 사거리형으로, 파괴력을 장거리까지 투사한다. 일반 IS 대형 레이저보다 무겁다.  적재값:%fc8 11.0"
+
+[Desc142]		//LARGE PULSE LASER
+st DescString = "펄스형은 일반 IS 대형 레이저보다 두 배 자주 발사하지만 더 무겁다.%n적재값:%fc8 12.0"
+
+[Desc143]		//LASER
+st DescString = "IS 레이저는 가벼운 단거리 무기이다. 에너지 무기이므로 탄약이 떨어질 일이 없다.%n적재값:%fc8  4.0" 
+
+[Desc144]		//PULSE LASER
+st DescString = "펄스 레이저는 일반 IS 레이저의 두 배가 넘는 발사 속도로 고에너지 빔을 여러 줄기 쏘지만, 더 무겁다.  %n적재값:%fc8  6.0"
+
+[Desc145]		//PARTICLE PROJECTOR CANNON
+st DescString = "고에너지 입자탄을 쏘는 중거리 IS 입자 투사포는 배틀메크가 쓸 수 있는 가장 효과적인 무기 중 하나이다.  적재값:%fc8 12.0"
+
+[Desc146]		//ER PARTICLE PROJECTOR CANNON
+st DescString = "PPC의 값진 개량형인 확장 사거리 IS PPC는 치명적인 에너지탄을 장거리까지 쏜다.%n적재값:%fc8 15.5"
+
+[Desc147]		//HEAVY FLAMER
+st DescString = "IS 중화염방사기는 초고온 플라스마를 내뿜는 효과적인 단거리 무기이다.%n적재값:%fc8  8.0"
+
+[Desc160]		//LONG TOM (IS)
+st DescString = "롱 톰 포탄은 목표에 8포인트의 피해를 주고, 폭발 반경 안의 모든 대상에게 8포인트의 피해를 더 준다. 탄약이 제한적이다. (25발)  적재값:%fc8  34.0"
+
+[Desc161]		//SNIPER CANNON (IS)
+st DescString = "포신이 짧은 이 메크 탑재형 중거리 야포는 범위 효과를 내는 폭발 탄두를 쏘며, 탄약이 제한적이다. (64발)  적재값:%fc8  17.0"
+
+//CLAN COMPONENTS
+
+[Desc16]		//SENSOR (STANDARD)
+st DescString = "클랜 표준형 센서는 IS 기본형 센서보다 조금 더 먼 거리에서 가동 중인 적 유닛을 탐지한다. 엘리멘탈이나 전원이 차단된 메크는 탐지하지 못한다.  적재값:%fc8  0.0" 
+
+[Desc17]		//SENSOR (EXTENDED)
+st DescString = "클랜 확장형 센서는 가동 중인 적 유닛을 탐지하며, 탐지 거리는 IS 고급형 센서보다 조금 짧다. 엘리멘탈이나 전원이 차단된 메크는 탐지하지 못한다.  적재값:%fc8  0.5" 
+
+[Desc42]		//ECM SUITE
+st DescString = "클랜 ECM 장비는 접촉한 적 센서의 효율을 절반 넘게 떨어뜨린다. *레이븐 또는 클랜 경량급 메크 전용.*%n적재값:%fc8  1.0"
+
+[Desc43]		//ACTIVE PROBE
+st DescString = "클랜 액티브 프로브를 달면 모든 아군 유닛이 각자의 센서 범위 안에서 전원이 차단된 메크를 탐지할 수 있다. *레이븐 또는 클랜 경량급 메크 전용.*%n적재값:%fc8  1.0"
+
+[Desc110]		//LIGHT ULTRA AUTOCANNON
+st DescString = "클랜 경울트라 오토캐논은 이너 스피어판과 같은 빠른 연사 속도를 갖추었지만 더 가볍다. 탄약이 제한적이다. (112발)  적재값:%fc8  8.5"
+
+[Desc111]		//ULTRA AUTOCANNON
+st DescString = "클랜 울트라 오토캐논은 이너 스피어 오토캐논보다 연사 속도가 빠르고 더 가볍다. 탄약이 제한적이다. (30발)%n적재값:%fc8 13.5"
+
+[Desc112]		//HEAVY ULTRA AUTOCANNON
+st DescString = "클랜 중울트라 오토캐논은 이너 스피어 중오토캐논보다 연사 속도가 빠르고 더 가볍다. 탄약이 매우 제한적이다. (10발)  적재값:%fc8 17.5"
+
+[Desc113]		//GAUSS RIFLE
+st DescString = "클랜 가우스 라이플은 장거리에서 이너 스피어판과 같은 피해를 주지만 더 가볍다. 탄약이 매우 제한적이다. (16발)  적재값:%fc8 13.5"
+
+[Desc114]		//MACHINE GUN
+st DescString = "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+
+[Desc115]		//ANTI MISSILE SYSTEM
+st DescString = "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+
+[Desc116]		//LIGHT LBX AUTOCANNON
+st DescString = "경 LB-X 오토캐논의 클랜판으로, 사거리와 피해는 같지만 더 가볍다. 탄약이 제한적이다. (260발)  적재값:%fc8  8.5"
+
+[Desc117]		//LBX AUTOCANNON  
+st DescString = "산탄총 같은 클랜 LB-X 오토캐논은 여러 장갑 부위를 타격할 수 있는 탄을 쏘며, IS판보다 가볍다. 탄약이 제한적이다. (90발)  적재값:%fc8  13.5"
+
+[Desc118]		//HEAVY LBX AUTOCANNON
+st DescString = "클랜 중 LB-X 오토캐논은 IS판과 같은 단거리 산탄을 쏘지만 더 가볍다. 탄약이 제한적이다. (35발)  적재값:%fc8  17.5"
+
+[Desc126]		//HEAVY THUNDERBOLT
+st DescString = "이 발사기는 메크를 무력화하는 중거리 미사일 한 발을 장애물 너머로 쏜다.  50m 이내의 목표에는 신관이 작동하지 않는다. 탄약이 제한적이다. (32발)  적재값:%fc8  21.0"
+
+[Desc130]		//LONG-RANGE MISSILES/5
+st DescString = "클랜 LRM 랙은 이너 스피어판과 같은 수의 장거리 미사일을 같은 속도로 쏘지만 더 가볍다. 탄약이 제한적이다. (24발)  적재값:%fc8  3.0"
+
+[Desc131]		//LONG-RANGE MISSILES/15
+st DescString = "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+
+[Desc132]		//LONG-RANGE MISSILES/20
+st DescString = "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+
+[Desc133]		//SHORT-RANGE MISSILES/2
+st DescString = "클랜 SRM은 이너 스피어판보다 조금 더 빠른 속도로 미사일을 쏘며 더 가볍다. 탄약이 제한적이다. (83발)%n적재값:%fc8  3.0" 
+
+[Desc134]		//SHORT-RANGE MISSILES/6
+st DescString = "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+
+[Desc135]		//STREAK SHORT-RANGE MISSILES/2
+st DescString = "클랜 스트릭 SRM 팩 발사기는 명중이 확실할 때만 단거리 미사일을 쏜다. IS판보다 가볍고 탄약이 제한적이다. (83발)  적재값:%fc8  4.75" 
+
+[Desc136]		//STREAK SHORT-RANGE MISSILES/6
+st DescString = "이 부품에 대한 설명이 아직 준비되지 않았습니다."
+
+[Desc150]		//LARGE ER LASER
+st DescString = "클랜 확장 사거리 대형 레이저는 장거리까지 피해를 준다. 이너 스피어판보다 조금 가볍지만 위력은 더 세다.%n적재값:%fc8 10.0"
+
+[Desc151]		//LARGE PULSE LASER
+st DescString = "클랜 펄스형은 IS 대형 펄스 레이저와 같은 빠른 속도로 발사하지만 더 가볍다.%n적재값:%fc8 11.0"
+ 
+[Desc152]		//ER LASER
+st DescString = "클랜 확장 사거리 레이저는 일반 레이저와 같지만, 중거리까지 효과적이며 더 가볍다.%n적재값:%fc8  3.5"
+
+[Desc153]		//PULSE LASER
+st DescString = "클랜 펄스 레이저는 IS판과 같은 속도로 발사하지만 더 가볍다.%n적재값:%fc8  4.0"
+
+[Desc154]		//ER PARTICLE PROJECTOR CANNON
+st DescString = "ER PPC의 클랜판으로, 이너 스피어판보다 가볍고 피해가 더 크다.%n적재값:%fc8 13.5"
+
+[Desc155]		//HEAVY FLAMER
+st DescString = "클랜 중화염방사기는 이너 스피어판보다 조금 더 자주 발사하며 더 가볍다.%n적재값:%fc8  7.0"
+
+//Pilots
+[Desc301]	//beast
+st DescString = "밴딧 킹덤 출신의 고아이자 난민인 비스트는 신병 훈련소에서 손꼽히는 사수였지만, 포커 실력은 최악이었다."
+
+[Desc302]	//hawk
+st DescString = "호크는 먹잇감을 덮치듯 날아들어 숨통을 끊는 실력과, 사소한 접전도 대서사시 같은 전투로 들리게 만드는 입담을 자랑으로 여긴다."
+
+[Desc303]	//Siren
+st DescString = "스스로 이름을 지은 명사수 사이렌은 포커 판에서 비스트의 급료를 가장 자주 챙겨 가는 사람이다."
+
+[Desc304]	//Rooster
+st DescString = "라이란 연방의 외진 행성에서 나고 자란 루스터는 아무리 좁은 지형에서도 메크를 몰고 빠져나갈 수 있다."
+
+[Desc305]	//Isis
+st DescString = "포화 속에서도 침착한 아이시스는 훈련 중 전장 인식 능력에서 높은 점수를 받았다."
+
+[Desc306]	//Gunman
+st DescString = "건맨은 이름값 하기를 즐긴다. 알파 스트라이크를 할 때 가장 행복해한다."
+
+[Desc307]	//Mystique
+st DescString = "미스틱은 자신의 과거를 말하지 않지만, 메크를 거의 날게 만드는 그녀의 실력은 누구도 의심하지 않는다." 
+
+[Desc308]	//Skater
+st DescString = "훈련생 중 스케이터의 메크 조종 실력을 따라올 사람은 거의 없었지만, 그의 유머 감각을 알아주는 사람은 그보다 훨씬 적었다." 
+
+[Desc309]	//Spice
+st DescString = "스파이스는 뛰어난 운동 능력으로 가장 다루기 힘든 메크(와 메크워리어)도 힘으로 휘어잡는다." 
+
+[Desc310]	//Baron
+st DescString = "다비온 통치 가문과 먼 혈연 관계인 배런과 그의 누나 카운티스는 재규어와 싸우는 것을 자신들의 의무이자 명예이며 권리라고 여긴다."
+
+[Desc311]	//Fiend
+st DescString = "이름에 속지 마라. 핀드는 전혀 악마 같은 사람이 아니다. 필요하다면 적당한 이자로 돈도 빌려준다." 
+
+[Desc312]	//Ronin
+st DescString = "쿠리타 가문의 먼 후손인 로닌은 반격 소문이 처음 돌았을 때 다비온 근위대로 전속되려고 무던히 애썼다."
+
+[Desc313]	//Gator
+st DescString = "한낮에 곧잘 낮잠을 자는 게이터지만, 마지막 필사의 한 발을 반드시 맞혀야 할 때는 그가 꼭 필요하다." 
+
+[Desc314]	//Rebel
+st DescString = "스타이너 충성파인 레블은 그 칭호와 기동 훈련 표창을 자랑스럽게 내세운다." 
+
+[Desc315]	//Hunter
+st DescString = "잘 지은 호출부호답게 헌터는 누구보다 능숙하게 움직이며 사격한다."
+
+[Desc316]	//Lynx
+st DescString = "교활하고 약삭빠른 링크스는 가서는 안 될 곳으로 메크를 점프시킬 기회를 반긴다. 다행히 그에게는 스스로 목숨을 건질 만한 사격 실력이 있다."
+
+[Desc317]	//Hitman
+st DescString = "명사수이며 센서도 꽤 잘 다루는 히트맨은 스모크 재규어에게 그들의 죄를 갚아 줄 기회를 반긴다."
+
+[Desc318]	//Countess
+st DescString = "남동생 배런처럼 카운티스도 자신을 잃어버린 다비온의 영광을 되찾을 운명을 타고난 고귀한 엘리트 중 하나로 여긴다."
+
+[Desc319]	//Scarab
+st DescString = "기계광인 스캐럽은 자기 메크의 센서와 조준 보조 전자 장비를 타 버리기 직전까지 개조해 두었다."
+
+[Desc320]	//Outlaw
+st DescString = "아웃로는 다비온군에 말단 보병으로 입대했지만, 운과 적지 않은 재능 덕분에 최정예와 나란히 메크를 몰 자격을 얻었다."
+
+[Desc321]	//Falcon
+st DescString = "팰컨의 가문은 다비온군에서 큰 영향력을 지니지만, 그녀는 다른 누구와도 똑같이 대우받기 위해 끊임없이 싸운다."
+
+[Desc322]	//Burnout
+st DescString = "격추당하는 데 지친 번아웃은 항공우주군에서 진짜 전투가 벌어지는 곳으로 전속했다. 지금까지는 실망한 적이 없다."
+
+[Desc323]	//Goblin
+st DescString = "고블린은 마주치는 스모크 재규어마다 모든 클랜이 저지른 죄의 대가를 치르게 할 각오가 되어 있다. 다행히 그에게는 그럴 만한 실력이 있다."
+
+[Desc324]	//Mantis
+st DescString = "맨티스는 첫 침공 때 클랜과 싸웠으며, 다시는 그들에게 지지 않겠다고 맹세했다."
+
+[Desc325]	//Dragon
+st DescString = "공공연한 쿠리타 애호가인 드래곤은 클랜의 전술을 연구해 왔으며, 그들에게 싸움을 걸 준비가 충분히 되어 있다."
+
+[Desc326]	//Blaze
+st DescString = "요즘은 많이 누그러졌지만, 블레이즈는 무엇이든 최고만 요구하기로 악명이 높다. 하지만 사실 그녀는 그럴 자격이 있다."
+
+[Desc327]	//Thunder
+st DescString = "다비온의 베테랑인 선더는 재규어와 싸울 기회를 얻으려고 원래 부대의 지휘관 자리를 떠나 전속했다."
+
+[Desc328]	//Paingod
+st DescString = "이너 스피어군 사이에서 전설에 가까운 페인갓의 목표는 노획한 클랜 옴니메크를 몰고 클랜과 싸우는 것이다."
+
+[Desc329]	//Firestorm
+st DescString = "그에게 강습급 배틀메크의 조종간을 맡겨 보면 그의 호출부호가 왜 파이어스톰인지 알게 될 것이다."
+
+[Desc330]	//Vixen
+st DescString = "빅슨은 다비온 근위대의 거의 누구보다도 많은 전투를 치렀지만, 단 한 번도 조종석 낙하산을 펼쳐 본 적이 없다." 
+
+[Desc331]	// Apollo 
+st DescString = "Apollo 
+works hard at being the consummate MechWarrior. He spends more time retraining and reviewing cockpit films than any other pilot."
+ 
+[Desc332]	// Boomer
+st DescString = "고립된 페리페리 행성에서 자란 부머의 사투리는 알아듣기 어렵다는 말로도 부족하다. 다행히 그는 할 말의 대부분을 메크에게 맡긴다."
+
+[Desc333]	// Detox
+st DescString = "이 메크워리어는 막사에서 찾을 수 없다- 디톡스에게는 메크가 집이다. 안타깝게도 그 때문에 청소반은 위험 수당을 받는다..."
+
+[Desc334]	// Ghost
+st DescString = "수십 톤의 강철에 둘러싸여 있지 않을 때는 조용하고 냉담한 고스트도 전장에서는 생기가 넘친다. 하지만 그때조차 부대에서 손꼽히게 말수가 적다."
+
+[Desc335]	// Jinx
+st DescString = "그녀의 별명은 동료들에게 미치는 영향이 아니라, 그녀가 있을 때마다 적에게 닥치는 듯한 불운에서 나왔다."
+
+[Desc336]	// Needle
+st DescString = "군인 가정에서 자란 니들은 군대 생활밖에 모른다. 하지만 형제들과 달리 진급할 생각은 전혀 없다. 그녀는 최전선을 더 좋아한다."
+
+[Desc337]	// Pyro
+st DescString = "파이로가 그런 이름을 얻은 이유는 쉽게 짐작할 수 있을 것이다. 하지만 그 집착 뒤에는 예리한 군사적 두뇌와 노련한 전사의 면모가 숨어 있다."
+
+[Desc338]	// Sponge
+st DescString = "스펀지가 가진 것은 모두 누군가에게 얻거나 빌리거나 훔친 것이다. 믿기 어렵겠지만 그의 호출부호조차 울프 용기병대의 누군가에게서 슬쩍한 것이다."
+
+[Desc339]	// Squid
+st DescString = "스퀴드의 호출부호는 신참 메크워리어 시절의 잔재이다. 이제 더는 풋내기가 아닌 스퀴드는 클랜을 상대로 자신의 기량을 시험해 보기를 고대한다."
+
+[Desc340]	// Toad
+st DescString = "베테랑 토드는 조종석 안보다 밖에서 더 심술궂다. 그래서 상관들은 가능할 때마다 그에게 초계 임무를 맡기려 한다."
+
+[Desc341]	// Vandal
+st DescString = "많은 이들이 밴덜이 지금껏 살아 있는 것을 놀라워한다. 전장에 감수할 위험이 있다면 그는 그곳으로 돌진한다."
+
+[Desc342]	// Wasp
+st DescString = "와스프는 정찰 임무를 좋아하며, 메크는 가볍고 빠를수록 좋아한다. 다행히 질주하는 25톤짜리 쇳덩이를 그녀만큼 잘 모는 사람은 드물다."
+
+[Desc343]	// Spice
+st DescString = "숱한 전투를 겪은 스파이스는 힘만이 늘 답은 아니며, 때로는 신중하고 정밀한 손길이 승리를 가져온다는 것을 배웠다." 
+
+[Desc344]	// Baron
+st DescString = "스모크 재규어를 상대로 세운 공적이 고향 행성의 뉴스 영상에 방송되면서, 배런은 그 어느 때보다도 더 봐주기 힘든 사람이 되었다." 
+
+[Desc345]	// Fiend
+st DescString = "예비 부품 시장에 눈을 뜬 핀드는 자신이 격파한 적 메크에서 회수한 장비 목록에 개인적인 관심을 쏟고 있다." 
+
+[Desc346]	// Ronin
+st DescString = "스모크 재규어를 상대로 승리를 거두고 있음에도, 로닌은 드라코니스 연맹의 삶과 문화를 점점 더 그리워하고 있다." 
+
+[Desc347]	// Gator
+st DescString = "부대원 일부는 가장 필요한 순간에 어려운 사격을 성공시키는 게이터의 실력을 인정해 그의 이름을 트릭샷으로 바꾸자고 한다."
+
+[Desc348]	// Rebel
+st DescString = "골수 다비온 부대에서 지내면서 레블의 스타이너 애국심은 다소 무뎌졌지만, 아직도 이따금 주먹다짐을 일으킬 만큼은 강하다...  " 
+
+[Desc349]	// Hitman
+st DescString = "히트맨은 스모크 재규어를 짓밟는 데 힘을 보태며 무척 즐거워하고 있다. 안타깝게도 일부 동료들은 그것이 집착이 되어 가는 것은 아닌지 걱정한다." 
+
+[Desc350]	// Burnout
+st DescString = "번아웃은 항공우주기를 몰던 때보다 메크 조종을 더 즐기지만, 이제는 높은 곳에서 싸움을 내려다보는 것의 가치도 알게 되었다."
+
+ //Mechs
+[Desc400]	//ATLAS-A
+st DescString = "아틀라스는 IS 최고의 강습급 메크이다. 두려워하라. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc401]	//ATLAS-W
+st DescString = "아틀라스는 IS 최고의 강습급 메크이다. 두려워하라. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc402]	//ATLAS-J
+st DescString = "아틀라스는 IS 최고의 강습급 메크이다. 두려워하라. 이 희귀한 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc403]	//AWESOME-A
+st DescString = "오섬 강습급 메크는 공격의 선봉에 서서 막대한 피해를 받아 내도록 설계되었다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc404]	//AWESOME-W
+st DescString = "오섬 강습급 메크는 공격의 선봉에 서서 막대한 피해를 받아 내도록 설계되었다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc405]	//AWESOME-J
+st DescString = "오섬 강습급 메크는 공격의 선봉에 서도록 설계되었다. 이 희귀한 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc406]	//CATAPULT-A
+st DescString = "캐터펄트는 견고한 장갑을 두른 후방 화력 지원 메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc407]	//CATAPULT-W
+st DescString = "캐터펄트는 견고한 장갑을 두른 후방 화력 지원 메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc408]	//CATAPULT-J
+st DescString = "캐터펄트는 견고한 장갑을 두른 후방 화력 지원 메크이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc409]	//COMMANDO-A
+st DescString = "코만도는 흔히 한 기나 두 기씩 파견되어 전방을 정찰하거나 적의 움직임을 감시한다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc410]	//COMMANDO-W
+st DescString = "코만도는 흔히 한 기나 두 기씩 파견되어 전방을 정찰하거나 적의 움직임을 감시한다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc411]	//COMMANDO-J
+st DescString = "코만도는 흔히 한 기나 두 기씩 파견되어 전방을 정찰하거나 적의 움직임을 감시한다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc412]	//COUGAR-A
+st DescString = "이 클랜 경량급 메크는 효과적인 중무장 정찰기 또는 고속 공격용 최전선 전투 유닛이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc413]	//COUGAR-W
+st DescString = "이 클랜 경량급 메크는 효과적인 중무장 정찰기 또는 고속 공격용 최전선 전투 유닛이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc414]	//COUGAR-J
+st DescString = "이 클랜 경량급 메크는 효과적인 중무장 정찰기 또는 고속 공격용 최전선 전투 유닛이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc415]	//FIRESTARTER-A
+st DescString = "이 메크는 시가전용으로 제작되었으며 효과적인 단거리 무장을 갖추었다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc416]	//FIRESTARTER-W
+st DescString = "이 메크는 시가전용으로 제작되었으며 중거리와 단거리 무장을 섞어 갖추었다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc417]	//FIRESTARTER-J
+st DescString = "이 메크는 시가전용으로 제작되었으며 효과적인 단거리 무장을 갖추었다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc418]	//HOLLANDER-A
+st DescString = "홀랜더 II는 가우스 라이플 덕분에 단기전에 효과적인 경량급 화력 지원 메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc419]	//HOLLANDER-W
+st DescString = "홀랜더 II는 가우스 라이플 덕분에 단기전에 효과적인 경량급 화력 지원 메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc420]	//HOLLANDER-J
+st DescString = "홀랜더 II는 가우스 라이플 덕분에 단기전에 효과적인 경량급 화력 지원 메크이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc421]	//HUNCHBACK-A
+st DescString = "헌치백은 시가전에서 발휘하는 파괴적인 단거리 타격력으로 유명하다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc422]	//HUNCHBACK-W
+st DescString = "헌치백은 시가전에서 발휘하는 파괴적인 단거리 타격력으로 유명하다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc423]	//HUNCHBACK-J
+st DescString = "헌치백은 시가전에서 발휘하는 파괴적인 단거리 타격력으로 유명하다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc424]	//HUNCHBACK IIC-A 
+st DescString = "헌치백의 클랜판은 파괴적인 근접 공격 메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc425]	//HUNCHBACK IIC-W
+st DescString = "헌치백의 클랜판은 파괴적인 근접 공격 메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc426]	//HUNCHBACK IIC-J
+st DescString = "헌치백의 클랜판은 파괴적인 근접 공격 메크이다. 이 희귀한 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc427]	//JAGERMECH-A
+st DescString = "예거메크는 같은 체급의 메크 대부분과 대등하게 맞설 수 있는 장거리 화력 지원 메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc428]	//JAGERMECH-W
+st DescString = "예거메크는 같은 체급의 메크 대부분과 대등하게 맞설 수 있는 장거리 화력 지원 메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc429]	//JAGERMECH-J
+st DescString = "예거메크는 같은 체급의 메크 대부분과 대등하게 맞설 수 있는 장거리 화력 지원 메크이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc430]	//LOKI-A
+st DescString = "진정한 다목적 설계인 로키는 가장 효과적인 클랜 옴니메크 중 하나이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc431]	//LOKI-W
+st DescString = "진정한 다목적 설계인 로키는 가장 효과적인 클랜 옴니메크 중 하나이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc432]	//LOKI-J
+st DescString = "진정한 다목적 설계인 로키는 가장 효과적인 클랜 옴니메크 중 하나이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc433]	//MADCAT-A
+st DescString = "아마도 가장 잘 알려진 클랜 메크 구성인 매드캣은 강력한 만능 전투 메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc434]	//MADCAT-W
+st DescString = "아마도 가장 잘 알려진 클랜 메크 구성인 매드캣은 강력한 만능 전투 메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc435]	//MADCAT-J
+st DescString = "아마도 가장 잘 알려진 클랜 메크 구성인 매드캣은 강력한 만능 전투 메크이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc436]	//MASAKARI-A 
+st DescString = "마사카리는 보통 정예 전사가 조종하는 강습급 옴니메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc437]	//MASAKARI-W
+st DescString = "마사카리는 보통 정예 전사가 조종하는 강습급 옴니메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc438]	//MASAKARI-J
+st DescString = "마사카리는 보통 정예 전사가 조종하는 강습급 옴니메크이다. 이 희귀한 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc439]	//RAVEN-A
+st DescString = "레이븐 정찰 메크는 정교한 전자전 장비를 탑재하도록 설계되었다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc440]	//RAVEN-W 
+st DescString = "레이븐 정찰 메크는 정교한 전자전 장비를 탑재하도록 설계되었다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc441]	//RAVEN-J
+st DescString = "레이븐 정찰 메크는 정교한 전자전 장비를 탑재하도록 설계되었다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc442]	//THOR-A 
+st DescString = "이 중량급 옴니메크는 맹렬한 중거리 및 단거리 타격력으로 악명이 높다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc443]	//THOR-W
+st DescString = "이 중량급 옴니메크는 맹렬한 중거리 및 단거리 타격력으로 악명이 높다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc444]	//THOR-J
+st DescString = "이 중량급 옴니메크는 맹렬한 중거리 및 단거리 타격력으로 악명이 높다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc445]	//ULLER-A 
+st DescString = "울러는 주로 클랜의 정찰 메크로 쓰이지만, 같은 체급의 어떤 적과도 맞서 싸울 수 있다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc446]	//ULLER-W 
+st DescString = "울러는 주로 클랜의 정찰 메크로 쓰이지만, 같은 체급의 어떤 적과도 맞서 싸울 수 있다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc447]	//ULLER-J
+st DescString = "울러는 주로 정찰 메크로 쓰이지만, 같은 체급의 어떤 적과도 맞서 싸울 수 있다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc448]	//VULTURE-A
+st DescString = "벌처는 주로 화력 지원 메크로 쓰이며, 벌처가 나타나면 곧 LRM이 날아오는 경우가 많다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc449]	//VULTURE-W
+st DescString = "벌처는 주로 화력 지원 메크로 쓰이며, 벌처가 나타나면 곧 LRM이 날아오는 경우가 많다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc450]	//VULTURE-J
+st DescString = "벌처는 화력 지원 메크로 쓰이며, 벌처가 나타나면 곧 LRM이 날아오는 경우가 많다. 이 희귀한 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc451]	//CENTURION-A
+st DescString = "이너 스피어에서 비교적 흔한 설계 중 하나인 센추리온은 여러 역할에 두루 쓰이는 든든한 기체이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc452]	//CENTURION-W
+st DescString = "이너 스피어에서 비교적 흔한 설계 중 하나인 센추리온은 여러 역할에 두루 쓰이는 든든한 기체이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc453]	//CENTURION-J
+st DescString = "이너 스피어에서 비교적 흔한 설계 중 하나인 센추리온은 여러 역할에 두루 쓰이는 든든한 기체이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc454] 	//STILETTO A
+st DescString = "IS 메크 중 가장 빠른 스틸레토는 중급형 센서를 탑재한다. 속도 덕분에 전투를 피하는 능력이 비할 데 없이 뛰어나다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc455] 	// STILETTO W
+st DescString = "IS 메크 중 가장 빠른 스틸레토는 중급형 센서를 탑재한다. 속도 덕분에 전투를 피하는 능력이 비할 데 없이 뛰어나다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc456] 	// STILETTO J
+st DescString = "IS 메크 중 가장 빠른 스틸레토는 중급형 센서를 탑재한다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc457]	// BUSHWACKER A
+st DescString = "IS 부시왜커는 무장과 장갑이 충실하고 다재다능하게 설계된 빠른 중형급 메크이다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc458]	// BUSHWACKER W
+st DescString = "IS 부시왜커는 무장과 장갑이 충실하고 다재다능하게 설계된 빠른 중형급 메크이다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc459]	// BUSHWACKER J
+st DescString = "IS 부시왜커는 무장과 장갑이 충실하고 다재다능하게 설계된 빠른 중형급 메크이다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc460]	//MAULER A
+st DescString = "유서 깊은 이 IS 강습급 메크는 장거리에서 장갑을 찢어발기는 막대한 화력을 퍼붓는다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc461]	// MAULER W
+st DescString = "유서 깊은 이 IS 강습급 메크는 장거리에서 장갑을 찢어발기는 막대한 화력을 퍼붓는다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc462]	// MAULER J
+st DescString = "유서 깊은 이 IS 강습급 메크는 장거리에서 장갑을 찢어발기는 막대한 화력을 퍼붓는다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc463]	//SHADOW CAT A
+st DescString = "엄밀히는 중무장 정찰기인 클랜 섀도캣은 무장과 장갑이 충실하여 위험한 정찰 임무에 알맞다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc464]	//SHADOW CAT W
+st DescString = "엄밀히는 중무장 정찰기인 클랜 섀도캣은 무장과 장갑이 충실하여 위험한 정찰 임무에 알맞다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc465]	//SHADOW CAT J
+st DescString = " 엄밀히는 중무장 정찰기인 클랜 섀도캣은 무장과 장갑이 충실하여 위험한 정찰 임무에 알맞다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc466]	//NOVA CAT A
+st DescString = "단거리 살육 기계인 클랜 노바캣은 너무 가까이 다가오는 것은 무엇이든 도륙하도록 설계되었다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc467]	//NOVA CAT W
+st DescString = "단거리 살육 기계인 클랜 노바캣은 너무 가까이 다가오는 것은 무엇이든 도륙하도록 설계되었다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc468]	//NOVA CAT J
+st DescString = "단거리 살육 기계인 클랜 노바캣은 너무 가까이 다가오는 것은 무엇이든 도륙하도록 설계되었다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc469]	//TURKINA A
+st DescString = "클랜 터키나 강습급 메크는 치명적인 장거리 화력을 갖추었고, 너무 가까이 다가오는 것은 무엇이든 박살 낼 수 있다. 이 파생형은 장갑이 강화되었고 점프젯이 없다."
+
+[Desc470]	//TURKINA W
+st DescString = "클랜 터키나 강습급 메크는 치명적인 장거리 화력을 갖추었고, 너무 가까이 다가오는 것은 무엇이든 박살 낼 수 있다. 이 파생형은 무장이 강화되었고 점프젯이 없다."
+
+[Desc471]	//TURKINA J
+st DescString = "클랜 터키나 강습급 메크는 치명적인 장거리 화력을 갖추었고, 너무 가까이 다가오는 것은 무엇이든 박살 낼 수 있다. 이 파생형은 장갑과 무장을 줄이는 대신 점프젯을 갖추었다."
+
+[Desc472]	// Katherine Furey's Vulture
+st DescString = "스타 캡틴 캐서린 퓨리는 자신의 중량급 옴니메크 벌처에 추가 장갑과 스타 리그 시대의 유물 무기인 레일건을 장착했다."
+
+[Desc473]	// Marcus Osis' Masakari
+st DescString = "스타 캡틴 마커스 오시스는 실험용 X-펄스 레이저로 무장하고 장갑을 대폭 강화한 강습급 옴니메크 마사카리를 조종한다."
+
+[Desc474]	// Burnell Wirth's Turkina
+st DescString = "스타 캡틴 버넬 워스가 개조한 강습급 옴니메크 터키나는 선더볼트 미사일 발사기만으로 무장했다."
+
+[Desc475]	// Marcus Kotare's Turkina
+st DescString = "Star Colonel Marcus Kotare commands a Turkina class assault OmniMech equipped with jump jets, the Rail Gun, and a Long Tom cannon.
+
+[Desc476]	// Ward's Madcat
+st DescString = "스타 캡틴 킴 워드는 장거리 미사일 랙을 가득 실은 개조형 중량급 옴니메크 매드캣을 조종한다."
+
+[Desc477]	// Stiles' Uller
+st DescString = "스타 캡틴 제퍼슨 스타일스는 대형 ER 레이저 2문을 장착한 경량급 옴니메크 울러를 운용한다."
+
+[Desc478]	// Bowen's Uller
+st DescString = "스타 캡틴 개리슨 보웬은 레일건과 LRM 랙을 달도록 개조한 경량급 옴니메크 울러를 사용한다."
+
+[Desc479]	// Lopez's Uller
+st DescString = "스타 캡틴 펠리시아 로페즈는 ER PPC를 장착한 경량급 옴니메크 울러를 조종한다."
+
+[Desc480]	// Kim's Masakari
+st DescString = ACE"
+
+[Desc481]	// Til's Shadowcat
+st DescString = "에이스"
+
+[Desc482]	// Lee's Shadowcat
+st DescString = "에이스"
+
+[Desc483]	// Furey's Cougar
+st DescString = "에이스"
+
+//VEHICLES
+[Desc500]	// apc
+st DescString = "(멀티플레이 전용 - 사용되지 않음)"
+
+[Desc501]	// ARMORED CAR
+st DescString = "(멀티플레이 전용 - 사용되지 않음)"
+
+[Desc502]	// bulldog
+st DescString = "불독은 중오토캐논을 탑재한, 느리지만 튼튼한 단거리 파괴 기계이다."
+
+[Desc503]	// condor
+st DescString = "콘도르는 대형 펄스 레이저를 쏘는, 균형 잡힌 중거리 전차이다."
+
+[Desc504]	// harasser
+st DescString = "해러서는 SRM 팩을 탑재한 튼튼한 단거리 전투 차량이다. 운전병들은 속도를 살려 재빠르게 훑고 지나가며 공격한 뒤 안전한 곳으로 빠진다."
+
+[Desc505]	// j. edgar
+st DescString = "J. 에드거는 펄스 레이저를 쏘는, 장갑이 얇은 신속 타격 전차이다. 무리 지어 작전할 때 운전병들은 적의 주의를 흩뜨리는 선회 전술을 즐겨 쓴다."
+
+[Desc506]	// LRM carrier
+st DescString = " LRM 캐리어는 LRM 랙을 쏘는 위험한 경장갑 미사일 차량이다."
+
+[Desc507]	// minelayer
+st DescString = "지뢰 부설차는 적의 이동을 지연시키고 한곳으로 몰기 위한 방어용 유닛이다."
+
+[Desc508]	// minesweeper
+st DescString = "지뢰 제거차는 적의 지뢰를 안전하게 터뜨려 지뢰밭 사이로 길을 낸다. 하지만 지뢰를 하나 터뜨릴 때마다 차량의 성능이 떨어진다."
+
+[Desc509]	// Pegasus
+st DescString = "페가수스는 센서를 갖춘 무장 정찰 차량이다."
+
+[Desc510]	// refit truck
+st DescString = "정비 트럭은 배틀메크의 장갑을 현장에서 수리하고 소모된 탄약을 보충한다."
+
+[Desc511]	// rommel
+st DescString = "롬멜은 쌍열 오토캐논을 쏘는, 장갑이 두꺼운 중거리 강타 전차이다."
+
+[Desc512]	// Saracen
+st DescString = "사라센은 경오토캐논을 쏘는 빠른 장거리 타격 차량이다. 무리 지어 작전할 때 조종수들은 한 목표에 화력을 집중한 뒤 다음 희생양으로 넘어가는 경향이 있다."
+
+[Desc513]	// Savannah master
+st DescString = "사바나 마스터는 장갑은 빈약하지만 속도가 매우 빠른 단거리 전투 차량이다. 무리 지어 다니며 목표를 에워싸 달아나지 못하게 한다."
+
+[Desc514]	// shrek
+st DescString = "느리게 움직이지만 슈렉에 실린 여러 문의 ER-PPC를 조심하라. 주의하라! 이 차량이 멈추면 곧 발사한다!"
+
+[Desc515]	// SRM carrier
+st DescString = "SRM 캐리어는 여러 개의 SRM 팩을 쏘는 빠른 경장갑 미사일 차량이다. 바짝 다가와 일제 사격을 퍼부은 뒤 SRM을 재장전하는 동안 물러나는 경향이 있다."
+
+[Desc516]	// striker
+st DescString = "스트라이커는 큰 피해를 견디는 동시에 큰 피해를 입힐 수도 있는 장거리 미사일 전차이다."
+
+[Desc517]	// swiftwind
+st DescString = "스위프트윈드는 센서를 갖춘 비무장 경장갑 정찰 차량이다."
+
+[Desc518]	// von luckner
+st DescString = "폰 루크너는 경오토캐논과 가우스 라이플을 쏘는, 장갑이 두꺼운 장거리 강습 차량이다. 주의하라! 이 차량이 멈추면 곧 발사한다!"
+
+[Desc550]	// centipede scout car
+st DescString = "빠르고 중무장한 이 정찰차는 가디언 전자전 방해 장비와 고급 차량 센서를 갖추었다."
+
+[Desc551]	// regulator heavy tank
+st DescString = "빠르고 날렵한 이 전차는 대부분의 목표를 한 발에 박살 낼 수 있는 거대한 가우스 라이플을 탑재했다. 속도를 살려 메크의 약한 후면 장갑을 이 무기로 노릴 수 있다."
+
+[Desc552]	// manticore heavy tank
+st DescString = "맨티코어는 뛰어난 장갑 방호력과 효과적인 장거리 및 중거리 화력을 갖춘 중전차이다."
+
+[Desc553]	// pilum heavy tank
+st DescString = "이 형식의 필룸 중전차는 화력 일부를 포기하는 대신 더 큰 동력원을 달아, 같은 체급의 어떤 차량보다도 빠르다."
+
+[Desc554]	// alacorn mkvii heavy tank
+st DescString = "스타 리그 시대의 설계인 알라콘 MKIV는 적당한 속도, 뛰어난 장갑, 무시무시한 타격력을 날렵한 차체 하나에 담았다."
+
+[Desc555]	// ammo truck
+st DescString = "탄약 트럭은 값싸고 꽤 빠르지만 폭발 위험이 있는 차량으로, 메크의 탄약은 보충할 수 있으나 장갑은 수리하지 못한다. 조작법은 정비 트럭과 같다."
+
+FITend

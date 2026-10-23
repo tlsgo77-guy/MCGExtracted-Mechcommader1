@@ -1,0 +1,71 @@
+EXCEPTION (Access violation at 0x00779AC2)
+Address  : 0x00779AC2
+Location : No .PDB file found
+File     : No .PDB file found
+
+Processor/Stack    EAX=0x00000008 EBX=0x000000BF ECX=0x03A2FE50 EDX=0x00000002    Flags=0x00210212
+===============    ESI=0x02A46E3C EDI=0x030A2E7C EBP=0x001AECB4 ESP=0x001AEC54    EIP=0x00779AC2
+0x00728EB6 SMUTI::init() +0xA6            L:\mcx\logistics\smuti.cpp(19)
+0x006FC9DC Logistics::getCurrentMission() +0x1CC G:\mcx\logistics.cpp(10360)
+0x0072AC03 Mission::SetupNextSegment() +0x93 L:\mcx\mission\mission.cpp(769)
+0x0072A3F9 Mission::init() +0x869         L:\mcx\mission\mission.cpp(499)
+0x0075A82F userInit() +0x3BF              G:\mcx\HonorB.cpp(1365)
+0x00613AE0 aSystem::start() +0xED0        G:\mcx\gui\Asystem.cpp(4959)
+0x00610EA7 RealWinMain() +0x2C7           G:\mcx\gui\Asystem.cpp(3074)
+0x0075F82A WinMain() +0xCA                L:\mcx\rmain.cpp(74)
+0x00762CF2 WinMainCRTStartup() +0xCE      
+
+Machine Details
+===============
+Executable name           : D:\DEV\MCGExtracted-Mechcommader1\game-source\extracted\MCX\MCX_t1b.EXE
+Current time, date        : 21:25:48 Monday 10/19/2026
+Executable time, date     : 21:23:28 Monday 10/19/2026
+User name                 : 
+Machine name              : 
+Processor                 : AuthenticAMD MMX
+Operating system          : 
+Version                   : 
+Time since booted         : 2h 31m 11s
+Physical memory           : 2,147,483,647 bytes  (2047 Meg)
+Available physical memory : 2,147,483,647 bytes  (2047 Meg)
+Swapfile size             : / bytes  (0 Meg)
+Swapfile available        : / bytes  (0 Meg)
+Virtual memory            : 2,147,352,576 bytes  (2047 Meg)
+Available virtual memory  : 2,004,643,840 bytes  (1911 Meg)
+Memory load               : 29%
+
+PCI bus
+=======
+
+ISA bus
+=======
+
+DLL Version numbers
+===================
+amstream.dll	 - Version 10.0.26100.5074
+quartz.dll	 - Version 10.0.26100.8875
+devenum.dll	 - Version 10.0.26100.8875
+dsound.dll	 - Version 10.0.26100.8875
+dinput.dll	 - Version 10.0.26100.8875
+Could not find 'd3dhalf.dll'
+d3dim.dll	 - Version 10.0.26100.4202
+ddraw.dll	 - Version 7.1.0.0 (git~541b5de, master)
+dplayx.dll	 - Version 10.0.26100.4202
+Could not find 'dplay.dll'
+ntdll.dll	 - Version 10.0.26100.9549
+rpcrt4.dll	 - Version 4.00.1073
+Could not find 'Ir50_32.dll'
+
+Information returned by Game
+============================
+
+ScenarioTime: 000.00
+ScenarioTurn: 0
+MoverUpdateFreq: 000.00
+TurretUpdateFreq: 000.00
+WorldStateUpdateFreq: 000.00
+WeaponFireUpdateFreq: 000.00
+MissionAppName : MechCommander Expansion Release  Version: 02.99.07.2601 -- Logistics
+DrawingVFXElement : 
+VFXType : 
+

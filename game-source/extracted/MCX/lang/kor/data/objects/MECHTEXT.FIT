@@ -1,0 +1,62 @@
+FITini
+
+[Headings]
+st Heading0 = "이름"
+st Heading1 = "톤수"
+st Heading2 = "최고 속도"
+st Heading3 = "일반 속도"
+st Heading4 = "점프 거리"
+st Heading5 = "장갑"
+st Heading6 = "방열기"
+st Heading7 = "부위"
+st Heading8 = "내부"
+st Heading9 = "구조"
+st Heading10 = "후면"
+st Heading11 = "무기"
+st Heading12 = "재장전"
+st Heading13 = "상태"
+st Heading14 = "탄약"
+st Heading15 = "피로"
+st Heading16 = "사기"
+st Heading17 = "부상"
+st Heading18 = "전투 효율"
+st Heading19 = "현재 명령"
+st Heading20 = "시간"
+
+[ArmorLocations]
+st Location0 = "머리"
+st Location1 = "중앙 몸통"
+st Location2 = "왼쪽 몸통"
+st Location3 = "오른쪽 몸통"
+st Location4 = "왼팔"
+st Location5 = "오른팔"
+st Location6 = "왼다리"
+st Location7 = "오른다리"
+
+[BodyLocations]
+st Location0 = "머리"
+st Location1 = "중앙 몸통"
+st Location2 = "왼쪽 몸통"
+st Location3 = "오른쪽 몸통"
+st Location4 = "왼팔"
+st Location5 = "오른팔"
+st Location6 = "왼다리"
+st Location7 = "오른다리"
+
+[BodyAbbreviations]
+st Location0 = "HD"
+st Location1 = "CT"
+st Location2 = "LT"
+st Location3 = "RT"
+st Location4 = "LA"
+st Location5 = "RA"
+st Location6 = "LL"
+st Location7 = "RL"
+
+[DamageStates]
+st State0 = "손상 없음"
+st State1 = "부분 손상"
+st State2 = "파괴됨"
+st State3 = "작동 불능"
+
+FITend

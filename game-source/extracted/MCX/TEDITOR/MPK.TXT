@@ -1,0 +1,242 @@
+FITini
+
+[General]
+st PurchaseFile="netpur"
+st GameStateName="%s"
+l MissionNumber=42
+
+[Multiplayer]
+st MissionName="%s"
+st LongMissionName = "%s"
+st LongMapName = "%s"
+st MapFileName = "%s"
+ul MissionTime = %ld 
+
+[ResourcePoints]
+ul numPoints= %ld
+ul Team1Points = %ld
+ul Team2Points = %ld
+
+[Planet]
+l Setting = %ld
+
+[Warriors]
+ul NumWarriors=0
+
+[AssWarriors]
+ul NumAssWarriors=0
+
+[Mechs]
+ul NumMechs=0
+
+[AssMechs]
+ul NumAssMechs=0
+
+[Vehicles]
+ul NumVehicles=0
+
+[AssVehicles]
+ul NumAssVehicles=0
+
+[Components]
+ul NumComponents=38
+
+[Componant0]
+// Medium Laser (IS) 
+l NumAvailable = 0
+uc ComponantID = 143
+
+[Componant1]
+// Large Laser (IS) 
+l NumAvailable = 0
+uc ComponantID = 140
+
+[Componant2]
+// Medium Pulse Laser (IS) 
+l NumAvailable = 0
+uc ComponantID = 144
+
+[Componant3]
+// Large Pulse Laser (IS) 
+l NumAvailable = 0
+uc ComponantID = 142
+
+[Componant4]
+// Large ER Laser (IS) 
+l NumAvailable = 0
+uc ComponantID = 141
+
+[Componant5]
+// Particle Projector Cannon (IS) 
+l NumAvailable = 0
+uc ComponantID = 145
+
+[Componant6]
+// ER Particle Projector Cannon (IS) 
+l NumAvailable = 0
+uc ComponantID = 146
+
+[Componant7]
+// Flamer (IS) 
+l NumAvailable = 0
+uc ComponantID = 147
+
+// Missile
+
+[Componant8]
+// Short-Range Missile/2 (IS) 
+l NumAvailable = 0
+uc ComponantID = 123
+
+[Componant9]
+// Streak Short-Range Missile/2 (IS) 
+l NumAvailable = 0
+uc ComponantID = 125
+
+[Componant10]
+// Long-Range Missile/5 (IS) 
+l NumAvailable = 0
+uc ComponantID = 120
+
+// Ballistic
+
+[Componant11]
+// Light Autocannon (IS) 
+l NumAvailable = 0
+uc ComponantID = 100
+
+[Componant12]
+// Medium Autocannon (IS) 
+l NumAvailable = 0
+uc ComponantID = 101
+
+[Componant13]
+// Heavy Autocannon (IS) 
+l NumAvailable = 0
+uc ComponantID = 102
+
+[Componant14]
+// Light Ultra Autocannon (IS) 
+l NumAvailable = 0
+uc ComponantID = 103
+
+[Componant15]
+// Gauss Rifle (IS) 
+l NumAvailable = 0
+uc ComponantID = 104
+
+// Sensor
+
+[Componant16]
+// Sensor (Basic) (IS) 
+l NumAvailable = 0
+uc ComponantID = 13
+
+[Componant17]
+// Sensor (Intermediate) (IS) 
+l NumAvailable = 0
+uc ComponantID = 14
+
+[Componant18]
+// Sensor (Advanced) (IS) 
+l NumAvailable = 0
+uc ComponantID = 15
+
+[Componant19]
+// Beagle Probe (IS) 
+l NumAvailable = 0
+uc ComponantID = 37
+
+[Componant20]
+// Guardian ECM (IS) 
+l NumAvailable = 0
+uc ComponantID = 38
+
+// clan components
+
+[Componant21]
+// Sensor - Basic
+l NumAvailable = 0
+uc ComponantID = 16
+
+[Componant22]
+// Sensor - Advanced
+l NumAvailable = 0
+uc ComponantID = 17
+
+[Componant23]
+// ECM Suite
+l NumAvailable = 0
+uc ComponantID = 42
+
+[Componant24]
+// Active Probe
+l NumAvailable = 0
+uc ComponantID = 43
+
+[Componant25]
+// Ultra AC/5
+l NumAvailable = 0
+uc ComponantID = 110
+
+[Componant26]
+// Ultra AC/10
+l NumAvailable = 0
+uc ComponantID = 111
+
+[Componant27]
+// Ultra AC/20
+l NumAvailable = 0
+uc ComponantID = 112
+
+[Componant28]
+// Guass Rifle
+l NumAvailable = 0
+uc ComponantID = 113
+
+[Componant29]
+// LRM/5
+l NumAvailable = 0
+uc ComponantID = 130
+
+[Componant30]
+// SRM/2
+l NumAvailable = 0
+uc ComponantID = 133
+
+[Componant31]
+// Streak SRM/2
+l NumAvailable = 0
+uc ComponantID = 135
+
+[Componant32]
+// Large ER laser
+l NumAvailable = 0
+uc ComponantID = 150
+
+[Componant33]
+// Large PS laser
+l NumAvailable = 0
+uc ComponantID = 151
+
+[Componant34]
+// ER laser
+l NumAvailable = 0
+uc ComponantID = 152
+
+[Componant35]
+// PS laser
+l NumAvailable = 0
+uc ComponantID = 153
+
+[Componant36]
+// ER PPC
+l NumAvailable = 0
+uc ComponantID = 154
+
+[Componant37]
+// Flamer
+l NumAvailable = 0
+uc ComponantID = 155
+
+FITend

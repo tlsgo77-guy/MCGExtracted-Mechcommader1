@@ -1,0 +1,68 @@
+EXCEPTION (Access violation at 0x006B9B20)
+Address  : 0x006B9B20
+Location : ScenarioMap::cellPassable() +0x50
+File     : G:\mcx\ai\Move.cpp(936)
+
+Processor/Stack    EAX=0x001755F7 EBX=0x037FB888 ECX=0x001C9BA0 EDX=0x034EAAC0    Flags=0x00210212
+===============    ESI=0x00004000 EDI=0x00000007 EBP=0x001AF5E0 ESP=0x001AF5CC    EIP=0x006B9B20
+0x006D26FF InterfaceObject::UpdateMouseState() +0x184F L:\mcx\iface\Iface.cpp(5459)
+0x006C88B6 UpdateMouseStateCallback() +0x16 L:\mcx\iface\iCallbk.cpp(303)
+0x00615846 aCallback::exec() +0x16        G:\mcx\gui\Asystem.cpp(6142)
+0x0061455C aSystem::run() +0xCC           G:\mcx\gui\Asystem.cpp(5407)
+0x00610EE1 RealWinMain() +0x301           G:\mcx\gui\Asystem.cpp(3081)
+0x0075F82A WinMain() +0xCA                L:\mcx\rmain.cpp(74)
+0x00762CF2 WinMainCRTStartup() +0xCE      
+
+Machine Details
+===============
+Executable name           : D:\DEV\MCGExtracted-Mechcommader1\game-source\extracted\MCX\MCX.EXE
+Current time, date        : 23:00:11 Saturday 10/17/2026
+Executable time, date     : 22:22:42 Saturday 10/17/2026
+User name                 : 
+Machine name              : 
+Processor                 : AuthenticAMD MMX
+Operating system          : 
+Version                   : 
+Time since booted         : 4h 21m 35s
+Physical memory           : 2,147,483,647 bytes  (2047 Meg)
+Available physical memory : 2,147,483,647 bytes  (2047 Meg)
+Swapfile size             : / bytes  (0 Meg)
+Swapfile available        : / bytes  (0 Meg)
+Virtual memory            : 2,147,352,576 bytes  (2047 Meg)
+Available virtual memory  : 1,949,315,072 bytes  (1859 Meg)
+Memory load               : 53%
+
+PCI bus
+=======
+
+ISA bus
+=======
+
+DLL Version numbers
+===================
+amstream.dll	 - Version 10.0.26100.5074
+quartz.dll	 - Version 10.0.26100.8875
+devenum.dll	 - Version 10.0.26100.8875
+dsound.dll	 - Version 10.0.26100.8875
+dinput.dll	 - Version 10.0.26100.8875
+Could not find 'd3dhalf.dll'
+d3dim.dll	 - Version 10.0.26100.4202
+ddraw.dll	 - Version 7.1.0.0 (git~541b5de, master)
+dplayx.dll	 - Version 10.0.26100.4202
+Could not find 'dplay.dll'
+ntdll.dll	 - Version 10.0.26100.9549
+rpcrt4.dll	 - Version 4.00.1073
+Could not find 'Ir50_32.dll'
+
+Information returned by Game
+============================
+
+ScenarioTime: 080.61
+ScenarioTurn: 4823
+MoverUpdateFreq: 000.00
+TurretUpdateFreq: 000.00
+WorldStateUpdateFreq: 000.00
+WeaponFireUpdateFreq: 000.00
+MissionAppName : MechCommander Expansion Release  Version: 02.99.07.2601 -- MIS0101
+DrawingVFXElement : vblip1
+VFXType : 44

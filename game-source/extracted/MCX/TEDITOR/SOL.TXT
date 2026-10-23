@@ -1,0 +1,38 @@
+FITini 
+
+[General]
+st PurchaseFile="solopurchase"
+st GameStateName=%s
+l MissionNumber=00
+f LastScenarioTime=0.000000
+f LastLogisticsTime=0.000000
+
+[Planet]
+l Setting=%ld
+b Solo=T
+
+[ResourcePoints]
+ul numPoints=%ld
+
+[Warriors]
+ul NumWarriors=0
+
+[AssWarriors]
+ul NumAssWarriors=0
+
+[Mechs]
+ul NumMechs=0
+
+[AssMechs]
+ul NumAssMechs=0
+
+[Vehicles]
+ul NumVehicles=0
+
+[AssVehicles]
+ul NumAssVehicles=0
+
+[Components]
+ul NumComponents=0
+
+FITend 

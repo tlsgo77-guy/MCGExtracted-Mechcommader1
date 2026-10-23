@@ -1,0 +1,3 @@
+Galmuri v2.40.4 (quiple/galmuri, released 2026-07-12)
+Source: https://github.com/quiple/galmuri/releases/download/v2.40.4/Galmuri-v2.40.4.zip
+License: SIL OFL 1.1 (see LICENSE.txt)

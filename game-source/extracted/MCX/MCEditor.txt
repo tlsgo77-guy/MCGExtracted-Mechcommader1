@@ -1,0 +1,203 @@
+MechCommander(TM) Mission Editor Readme
+April 1999
+
+(c) Copyright 1999 Microsoft Corporation.
+Developed by Microsoft Corporation. Published by 
+MicroProse. BattleTech material (c) 1998-1999 FASA 
+Corporation. Used under license. 
+=============================================
+
+Welcome to MechCommander Mission Editor
+
+This file contains important information about 
+version 1.0 of MechCommander Mission Editor.
+
+=============================================
+
+For other sources of information on MechCommander 
+Desperate Measures or Mission Editor, check out 
+the MechCommander Desperate Measures Web site at 
+http://www.MechCommander.com for late-breaking 
+information on the Mission Editor, tips, and other 
+cool stuff.
+
+=============================================
+
+Contents
+
+1. System Requirements
+2. Installing Mission Editor
+3. Starting Mission Editor
+4. Creating Missions
+	- To create a solo mission
+	- To create a multiplayer mission
+5. Getting Help
+	- To display the Mission Editor Help file
+	- To change your display scheme
+6. Mission Editor Troubleshooting
+	- Color Depth and Display Area
+	- Speeding Up Low Frame Rate 
+
+=============================================
+1. System Requirements
+=============================================
+
+To create your own missions with MechCommander 
+Mission Editor, you need:
+
+* Multimedia personal computer with 166-MHz or higher 
+processor
+* Microsoft® Windows® 95 operating system or later
+* Microsoft DirectX® version 6.0 (included on the 
+MechCommander Desperate Measures compact disc)
+* 32 megabytes (MB) of RAM (63 MB recommended)
+* 20 MB minimum of available hard disk space (40 MB 
+recommended)
+* Quad-speed CD-ROM drive
+* Super VGA graphics card with at least 2 MB of VRAM
+* Mouse or compatible pointing device
+* Microsoft Windows 95-compatible sound card
+* Keyboard
+* Headphones or speakers (recommended)
+
+=============================================
+2. Installing Mission Editor
+=============================================
+
+Mission Editor is installed as a default setting 
+during installation of MechCommander Desperate 
+Measures. If you cleared the Install Mission Editor 
+check box during the setup of MechCommander Desperate 
+Measures, you will need to install Mission Editor 
+manually.
+
+To install Mission Editor manually
+
+1. Insert the MechCommander Desperate Measures 
+compact disc into your CD-ROM drive, open Windows 
+Explorer, and then click the icon for your CD-ROM 
+drive.
+2. Double-click the MCEdSetup folder, the Disk1 folder, 
+and then the Setup.exe icon.
+3. Follow the instructions on your screen.
+
+=============================================
+3. Starting Mission Editor
+=============================================
+
+To start Mission Editor
+
+1. Click Start, point to Programs, and then point 
+to MicroProse.
+2. Point to MechCommander Desperate Measures, and 
+then click Mission Editor.
+
+=============================================
+4. Creating Missions
+=============================================
+
+To create a solo mission
+
+1. Open Mission Editor.
+2. Click Solo Mission Editor, and then click New Mission.
+3. Select a locale, map size, and terrain type.
+4. Specify how much water, forest, and hill coverage you 
+want, and then click OK.
+5. Apply your terrains, overlays, and buildings.
+6. Select your unit classes, teams, and variants from the 
+Units palette.
+7. Double-click a unit to display that unit's settings 
+dialog box and make changes.
+8. On the Mission menu, click Objectives, set as many 
+objectives as you want, and then click OK.
+9. On the Mission menu, click Settings, and then set the 
+parameters you want.
+10. In the Settings dialog box, click Player Briefing, 
+complete the form, and then click OK. Click OK again to 
+close the Settings dialog box.
+11. On the Mission menu, click Drop Zones, and then 
+place at least one Drop Zone for your units.
+12. On the File menu, click Save, type a name no longer 
+than eight characters (no \, /, spaces, or * allowed), 
+and then click OK.
+
+
+To create a multiplayer mission
+
+1. Open Mission Editor.
+2. Click Multiplayer Mission Editor, and then click 
+New Mission.
+3. Select a locale, map size, and terrain type.
+4. Specify how much water, forest, and hill coverage you 
+want, and then click OK.
+5. Apply your terrains, overlays, and buildings.
+6. On the Mission menu, click Objectives--Team 1, set as 
+many objectives as you want, and then click OK. Repeat 
+this step for Team 2.
+7. On the Mission menu, click Settings--Team 1, and then 
+set the parameters you want.
+8. In the Settings--Team 1 dialog box, click Player Briefing, 
+complete the form, and then click OK. Click OK again to 
+close the Settings--Team 1 dialog box.
+9. On the Mission menu, click Settings--Team 2, and then 
+repeat steps 7 and 8 for Team 2.
+10. On the Mission menu, click Drop Zones--Team 1, and 
+then place the required three Drop Zones for your units. 
+Repeat this step for Team 2.
+11. On the File menu, click Save, type a name no longer 
+than eight characters (no \, /, spaces, or * allowed), 
+and then click OK.
+
+=============================================
+5. Getting Help
+=============================================
+
+Mission Editor has a small Help file (MCEditor.hlp) that is
+installed on your hard drive when you install Mission Editor.
+
+To display the Mission Editor Help file
+
+1. Open Mission Editor, and then click Help Topics on the 
+Help menu.
+   -or-
+   Select an object (for example, a unit), click the right  
+mouse button, and then click Help on the shortcut menu.
+
+
+NOTE  If you have changed your default display scheme, 
+you may have problems reading the Mission Editor Help file.
+
+To change your display scheme
+
+1. Right-click your desktop, and then click Properties on 
+the shortcut menu.
+2. Click the Appearance tab, click Windows Standard from 
+the drop-down Scheme box, and then click OK.
+
+=============================================
+6. Mission Editor Troubleshooting
+=============================================
+
+Color Depth and Display Area
+
+MechComander Desperate Measures and the Mission 
+Editor display correctly with a 256 or higher color 
+palette and a 640 x 480 display area. We recommend 
+using a 16-bit (high) color palette and a display area 
+greater than 800 x 600.
+
+
+Speeding Up Low Frame Rate
+
+If you are getting a low frame rate when you play a mission 
+you've created, try the following:
+
+1. Ensure that enemy 'Mechs don't have move paths into 
+unreachable areas--for example, a base with no gate.
+2. Ensure that enemy patrol paths have staggered time 
+delays so they are not all triggering simultaneously.
+3. Delete the number of individual trees on the map.
+4. Delete the number of forest tiles on the map.
+5. Replace a few nonobjective critical enemy 'Mechs 
+with tanks.
+
