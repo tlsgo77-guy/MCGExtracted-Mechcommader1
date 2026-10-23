@@ -19,7 +19,7 @@
 | `requirements.txt` | 빌드용 의존성(PyInstaller). 런타임 의존성은 없음 |
 | `MCGLauncher.spec` | PyInstaller가 생성한 spec (보관해도 무방) |
 
-`build\`, `dist\`, `__pycache__\`는 `.gitignore`로 제외됩니다.
+`build\`, `__pycache__\`는 `.gitignore`로 제외됩니다. `dist\MCGLauncher.exe`는 다른 PC에서 바로 쓸 수 있도록 저장소에 포함합니다.
 
 ## 사용법
 
