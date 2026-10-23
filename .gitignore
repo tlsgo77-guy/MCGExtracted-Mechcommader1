@@ -2,3 +2,9 @@
 
 game-source/MCGold_Win95_230629/Store.7z
 __pycache__/
+
+# Runtime output of the game (crash logs, screenshots): never commit
+game-source/extracted/MCX/DEFAULT.ERR
+game-source/extracted/MCX/DEFAULT.1ST
+game-source/extracted/MCX/error*.txt
+game-source/extracted/MCX/Screenshots/
